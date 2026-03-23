@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-26-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-39-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-03-23 05:27 (UTC+8)
+> ⏰ Last updated: 2026-03-23 06:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -245,6 +245,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-03-23
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
 - 🆕 Added 6 keys (dall-e-3, deepseek-chat, gpt-5.4, gpt-5.4-mini, smart-chat, tts-1-hd), cleaned 1 expired
 - 🆕 Published 19 keys across 8 model families: GPT-5.4, DeepSeek, Mistral, Cohere, DALL-E 3, TTS, Embeddings
 - 📝 Project launched
@@ -278,3 +279,22 @@ Available globally. Direct access from China — no VPN needed.
 ## 📜 License
 
 [MIT License](./LICENSE)
+| `sk-vKVICh8yR2WhCotHlaOS21519Edk9hd910WcSHb5c7fUt79h` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-yiyktXWbDNCrPX1sUqmXohvBn6vfFB6jlR1Rxq5YyRDNOLwO` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-03-25 |
+| `sk-VUJF12pF8fNT45o4IBXsK6zWvyn0SyY8xk0OwzpZNTDTrZw0` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-sqBp5rirTmYatkMETGZ2zhe6RpJEbBr0IKyW2C4awxQGHx90` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-IBVdGDLabihIMI3y0UZrMTzgXmOXCGu2e3YE98Ab1HHcZXwh` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-9v7GYlIEpKgX5xYEuDpWdGIFIxMoC8b6A6fTW3FVCdNEDFe3` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-03-25 |
+| `sk-oyERDaSipPYLsNus5cCPGDNh37Kw5fQ7CFEGDw8Caizi4jk0` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-TzBjIDdVfRvPrJKPUkfTwHclf3w3DmQMRemK7830YNlj7P9v` | text-embedding-3-small | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-OKYHzSV6FulNtJqQdGgFCmkS66LkuxWzOmeZl4XYOo9L7Har` | embed-multilingual-v3.0 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-vZHssui6IamKOMbqCJj5dvwzsPmJxMFO53vnrZCkUo6DmRKh` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 |
+| `sk-Sk6tTTnpZOKi0t47BGDuLGEcsaolCkLE5waxNL5mZKEpYNg4` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 |
+| `sk-1y3xgdQhhLvLkKBSYlyr7KyjimcasqLlvFhfWjj8w0CvvGyy` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-03-25 |
+| `sk-bxLwQQxiZD34MCQGWcn9VihiCM1V0JH0dLRfwYCh1M8KMeSP` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-03-25 |
+| `sk-241dVukxc9FVjmFFJWWzNgS5gy0gudslP7gKv8ka1CVwQ6Ly` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-03-25 |
+| `sk-zShjY3bjzfqCqbotxncUBtts9oPr82ezkzMJFaQia98y96Cv` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-03-25 |
+| `sk-NeOxkiCSVyajZ25aLw9CD8uZuxPfjJA6jEjfdKQBURo4pNMz` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-VyaUIFwmxSjyvOF9B904Y1pN4nPTM1QNSUZMEXQuyx7kGdJZ` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-vLJXplsP3C4eUFcz9vLawSOPvzha2xPtC8CtwknxGEImuSMT` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-poQFmKyOQkhABupnaQqMryEhqJOhpKNHKQSe6AFqMgUZgLbM` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
