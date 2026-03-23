@@ -22,7 +22,7 @@
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
 
-[English](./README.md) | 中文
+[English](./README.md) | 中文 | [日本語](./README_JA.md) | [한국어](./README_KO.md) | [Español](./README_ES.md) | [Português](./README_PT.md)
 
 </div>
 
