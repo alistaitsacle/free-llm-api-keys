@@ -178,7 +178,7 @@ console.log(response.choices[0].message.content);
 |------|------|------|
 | **OpenAI** | gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro, gpt-4 | 最新 GPT 全系列 |
 | **Anthropic** | claude-opus-4-6, claude-sonnet-4-6, claude-haiku-4-5 | 最新 Claude |
-| **DeepSeek** | deepseek-chat (V3), deepseek-reasoner (R1) | 55+ 渠道负载均衡 |
+| **DeepSeek** | deepseek-chat (V3), deepseek-reasoner (R1) | 对话 + 推理 |
 | **Google** | gemini-3.1-flash-lite, gemini-3.1-flash-image | Gemini 3.1 |
 | **xAI** | grok-4.20-beta, grok-4.20-multi-agent-beta | 最新 Grok |
 | **Mistral** | mistral-medium, codestral, devstral, mistral-small | 代码 + 对话 |
