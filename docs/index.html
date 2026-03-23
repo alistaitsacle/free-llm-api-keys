@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Free LLM API Key Checker — Verify GPT-5.4, Claude, DeepSeek, Gemini Keys</title>
+  <meta name="description" content="Free tool to verify LLM API keys. Check if your free API key for GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ models is still valid. No sign-up required.">
+  <meta name="keywords" content="free llm api key, free gpt api key, api key checker, free claude api, free deepseek api, free gemini api key, verify api key, openai api key checker, free ai api key, llm api test">
+  <meta name="author" content="FreeLLMShare">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://alistaitsacle.github.io/free-llm-api-keys/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Free LLM API Key Checker — Verify Your Key Instantly">
+  <meta property="og:description" content="Check if your free LLM API key still works. Supports GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ models.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alistaitsacle.github.io/free-llm-api-keys/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/alistaitsacle/free-llm-api-keys/main/assets/banner.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free LLM API Key Checker">
+  <meta name="twitter:description" content="Verify if your free LLM API key is still valid. GPT-5.4, Claude, DeepSeek, Gemini, Grok — 90+ models.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/alistaitsacle/free-llm-api-keys/main/assets/banner.jpg">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Free LLM API Key Checker",
+    "description": "Free tool to verify LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ models",
+    "url": "https://alistaitsacle.github.io/free-llm-api-keys/",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0e17;
+      color: #e0e0e0;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      background: linear-gradient(135deg, #00d4ff, #7b2ff7, #ff6ec7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      color: #8899aa;
+      font-size: 1rem;
+    }
+
+    .header .get-keys {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 8px 20px;
+      background: rgba(0, 212, 255, 0.1);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+      border-radius: 8px;
+      color: #00d4ff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+
+    .header .get-keys:hover {
+      background: rgba(0, 212, 255, 0.2);
+      border-color: rgba(0, 212, 255, 0.5);
+    }
+
+    /* Input Section */
+    .input-section {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .input-group input {
+      flex: 1;
+      padding: 14px 16px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      color: #fff;
+      font-size: 0.95rem;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .input-group input:focus {
+      border-color: #00d4ff;
+    }
+
+    .input-group input::placeholder {
+      color: #555;
+    }
+
+    .btn-verify {
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-verify:hover { opacity: 0.9; }
+    .btn-verify:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .model-select {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .model-select label {
+      font-size: 0.8rem;
+      color: #8899aa;
+      margin-bottom: 6px;
+      display: block;
+      width: 100%;
+    }
+
+    .model-chip {
+      padding: 6px 14px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      color: #aaa;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .model-chip:hover { border-color: #00d4ff; color: #00d4ff; }
+    .model-chip.active { background: rgba(0, 212, 255, 0.15); border-color: #00d4ff; color: #00d4ff; }
+
+    /* Results */
+    .result {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 24px 32px;
+      display: none;
+    }
+
+    .result.show { display: block; }
+
+    .result-status {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .result-status .icon { font-size: 2rem; }
+
+    .result-status .text h3 {
+      font-size: 1.1rem;
+      margin-bottom: 2px;
+    }
+
+    .result-status .text p {
+      font-size: 0.85rem;
+      color: #8899aa;
+    }
+
+    .result-detail {
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+      padding: 16px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      color: #aaa;
+      white-space: pre-wrap;
+      word-break: break-all;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .success { border-color: rgba(0, 255, 136, 0.3); }
+    .success h3 { color: #00ff88; }
+    .error { border-color: rgba(255, 80, 80, 0.3); }
+    .error h3 { color: #ff5050; }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .footer a {
+      color: #00d4ff;
+      text-decoration: none;
+    }
+
+    .footer p {
+      color: #556;
+      font-size: 0.8rem;
+      margin-top: 8px;
+    }
+
+    /* SEO Content */
+    .seo-content {
+      margin-top: 48px;
+      padding: 32px;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 16px;
+    }
+
+    .seo-content h2 {
+      font-size: 1.3rem;
+      color: #ccc;
+      margin-bottom: 16px;
+    }
+
+    .seo-content h3 {
+      font-size: 1rem;
+      color: #aaa;
+      margin: 16px 0 8px;
+    }
+
+    .seo-content p, .seo-content li {
+      color: #778;
+      font-size: 0.85rem;
+      line-height: 1.7;
+    }
+
+    .seo-content ul { padding-left: 20px; }
+
+    @media (max-width: 600px) {
+      .input-group { flex-direction: column; }
+      .header h1 { font-size: 1.5rem; }
+      .container { padding: 20px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>Free LLM API Key Checker</h1>
+      <p>Verify if your free API key is still valid — supports 90+ models</p>
+      <a href="https://github.com/alistaitsacle/free-llm-api-keys" class="get-keys">
+        Get Free Keys on GitHub
+      </a>
+    </div>
+
+    <!-- Input -->
+    <div class="input-section">
+      <div class="input-group">
+        <input type="text" id="apiKey" placeholder="Paste your API key here (sk-...)" autocomplete="off" spellcheck="false">
+        <button class="btn-verify" id="verifyBtn" onclick="verifyKey()">Verify</button>
+      </div>
+      <div class="model-select">
+        <label>Test with model:</label>
+        <span class="model-chip active" onclick="selectModel(this, 'deepseek-chat')">DeepSeek</span>
+        <span class="model-chip" onclick="selectModel(this, 'gpt-5.4')">GPT-5.4</span>
+        <span class="model-chip" onclick="selectModel(this, 'gpt-5.4-mini')">GPT-5.4 Mini</span>
+        <span class="model-chip" onclick="selectModel(this, 'claude-sonnet-4-6')">Claude</span>
+        <span class="model-chip" onclick="selectModel(this, 'mistral-medium-latest')">Mistral</span>
+        <span class="model-chip" onclick="selectModel(this, 'codestral-latest')">Codestral</span>
+      </div>
+    </div>
+
+    <!-- Result -->
+    <div class="result" id="result">
+      <div class="result-status" id="resultStatus"></div>
+      <div class="result-detail" id="resultDetail"></div>
+    </div>
+
+    <!-- SEO Content -->
+    <div class="seo-content">
+      <h2>Free LLM API Keys — No Credit Card Required</h2>
+      <p>
+        This tool lets you verify free LLM API keys from the
+        <a href="https://github.com/alistaitsacle/free-llm-api-keys">free-llm-api-keys</a>
+        project. All keys are OpenAI-compatible API tokens that work with GPT-5.4, Claude Opus 4.6,
+        DeepSeek V3, Gemini 3.1, Grok 4.20, Mistral, and 90+ other models.
+      </p>
+
+      <h3>How to Use Free API Keys</h3>
+      <ul>
+        <li>Copy a key from the <a href="https://github.com/alistaitsacle/free-llm-api-keys">GitHub repository</a></li>
+        <li>Paste it above to verify it's still valid</li>
+        <li>Use it with any OpenAI-compatible tool — set Base URL to <code>https://aiapiv2.pekpik.com/v1</code></li>
+        <li>Works with Cursor, ChatBox, LobeChat, NextChat, Open WebUI, and more</li>
+      </ul>
+
+      <h3>Supported Models</h3>
+      <p>
+        Access 90+ models with a single API key: GPT-5.4, GPT-5.4 Mini, GPT-5.4 Pro,
+        Claude Opus 4.6, Claude Sonnet 4.6, Claude Haiku, DeepSeek Chat V3, DeepSeek Reasoner R1,
+        Gemini 3.1 Flash, Grok 4.20, Mistral Medium, Codestral, Devstral, Cohere Command,
+        DALL-E 3, TTS-1-HD, text-embedding-3-small, and many more.
+      </p>
+
+      <h3>Key Features</h3>
+      <ul>
+        <li>No credit card or registration required</li>
+        <li>Each key has a budget of $20–$100</li>
+        <li>Keys are refreshed 3-5 times daily</li>
+        <li>OpenAI SDK compatible — works with any tool that supports custom endpoints</li>
+        <li>Available globally — direct access from China, no VPN needed</li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <a href="https://github.com/alistaitsacle/free-llm-api-keys">
+        GitHub — Get Free Keys
+      </a>
+      <p>Free LLM API Keys — GPT-5.4 / Claude / DeepSeek / Gemini / Grok / 90+ Models</p>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = 'https://aiapiv2.pekpik.com/v1';
+    let selectedModel = 'deepseek-chat';
+
+    function selectModel(el, model) {
+      document.querySelectorAll('.model-chip').forEach(c => c.classList.remove('active'));
+      el.classList.add('active');
+      selectedModel = model;
+    }
+
+    async function verifyKey() {
+      const key = document.getElementById('apiKey').value.trim();
+      if (!key) { alert('Please paste an API key'); return; }
+
+      const btn = document.getElementById('verifyBtn');
+      const result = document.getElementById('result');
+      const status = document.getElementById('resultStatus');
+      const detail = document.getElementById('resultDetail');
+
+      btn.disabled = true;
+      btn.textContent = 'Verifying...';
+      result.className = 'result show';
+      status.innerHTML = '<div class="icon">&#8987;</div><div class="text"><h3>Checking...</h3><p>Testing ' + selectedModel + '...</p></div>';
+      detail.textContent = '';
+
+      try {
+        const startTime = Date.now();
+        const resp = await fetch(API_BASE + '/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + key
+          },
+          body: JSON.stringify({
+            model: selectedModel,
+            messages: [{ role: 'user', content: 'hi' }],
+            max_tokens: 10
+          })
+        });
+
+        const latency = Date.now() - startTime;
+        const data = await resp.json();
+
+        if (resp.ok && data.choices) {
+          result.className = 'result show success';
+          status.innerHTML = `
+            <div class="icon">&#9989;</div>
+            <div class="text">
+              <h3>Key is Valid</h3>
+              <p>Model: ${data.model || selectedModel} &nbsp;|&nbsp; Latency: ${latency}ms</p>
+            </div>`;
+          detail.textContent =
+            'Response: ' + (data.choices[0].message.content || '(empty)') +
+            '\n\nModel: ' + (data.model || selectedModel) +
+            '\nTokens: ' + (data.usage ? data.usage.total_tokens : 'N/A') +
+            '\nLatency: ' + latency + 'ms';
+        } else {
+          result.className = 'result show error';
+          const errMsg = data.error ? (data.error.message || JSON.stringify(data.error)) : JSON.stringify(data);
+          let hint = '';
+          if (resp.status === 401) hint = 'Key is invalid or expired.';
+          else if (resp.status === 429) hint = 'Rate limit exceeded or budget exhausted. Try another key.';
+          else if (resp.status === 404) hint = 'Model not available for this key.';
+          else hint = 'Request failed.';
+
+          status.innerHTML = `
+            <div class="icon">&#10060;</div>
+            <div class="text">
+              <h3>${hint}</h3>
+              <p>HTTP ${resp.status}</p>
+            </div>`;
+          detail.textContent = errMsg;
+        }
+      } catch (e) {
+        result.className = 'result show error';
+        status.innerHTML = `
+          <div class="icon">&#10060;</div>
+          <div class="text">
+            <h3>Network Error</h3>
+            <p>Could not reach the API server</p>
+          </div>`;
+        detail.textContent = e.message;
+      }
+
+      btn.disabled = false;
+      btn.textContent = 'Verify';
+    }
+
+    // Enter key to verify
+    document.getElementById('apiKey').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') verifyKey();
+    });
+  </script>
+</body>
+</html>

@@ -47,6 +47,8 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
 >
 > ⚠️ **Note:** Keys are shared publicly. Budget may already be consumed by other users. If a key doesn't work, try another one or check back later for fresh keys.
+>
+> **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
 ### GPT-5.4 / GPT-5.4-mini
 

@@ -9,3 +9,8 @@ venv/
 *.swp
 .DS_Store
 *.log
+
+# Internal tools — not for public repo
+scripts/
+docs/plans/
+docs/GITHUB_SETUP.md
