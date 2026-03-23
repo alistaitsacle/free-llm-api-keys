@@ -281,22 +281,3 @@ Available globally. Direct access from China — no VPN needed.
 ## 📜 License
 
 [MIT License](./LICENSE)
-| `sk-vKVICh8yR2WhCotHlaOS21519Edk9hd910WcSHb5c7fUt79h` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-yiyktXWbDNCrPX1sUqmXohvBn6vfFB6jlR1Rxq5YyRDNOLwO` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-03-25 |
-| `sk-VUJF12pF8fNT45o4IBXsK6zWvyn0SyY8xk0OwzpZNTDTrZw0` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-sqBp5rirTmYatkMETGZ2zhe6RpJEbBr0IKyW2C4awxQGHx90` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-IBVdGDLabihIMI3y0UZrMTzgXmOXCGu2e3YE98Ab1HHcZXwh` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-9v7GYlIEpKgX5xYEuDpWdGIFIxMoC8b6A6fTW3FVCdNEDFe3` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-03-25 |
-| `sk-oyERDaSipPYLsNus5cCPGDNh37Kw5fQ7CFEGDw8Caizi4jk0` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-TzBjIDdVfRvPrJKPUkfTwHclf3w3DmQMRemK7830YNlj7P9v` | text-embedding-3-small | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-OKYHzSV6FulNtJqQdGgFCmkS66LkuxWzOmeZl4XYOo9L7Har` | embed-multilingual-v3.0 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-vZHssui6IamKOMbqCJj5dvwzsPmJxMFO53vnrZCkUo6DmRKh` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 |
-| `sk-Sk6tTTnpZOKi0t47BGDuLGEcsaolCkLE5waxNL5mZKEpYNg4` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 |
-| `sk-1y3xgdQhhLvLkKBSYlyr7KyjimcasqLlvFhfWjj8w0CvvGyy` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-03-25 |
-| `sk-bxLwQQxiZD34MCQGWcn9VihiCM1V0JH0dLRfwYCh1M8KMeSP` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-03-25 |
-| `sk-241dVukxc9FVjmFFJWWzNgS5gy0gudslP7gKv8ka1CVwQ6Ly` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-03-25 |
-| `sk-zShjY3bjzfqCqbotxncUBtts9oPr82ezkzMJFaQia98y96Cv` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-03-25 |
-| `sk-NeOxkiCSVyajZ25aLw9CD8uZuxPfjJA6jEjfdKQBURo4pNMz` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-VyaUIFwmxSjyvOF9B904Y1pN4nPTM1QNSUZMEXQuyx7kGdJZ` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-vLJXplsP3C4eUFcz9vLawSOPvzha2xPtC8CtwknxGEImuSMT` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-poQFmKyOQkhABupnaQqMryEhqJOhpKNHKQSe6AFqMgUZgLbM` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
