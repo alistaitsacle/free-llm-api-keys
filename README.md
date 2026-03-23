@@ -6,9 +6,9 @@
 
 <div align="center">
 
-# 🔑 Free LLM API Keys
+<img src="./assets/banner.jpg" alt="Free LLM API Keys — GPT-5.4, Claude, DeepSeek, Gemini, Grok, 90+ Models" width="100%">
 
-### Free API Keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok & 90+ Models
+<br>
 
 The easiest way to access LLM APIs for free — no credit card, no registration.
 <br>
