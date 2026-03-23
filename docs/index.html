@@ -5,41 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- SEO -->
-  <title>Free LLM API Key Checker — Verify GPT-5.4, Claude, DeepSeek, Gemini Keys</title>
-  <meta name="description" content="Free tool to verify LLM API keys. Check if your free API key for GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ models is still valid. No sign-up required.">
-  <meta name="keywords" content="free llm api key, free gpt api key, api key checker, free claude api, free deepseek api, free gemini api key, verify api key, openai api key checker, free ai api key, llm api test">
+  <title>Free LLM API Playground — Chat with GPT-5.4, Claude, DeepSeek, Gemini for Free</title>
+  <meta name="description" content="Free AI chat playground. Use free API keys to chat with GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ models. No sign-up, no credit card. Verify keys and start chatting instantly.">
+  <meta name="keywords" content="free llm api key, free gpt chat, free claude chat, free ai chat, api key checker, free deepseek api, free gemini api, openai api free, llm playground, free ai playground">
   <meta name="author" content="FreeLLMShare">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://alistaitsacle.github.io/free-llm-api-keys/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Free LLM API Key Checker — Verify Your Key Instantly">
-  <meta property="og:description" content="Check if your free LLM API key still works. Supports GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ models.">
+  <meta property="og:title" content="Free LLM API Playground — Chat with 90+ AI Models for Free">
+  <meta property="og:description" content="Free AI playground. Chat with GPT-5.4, Claude, DeepSeek, Gemini, Grok — no credit card, no sign-up.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://alistaitsacle.github.io/free-llm-api-keys/">
   <meta property="og:image" content="https://raw.githubusercontent.com/alistaitsacle/free-llm-api-keys/main/assets/banner.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Free LLM API Key Checker">
-  <meta name="twitter:description" content="Verify if your free LLM API key is still valid. GPT-5.4, Claude, DeepSeek, Gemini, Grok — 90+ models.">
+  <meta name="twitter:title" content="Free LLM API Playground — Chat with 90+ Models">
+  <meta name="twitter:description" content="Chat with GPT-5.4, Claude, DeepSeek, Gemini for free. No credit card needed.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/alistaitsacle/free-llm-api-keys/main/assets/banner.jpg">
 
-  <!-- JSON-LD Structured Data -->
+  <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "Free LLM API Key Checker",
-    "description": "Free tool to verify LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ models",
+    "name": "Free LLM API Playground",
+    "description": "Free AI chat playground — chat with GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ LLM models using free API keys",
     "url": "https://alistaitsacle.github.io/free-llm-api-keys/",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "Web",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    }
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
   }
   </script>
 
@@ -53,403 +49,452 @@
       min-height: 100vh;
     }
 
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
+    .container { max-width: 800px; margin: 0 auto; padding: 32px 20px; }
 
     /* Header */
-    .header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
+    .header { text-align: center; margin-bottom: 32px; }
     .header h1 {
-      font-size: 2rem;
+      font-size: 1.8rem;
       background: linear-gradient(135deg, #00d4ff, #7b2ff7, #ff6ec7);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 8px;
-    }
-
-    .header p {
-      color: #8899aa;
-      font-size: 1rem;
-    }
-
-    .header .get-keys {
-      display: inline-block;
-      margin-top: 16px;
-      padding: 8px 20px;
-      background: rgba(0, 212, 255, 0.1);
-      border: 1px solid rgba(0, 212, 255, 0.3);
-      border-radius: 8px;
-      color: #00d4ff;
-      text-decoration: none;
-      font-size: 0.9rem;
-      transition: all 0.2s;
-    }
-
-    .header .get-keys:hover {
-      background: rgba(0, 212, 255, 0.2);
-      border-color: rgba(0, 212, 255, 0.5);
-    }
-
-    /* Input Section */
-    .input-section {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 16px;
-      padding: 32px;
-      margin-bottom: 24px;
-    }
-
-    .input-group {
-      display: flex;
-      gap: 12px;
-      margin-bottom: 16px;
-    }
-
-    .input-group input {
-      flex: 1;
-      padding: 14px 16px;
-      background: rgba(0, 0, 0, 0.4);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-      color: #fff;
-      font-size: 0.95rem;
-      font-family: 'SF Mono', 'Fira Code', monospace;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-
-    .input-group input:focus {
-      border-color: #00d4ff;
-    }
-
-    .input-group input::placeholder {
-      color: #555;
-    }
-
-    .btn-verify {
-      padding: 14px 28px;
-      background: linear-gradient(135deg, #00d4ff, #7b2ff7);
-      border: none;
-      border-radius: 10px;
-      color: #fff;
-      font-size: 0.95rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: opacity 0.2s;
-      white-space: nowrap;
-    }
-
-    .btn-verify:hover { opacity: 0.9; }
-    .btn-verify:disabled { opacity: 0.5; cursor: not-allowed; }
-
-    .model-select {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .model-select label {
-      font-size: 0.8rem;
-      color: #8899aa;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
       margin-bottom: 6px;
-      display: block;
-      width: 100%;
     }
-
-    .model-chip {
-      padding: 6px 14px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 20px;
-      color: #aaa;
-      font-size: 0.8rem;
-      cursor: pointer;
+    .header p { color: #8899aa; font-size: 0.95rem; }
+    .header .get-keys {
+      display: inline-block; margin-top: 12px; padding: 8px 20px;
+      background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3);
+      border-radius: 8px; color: #00d4ff; text-decoration: none; font-size: 0.85rem;
       transition: all 0.2s;
     }
+    .header .get-keys:hover { background: rgba(0, 212, 255, 0.2); }
 
-    .model-chip:hover { border-color: #00d4ff; color: #00d4ff; }
-    .model-chip.active { background: rgba(0, 212, 255, 0.15); border-color: #00d4ff; color: #00d4ff; }
+    /* Tabs */
+    .tabs {
+      display: flex; gap: 0; margin-bottom: 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .tab {
+      padding: 10px 24px; cursor: pointer; color: #667; font-size: 0.9rem;
+      border-bottom: 2px solid transparent; transition: all 0.2s;
+    }
+    .tab:hover { color: #aaa; }
+    .tab.active { color: #00d4ff; border-bottom-color: #00d4ff; }
 
-    /* Results */
+    /* Panel */
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    /* Shared card style */
+    .card {
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px; padding: 24px;
+    }
+
+    /* Key Input */
+    .key-row { display: flex; gap: 10px; margin-bottom: 14px; }
+    .key-row input {
+      flex: 1; padding: 12px 14px; background: rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 10px;
+      color: #fff; font-size: 0.9rem; font-family: 'SF Mono', 'Fira Code', monospace;
+      outline: none; transition: border-color 0.2s;
+    }
+    .key-row input:focus { border-color: #00d4ff; }
+    .key-row input::placeholder { color: #444; }
+
+    /* Model chips */
+    .model-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .model-row label { font-size: 0.75rem; color: #667; width: 100%; margin-bottom: 4px; }
+    .chip {
+      padding: 5px 12px; background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 20px;
+      color: #999; font-size: 0.78rem; cursor: pointer; transition: all 0.15s;
+    }
+    .chip:hover { border-color: #00d4ff; color: #00d4ff; }
+    .chip.active { background: rgba(0,212,255,0.15); border-color: #00d4ff; color: #00d4ff; }
+
+    /* Buttons */
+    .btn {
+      padding: 12px 24px; border: none; border-radius: 10px;
+      color: #fff; font-size: 0.9rem; font-weight: 600; cursor: pointer;
+      transition: opacity 0.2s; white-space: nowrap;
+    }
+    .btn:hover { opacity: 0.9; }
+    .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .btn-primary { background: linear-gradient(135deg, #00d4ff, #7b2ff7); }
+    .btn-danger { background: rgba(255,80,80,0.3); color: #ff8888; font-size: 0.8rem; padding: 8px 16px; }
+
+    /* Verify result */
     .result {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 16px;
-      padding: 24px 32px;
-      display: none;
+      margin-top: 16px; padding: 16px 20px; border-radius: 12px; display: none;
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
     }
-
     .result.show { display: block; }
-
-    .result-status {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 16px;
-    }
-
-    .result-status .icon { font-size: 2rem; }
-
-    .result-status .text h3 {
-      font-size: 1.1rem;
-      margin-bottom: 2px;
-    }
-
-    .result-status .text p {
-      font-size: 0.85rem;
-      color: #8899aa;
-    }
-
-    .result-detail {
-      background: rgba(0, 0, 0, 0.3);
-      border-radius: 8px;
-      padding: 16px;
-      font-family: 'SF Mono', 'Fira Code', monospace;
-      font-size: 0.82rem;
-      line-height: 1.6;
-      color: #aaa;
-      white-space: pre-wrap;
-      word-break: break-all;
-      max-height: 200px;
-      overflow-y: auto;
-    }
-
-    .success { border-color: rgba(0, 255, 136, 0.3); }
+    .result.success { border-color: rgba(0,255,136,0.3); }
+    .result.error { border-color: rgba(255,80,80,0.3); }
+    .result-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .result-head .icon { font-size: 1.5rem; }
+    .result-head h3 { font-size: 1rem; }
+    .result-head p { font-size: 0.8rem; color: #889; }
     .success h3 { color: #00ff88; }
-    .error { border-color: rgba(255, 80, 80, 0.3); }
     .error h3 { color: #ff5050; }
+    .result-body {
+      background: rgba(0,0,0,0.3); border-radius: 8px; padding: 12px;
+      font-family: monospace; font-size: 0.78rem; color: #aaa;
+      white-space: pre-wrap; word-break: break-all; max-height: 120px; overflow-y: auto;
+    }
+
+    /* Chat */
+    .chat-area {
+      height: 400px; overflow-y: auto; margin-bottom: 16px;
+      padding: 16px; background: rgba(0,0,0,0.2); border-radius: 12px;
+    }
+    .msg { margin-bottom: 16px; display: flex; gap: 10px; }
+    .msg.user { justify-content: flex-end; }
+    .msg .bubble {
+      max-width: 80%; padding: 10px 14px; border-radius: 12px;
+      font-size: 0.9rem; line-height: 1.6; white-space: pre-wrap; word-break: break-word;
+    }
+    .msg.user .bubble { background: rgba(0,212,255,0.15); color: #ddd; border-bottom-right-radius: 4px; }
+    .msg.ai .bubble { background: rgba(255,255,255,0.06); color: #ccc; border-bottom-left-radius: 4px; }
+    .msg .model-tag { font-size: 0.65rem; color: #556; margin-top: 4px; }
+    .chat-input { display: flex; gap: 10px; }
+    .chat-input textarea {
+      flex: 1; padding: 12px; background: rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 10px;
+      color: #fff; font-size: 0.9rem; resize: none; height: 48px;
+      font-family: inherit; outline: none; transition: border-color 0.2s;
+    }
+    .chat-input textarea:focus { border-color: #00d4ff; }
+    .chat-input textarea::placeholder { color: #444; }
+    .chat-controls { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    .chat-controls .info { font-size: 0.75rem; color: #556; }
+
+    /* SEO */
+    .seo { margin-top: 48px; padding: 28px; background: rgba(255,255,255,0.02); border-radius: 16px; }
+    .seo h2 { font-size: 1.2rem; color: #bbb; margin-bottom: 12px; }
+    .seo h3 { font-size: 0.95rem; color: #999; margin: 14px 0 6px; }
+    .seo p, .seo li { color: #667; font-size: 0.82rem; line-height: 1.7; }
+    .seo ul { padding-left: 20px; }
+    .seo a { color: #00d4ff; }
 
     /* Footer */
-    .footer {
-      text-align: center;
-      margin-top: 48px;
-      padding-top: 24px;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-    }
-
-    .footer a {
-      color: #00d4ff;
-      text-decoration: none;
-    }
-
-    .footer p {
-      color: #556;
-      font-size: 0.8rem;
-      margin-top: 8px;
-    }
-
-    /* SEO Content */
-    .seo-content {
-      margin-top: 48px;
-      padding: 32px;
-      background: rgba(255, 255, 255, 0.02);
-      border-radius: 16px;
-    }
-
-    .seo-content h2 {
-      font-size: 1.3rem;
-      color: #ccc;
-      margin-bottom: 16px;
-    }
-
-    .seo-content h3 {
-      font-size: 1rem;
-      color: #aaa;
-      margin: 16px 0 8px;
-    }
-
-    .seo-content p, .seo-content li {
-      color: #778;
-      font-size: 0.85rem;
-      line-height: 1.7;
-    }
-
-    .seo-content ul { padding-left: 20px; }
+    .footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.06); }
+    .footer a { color: #00d4ff; text-decoration: none; }
+    .footer p { color: #445; font-size: 0.75rem; margin-top: 6px; }
 
     @media (max-width: 600px) {
-      .input-group { flex-direction: column; }
-      .header h1 { font-size: 1.5rem; }
-      .container { padding: 20px 16px; }
+      .key-row { flex-direction: column; }
+      .header h1 { font-size: 1.3rem; }
+      .chat-area { height: 300px; }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <!-- Header -->
-    <div class="header">
-      <h1>Free LLM API Key Checker</h1>
-      <p>Verify if your free API key is still valid — supports 90+ models</p>
-      <a href="https://github.com/alistaitsacle/free-llm-api-keys" class="get-keys">
-        Get Free Keys on GitHub
-      </a>
-    </div>
+<div class="container">
 
-    <!-- Input -->
-    <div class="input-section">
-      <div class="input-group">
-        <input type="text" id="apiKey" placeholder="Paste your API key here (sk-...)" autocomplete="off" spellcheck="false">
-        <button class="btn-verify" id="verifyBtn" onclick="verifyKey()">Verify</button>
+  <!-- Header -->
+  <div class="header">
+    <h1>Free LLM API Playground</h1>
+    <p>Verify your key or chat with 90+ AI models — completely free</p>
+    <a href="https://github.com/alistaitsacle/free-llm-api-keys" class="get-keys">
+      Get Free Keys on GitHub
+    </a>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('chat')">Chat</div>
+    <div class="tab" onclick="switchTab('verify')">Verify Key</div>
+  </div>
+
+  <!-- ==================== CHAT TAB ==================== -->
+  <div class="panel active" id="panel-chat">
+    <div class="card" style="margin-bottom: 16px;">
+      <div class="key-row">
+        <input type="text" id="chatKey" placeholder="Paste your API key (sk-...)" autocomplete="off" spellcheck="false">
       </div>
-      <div class="model-select">
-        <label>Test with model:</label>
-        <span class="model-chip active" onclick="selectModel(this, 'deepseek-chat')">DeepSeek</span>
-        <span class="model-chip" onclick="selectModel(this, 'gpt-5.4')">GPT-5.4</span>
-        <span class="model-chip" onclick="selectModel(this, 'gpt-5.4-mini')">GPT-5.4 Mini</span>
-        <span class="model-chip" onclick="selectModel(this, 'claude-sonnet-4-6')">Claude</span>
-        <span class="model-chip" onclick="selectModel(this, 'mistral-medium-latest')">Mistral</span>
-        <span class="model-chip" onclick="selectModel(this, 'codestral-latest')">Codestral</span>
+      <div class="model-row">
+        <label>Model:</label>
+        <span class="chip active" onclick="pickModel(this,'deepseek-chat')">DeepSeek</span>
+        <span class="chip" onclick="pickModel(this,'gpt-5.4')">GPT-5.4</span>
+        <span class="chip" onclick="pickModel(this,'gpt-5.4-mini')">GPT-5.4 Mini</span>
+        <span class="chip" onclick="pickModel(this,'claude-sonnet-4-6')">Claude</span>
+        <span class="chip" onclick="pickModel(this,'mistral-medium-latest')">Mistral</span>
+        <span class="chip" onclick="pickModel(this,'codestral-latest')">Codestral</span>
+        <span class="chip" onclick="pickModel(this,'smart-chat')">Smart (Auto)</span>
       </div>
     </div>
 
-    <!-- Result -->
-    <div class="result" id="result">
-      <div class="result-status" id="resultStatus"></div>
-      <div class="result-detail" id="resultDetail"></div>
+    <div class="chat-controls">
+      <span class="info" id="chatInfo">For key verification only — max 5 messages per session</span>
+      <button class="btn btn-danger" onclick="clearChat()">Clear</button>
     </div>
 
-    <!-- SEO Content -->
-    <div class="seo-content">
-      <h2>Free LLM API Keys — No Credit Card Required</h2>
-      <p>
-        This tool lets you verify free LLM API keys from the
-        <a href="https://github.com/alistaitsacle/free-llm-api-keys">free-llm-api-keys</a>
-        project. All keys are OpenAI-compatible API tokens that work with GPT-5.4, Claude Opus 4.6,
-        DeepSeek V3, Gemini 3.1, Grok 4.20, Mistral, and 90+ other models.
-      </p>
-
-      <h3>How to Use Free API Keys</h3>
-      <ul>
-        <li>Copy a key from the <a href="https://github.com/alistaitsacle/free-llm-api-keys">GitHub repository</a></li>
-        <li>Paste it above to verify it's still valid</li>
-        <li>Use it with any OpenAI-compatible tool — set Base URL to <code>https://aiapiv2.pekpik.com/v1</code></li>
-        <li>Works with Cursor, ChatBox, LobeChat, NextChat, Open WebUI, and more</li>
-      </ul>
-
-      <h3>Supported Models</h3>
-      <p>
-        Access 90+ models with a single API key: GPT-5.4, GPT-5.4 Mini, GPT-5.4 Pro,
-        Claude Opus 4.6, Claude Sonnet 4.6, Claude Haiku, DeepSeek Chat V3, DeepSeek Reasoner R1,
-        Gemini 3.1 Flash, Grok 4.20, Mistral Medium, Codestral, Devstral, Cohere Command,
-        DALL-E 3, TTS-1-HD, text-embedding-3-small, and many more.
-      </p>
-
-      <h3>Key Features</h3>
-      <ul>
-        <li>No credit card or registration required</li>
-        <li>Each key has a budget of $20–$100</li>
-        <li>Keys are refreshed 3-5 times daily</li>
-        <li>OpenAI SDK compatible — works with any tool that supports custom endpoints</li>
-        <li>Available globally — direct access from China, no VPN needed</li>
-      </ul>
+    <div class="chat-area" id="chatArea">
+      <div class="msg ai">
+        <div>
+          <div class="bubble">Hi! Paste a free API key above, pick a model, and try a few messages to verify it works. This playground is for key verification — limited to 5 messages per session.</div>
+        </div>
+      </div>
     </div>
 
-    <!-- Footer -->
-    <div class="footer">
-      <a href="https://github.com/alistaitsacle/free-llm-api-keys">
-        GitHub — Get Free Keys
-      </a>
-      <p>Free LLM API Keys — GPT-5.4 / Claude / DeepSeek / Gemini / Grok / 90+ Models</p>
+    <div class="chat-input">
+      <textarea id="chatMsg" placeholder="Type your message..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendChat()}"></textarea>
+      <button class="btn btn-primary" id="sendBtn" onclick="sendChat()">Send</button>
     </div>
   </div>
 
-  <script>
-    const API_BASE = 'https://aiapiv2.pekpik.com/v1';
-    let selectedModel = 'deepseek-chat';
+  <!-- ==================== VERIFY TAB ==================== -->
+  <div class="panel" id="panel-verify">
+    <div class="card">
+      <div class="key-row">
+        <input type="text" id="verifyKey" placeholder="Paste your API key (sk-...)" autocomplete="off" spellcheck="false">
+        <button class="btn btn-primary" id="verifyBtn" onclick="verifyKey()">Verify</button>
+      </div>
+      <div class="model-row">
+        <label>Test with model:</label>
+        <span class="chip active" onclick="pickVerifyModel(this,'deepseek-chat')">DeepSeek</span>
+        <span class="chip" onclick="pickVerifyModel(this,'gpt-5.4')">GPT-5.4</span>
+        <span class="chip" onclick="pickVerifyModel(this,'gpt-5.4-mini')">GPT-5.4 Mini</span>
+        <span class="chip" onclick="pickVerifyModel(this,'claude-sonnet-4-6')">Claude</span>
+        <span class="chip" onclick="pickVerifyModel(this,'mistral-medium-latest')">Mistral</span>
+      </div>
+    </div>
+    <div class="result" id="result">
+      <div class="result-head" id="resultHead"></div>
+      <div class="result-body" id="resultBody"></div>
+    </div>
+  </div>
 
-    function selectModel(el, model) {
-      document.querySelectorAll('.model-chip').forEach(c => c.classList.remove('active'));
-      el.classList.add('active');
-      selectedModel = model;
-    }
+  <!-- SEO Content -->
+  <div class="seo">
+    <h2>Free AI Chat Playground — No Credit Card Required</h2>
+    <p>
+      Chat with the latest AI models for free using keys from
+      <a href="https://github.com/alistaitsacle/free-llm-api-keys">free-llm-api-keys</a>.
+      Supports GPT-5.4, Claude Opus 4.6, DeepSeek V3, Gemini 3.1, Grok 4.20, Mistral, and 90+ more.
+    </p>
 
-    async function verifyKey() {
-      const key = document.getElementById('apiKey').value.trim();
-      if (!key) { alert('Please paste an API key'); return; }
+    <h3>How It Works</h3>
+    <ul>
+      <li>Get a free API key from the <a href="https://github.com/alistaitsacle/free-llm-api-keys">GitHub repo</a></li>
+      <li>Paste it above and select a model</li>
+      <li>Start chatting — responses stream in real time</li>
+      <li>Or use the Verify tab to check if a key is still valid</li>
+    </ul>
 
-      const btn = document.getElementById('verifyBtn');
-      const result = document.getElementById('result');
-      const status = document.getElementById('resultStatus');
-      const detail = document.getElementById('resultDetail');
+    <h3>Supported Models</h3>
+    <p>
+      GPT-5.4, GPT-5.4 Mini, GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.6,
+      DeepSeek Chat V3, DeepSeek Reasoner R1, Gemini 3.1 Flash, Grok 4.20,
+      Mistral Medium, Codestral, Devstral, Cohere Command, DALL-E 3, TTS-1-HD,
+      text-embedding-3-small, and many more. All accessible with a single free API key.
+    </p>
 
-      btn.disabled = true;
-      btn.textContent = 'Verifying...';
-      result.className = 'result show';
-      status.innerHTML = '<div class="icon">&#8987;</div><div class="text"><h3>Checking...</h3><p>Testing ' + selectedModel + '...</p></div>';
-      detail.textContent = '';
+    <h3>Also Works With</h3>
+    <p>
+      These free API keys work with any OpenAI-compatible tool: Cursor, ChatBox,
+      LobeChat, NextChat, Open WebUI, Immersive Translate, and more.
+      Just set the Base URL to <code>https://aiapiv2.pekpik.com/v1</code>.
+    </p>
+  </div>
 
-      try {
-        const startTime = Date.now();
-        const resp = await fetch(API_BASE + '/chat/completions', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + key
-          },
-          body: JSON.stringify({
-            model: selectedModel,
-            messages: [{ role: 'user', content: 'hi' }],
-            max_tokens: 10
-          })
-        });
+  <!-- Footer -->
+  <div class="footer">
+    <a href="https://github.com/alistaitsacle/free-llm-api-keys">GitHub — Get Free API Keys</a>
+    <p>Free LLM API Playground — GPT-5.4 / Claude / DeepSeek / Gemini / Grok / 90+ Models</p>
+  </div>
+</div>
 
-        const latency = Date.now() - startTime;
-        const data = await resp.json();
+<script>
+const API = 'https://aiapiv2.pekpik.com/v1';
+let chatModel = 'deepseek-chat';
+let verifyModel = 'deepseek-chat';
+let chatHistory = [];
+let streaming = false;
+let msgCount = 0;
+const MAX_MSGS = 5; // 每个 key 最多 5 轮对话
 
-        if (resp.ok && data.choices) {
-          result.className = 'result show success';
-          status.innerHTML = `
-            <div class="icon">&#9989;</div>
-            <div class="text">
-              <h3>Key is Valid</h3>
-              <p>Model: ${data.model || selectedModel} &nbsp;|&nbsp; Latency: ${latency}ms</p>
-            </div>`;
-          detail.textContent =
-            'Response: ' + (data.choices[0].message.content || '(empty)') +
-            '\n\nModel: ' + (data.model || selectedModel) +
-            '\nTokens: ' + (data.usage ? data.usage.total_tokens : 'N/A') +
-            '\nLatency: ' + latency + 'ms';
-        } else {
-          result.className = 'result show error';
-          const errMsg = data.error ? (data.error.message || JSON.stringify(data.error)) : JSON.stringify(data);
-          let hint = '';
-          if (resp.status === 401) hint = 'Key is invalid or expired.';
-          else if (resp.status === 429) hint = 'Rate limit exceeded or budget exhausted. Try another key.';
-          else if (resp.status === 404) hint = 'Model not available for this key.';
-          else hint = 'Request failed.';
+// ==================== TAB ====================
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelector(`.tab[onclick*="${tab}"]`).classList.add('active');
+  document.getElementById('panel-' + tab).classList.add('active');
+}
 
-          status.innerHTML = `
-            <div class="icon">&#10060;</div>
-            <div class="text">
-              <h3>${hint}</h3>
-              <p>HTTP ${resp.status}</p>
-            </div>`;
-          detail.textContent = errMsg;
-        }
-      } catch (e) {
-        result.className = 'result show error';
-        status.innerHTML = `
-          <div class="icon">&#10060;</div>
-          <div class="text">
-            <h3>Network Error</h3>
-            <p>Could not reach the API server</p>
-          </div>`;
-        detail.textContent = e.message;
-      }
+function pickModel(el, m) {
+  el.closest('.model-row').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  chatModel = m;
+}
 
-      btn.disabled = false;
-      btn.textContent = 'Verify';
-    }
+function pickVerifyModel(el, m) {
+  el.closest('.model-row').querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  verifyModel = m;
+}
 
-    // Enter key to verify
-    document.getElementById('apiKey').addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') verifyKey();
+// ==================== CHAT ====================
+function addMsg(role, text, model) {
+  const area = document.getElementById('chatArea');
+  const div = document.createElement('div');
+  div.className = 'msg ' + (role === 'user' ? 'user' : 'ai');
+  div.innerHTML = `<div><div class="bubble">${escHtml(text)}</div>${model ? '<div class="model-tag">' + model + '</div>' : ''}</div>`;
+  area.appendChild(div);
+  area.scrollTop = area.scrollHeight;
+  return div.querySelector('.bubble');
+}
+
+function escHtml(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+async function sendChat() {
+  const key = document.getElementById('chatKey').value.trim();
+  if (!key) { alert('Please paste an API key first'); return; }
+  const input = document.getElementById('chatMsg');
+  const msg = input.value.trim();
+  if (!msg || streaming) return;
+
+  if (msgCount >= MAX_MSGS) {
+    addMsg('ai', 'You\'ve reached the 5-message limit for this session. This playground is for key verification only. For extended use, integrate the key into your own app using the OpenAI SDK.\n\nClear chat to reset, or get a fresh key from GitHub.', 'system');
+    return;
+  }
+  msgCount++;
+
+  input.value = '';
+  addMsg('user', msg);
+  chatHistory.push({ role: 'user', content: msg });
+
+  const bubble = addMsg('ai', '', chatModel);
+  const info = document.getElementById('chatInfo');
+  const btn = document.getElementById('sendBtn');
+  streaming = true;
+  btn.disabled = true;
+  info.textContent = 'Generating...';
+
+  try {
+    const resp = await fetch(API + '/chat/completions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key },
+      body: JSON.stringify({
+        model: chatModel,
+        messages: chatHistory.slice(-10), // keep last 10 messages
+        stream: true
+      })
     });
-  </script>
+
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({}));
+      const errMsg = err.error ? (err.error.message || JSON.stringify(err.error)) : `HTTP ${resp.status}`;
+      bubble.textContent = 'Error: ' + errMsg;
+      bubble.style.color = '#ff5050';
+      chatHistory.pop(); // remove user msg from history
+      streaming = false;
+      btn.disabled = false;
+      info.textContent = 'Error — try another key or model';
+      return;
+    }
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+    let fullText = '';
+    let buffer = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+
+      const lines = buffer.split('\n');
+      buffer = lines.pop() || '';
+
+      for (const line of lines) {
+        if (!line.startsWith('data: ') || line === 'data: [DONE]') continue;
+        try {
+          const json = JSON.parse(line.slice(6));
+          const delta = json.choices?.[0]?.delta?.content;
+          if (delta) {
+            fullText += delta;
+            bubble.textContent = fullText;
+            document.getElementById('chatArea').scrollTop = document.getElementById('chatArea').scrollHeight;
+          }
+        } catch {}
+      }
+    }
+
+    if (fullText) {
+      chatHistory.push({ role: 'assistant', content: fullText });
+      info.textContent = chatModel + ' — ' + msgCount + '/' + MAX_MSGS + ' messages used';
+    } else {
+      bubble.textContent = '(empty response)';
+      info.textContent = 'Empty response — model may not be available for this key';
+    }
+  } catch (e) {
+    bubble.textContent = 'Network error: ' + e.message;
+    bubble.style.color = '#ff5050';
+    info.textContent = 'Connection failed';
+  }
+
+  streaming = false;
+  btn.disabled = false;
+}
+
+function clearChat() {
+  chatHistory = [];
+  msgCount = 0;
+  const area = document.getElementById('chatArea');
+  area.innerHTML = '<div class="msg ai"><div><div class="bubble">Chat cleared. You have 5 messages to verify your key.</div></div></div>';
+  document.getElementById('chatInfo').textContent = 'For key verification only — max 5 messages per session';
+}
+
+// ==================== VERIFY ====================
+async function verifyKey() {
+  const key = document.getElementById('verifyKey').value.trim();
+  if (!key) { alert('Please paste an API key'); return; }
+
+  const btn = document.getElementById('verifyBtn');
+  const res = document.getElementById('result');
+  const head = document.getElementById('resultHead');
+  const body = document.getElementById('resultBody');
+
+  btn.disabled = true; btn.textContent = 'Checking...';
+  res.className = 'result show';
+  head.innerHTML = '<span class="icon">&#8987;</span><div><h3>Checking...</h3><p>' + verifyModel + '</p></div>';
+  body.textContent = '';
+
+  try {
+    const t0 = Date.now();
+    const resp = await fetch(API + '/chat/completions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key },
+      body: JSON.stringify({ model: verifyModel, messages: [{ role: 'user', content: 'hi' }], max_tokens: 10 })
+    });
+    const ms = Date.now() - t0;
+    const data = await resp.json();
+
+    if (resp.ok && data.choices) {
+      res.className = 'result show success';
+      head.innerHTML = `<span class="icon">&#9989;</span><div><h3>Key is Valid</h3><p>${data.model || verifyModel} — ${ms}ms</p></div>`;
+      body.textContent = 'Response: ' + (data.choices[0].message.content || '(empty)') +
+        '\nTokens: ' + (data.usage ? data.usage.total_tokens : 'N/A') + '\nLatency: ' + ms + 'ms';
+    } else {
+      res.className = 'result show error';
+      const e = data.error ? (data.error.message || JSON.stringify(data.error)) : JSON.stringify(data);
+      let hint = resp.status === 401 ? 'Key is invalid or expired' : resp.status === 429 ? 'Rate limit or budget exhausted' : 'Request failed';
+      head.innerHTML = `<span class="icon">&#10060;</span><div><h3>${hint}</h3><p>HTTP ${resp.status}</p></div>`;
+      body.textContent = e;
+    }
+  } catch (e) {
+    res.className = 'result show error';
+    head.innerHTML = '<span class="icon">&#10060;</span><div><h3>Network Error</h3><p>Could not reach API</p></div>';
+    body.textContent = e.message;
+  }
+
+  btn.disabled = false; btn.textContent = 'Verify';
+}
+
+// Enter to verify
+document.getElementById('verifyKey').addEventListener('keydown', e => { if (e.key === 'Enter') verifyKey(); });
+</script>
 </body>
 </html>
