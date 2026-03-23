@@ -10,7 +10,7 @@ Updated 3-5x daily · Rate-limited · Ready to use
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=social)](https://github.com/alistaitsacle/free-llm-api-keys)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys)](https://github.com/alistaitsacle/free-llm-api-keys)
-[![Available Keys](https://img.shields.io/badge/Available_Keys-15-brightgreen)]()
+[![Available Keys](https://img.shields.io/badge/Available_Keys-28-brightgreen)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue)]()
 
 **If you find this useful, please ⭐ Star this repo — it keeps the project alive!**
@@ -23,21 +23,17 @@ English | [中文](./README_CN.md)
 
 ## 💡 Why This Project?
 
-A few weeks ago, I came across a post on Reddit from a college student who was trying to build an AI-powered study assistant for their thesis project. They couldn't afford the $20/month for ChatGPT Plus, let alone API credits. Every "free API" list they found was either outdated, required a credit card, or was region-locked.
+AI is changing everything, but most APIs are locked behind credit cards and paywalls. Not everyone has access — especially students, hobbyists, and developers in regions where these services aren't available.
 
-That post stuck with me.
+I use LLM APIs heavily in my own work. I have spare capacity that would otherwise go to waste. So I decided to share it — free keys, no strings attached, updated daily.
 
-I use LLM APIs heavily in my own work and products. I have spare capacity that would otherwise go to waste. So I decided to share it — not as a business, just as a way to give back. Students, indie developers, hobbyists — anyone who wants to experiment with AI shouldn't be stopped by a paywall.
-
-**So here we are.** Every key in this repo is a real, working API token. No credit card needed. No registration wall. Just copy, paste, and build.
-
-If this helps even one person ship their side project or finish their thesis, it's worth it.
+**No credit card. No registration. Just copy, paste, and build.**
 
 ---
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-03-23 11:58 (UTC+8)
+> ⏰ Last updated: 2026-03-23 12:50 (UTC+8)
 >
 > All keys are tokens issued by our platform, compatible with OpenAI SDK.
 > Keys have budget and time limits (typically 24-48h). Auto-updated 3-5x daily.
@@ -246,6 +242,7 @@ Available globally with direct access (no VPN needed).
 ## 📅 Changelog
 
 ### 2026-03-23
+- 🆕 Added 13 keys (codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest, flagship-chat +6 more), cleaned 1 expired
 - 🆕 Added 14 keys (codestral-latest, dall-e-3, deepseek-chat, devstral-latest, flagship-chat, glm-5-turbo +7 more), cleaned 10 expired
 - 🆕 First batch: 9 keys — GPT-5.4, Claude Sonnet 4.6, DeepSeek, Grok 4.20, Gemini 3.1, Mistral
 - 📝 Project launched
@@ -279,3 +276,16 @@ Available globally with direct access (no VPN needed).
 ## 📜 License
 
 [MIT License](./LICENSE)
+| `sk-ciNdXHKPasKPEXb8j9KsFNQnFcWDUuv0Fehmmp9KGP5Vvrxb` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-uZg9M5Umg0SB1Nr1p48M94li3liP2CqejMZcqsmwhgFEhTJg` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-03-25 |
+| `sk-52hyK5tNam3zhGKOpepvQtCos0GVe5tTfaU09z307yprbRl9` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-ypY2mz4TSRJBcnzXoN54Dg49w959tVhiar1FnrTifISVYanv` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-5dW3f3Qpr2XbEnu2K8QFNk2AFcyoRL1lHIdyRV9c6vETB2lO` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-03-25 |
+| `sk-AKfzrHznlDUQOHyHBeiDzQ2O6KgGJhjx6nhYqUuzzdigpodr` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-03-25 |
+| `sk-qUcmz4fgduQXjd3fCKGsESl4rfXX9IibMNKExtUyjev9dLM7` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 |
+| `sk-Qgj2WgEMm3rQn7ItZEqhDsFh7tVurnvfL8mNlG9C9Yz1uxBG` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 |
+| `sk-8gHW9iMyYUgUM3uyYwOA6mfaBEyO5JZdx83XUNPNNhhQTlbN` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-03-25 |
+| `sk-dvfbF3ZavgVedEl6IHWrubjfwdNpll6oK1xaagyJlCuxNTIt` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-03-25 |
+| `sk-JDlN5uD4XCrs4IPoSbx9Z3asqlfIW8QxYMbL2GWyyx43XQRm` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-03-25 |
+| `sk-XiQrs0TIWNvadwyOFb3HtQh2uZzV6GSZDZqsXVsepNtElEQW` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-03-25 |
+| `sk-rdQ97bPzAXZS4W2PkZRZtXF5kqutiSVYg7KUiHjmyR3PoOqv` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-03-25 |

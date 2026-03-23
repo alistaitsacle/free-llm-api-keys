@@ -10,7 +10,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=social)](https://github.com/alistaitsacle/free-llm-api-keys)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys)](https://github.com/alistaitsacle/free-llm-api-keys)
-[![Available Keys](https://img.shields.io/badge/可用_Key-15-brightgreen)]()
+[![Available Keys](https://img.shields.io/badge/可用_Key-28-brightgreen)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue)]()
 
 **如果觉得有用，请 ⭐ Star 本项目，你的 Star 是持续更新的动力！**
@@ -23,21 +23,17 @@
 
 ## 💡 为什么做这个项目？
 
-几周前，我在 Reddit 上看到一个大学生发的帖子。他正在为毕业论文做一个 AI 辅助学习工具，但买不起 ChatGPT Plus，也没有信用卡去申请 API 额度。他找到的所有"免费 API 列表"要么已经过期，要么需要绑卡，要么有地区限制。
+AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。不是每个人都有条件使用——尤其是学生、爱好者，以及那些所在地区无法直接访问这些服务的开发者。
 
-那个帖子让我一直放不下。
+我自己的工作大量使用 LLM API，有不少闲余算力。与其浪费掉，不如分享出来——免费 Key，没有附加条件，每天更新。
 
-我自己的工作和产品大量使用 LLM API，有不少闲余的算力。与其浪费掉，不如分享出来。学生、独立开发者、爱好者——任何想体验 AI 的人，都不应该被一堵付费墙挡在门外。
-
-**于是有了这个项目。** 这里的每一个 Key 都是真实可用的 API token。不需要信用卡，不需要注册，复制粘贴就能用。
-
-如果这能帮到哪怕一个人完成他们的项目或论文，就值了。
+**不需要信用卡，不需要注册，复制粘贴就能用。**
 
 ---
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-03-23 11:58 (UTC+8)
+> ⏰ 最后更新： 2026-03-23 12:50 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 OpenAI SDK，可直接使用。
 > Key 有额度和时间限制（通常 24-48 小时），每天自动更新 3-5 次。
@@ -108,8 +104,7 @@
 |-----|------|------|------|---------|---------|
 | `sk-ICCrZUMCuFctu9CBeGCE39u9uUxIEyGxVE7IMYDuB8XYFNzY` | z-ai/glm-5-turbo | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
 
-> 💡 **状态说明：** ✅ 可用 | ⚠️ 额度低 | ❌ 已失效 | ⏳ 即将发布 | 🆕 新增
-
+> 💡 **状态说明：** ✅ 可用 
 ---
 
 ## 🚀 如何使用
@@ -254,6 +249,7 @@ console.log(response.choices[0].message.content);
 ## 📅 更新日志
 
 ### 2026-03-23
+- 🆕 新增 13 个 Key (codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest, flagship-chat +6 more)，清理 1 个过期 Key
 - 🆕 新增 14 个 Key (codestral-latest, dall-e-3, deepseek-chat, devstral-latest, flagship-chat, glm-5-turbo +7 more)，清理 10 个过期 Key
 - 🆕 首批上线：9 个 Key — GPT-5.4、Claude Sonnet 4.6、DeepSeek、Grok 4.20、Gemini 3.1、Mistral
 - 📝 项目上线
@@ -287,3 +283,16 @@ console.log(response.choices[0].message.content);
 ## 📜 License
 
 [MIT License](./LICENSE)
+| `sk-ciNdXHKPasKPEXb8j9KsFNQnFcWDUuv0Fehmmp9KGP5Vvrxb` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-uZg9M5Umg0SB1Nr1p48M94li3liP2CqejMZcqsmwhgFEhTJg` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-03-25 |
+| `sk-52hyK5tNam3zhGKOpepvQtCos0GVe5tTfaU09z307yprbRl9` | dall-e-3 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-ypY2mz4TSRJBcnzXoN54Dg49w959tVhiar1FnrTifISVYanv` | tts-1-hd | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-5dW3f3Qpr2XbEnu2K8QFNk2AFcyoRL1lHIdyRV9c6vETB2lO` | rerank-v4.0-pro | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-AKfzrHznlDUQOHyHBeiDzQ2O6KgGJhjx6nhYqUuzzdigpodr` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
+| `sk-qUcmz4fgduQXjd3fCKGsESl4rfXX9IibMNKExtUyjev9dLM7` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
+| `sk-Qgj2WgEMm3rQn7ItZEqhDsFh7tVurnvfL8mNlG9C9Yz1uxBG` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
+| `sk-8gHW9iMyYUgUM3uyYwOA6mfaBEyO5JZdx83XUNPNNhhQTlbN` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-03-25 |
+| `sk-dvfbF3ZavgVedEl6IHWrubjfwdNpll6oK1xaagyJlCuxNTIt` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-03-25 |
+| `sk-JDlN5uD4XCrs4IPoSbx9Z3asqlfIW8QxYMbL2GWyyx43XQRm` | deepseek-reasoner | 🆕 新增 | $20 | 5 RPM | 2026-03-25 |
+| `sk-XiQrs0TIWNvadwyOFb3HtQh2uZzV6GSZDZqsXVsepNtElEQW` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
+| `sk-rdQ97bPzAXZS4W2PkZRZtXF5kqutiSVYg7KUiHjmyR3PoOqv` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
