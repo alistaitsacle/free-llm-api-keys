@@ -10,7 +10,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=social)](https://github.com/alistaitsacle/free-llm-api-keys)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys)](https://github.com/alistaitsacle/free-llm-api-keys)
-[![Available Keys](https://img.shields.io/badge/可用_Key-28-brightgreen)]()
+[![Available Keys](https://img.shields.io/badge/可用_Key-20-brightgreen)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue)]()
 
 **如果觉得有用，请 ⭐ Star 本项目，你的 Star 是持续更新的动力！**
@@ -33,7 +33,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-03-23 12:50 (UTC+8)
+> ⏰ 最后更新： 2026-03-23 12:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 OpenAI SDK，可直接使用。
 > Key 有额度和时间限制（通常 24-48 小时），每天自动更新 3-5 次。
@@ -45,8 +45,8 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
 
-| `sk-ucUxmjarknxVhbpNCpP7H3HbpoMqkPLZ9Su0e0AJ2uWgznhE` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
-| `sk-5X5MQp4JTLBzQEF2KbRSHhgrYDtLy2DTSsgpz76fsUHZbE0a` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-03-25 |
+| `sk-J1yNiwYxzYguTbEWkwbL1niYQmGFe5XE9LGZe1pfuw6AaJtZ` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-SaRoIVRf7wHZ5D0BVBOGWkTtBNWVGexjoDMOnAGJs1cmlk4k` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-03-25 |
 ### Claude Opus 4.6 / Claude Sonnet 4.6
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
@@ -57,8 +57,9 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
 
-| `sk-f9buuH2WaD3O3YZOoV4trnc0Prim4wK3LtrOEcCLDFoAOtou` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-03-25 |
-| `sk-HLzRBY9yjzo5TnSmNb49JVJKFJqm6hWuOCrHRxw4ctn8XypA` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-03-25 |
+| `sk-NqNMKPt2ilrzvX6CSWw7NGVjd030RoXUnu2xrlwAIizMzvDR` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-03-25 |
+| `sk-eMuB4szHlP9UhQ9UVGahRuwnnXRj1HHA4F75M1lAW94SoOHj` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-03-25 |
+| `sk-t9P9nqSwoXWGoXMLh5zaeKCaXTcWFMqdng4UGR2q6pnRjwsN` | deepseek-reasoner | 🆕 新增 | $20 | 5 RPM | 2026-03-25 |
 ### Grok / Gemini / Mistral / 更多
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
@@ -69,40 +70,50 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-ZRPXLH7Cz8N6wwaK6pnrC3MwaZVqDVVMdpe8OnrjeQmXgX5N` | dall-e-3 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
-| `sk-zgtQ0CpgBupFYQPSyd3ZJHvuuX42Z5hmYdLOAQ9rSqc8lFxq` | tts-1-hd | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
-| `sk-6DKPlIwe1tKyx2woahBcN87Ezm06J37UwoKuHgCwhR4pkNOQ` | rerank-v4.0-pro | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
-| `sk-ly5RmLA4ZDyqxjXL990yEQlAta5TwigN95Y1R3uXeLUYz34X` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
 
 
+| `sk-9oCquwIFnOq9zUOkuSuu6DDep8AqzWVBjsAIVLbdAXxEOwpi` | dall-e-3 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-BCLztmX9jbyEwbhX20lbVkH8ld7by3GJqa6x1QS1cHa2N6f5` | tts-1-hd | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-TLx19nQ5scbVZ9tA9RaEHjhMQuL5NE2fOM2VHyVfWpQsdqCx` | rerank-v4.0-pro | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-4z4JhOgyC0nOiLoZKHpojmHDYETSMCi8KKMNpluvGZC5zBpG` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
+| `sk-iQuaAEEgCCY3F9Rgmft9j4qrWeofTJjaglurnkM5Zutvz20W` | embed-english-v3.0 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-2KZKo358kRgChPSfvVSMoNVTlMEFmnBMD9dwl9GWGyzzL8Jz` | text-embedding-3-small | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-dr2MXjKujkinVFdoicQaiM6hfVxgh33ihqbnup3VWgwhcoED` | embed-multilingual-v3.0 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
 ### 其他模型
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-017xfuuNiF3l1fCxIJtgQYfoMnq75Rnxa5QzIpjBJDUkN8AJ` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
-| `sk-WFAndYKsDGZ9RHxLm3jZRWv13pdccSn8yTkRE3sAohbzhnok` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
 
 
+| `sk-w6VY1kB99M9z1Wi4Q9MdoLSpqNdq5BZD5IjDTRYEwSOVzQvy` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
+| `sk-TlCXyKEdacllxZ0J4YWfKBUjTPR94jv8yfeYsKM6Vps2UhnW` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
 ### Mistral
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-RLQfwc7GLugKMNVrZ8eYFxo4wqKmE6xuZrjtge4Podh0PBbY` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
-| `sk-0oIUFlxlr6ILZOYkrdCadBRS60WUIGHEr6sCUgO2lOG3hmaS` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
 
 
+| `sk-fBqh8g8QVrhi0EhcmGPexOePQD5tLJJPM8UXpsdxFux4PhDB` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
+| `sk-EOaaAk5wKvXZltEZUDww8XDXnpu1tdMT7LzDhXDls3GtMDS7` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-c7BxDuUV29Sn3DgERMB3H52Bu1Y0AWemwE4sArh68xKWdirM` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
 ### 通义千问
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-31byOBsHknjZT0ZpN9TzfMVI7VlxP2Z6sov9PiA9LTwO6aN1` | qwen/qwen3.5-9b | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
 
 
 ### 智谱 GLM
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-ICCrZUMCuFctu9CBeGCE39u9uUxIEyGxVE7IMYDuB8XYFNzY` | z-ai/glm-5-turbo | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
+
+
+### Cohere
+
+| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
+|-----|------|------|------|---------|---------|
+| `sk-9qgybbJzIamVtpOLBX6SmKxPgqoVW86smjltqjmrQemqaC4D` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
+| `sk-uEpK8OjBfIBmxbYoJN7Xu6emo8poM8oWvQgC3bsP8VJN0j3x` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
 
 > 💡 **状态说明：** ✅ 可用 
 ---
@@ -249,6 +260,7 @@ console.log(response.choices[0].message.content);
 ## 📅 更新日志
 
 ### 2026-03-23
+- 🆕 新增 19 个 Key (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more)，清理 15 个过期 Key
 - 🆕 新增 13 个 Key (codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest, flagship-chat +6 more)，清理 1 个过期 Key
 - 🆕 新增 14 个 Key (codestral-latest, dall-e-3, deepseek-chat, devstral-latest, flagship-chat, glm-5-turbo +7 more)，清理 10 个过期 Key
 - 🆕 首批上线：9 个 Key — GPT-5.4、Claude Sonnet 4.6、DeepSeek、Grok 4.20、Gemini 3.1、Mistral
@@ -283,16 +295,3 @@ console.log(response.choices[0].message.content);
 ## 📜 License
 
 [MIT License](./LICENSE)
-| `sk-ciNdXHKPasKPEXb8j9KsFNQnFcWDUuv0Fehmmp9KGP5Vvrxb` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
-| `sk-uZg9M5Umg0SB1Nr1p48M94li3liP2CqejMZcqsmwhgFEhTJg` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-03-25 |
-| `sk-52hyK5tNam3zhGKOpepvQtCos0GVe5tTfaU09z307yprbRl9` | dall-e-3 | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
-| `sk-ypY2mz4TSRJBcnzXoN54Dg49w959tVhiar1FnrTifISVYanv` | tts-1-hd | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
-| `sk-5dW3f3Qpr2XbEnu2K8QFNk2AFcyoRL1lHIdyRV9c6vETB2lO` | rerank-v4.0-pro | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
-| `sk-AKfzrHznlDUQOHyHBeiDzQ2O6KgGJhjx6nhYqUuzzdigpodr` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
-| `sk-qUcmz4fgduQXjd3fCKGsESl4rfXX9IibMNKExtUyjev9dLM7` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
-| `sk-Qgj2WgEMm3rQn7ItZEqhDsFh7tVurnvfL8mNlG9C9Yz1uxBG` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
-| `sk-8gHW9iMyYUgUM3uyYwOA6mfaBEyO5JZdx83XUNPNNhhQTlbN` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-03-25 |
-| `sk-dvfbF3ZavgVedEl6IHWrubjfwdNpll6oK1xaagyJlCuxNTIt` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-03-25 |
-| `sk-JDlN5uD4XCrs4IPoSbx9Z3asqlfIW8QxYMbL2GWyyx43XQRm` | deepseek-reasoner | 🆕 新增 | $20 | 5 RPM | 2026-03-25 |
-| `sk-XiQrs0TIWNvadwyOFb3HtQh2uZzV6GSZDZqsXVsepNtElEQW` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-03-25 |
-| `sk-rdQ97bPzAXZS4W2PkZRZtXF5kqutiSVYg7KUiHjmyR3PoOqv` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-03-25 |
