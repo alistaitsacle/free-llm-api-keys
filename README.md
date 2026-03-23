@@ -98,12 +98,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-TlCXyKEdacllxZ0J4YWfKBUjTPR94jv8yfeYsKM6Vps2UhnW` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 | Rotates between GPT-5.4, Claude Sonnet 4.6, DeepSeek, Gemini |
 
 
-### Other Models
-
-| Key | Model | Status | Budget | Rate Limit | Expires |
-|-----|-------|--------|--------|------------|---------|
-| `sk-xiuO7wUHI4UppyuYDlpFXXM2aD6Pw58LS3bXimQteHbDwNmx` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 |
-
 > 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New
 
 ---
@@ -284,8 +278,3 @@ Available globally. Direct access from China — no VPN needed.
 ## 📜 License
 
 [MIT License](./LICENSE)
-| `sk-XWelMZehzQdj6WL9r8Kiim4zQQNeUwPQuVWOhWRj6J1m9b4v` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-hLbhOuOnF4tPqk0cW45mxwoFFMboOAYf1VhHamxgK1y8kOO0` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-03-25 |
-| `sk-gYuTDDn0CEJgGiKNAF09OicT3MGVLJAG5ioLCNyy67CJHx2W` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-SztYOlwVkFhADfGIreV40foFXrsaoJHEh4ujrjupvZlOXVaA` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-03-25 |
-| `sk-k0cNXdCpbzhaytHc4vwnjWBsA5Uk9uOld8FbFfX1IM8xHbB9` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-03-25 |
