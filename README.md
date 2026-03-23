@@ -156,6 +156,39 @@ const response = await client.chat.completions.create({
 console.log(response.choices[0].message.content);
 ```
 
+### Image Generation (DALL-E 3)
+
+```python
+response = client.images.generate(
+    model="dall-e-3",
+    prompt="A cat astronaut floating in space, digital art",
+    size="1024x1024",
+    n=1
+)
+print(response.data[0].url)
+```
+
+### Text-to-Speech (TTS)
+
+```python
+response = client.audio.speech.create(
+    model="tts-1-hd",
+    voice="alloy",
+    input="Hello! This is a free text-to-speech demo."
+)
+response.stream_to_file("output.mp3")
+```
+
+### Embeddings
+
+```python
+response = client.embeddings.create(
+    model="text-embedding-3-small",
+    input="The quick brown fox jumps over the lazy dog"
+)
+print(f"Vector dimension: {len(response.data[0].embedding)}")
+```
+
 ### Works With
 
 | Tool | How to connect |

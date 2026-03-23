@@ -9,6 +9,7 @@ venv/
 *.swp
 .DS_Store
 *.log
+usage_stats.log
 
 # Internal tools — not for public repo
 scripts/

@@ -155,6 +155,39 @@ const response = await client.chat.completions.create({
 console.log(response.choices[0].message.content);
 ```
 
+### 图像生成 (DALL-E 3)
+
+```python
+response = client.images.generate(
+    model="dall-e-3",
+    prompt="一只猫在太空中漂浮，数字艺术风格",
+    size="1024x1024",
+    n=1
+)
+print(response.data[0].url)
+```
+
+### 语音合成 (TTS)
+
+```python
+response = client.audio.speech.create(
+    model="tts-1-hd",
+    voice="alloy",
+    input="你好！这是一个免费的语音合成示例。"
+)
+response.stream_to_file("output.mp3")
+```
+
+### 文本向量化 (Embeddings)
+
+```python
+response = client.embeddings.create(
+    model="text-embedding-3-small",
+    input="快速的棕色狐狸跳过了懒惰的狗"
+)
+print(f"向量维度: {len(response.data[0].embedding)}")
+```
+
 ### 搭配工具使用
 
 | 工具 | 设置方式 |
