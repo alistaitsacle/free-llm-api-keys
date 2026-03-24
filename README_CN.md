@@ -94,8 +94,8 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-w6VY1kB99M9z1Wi4Q9MdoLSpqNdq5BZD5IjDTRYEwSOVzQvy` | smart-chat | 🆕 03-23 | $30 | 10 RPM | 2026-03-25 | 自动选择最优模型 |
-| `sk-TlCXyKEdacllxZ0J4YWfKBUjTPR94jv8yfeYsKM6Vps2UhnW` | flagship-chat | 🆕 03-23 | $30 | 10 RPM | 2026-03-25 | GPT-5.4 / Claude / DeepSeek / Gemini 轮询 |
+| `sk-w6VY1kB99M9z1Wi4Q9MdoLSpqNdq5BZD5IjDTRYEwSOVzQvy` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 | 自动选择最优模型 |
+| `sk-TlCXyKEdacllxZ0J4YWfKBUjTPR94jv8yfeYsKM6Vps2UhnW` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-03-25 | GPT-5.4 / Claude / DeepSeek / Gemini 轮询 |
 
 
 > 💡 **状态说明：** ✅ 可用 | ⚠️ 额度低 | 🆕 新增

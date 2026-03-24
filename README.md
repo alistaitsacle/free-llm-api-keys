@@ -95,8 +95,8 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-w6VY1kB99M9z1Wi4Q9MdoLSpqNdq5BZD5IjDTRYEwSOVzQvy` | smart-chat | 🆕 03-23 | $30 | 10 RPM | 2026-03-25 | Auto-selects best model |
-| `sk-TlCXyKEdacllxZ0J4YWfKBUjTPR94jv8yfeYsKM6Vps2UhnW` | flagship-chat | 🆕 03-23 | $30 | 10 RPM | 2026-03-25 | GPT-5.4 / Claude / DeepSeek / Gemini rotate |
+| `sk-w6VY1kB99M9z1Wi4Q9MdoLSpqNdq5BZD5IjDTRYEwSOVzQvy` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 | Auto-selects best model |
+| `sk-TlCXyKEdacllxZ0J4YWfKBUjTPR94jv8yfeYsKM6Vps2UhnW` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 | GPT-5.4 / Claude / DeepSeek / Gemini rotate |
 
 
 > 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New
