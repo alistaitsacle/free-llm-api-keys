@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-241-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-242-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-06 09:52 (UTC+8)
+> ⏰ Last updated: 2026-04-06 10:00 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -296,7 +296,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 ---
 
 
-### GLM `04-06 08:00`
+### GLM `04-06 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -344,6 +344,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 | `sk-45Ap1n8dAinDuTdrPnqgbx7wzF3mZrH6UIRMizUYiWfhL6FI` | glm-4.5 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-1utQcFYz9ZMkIsv4Isj4MPOF1IsRz365ud193zcLgrzbAP0Y` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-Hw2RARxgD5j8IoC6Nr1GMj2YdmccO13SbZcQkA9YEc4IIpDq` | zai-org/GLM-4.7 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-fxODSvFDSRwkJh9HsgjLh13xON0YL7Q8XuGJSaqlWFlAEiSF` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 
 ---
 
@@ -523,6 +524,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-06
+- 🆕 Added 1 keys (glm-5), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 3 expired
 - 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 21 expired
