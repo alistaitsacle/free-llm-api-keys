@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-220-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-242-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-06 13:22 (UTC+8)
+> ⏰ Last updated: 2026-04-06 13:30 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -64,7 +64,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
-### GPT-5.4 / GPT-5.4-mini `04-06 08:00`
+### GPT-5.4 / GPT-5.4-mini `04-06 13:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -72,7 +72,9 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 | `sk-CQcLlayBAOqCu54QDTV7m2DVXyH9OHrERu6JRdMJj5bi6Cig` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-08 |
 | `sk-dYrmJovRsKioW1Yt9XQbrDfz18piq1fBS8S7XEvccfMQQgK1` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-08 |
 | `sk-Tc4GsYC288614UhEEaxqrDtCupUbQWsfMdgaELSCw8batKXM` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-08 |
-### DeepSeek V3 / DeepSeek R1 `04-06 08:00`
+| `sk-j4Wvyb84sQHEqcUG8FFoLkGMLbPCEJT1kSBHxhCaJbo7gJxv` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-vi8ke80j2hGeBpKhYs6of228iBPe9AMmDJU3myGUZD0hGQcc` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-08 |
+### DeepSeek V3 / DeepSeek R1 `04-06 13:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -106,8 +108,11 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 | `sk-OHgfK8j6RWsrNt2ScygbX4Cwj7qvNgc8NcCN05WdwdKyyDfZ` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-08 |
 | `sk-KCRtZGLPzI1D3zDir5mxRe8EmlNzlFh8tLbpOgCxOgzEILkG` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-08 |
 | `sk-gy3McPFzco0XDL8w7QzxHyh1k04a0BsX210wUX7psxbXt0BA` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-08 |
+| `sk-TBKEfMnEdpvcwkNSE7V3bJjJDgi6rAfSMkcvQwTt9HmHPs6N` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-08 |
+| `sk-gsN4ockYyuca9DF5PLDYmA9oxNFTezaupJYok29nxL3SlVTX` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-08 |
+| `sk-c5UwWSGhHRJ5nn4t3s5fP4oFkcnRR2nIeZ1YSJaphzMzoiXc` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-08 |
 
-### Mistral / Codestral `04-06 08:00`
+### Mistral / Codestral `04-06 13:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -138,6 +143,9 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 | `sk-NVwbgO2nIOA94LXi5cWJRDLjiIhHRQrxGwWX50yQkFpq4eYz` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-nQV11ha4BEfaKMQOFdzsW66W6W2xf5rGfNPLn9tKaVuHRBLy` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-08 |
 | `sk-am7Zi1ExNHHN6DxVugI6dgOItl2GiKWpXSK7Hm4UC6kCMGzU` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-5FukmJdx2pKOrUNGLsgGiDPlmLJzQnHxIGgbZEcaFZpWEoX3` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-08 |
+| `sk-bezzbGUeS2yXjqV3Z4t50GuEypJFbbI9rmVX2jr0SSUlyfcq` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-e7Ke21bJSG75QBYbBf9SgK63ZgrfWd2LEIjCsBcmJgmA6j7A` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 
 ### Cohere `04-05 13:30`
 
@@ -154,7 +162,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 | `sk-Qdvm78Gd9A0g0XBioh2pycuLCtBddjXpifpSrKxzVtus3m9K` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-07 |
 | `sk-6JsonL83mLpyHkfDMklqfLvHRCtMlRCBAWy6k7MLEH1VNPWI` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-07 |
 
-### Image / Audio / Embedding `04-06 08:00`
+### Image / Audio / Embedding `04-06 13:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -219,8 +227,13 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 | `sk-ARbfDMT9e8rHduL8DkxYtEtkFaqnteIFTP4iBbVKXuKns3e6` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-ZbMMO4gVxtfBNPsORdhFfNHnz1NElVVAAkePfSJQqJzmZsM4` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-08 |
 | `sk-aYRY48hpr6et9iuSkCbGLHXN47ZRvofQGK52s0x6aQX2GcSq` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-rTgTtTYjQZAwpswKyGixY8VRApO9LWhXxljijXR75krzlbh4` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-N8leG6tet6sWmkTLvcZHRL9e97lSoHU3KwRbt28cKFvHnTpr` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-YRxqdN6kbOj9qvvaVbM3DvO3TbOixkJ0MVIEkXQow0vty5xU` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-nUlVndlK0YXSRctC0uL0VRkbQtMdEP1GR46SHufffHcBEf01` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-08 |
+| `sk-c5sSKxghp44a7RpjsX4QfrumMhcQHB9Vur0QVUdgJxf6p8sC` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 
-### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-06 08:00`
+### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-06 13:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -271,6 +284,11 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 | `sk-rjFk1X9vQE3PMFEvoh3Ge2rKSQEbYHmyLJdmnDwFfUIb51r8` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-08 |
 | `sk-d8yij8bejh1J9rRw0NMaHZOe2NoZrmfrloEViNiySeQDV4Fb` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-OCclI9LRXad5y5lKfDMpDcOFYj9wqyA9SIKiDGRjmGkQ8sny` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-ogLlGh9eullY0uAkGZktkN67RS3gd7jps138bquPRQk1Ny1o` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-08 | 多模型自动轮询，不挑模型时用 |
+| `sk-UDoUJO8j37tMXVcswPXtBiutqoz4BXKGPQ8b9rTLrcuqIovU` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-08 | 旗舰模型轮询 |
+| `sk-LtLJ0V7nxEju2ge6TyrA1xTMldJfO382wiK8LsnIBubUPbJA` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-08 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-nlDO6bdKoLZyHvuuWsmyPxhgv6KUEnhZcozRkpfWf79eQ52O` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-08 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-gSX6DxYRjfIEIg4k2H6qxBIShxAZ7DdWknZbT0EuvpD8b3O3` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-08 | Gemini 2.5 Flash Lite，轻量快速 |
 
 
 > 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New
@@ -278,7 +296,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 ---
 
 
-### GLM `04-06 10:00`
+### GLM `04-06 13:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -323,6 +341,10 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 | `sk-1utQcFYz9ZMkIsv4Isj4MPOF1IsRz365ud193zcLgrzbAP0Y` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-Hw2RARxgD5j8IoC6Nr1GMj2YdmccO13SbZcQkA9YEc4IIpDq` | zai-org/GLM-4.7 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-fxODSvFDSRwkJh9HsgjLh13xON0YL7Q8XuGJSaqlWFlAEiSF` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-WAnaL3tv0xn8jKr9yVAiKS6inLQG2rwglQtubXw2Ht6bEo3O` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-FLCqsilkBJeZDBQ63HwjDYGTPG6QTtNmrjSbUIB6ExqGp6Fp` | glm-4.5 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-xF5hJ3dNOSXsPNCCIBlUarjzvgtmJSjZnv0PPndSYLbJC5zy` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
+| `sk-LKLMwad66vXYcDkeftB6XJUWUga0wgOFyj0pyv1q9AjDVSAM` | zai-org/GLM-4.7 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 
 ---
 
@@ -502,6 +524,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-06
+- 🆕 Added 22 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +15 more), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 2 expired
 - 🆕 Added 0 keys (), cleaned 21 expired
 - 🆕 Added 1 keys (glm-5), cleaned 1 expired
