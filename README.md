@@ -55,7 +55,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-06 08:49 (UTC+8)
+> ⏰ Last updated: 2026-04-06 08:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -523,6 +523,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-06
+- 🆕 Added 0 keys (), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 3 expired
 - 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 21 expired
 - 🆕 Added 23 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +16 more), cleaned 23 expired
