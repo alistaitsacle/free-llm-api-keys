@@ -68,11 +68,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-<<<<<<< Updated upstream
 | `sk-2hqkWV3auQpmwIfW8nAtNv66VN4R7DlHbn7rtTuiY0yhvpLr` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
-=======
-
->>>>>>> Stashed changes
 | `sk-gOfalTyIDA7RcYTmNjOeqMc1igZJSnzPi0YCYcEtHmbRmI8n` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-08 |
 | `sk-fIWi5TUFz7LxfmqnAydy5iUsTHfbeHJnFfAYL8ESAZB3pad8` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-CQcLlayBAOqCu54QDTV7m2DVXyH9OHrERu6JRdMJj5bi6Cig` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-08 |

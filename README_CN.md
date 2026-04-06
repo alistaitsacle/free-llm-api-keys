@@ -67,11 +67,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-<<<<<<< Updated upstream
 | `sk-2hqkWV3auQpmwIfW8nAtNv66VN4R7DlHbn7rtTuiY0yhvpLr` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-08 |
-=======
-
->>>>>>> Stashed changes
 | `sk-gOfalTyIDA7RcYTmNjOeqMc1igZJSnzPi0YCYcEtHmbRmI8n` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-04-08 |
 | `sk-fIWi5TUFz7LxfmqnAydy5iUsTHfbeHJnFfAYL8ESAZB3pad8` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-08 |
 | `sk-CQcLlayBAOqCu54QDTV7m2DVXyH9OHrERu6JRdMJj5bi6Cig` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-04-08 |
