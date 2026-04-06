@@ -39,6 +39,20 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ---
 
+## Repository Role
+
+This repository is the **public distribution repo** for FreeLLMShare.
+
+- User-visible content lives here: `README`, localized READMEs, examples, issue templates, and GitHub Pages
+- The key list published here is the current public snapshot for users
+- Runtime services do **not** live here: token issuance, budgeting, cleanup, routing, and provider integrations are handled by backend services outside GitHub
+- A server-side maintenance service / publish script is responsible for refreshing this repo’s public key list and pushing updates
+- Internal planning docs, deployment notes, and debugging records are maintained separately from this public repo
+
+If you are a maintainer, treat this repo as the source of truth for anything users can see on GitHub or Pages.
+
+---
+
 ## 📋 Available Keys
 
 > ⏰ Last updated: 2026-04-06 06:30 (UTC+8)
@@ -54,7 +68,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-
 | `sk-2hqkWV3auQpmwIfW8nAtNv66VN4R7DlHbn7rtTuiY0yhvpLr` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-gOfalTyIDA7RcYTmNjOeqMc1igZJSnzPi0YCYcEtHmbRmI8n` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-08 |
 | `sk-fIWi5TUFz7LxfmqnAydy5iUsTHfbeHJnFfAYL8ESAZB3pad8` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-08 |

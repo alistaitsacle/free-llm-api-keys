@@ -38,6 +38,20 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
+## 仓库职责
+
+这个仓库是 FreeLLMShare 的**公开分发仓库**。
+
+- 用户能看到的内容在这里维护：`README`、多语言 README、示例代码、Issue 模板、GitHub Pages
+- 这里发布的 Key 列表是当前对外公开的快照
+- 真实运行时服务不在这里：Key 签发、预算控制、清理、路由和上游集成都由 GitHub 之外的后端服务负责
+- 服务器上的维护服务 / 发布脚本会定时刷新这个仓库里的公开 Key 列表并推送更新
+- 内部方案文档、部署记录和排障说明不放在这个公开仓库中
+
+如果你是维护者，凡是用户在 GitHub 或 Pages 上能看到的内容，都应以这个仓库为准。
+
+---
+
 ## 📋 可用 Key 列表
 
 > ⏰ 最后更新： 2026-04-06 06:30 (UTC+8)
@@ -53,7 +67,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-
 | `sk-2hqkWV3auQpmwIfW8nAtNv66VN4R7DlHbn7rtTuiY0yhvpLr` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-08 |
 | `sk-gOfalTyIDA7RcYTmNjOeqMc1igZJSnzPi0YCYcEtHmbRmI8n` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-04-08 |
 | `sk-fIWi5TUFz7LxfmqnAydy5iUsTHfbeHJnFfAYL8ESAZB3pad8` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-08 |
