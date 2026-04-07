@@ -55,7 +55,7 @@ If you are a maintainer, treat this repo as the source of truth for anything use
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-06 23:52 (UTC+8)
+> ⏰ Last updated: 2026-04-07 00:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -494,6 +494,9 @@ Available globally. Direct access from China — no VPN needed.
 ---
 
 ## 📅 Changelog
+
+### 2026-04-07
+- 🆕 Added 0 keys (), cleaned 1 expired
 
 ### 2026-04-06
 - 🆕 Added 0 keys (), cleaned 25 expired
