@@ -486,6 +486,9 @@ Available globally. Direct access from China — no VPN needed.
 
 ## 📅 Changelog
 
+<details>
+<summary><b>Show changelog history</b></summary>
+
 ### 2026-04-07
 - 🆕 Added 0 keys (), cleaned 24 expired
 - 🆕 Added 0 keys (), cleaned 25 expired
@@ -603,6 +606,7 @@ Available globally. Direct access from China — no VPN needed.
 - 🆕 Added 6 keys (dall-e-3, deepseek-chat, gpt-5.4, gpt-5.4-mini, smart-chat, tts-1-hd), cleaned 1 expired
 - 🆕 Published 19 keys across 8 model families: GPT-5.4, DeepSeek, Mistral, Cohere, DALL-E 3, TTS, Embeddings
 - 📝 Project launched
+</details>
 
 ---
 
