@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-240-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-216-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-07 04:00 (UTC+8)
+> ⏰ 最后更新： 2026-04-07 04:07 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -61,9 +61,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-1NBJvyMBlpZuy3YlL6jLZ02HYGQOn4Cp65WnqfOJWCi19Shx` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-07 |
-| `sk-1Meo9IIWhpyyeUVV5UgCLRMI01bAOMExGbhJnxSyG8QKQACC` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-07 |
-| `sk-Vfg1Rs1m3ccOM6eEXevUu8Q7TV6eWHZePSuu8YaxPeqWxXbM` | deepseek-reasoner | 🆕 新增 | $20 | 5 RPM | 2026-04-07 |
 | `sk-xQyemnWvhUyRrnse0KiscwXqGNk9fKDtYjHbTGIYuhcaWlTu` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-07 |
 | `sk-SMcvMz58vkD9bcHzk1VK2CnMkTeZ3lPpNCgl5ab5aZna8YLi` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-07 |
 | `sk-by56sfj6rk96PxfvpEJerK0500mXSXyuOwQmEnmatUpSedD0` | deepseek-reasoner | 🆕 新增 | $20 | 5 RPM | 2026-04-07 |
@@ -99,9 +96,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-IgyN0VnABS1KpCmCXv1hC4ulKEBzMdlRRoeKgLLqKjB9lPdF` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-07 |
-| `sk-8MZa5evE3x1PmN4uO3m2SGk42IZH4M1IjdWwU1dcProqGqs9` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-IpMkGVUTB854Vc4aejXnaRTe7d2jM7ELcOmgMRBEfN3G0tIt` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-vDRtMqGSKRoMIOEbecUvqJPsUeT8gQzNVr2e5cgzgIHAWrI6` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-07 |
 | `sk-UmlJRAbNBuaDk9tATuWg9Gy0MP6UEUMV8youZExCH6fyYfMe` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-on457cWLCjujFOdmXoZpwSyVxTmKxoiOQoiAgNlMj3LbRF4n` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
@@ -134,8 +128,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-tOs98YPpu39TvffdTybEe1sD2X2okvSe3q2d7nrXAbt8Fle1` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-ujgOn1VAAEHsUUZaBEo8sniMobQO3z8Sr5Jdj871hmfioNzt` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-6iHmuMiDuZ7NuMU0cvG6lfVAGigoYnxRyygCGGUgMCKl3E3W` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-G6HLoOOX79HMzTXFkERhXNdLQrUpRBUcydfbaJ2uwF0KRrea` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-Qdvm78Gd9A0g0XBioh2pycuLCtBddjXpifpSrKxzVtus3m9K` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
@@ -149,13 +141,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-P8KEOQFSX0hEtyesFgEC93MyWqJSu4dBCTxEky1oaWwPQs2V` | dall-e-3 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-YBqvyFrqan4tWNk9mOuqwKFKXFzotIC9Ej1VtSW6Zeq0hklS` | tts-1-hd | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-uhMkekkU4U6sUjUqi4zv1BzGtpPAOOaNqlFLKUvYyNxtzlO8` | rerank-v4.0-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-9YpRpymmCb7nW71En3TB93lSxzHBcrd02NSAKVHW2RCCJadf` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-07 |
-| `sk-uctbFhPG2egNJztZC0ZaaIPhBy0M9Jv0SLL1HyQ5BIBHL11h` | embed-english-v3.0 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-e8ghqzj2ir21QivMcEUzefqSxuZFhMNYC4559g0w2xM8dxnJ` | text-embedding-3-small | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-IjTIliQNC4D8eUWeTg4tdgUM6u4PfftzvP0doyrgRFWVMNqB` | embed-multilingual-v3.0 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-eeFth14fK8nQ6Yd2BkYP7loPCMkHS3IbK8jj6DK0sucmWCAF` | dall-e-3 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-vKk7ugjFiuGInKAKvHpdeNYTwEBtssmnAtad8T9T51fCntLV` | tts-1-hd | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-YkvI1ecQbZfhFFE9kJCTDGFHQbKNJzdKFowtaKo4MehES7ts` | rerank-v4.0-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
@@ -220,11 +205,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-9JWYhvTdfVRWqXvCoYrYTxizIHfJr05NoJ14kaOo7GXXWxot` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-07 |
-| `sk-eepiEoMlt2zoltVXEb3zUAqY21ftVAU0CcUuSz52MwBuH08h` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-07 |
-| `sk-Ykr1u127KmZg013brABlBsCuYohhJ9ocY85Ye76PHzN4jO1L` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-IStH0eAwpg20SaAgfcwt6NwDskZEbFHCxrDhBw1YCdHp7o3o` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-c0JbtM7cNIEXDyDlxUFKnf6cYZHV6hIMArTI2zR4u2Xwf8Fv` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-07 |
 | `sk-ichBVVmfljalnQfRTiYOscrm45TlFEnZo039xytcU6puw7mH` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-07 |
 | `sk-ugIvm3AUA57AgF6EJN3yzGyVwFJeTzCxfRVXewXS9XFKyJe8` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-07 |
 | `sk-fey1uEq74vceRgU7ugCgUeCFxhXXv1l7uCAOqIe11qYxln9p` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
@@ -283,10 +263,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-zR4i9aQrfbBv9UlxPejIqdbstHKjExWOb0oKAqtsHRuVlqMy` | glm-5 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-iVMpJn5QcdBUNlpr1rjHTJpQVhIM7HicmZsuOKimsSmIjbj4` | glm-4.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-caaqesGammaqUiUYFg3RXaFwiGAi6Jz9ziFjwyRcfcre4NyW` | glm-4.6 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
-| `sk-ecsd6vkavI1nWkHQbPcOodYL6eYW9J2Fgz3d8PBGUrQZL7da` | zai-org/GLM-4.7 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-XIaWxE9Kr2jo2lcOjyzAHHad2uQH0fSC49isype83UwlfRxu` | glm-5 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-BfvUI5VW1zXGRWXMg1sFb2ycjDCwQMrXzn5OwK8anlau1Gih` | glm-4.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
 | `sk-IPzk6mph6f1A4teIpJI0VpcG3NWHP8SEHGt4vkiEE5kFUoey` | glm-4.6 | 🆕 新增 | $50 | 5 RPM | 2026-04-07 |
