@@ -39,20 +39,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ---
 
-## Repository Role
-
-This repository is the **public distribution repo** for FreeLLMShare.
-
-- User-visible content lives here: `README`, localized READMEs, examples, issue templates, and GitHub Pages
-- The key list published here is the current public snapshot for users
-- Runtime services do **not** live here: token issuance, budgeting, cleanup, routing, and provider integrations are handled by backend services outside GitHub
-- A server-side maintenance service / publish script is responsible for refreshing this repo’s public key list and pushing updates
-- Internal planning docs, deployment notes, and debugging records are maintained separately from this public repo
-
-If you are a maintainer, treat this repo as the source of truth for anything users can see on GitHub or Pages.
-
----
-
 ## 📋 Available Keys
 
 > ⏰ Last updated: 2026-04-07 03:22 (UTC+8)
