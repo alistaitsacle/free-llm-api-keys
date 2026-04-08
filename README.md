@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-228-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-227-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-08 10:00 (UTC+8)
+> ⏰ Last updated: 2026-04-08 10:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -276,7 +276,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-fxODSvFDSRwkJh9HsgjLh13xON0YL7Q8XuGJSaqlWFlAEiSF` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-WAnaL3tv0xn8jKr9yVAiKS6inLQG2rwglQtubXw2Ht6bEo3O` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-FLCqsilkBJeZDBQ63HwjDYGTPG6QTtNmrjSbUIB6ExqGp6Fp` | glm-4.5 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
 | `sk-xF5hJ3dNOSXsPNCCIBlUarjzvgtmJSjZnv0PPndSYLbJC5zy` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-08 |
