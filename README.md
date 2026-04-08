@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-203-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-228-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-08 09:52 (UTC+8)
+> ⏰ Last updated: 2026-04-08 10:00 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -50,7 +50,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
-### GPT-5.4 / GPT-5.4-mini `04-08 06:30`
+### GPT-5.4 / GPT-5.4-mini `04-08 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -58,7 +58,8 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-y7JhtlI2jwg8rxYqJVTKW8S6Es1g9lxDacpPKeVuYMehXbLZ` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-09 |
 | `sk-CMCyZu6FnTTm74eMOmrGjo2D9UFZpP0OBNSHZPvCtwIeT23E` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-09 |
 | `sk-d96i7EN3dywipaOObz8nsos3uPRxGXkRj6KoIDqKm63WpJj3` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
-### DeepSeek V3 / DeepSeek R1 `04-08 06:30`
+| `sk-nnoik8GdcCuTsCaUzQo6QxxTFZisFHBrmpkKdOBHZFDaoHio` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+### DeepSeek V3 / DeepSeek R1 `04-08 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -89,8 +90,11 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-RoKPUXWo3xH9x8fHdRsCYzrtCvH1wd03io30Zhyu63LqoHxI` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-10 |
 | `sk-Xk0NSCRA2w7IIEPE8nLsSnAQxnYOK60xfrWxmfcEjfW3Z9AT` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-10 |
 | `sk-XCr814c4A1eXGGaXDvUi0rQVoXPRIdrI0Nm0T4ruQuXIyUbk` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-10 |
+| `sk-chVTxK7AfXOU3lFIHT268WszqQvj1W6J2P2ySqsIeAELAoEB` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-10 |
+| `sk-yjar0HSxaj93AbUxF8kej1201RIO1XglDBJ1ORECvs9Tz07n` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-10 |
+| `sk-SLdXnbWfdJfJmwEJJ7xowN15mcsrMgtXZrg0A74SPEmLHV6L` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-10 |
 
-### Mistral / Codestral `04-08 06:30`
+### Mistral / Codestral `04-08 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -119,8 +123,11 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-IN9bd9M8QySK9NR9AR2Yi56Tjkahjg80xwdhwD1PD3YOjDN5` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 | `sk-9LiyGiCgC0Tugg8ZbecB1by1MqkU2WaAiR0NbzIpYvwwBKw7` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-10 |
 | `sk-ZoIw9TyjRsOLyS0kOPyAvs8MQuW6To0ncVS2F8HJRprQn4gK` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-SUoyH6QUBDgi2iEl4IKjYndQ9Vegr4bsc188K7kxy8JJpzeu` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-10 |
+| `sk-g3vzL3qbIL4swT2CWBbwHkAdDUHrf6rJpQaNtlAq5e5OdBRo` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-KhCz0cHtDHqQWHITdYL8DIgY0mgWAGxPYy9a1chHeORegTPX` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 
-### Cohere `04-08 01:30`
+### Cohere `04-08 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -136,8 +143,10 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-6lo29jOjtE01nf8v3T4Y1X7ta9TWXVksAm9ZnJy1JK6CYjrT` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-09 |
 | `sk-qC1WED36vEMlcrsDVMRQgHgDcId01WTUEZndbeHU19XcFaSt` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 | `sk-AhrnFXkGj62hFAdhdYyd5xH987nsGlyztaL9ciFws2d7DHKF` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-YX0Y4eBnYiL63yZWvTNQS7pdogEO6kKvkPJek5vpexUA0s50` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-WogIMHTPfuLEYvUhpNbNd0mpka2xprkGqynbhfc3eTxbL2R5` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 
-### Image / Audio / Embedding `04-08 06:30`
+### Image / Audio / Embedding `04-08 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -196,8 +205,15 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-HDH6kEGufhjWJwPuCoXWPsCpXE9OWInZ7Z5XDctcLEO9uiqK` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 | `sk-f7i74JY3ilEYVDYZl1OuGCm797F4S96xoHPnJM9TEGzzgemK` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 | `sk-OBCJLUVPb68wMeJsSXQfHBZY9Mt5Q0h96GI6TWQ3vbB3X9Je` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-10 |
+| `sk-PLmxsiRKrMkbYmjSv9kctk1eTzpBzV2plIYFochQBKaceZuW` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-D5agDO9NrxN8tWz4SfhuCNG2mi09OGwmfdoxXM7oGRyCuBwI` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-686CdVzJviumkwAj222sdFamzcGozvZiqes4pcYJaQr6kChY` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-EyuPCxDiapJPtIWtHYyF4qgY6SOl7NMf4mU1txNhzNc6mEAE` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-10 |
+| `sk-DMmE3xMzmotyrbP6fJ4QuZtUVhv8Xxqolo3G8M8WEVL0lO0g` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-NVm5vBhTejFFbbMzMkOSHgRQtxgXFmSjmfkwkiekNBNoGjma` | text-embedding-3-small | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-YbdjyMIHe8FeqQMOutKDS1lYq0nty5eld48RWLH7OaoviEwl` | embed-multilingual-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 
-### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-08 06:30`
+### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-08 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -244,6 +260,11 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-6owqLJ87wtKITg1ZNzBjpXF4S42UnANYuMIo5sbyC4Zm1c6J` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-10 | 旗舰模型轮询 |
 | `sk-qSdlhE3pmGVIYDPgztkFkRxwAWwIW47DFEI7Y6JvNKZCV7H2` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-10 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-raUF5OMxX3EdLqLVTQFhbyk5ElPkeaKD0RtzJGz82AQwwj6I` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-10 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-nl98GucnZNt9oE4EAw2NaiI9gtQUd7kq0gokdZhr9wFcPStp` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-10 | 多模型自动轮询，不挑模型时用 |
+| `sk-tBqUs1iVqbXHEPBltNkU95UHOzDSAUcepByE00UOR03AWZqF` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-10 | 旗舰模型轮询 |
+| `sk-ydvcZlH5y7PGJ8JZQny5N21a9BK39wJvVaJxQDDMlS7SAqbx` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-10 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-cl5Y61WAUJ9DWByxcEfRcoVjPToINIRm9tbqjf9cOTgmmprK` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-10 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-cIaxVRDXPDBsDqTSEbOTbtPDAq6yL9kMGdeK33LOhtSzLMsZ` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-10 | Gemini 2.5 Flash Lite，轻量快速 |
 
 
 > 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New
@@ -251,7 +272,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 ---
 
 
-### GLM `04-08 06:30`
+### GLM `04-08 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -292,6 +313,10 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-waj9dPwNaWX6jmk24KhznKjIE5DGMTHgxfKNqhDH4n6hy5Qh` | glm-4.5 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 | `sk-VrI80J5rvdY7wgAXASK9bUfFGpOg0U8mpTAOw5iZ7IezcKC3` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 | `sk-eHh2TpKzJhHWpsVoQ2DJcAVMQ8LtWZodL374pBlVrDIDM1Xl` | zai-org/GLM-4.7 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-ia5XH3U7RVNv9j9jXLnGUzy7USef5QPZV4PUOQUOMMN4wnLI` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-ExQoKMgj3Ec5DbJ0WkKwuukp0pVn5byC6LAOJpVYTknFegkj` | glm-4.5 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-jvco2wy0eG6mnvHwYKXDiVrA4d6KoWEwnJCfnW0D4u1Cgzfv` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
+| `sk-6RdghYePMy4w26BGthDihy4Gq0YpMHE62yhJ7IW2xRT1svpZ` | zai-org/GLM-4.7 | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 
 ---
 
