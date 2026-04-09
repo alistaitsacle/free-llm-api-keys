@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-212-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-211-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-09 22:07 (UTC+8)
+> ⏰ Last updated: 2026-04-09 22:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -94,7 +94,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 |-----|-------|--------|--------|------------|---------|
 | `sk-2vrZHG3zKC8dOWVWrzeEq8KB9v6I0ZYiTx5oqK05sAvuBA1J` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-10 |
 | `sk-vRxmKr1uoss9HpbpyqcDkeql7EwpGEgAy5FZOLANPyNW7zET` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-10 |
-| `sk-UAIcXFf2Dz3PcWJrtm42Ahb8Tcev61lmY7lxFCecnIPWL4Nd` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 | `sk-8ZOLrfgum9rOZG0s8uG218qYAuikhiIy0sX7KlvgESmxjZAV` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-10 |
 | `sk-IN9bd9M8QySK9NR9AR2Yi56Tjkahjg80xwdhwD1PD3YOjDN5` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-10 |
 | `sk-9LiyGiCgC0Tugg8ZbecB1by1MqkU2WaAiR0NbzIpYvwwBKw7` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-10 |
