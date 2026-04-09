@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-213-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-212-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-09 11:37 (UTC+8)
+> ⏰ Last updated: 2026-04-09 11:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -117,7 +117,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-SBoM5KvMLE9B4diigNLmFEXneNdKxakokEDJUjuDOZJdQRSw` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-11 |
 | `sk-ATGtUDAIvua34WmGtV1nNngYXFlKJdVbmu3FyF2mtkRy4Pe9` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-11 |
 | `sk-2460WiTiaSylzjoPkjfJWeY0r0JKyO8nr7OsUGu8lExOD5gn` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-11 |
-| `sk-fLpCBCOAPPtnfnGLAprWGpQiCs7XNkdekcAmLBBISHVcsKfj` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-11 |
 
 ### Cohere `04-09 10:00`
 
