@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-224-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-223-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-11 01:52 (UTC+8)
+> ⏰ Last updated: 2026-04-11 02:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -55,7 +55,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
 | `sk-Z7bLilZaxj4DH9R5CFPc6RW2P3EwQzjbbAwNTlAVRRL9iMfL` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-12 |
-| `sk-wMTK9FrBjm1QL0kXnk6QS6cRpmEMbInCh4g0d5BtDgmChHMX` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-13 |
 | `sk-VpsoLdS7imTqQt3VidLqdNQrAvmOjsBTONPITMat4bmVRldp` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-13 |
 ### DeepSeek V3 / DeepSeek R1 `04-11 01:30`
 
@@ -492,6 +491,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-11
+- 🆕 Added 0 keys (), cleaned 2 expired
 - 🆕 Added 0 keys (), cleaned 19 expired
 - 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 2 expired
 - 🆕 Added 0 keys (), cleaned 1 expired
