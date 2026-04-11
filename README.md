@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-218-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-217-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-11 04:22 (UTC+8)
+> ⏰ Last updated: 2026-04-11 04:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -106,7 +106,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-w3KTPqwF67yIqTvIMAhEznUHgpSyCCQDcFtb9Rw9ZiAXAZrB` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-12 |
 | `sk-qD2vZcaqUtS5D4Ey0op9LXuhEZgOtP1gWFtwV8Rf3v1uPakL` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-12 |
 | `sk-8S8XGYqXTYBGMUChlJvr3rG7WwpB13WFctLNyxQUnrCbMIs8` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-12 |
-| `sk-G9fMGNv7b64xrcdxXhaadn0z4zj5qJ5nPWSbmXQkn80UQyHf` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-12 |
 | `sk-1mwq5o2Sat0X2xhXp2Dk1hY6kxdoiTmVn0tSxjSK4YnYyzA2` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-12 |
 | `sk-p4XKFs8Bfz8oZxdAmInGjlxHCHJCaBRwZkRh6nPtgv7zGHaD` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-12 |
 | `sk-3xJxzaHy3vuyiOk61owu1SIRnWlXM6JJZXwJEplegk833vPq` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-12 |
