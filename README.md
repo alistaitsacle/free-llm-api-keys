@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-13 12:22 (UTC+8)
+> ⏰ Last updated: 2026-04-13 12:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -54,7 +54,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-8fAMFQi12S3yP8z2m7BJGyRVRmkQgNJJ0XBvQRirpF9oUqTk` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
+| `sk-8fAMFQi12S3yP8z2m7BJGyRVRmkQgNJJ0XBvQRirpF9oUqTk` | gpt-5.4 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-15 |
 ### DeepSeek V3 / DeepSeek R1 `04-13 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
