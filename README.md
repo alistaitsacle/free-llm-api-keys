@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-214-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-211-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-14 16:22 (UTC+8)
+> ⏰ Last updated: 2026-04-14 16:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -95,7 +95,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 |-----|-------|--------|--------|------------|---------|
 | `sk-jBjh6H364p5KBkhq8u0GjpEeuWqXCql9LlyfziwAvuWDGpYP` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-35IlOMMYVQjrVHRlofhAC6cYygOyF5eRAOUadqwxPiAGKJ9D` | mistral-medium-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-15 |
-| `sk-c4vhd5hoZVsy7aX4QSkPg9EEZveE2tdpliTBFRI37z2qKRxL` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-15 |
 | `sk-C4bzFzIy6fRHo1Dr3SOZJEInehG9Bqnxj61Hy29QudtBxrSf` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-mI3ikf0MUHUOBvSERbRQ11kwQKrT1Vlmn3nhVykZO5Br7H9W` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-v3wPOCRUW4YyZmjf5RLSZgCn7n4lxqaWeAm1v73QZwnOQGyp` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-15 |
@@ -104,11 +103,9 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-oBnCwfKDi5dh23FLJVf4gOniK6DKbLGkdy7eLuirR9IUS6TZ` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-1f6xB2E016KfKt7LpSg5DICKXFaPf2IctCryzlrObueyJEMn` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-jlqf2SgIzzNzzuaUyeqHpx2cpiKmnB3TfyObAB27kQhgm4z7` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
-| `sk-tpnCWoxI7qKT4lZ4h8ktsJ1DoIMAFUMzq9lavSEAZWQ6mwB4` | devstral-latest | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-16 |
 | `sk-umwo7aHf39xeZS6oQHYK0XwYkeEnoQM2Dqvn4Oc6HM8zaayG` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-nruOBgWRh73A8z3yJjYZETZaveqjxmkQAzU4VZJWfsCJqrzH` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-2stu0jt3j9nqpxWb6yn0NdeyTmvWQHibzhXzJ89cj88adhUp` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
-| `sk-73pDd78ssDtfFcuRp4ejXAN5g5Ik12PrvG2LGyql93jatDG9` | devstral-latest | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-16 |
 | `sk-wgT4ZndFA6uwl8ik30lHv9PlEsqf2O1qk9ZgMSsdAayia25Y` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-latRx9U6EzsH35BJE6TU4wDgqieI2SKIzh8JtIzHHGpRvwzI` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-1owr80OWmnaFlNziiRaLOkYKgqd4EyOBAhcPCYVKRWYsz88g` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-16 |
