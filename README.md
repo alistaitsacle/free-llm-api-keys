@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-14 11:37 (UTC+8)
+> ⏰ Last updated: 2026-04-14 11:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -125,12 +125,12 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-e3JlnwQ2kDafi2GWeTYRGSdlYLlvqAvNhF1adq6PJ4adxEjW` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
+| `sk-e3JlnwQ2kDafi2GWeTYRGSdlYLlvqAvNhF1adq6PJ4adxEjW` | command-a-vision-07-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-15 |
 | `sk-GbdJCLi63ktD0XvNS3Y0u5IDW8pRAqOoO7fAH1dffmKjLcMJ` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-OdrY5aHMrPHhGJv8XEnj1z6dbrmPO2wCyofsKZCLJQrU7yI1` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-Nv2haezRG4FAT22nFX4TqfZX9Eoge0XSvlSdPFCF4SVJ3mAr` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-z0IhfY3tMjNkNf3wyTwfZe3YqKoO4Q0lAYYsTj03cGk0JWJH` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
-| `sk-icTCVEAwnjDyiyK625nXzW6GPZXus9rjTgt7DkVGxTcXByjK` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
+| `sk-icTCVEAwnjDyiyK625nXzW6GPZXus9rjTgt7DkVGxTcXByjK` | command-a-reasoning-08-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-15 |
 | `sk-MQiGLLxUbeCG16T19RTKEGBvajnH8EtgnD1zFyo3UYDQ54Qe` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-33NSPRlvb27c8PddQI5XG3OmyxQHuSjo2dfD4YJ5EF85X7eV` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-Gx5FKzKnFXFbnwvhjnpby2CHSPrslEbmJ5I1i4IGyRSPavk2` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |

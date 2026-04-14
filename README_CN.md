@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-14 11:37 (UTC+8)
+> ⏰ 最后更新： 2026-04-14 11:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -124,12 +124,12 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-e3JlnwQ2kDafi2GWeTYRGSdlYLlvqAvNhF1adq6PJ4adxEjW` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
+| `sk-e3JlnwQ2kDafi2GWeTYRGSdlYLlvqAvNhF1adq6PJ4adxEjW` | command-a-vision-07-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-15 |
 | `sk-GbdJCLi63ktD0XvNS3Y0u5IDW8pRAqOoO7fAH1dffmKjLcMJ` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
 | `sk-OdrY5aHMrPHhGJv8XEnj1z6dbrmPO2wCyofsKZCLJQrU7yI1` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
 | `sk-Nv2haezRG4FAT22nFX4TqfZX9Eoge0XSvlSdPFCF4SVJ3mAr` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
 | `sk-z0IhfY3tMjNkNf3wyTwfZe3YqKoO4Q0lAYYsTj03cGk0JWJH` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
-| `sk-icTCVEAwnjDyiyK625nXzW6GPZXus9rjTgt7DkVGxTcXByjK` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
+| `sk-icTCVEAwnjDyiyK625nXzW6GPZXus9rjTgt7DkVGxTcXByjK` | command-a-reasoning-08-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-15 |
 | `sk-MQiGLLxUbeCG16T19RTKEGBvajnH8EtgnD1zFyo3UYDQ54Qe` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-33NSPRlvb27c8PddQI5XG3OmyxQHuSjo2dfD4YJ5EF85X7eV` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-Gx5FKzKnFXFbnwvhjnpby2CHSPrslEbmJ5I1i4IGyRSPavk2` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
