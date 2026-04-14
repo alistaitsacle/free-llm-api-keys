@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-206-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-196-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-14 17:22 (UTC+8)
+> ⏰ Last updated: 2026-04-14 17:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -93,19 +93,11 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-jBjh6H364p5KBkhq8u0GjpEeuWqXCql9LlyfziwAvuWDGpYP` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-15 |
-| `sk-C4bzFzIy6fRHo1Dr3SOZJEInehG9Bqnxj61Hy29QudtBxrSf` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-15 |
+| `sk-jBjh6H364p5KBkhq8u0GjpEeuWqXCql9LlyfziwAvuWDGpYP` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-15 |
 | `sk-mI3ikf0MUHUOBvSERbRQ11kwQKrT1Vlmn3nhVykZO5Br7H9W` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-15 |
-| `sk-v3wPOCRUW4YyZmjf5RLSZgCn7n4lxqaWeAm1v73QZwnOQGyp` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-15 |
-| `sk-1f6xB2E016KfKt7LpSg5DICKXFaPf2IctCryzlrObueyJEMn` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-16 |
-| `sk-jlqf2SgIzzNzzuaUyeqHpx2cpiKmnB3TfyObAB27kQhgm4z7` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
-| `sk-umwo7aHf39xeZS6oQHYK0XwYkeEnoQM2Dqvn4Oc6HM8zaayG` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
-| `sk-2stu0jt3j9nqpxWb6yn0NdeyTmvWQHibzhXzJ89cj88adhUp` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
-| `sk-wgT4ZndFA6uwl8ik30lHv9PlEsqf2O1qk9ZgMSsdAayia25Y` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-16 |
-| `sk-latRx9U6EzsH35BJE6TU4wDgqieI2SKIzh8JtIzHHGpRvwzI` | mistral-medium-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-16 |
-| `sk-1owr80OWmnaFlNziiRaLOkYKgqd4EyOBAhcPCYVKRWYsz88g` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-16 |
-| `sk-fPwpGyMHvksQM79UFHfhCFfokUDxXo9eD7Dp2bkX2EF8XcFL` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-16 |
-| `sk-hNHG2WW0bLjCD5yAuXCbHzGXaOgJzc7h2xJr2A0VZAqMPuXL` | mistral-medium-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-16 |
+| `sk-v3wPOCRUW4YyZmjf5RLSZgCn7n4lxqaWeAm1v73QZwnOQGyp` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-15 |
+| `sk-wgT4ZndFA6uwl8ik30lHv9PlEsqf2O1qk9ZgMSsdAayia25Y` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-16 |
+| `sk-1owr80OWmnaFlNziiRaLOkYKgqd4EyOBAhcPCYVKRWYsz88g` | devstral-latest | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-16 |
 
 ### Cohere `04-14 13:30`
 
@@ -113,11 +105,9 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 |-----|-------|--------|--------|------------|---------|
 | `sk-OdrY5aHMrPHhGJv8XEnj1z6dbrmPO2wCyofsKZCLJQrU7yI1` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-z0IhfY3tMjNkNf3wyTwfZe3YqKoO4Q0lAYYsTj03cGk0JWJH` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
-| `sk-MQiGLLxUbeCG16T19RTKEGBvajnH8EtgnD1zFyo3UYDQ54Qe` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-Gx5FKzKnFXFbnwvhjnpby2CHSPrslEbmJ5I1i4IGyRSPavk2` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
-| `sk-Jr4ueKoUV7X26ZZKsULZ9paQTMMa2AxqWMpUzluubqNotIi2` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
+| `sk-Jr4ueKoUV7X26ZZKsULZ9paQTMMa2AxqWMpUzluubqNotIi2` | command-a-vision-07-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-16 |
 | `sk-Ci0JTS5dZYYPLNKndD5c1tkHQqENW98PylrdcCgm67UJFlEO` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
-| `sk-Y2t2Qj0d6a7ObpL5RuLigc61DMIDAjhxZaIketOG4jDmi8ua` | command-a-reasoning-08-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-16 |
 
 ### Image / Audio / Embedding `04-14 13:30`
 
@@ -474,6 +464,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-14
+- 🆕 Added 0 keys (), cleaned 11 expired
 - 🆕 Added 0 keys (), cleaned 6 expired
 - 🆕 Added 0 keys (), cleaned 4 expired
 - 🆕 Added 0 keys (), cleaned 18 expired
