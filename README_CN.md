@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-224-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-222-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-14 15:37 (UTC+8)
+> ⏰ 最后更新： 2026-04-14 15:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -92,7 +92,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-lJy9GG4hvv9qTjKSeKrq6GV2Oewu8ZpUnXXBoI5okhGxlv0Y` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-15 |
+| `sk-lJy9GG4hvv9qTjKSeKrq6GV2Oewu8ZpUnXXBoI5okhGxlv0Y` | devstral-latest | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-15 |
 | `sk-jBjh6H364p5KBkhq8u0GjpEeuWqXCql9LlyfziwAvuWDGpYP` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
 | `sk-35IlOMMYVQjrVHRlofhAC6cYygOyF5eRAOUadqwxPiAGKJ9D` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
 | `sk-c4vhd5hoZVsy7aX4QSkPg9EEZveE2tdpliTBFRI37z2qKRxL` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-15 |
@@ -124,14 +124,12 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
 | `sk-e3JlnwQ2kDafi2GWeTYRGSdlYLlvqAvNhF1adq6PJ4adxEjW` | command-a-vision-07-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-15 |
-| `sk-GbdJCLi63ktD0XvNS3Y0u5IDW8pRAqOoO7fAH1dffmKjLcMJ` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
+| `sk-GbdJCLi63ktD0XvNS3Y0u5IDW8pRAqOoO7fAH1dffmKjLcMJ` | command-a-reasoning-08-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-15 |
 | `sk-OdrY5aHMrPHhGJv8XEnj1z6dbrmPO2wCyofsKZCLJQrU7yI1` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
-| `sk-Nv2haezRG4FAT22nFX4TqfZX9Eoge0XSvlSdPFCF4SVJ3mAr` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
+| `sk-Nv2haezRG4FAT22nFX4TqfZX9Eoge0XSvlSdPFCF4SVJ3mAr` | command-a-reasoning-08-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-15 |
 | `sk-z0IhfY3tMjNkNf3wyTwfZe3YqKoO4Q0lAYYsTj03cGk0JWJH` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-15 |
 | `sk-MQiGLLxUbeCG16T19RTKEGBvajnH8EtgnD1zFyo3UYDQ54Qe` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-33NSPRlvb27c8PddQI5XG3OmyxQHuSjo2dfD4YJ5EF85X7eV` | command-a-reasoning-08-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-16 |
 | `sk-Gx5FKzKnFXFbnwvhjnpby2CHSPrslEbmJ5I1i4IGyRSPavk2` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-paFsHIm7Jdesn9aip9Q15FWDgWYfzAOLB9mW3blOnRodtJJF` | command-a-reasoning-08-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-16 |
 | `sk-Jr4ueKoUV7X26ZZKsULZ9paQTMMa2AxqWMpUzluubqNotIi2` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-Ci0JTS5dZYYPLNKndD5c1tkHQqENW98PylrdcCgm67UJFlEO` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-Y2t2Qj0d6a7ObpL5RuLigc61DMIDAjhxZaIketOG4jDmi8ua` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
