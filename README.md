@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-226-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-225-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-14 14:52 (UTC+8)
+> ⏰ Last updated: 2026-04-14 15:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -130,7 +130,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-OdrY5aHMrPHhGJv8XEnj1z6dbrmPO2wCyofsKZCLJQrU7yI1` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-Nv2haezRG4FAT22nFX4TqfZX9Eoge0XSvlSdPFCF4SVJ3mAr` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
 | `sk-z0IhfY3tMjNkNf3wyTwfZe3YqKoO4Q0lAYYsTj03cGk0JWJH` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-15 |
-| `sk-icTCVEAwnjDyiyK625nXzW6GPZXus9rjTgt7DkVGxTcXByjK` | command-a-reasoning-08-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-15 |
 | `sk-MQiGLLxUbeCG16T19RTKEGBvajnH8EtgnD1zFyo3UYDQ54Qe` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-33NSPRlvb27c8PddQI5XG3OmyxQHuSjo2dfD4YJ5EF85X7eV` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
 | `sk-Gx5FKzKnFXFbnwvhjnpby2CHSPrslEbmJ5I1i4IGyRSPavk2` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-16 |
