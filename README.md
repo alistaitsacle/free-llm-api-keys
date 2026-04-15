@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-15 02:22 (UTC+8)
+> ⏰ Last updated: 2026-04-15 02:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -101,7 +101,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
 | `sk-yJBZTlhPxhq9GtpwfSSsSzStfMmhFsOGH5eXu722kDJau6OV` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-17 |
-| `sk-SFB0vBVQxhYDX6n0zKHlU3m7LsGPjsJYu0XmBXO8XqKHtHe2` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-17 |
+| `sk-SFB0vBVQxhYDX6n0zKHlU3m7LsGPjsJYu0XmBXO8XqKHtHe2` | command-a-reasoning-08-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-17 |
 ### Image / Audio / Embedding `04-15 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
