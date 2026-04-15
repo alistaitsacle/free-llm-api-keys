@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-191-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-188-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-15 02:37 (UTC+8)
+> ⏰ Last updated: 2026-04-15 02:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -94,14 +94,11 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
 | `sk-hnhVwDeYkSdw1TLhqtCkFXluClo99Om2IBNrCK37C7vV6Vcv` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-17 |
-| `sk-x0tAXuHVpbRKY85JLL24o3d45RGXvYR2BfQFvrxxyqBnoROE` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-17 |
-| `sk-CJe3CWYJewq0ZQ6Yby1PqkrceFOVo9CA6gh4VrGh4FlKgZyd` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-17 |
 ### Cohere `04-15 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
 | `sk-yJBZTlhPxhq9GtpwfSSsSzStfMmhFsOGH5eXu722kDJau6OV` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-17 |
-| `sk-SFB0vBVQxhYDX6n0zKHlU3m7LsGPjsJYu0XmBXO8XqKHtHe2` | command-a-reasoning-08-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-17 |
 ### Image / Audio / Embedding `04-15 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
@@ -457,6 +454,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-15
+- 🆕 Added 0 keys (), cleaned 4 expired
 - 🆕 Added 0 keys (), cleaned 2 expired
 - 🆕 Added 0 keys (), cleaned 20 expired
 - 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
