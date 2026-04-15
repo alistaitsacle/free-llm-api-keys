@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-198-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-195-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-15 07:37 (UTC+8)
+> ⏰ 最后更新： 2026-04-15 07:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -93,8 +93,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-48qNc8MiYr2ZpNQuU6ncKf4gp0FogsxehncI7xWUCM1oYKNe` | mistral-medium-latest | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-17 |
-| `sk-gRS1ymZukaA2xo2qRiKFFincyT1ruwa6SV0oVl37S7W2Oziq` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-17 |
 | `sk-ph9klNOIoMJEua5H3DTRyKm6ZBHsDplhS4RB7VgjYJKp8BHG` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-17 |
 ### Cohere `04-15 06:30`
 
@@ -103,7 +101,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-yJBZTlhPxhq9GtpwfSSsSzStfMmhFsOGH5eXu722kDJau6OV` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-17 |
 | `sk-zM3eJFgZeAw4MfLU1Z3yNe59CZgCOHYwIMlMfipIFqmrJzey` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-17 |
 | `sk-PIUCfRPcRYJlMQLSMGNp8gRdi940VLm3zTgpWFtneYsC2Z6I` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-17 |
-| `sk-hJmpux9sG0ZwtBn3PzpqGtCqFzIOpabwKXL41qahLfAoDaSt` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-17 |
 ### 图像 / 语音 / 向量化 `04-15 06:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
