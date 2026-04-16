@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-16 09:37 (UTC+8)
+> ⏰ 最后更新： 2026-04-16 09:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -96,7 +96,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 |-----|------|------|------|---------|---------|
 | `sk-11pyKmKwCtJDJ9x4MarqqhSgQ7pk5Rmam4nuNpJPHrzq2dWY` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-18 |
 | `sk-YOZxwIcimLyloeBP2Rv8aV4WhYYlAoenP74aMRKuR5ro7vMr` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-18 |
-| `sk-1wB5lwteOXy0VEIJJwAWaUtswfTlcCDBqLH5U5LhQmFknYHr` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-18 |
+| `sk-1wB5lwteOXy0VEIJJwAWaUtswfTlcCDBqLH5U5LhQmFknYHr` | command-a-vision-07-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-18 |
 | `sk-bUqvER9LKWfy428rWscrquXIUJbycop5eVHrCs1pHlgak1YV` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-18 |
 ### 图像 / 语音 / 向量化 `04-16 06:30`
 
