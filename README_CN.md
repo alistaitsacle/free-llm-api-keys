@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-171-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-170-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-16 08:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-16 08:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -186,7 +186,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-ZRberwyf9A9IHx67jFTPkTuXQnMg2ZkSHEYMnDyTx9Mhr1RW` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-17 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-cR9bRXsDzLT3OPsEHHfyUEAt3wjsFE5iLs05VdQ7MNnvxEq4` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-17 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-iuc0m0ZKbvIpkAfHkndzNasKVcKNFtNNLa7Hj2cMq5eq76j5` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-17 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-6TcjPKWNr6PwiPqpQg8CbzS1LnWxT8CgE5CSaSRTLpKL9w6Z` | smart-chat | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-17 | 多模型自动轮询，不挑模型时用 |
 | `sk-FR196w5b4zxlL13xcnFzRq4idTEUK38rFnRB11GzwmmSHYDD` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-17 | 旗舰模型轮询 |
 | `sk-SxGPsiDtzTUChBCh4xDZs175izgA2x98X0xne55XMYC0HYPb` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-17 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-sGcJzl4sz8P1wWeJcnpCIKym30AW0Woi2KGc3G1r0IuifZDx` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-17 | Gemini 2.5 Flash，低延迟通用 |
