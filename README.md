@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-16 20:07 (UTC+8)
+> ⏰ Last updated: 2026-04-16 20:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -200,7 +200,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-rPT6c4j5iUM9BxHmstQ5acEhnxF4VYdtzv5FCfNcHpQuXB2U` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-18 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-Aey6JE9jGROJplhoSS6o1ZtqY1oEtaxCWtKfzYpfzhAAkJQS` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-18 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-iZcXO6S0EV7xq9iDQ66nC69TFToR2TWQ5uJXIh5zIJ7cWm3s` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-18 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-aPuqZ8E668FvqKU7tU6nABl60cXIfChExSVvSEAGNvyS8rJv` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-18 | 多模型自动轮询，不挑模型时用 |
+| `sk-aPuqZ8E668FvqKU7tU6nABl60cXIfChExSVvSEAGNvyS8rJv` | smart-chat | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-18 | 多模型自动轮询，不挑模型时用 |
 | `sk-gYvFc7ItW2LYeeRSuCxUTUQSDfqe7Pzt2SeKZYGP52uWA5rM` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-18 | 旗舰模型轮询 |
 | `sk-OAMBsCXwKrerygLenXFTlQOonkTyAzbDjtgmHeIv6HJfi9t9` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-18 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-aAwXVuLJ5R2fNosqDvCAgOE13qjAxqxTJNs0uxNNpe4uC4ND` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-18 | Gemini 2.5 Flash，低延迟通用 |
