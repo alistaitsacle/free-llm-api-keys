@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-201-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-182-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-16 04:00 (UTC+8)
+> ⏰ 最后更新： 2026-04-16 04:07 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -59,9 +59,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-bdqzhIeZIg38rHDmLbHYpvNGf7uezj2ceS4pMUOmV8Pbg1rn` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-16 |
-| `sk-zokEsSGzl4uTnAKO73nuNxuymYMZFynhZnS2QNAZBm51sHzF` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-16 |
-| `sk-tsgmPaKs0dxGpyRbyU6UVIkyX2RJsq4ezbBBrbDLvgAIyIjr` | deepseek-reasoner | 🆕 新增 | $20 | 5 RPM | 2026-04-16 |
 | `sk-3gfETXOMJ9urYxdysdYSI6fn1M7nu6XWE76xmsN1zgaRiCoJ` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-16 |
 | `sk-relxuaECmwhrPT1zPh0cwWxccMrpSp6R4bAP1QMTJgCwBhMM` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-16 |
 | `sk-vOs2Q4hgHiW35zoSmNwPUumHEnK88vJNHolrTrD1FblvFT5S` | deepseek-reasoner | 🆕 新增 | $20 | 5 RPM | 2026-04-16 |
@@ -111,13 +108,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-8fraHz4PEx4Q3zcJ38VMTcMf9VRG8FiblKZUyArrBSo683XB` | dall-e-3 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-nvIN2sqVDhrrLsfQBRXc2U4wv5IxkwBCKaL1eIKXwdfKLFBc` | tts-1-hd | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-hSwGzjUN4Bn6tqU386N6f0qarnBd3KMtm6JkEcq6qgPfeTkI` | rerank-v4.0-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-JO2e7CfjsuqaecBlymHpPs8qkyRkq77SLzsobRYEQeXphIAb` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-16 |
-| `sk-79sFOuDeqjkQpSF9TlpcwyT2CtQeTU7vjGI0jjz7e0IO5cVn` | embed-english-v3.0 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-mkUHgOa0aWFpxkvPjnENs6ksqE9GVw4wiO2sYtTSyP73pE8V` | text-embedding-3-small | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-PGxsqpqjOd1ZXMkev9bOKWue6TJK1U2xD2KmSDvrgmG08Aie` | embed-multilingual-v3.0 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-wvaugpB8sY3WSoUqI4hzCgOzPTPIeTT3f2XZje1VgNPk3WIV` | dall-e-3 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-OERdcSzRjPWA3ljawO24bVPP0HGVeDXmFZj9ZYg5RrEZsn8V` | tts-1-hd | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-uwgeivbS3zC4OwuVrRpxYLdpvRsQ79Zee9OxjhyNTvvurkQi` | rerank-v4.0-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
@@ -186,11 +176,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-yzeGNvDUPGnhw3BOTXykSByCjEWds1f6LfkW7Tdg2J4ZknqE` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-16 | 多模型自动轮询，不挑模型时用 |
-| `sk-r35KzRvC8k4u8aXEw9uHzlAmX74Q3w1DEAip4zTSQGXlmNZ9` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-16 | 旗舰模型轮询 |
-| `sk-lspJKp2gY2vaWgG4uPD5jjO6M3QxF0NWXBUby1nOHEqu5eDZ` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-16 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-nllCTq6FuLPdZY4BEoWc0PmlsQDBcWv0w11UwKEpA2ZXc6uC` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-16 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-K5zUOTbore50N6QiEAtV1xQQCi226grvNB4lQd7s3h4cS36E` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-16 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-pH7SAownGE7aGDImFFGx14KmhCtn2A1fFWAje1GJ4M5lZDhO` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-16 | 多模型自动轮询，不挑模型时用 |
 | `sk-bvc6Ze84qGF74EXDLL4e8BDKGRFHQPMnJQPhbNktYjIuMUha` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-16 | 旗舰模型轮询 |
 | `sk-ZNtwBPcxppumj2z2lp0XvfXH0d4dcu5WPkBedOT4QrFo0B3H` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-16 | Gemini 2.5 Pro，高质量复杂任务 |
@@ -247,10 +232,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
-| `sk-ENxpe0m4S1W1EtENHiKEFq4CbTu3OfBJUJZ7YQ2d1jiOKzJ1` | glm-5 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-IwqMf6jnAWl1rNmnDwgVaCT6MplI9Y5QzALB7tuinZ7JqUHc` | glm-4.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-tL57UdlVCVWW5a0AYgIphmnvKPLtuaeVyy0ovCIwKvfnPew9` | glm-4.6 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
-| `sk-nagZgwbvR365IfNDb1UPfspmVp2V5UQpPb8FHlqLn2pRL0US` | zai-org/GLM-4.7 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-JJchX2P4hvVAmUBRsZP2Rk1JUpjn3eoR0voAcUtiZPm8sNqo` | glm-5 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-TFMXmKTbFbIgPkqRmOImVAbYKSwjkAfztTjR1Nkx2l5OKsGN` | glm-4.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
 | `sk-XPIWWGNEaDLgKAA5W8SuSHyro3mCxijrkVohNOlshhJUxP8d` | glm-4.6 | 🆕 新增 | $50 | 5 RPM | 2026-04-16 |
