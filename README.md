@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-16 11:07 (UTC+8)
+> ⏰ Last updated: 2026-04-16 11:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -92,7 +92,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-tOWRP0N3u9vgeYNCx2psIiVnqCzGcm7OIkWMjKCrp7j72AaV` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-18 |
+| `sk-tOWRP0N3u9vgeYNCx2psIiVnqCzGcm7OIkWMjKCrp7j72AaV` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-18 |
 | `sk-9t71LWmlUhLyV4LT9hVQzVXxewAWIk5QzxuejJn4emCyuquK` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-18 |
 | `sk-65SpSdYHRtjkSQnsjWJiRejJSplKoWuqqac1wc4u4UgdnctP` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-18 |
 | `sk-mbFBDJsI9ydjzYOmTMEgWaB1Ad0BgMSknfnHiGPflz2LiUMT` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-18 |
