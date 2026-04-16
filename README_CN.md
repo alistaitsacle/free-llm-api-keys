@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-16 04:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-16 04:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -186,7 +186,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-iyqDBrhkM6Z9WaMXdTMIR2G90D911b9RfrX2rl8Urjy7Fz0a` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-16 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-VAAvXqYkqhCAFJPsWieLFcNZ9aW7fVKzSaJc1eR16evD66XY` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-16 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-IFuWatneB0EhtfSGOBZ97IcSbd1fQK759aR84YUQ0mYL368l` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-16 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-BIyRNRWfaoshLP04AhHK3B3HQnlDEKYpq23HHSednw5FphFk` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-16 | 多模型自动轮询，不挑模型时用 |
+| `sk-BIyRNRWfaoshLP04AhHK3B3HQnlDEKYpq23HHSednw5FphFk` | smart-chat | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-16 | 多模型自动轮询，不挑模型时用 |
 | `sk-5CKj3UkMxUBNXuIBJ4J06xh9unrPDS2iFu6YhZjOR7mpTD8h` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-16 | 旗舰模型轮询 |
 | `sk-iY6psIHa315z1MVMZ8mLAVTJ9hqkn5FKZy6128lJo0IrlCuz` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-16 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-a220dtwCawA0Vqm5JENualQAplCAl6abkJ7bq5eogG35Y3ea` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-16 | Gemini 2.5 Flash，低延迟通用 |
