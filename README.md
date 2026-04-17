@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-208-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-207-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-17 21:22 (UTC+8)
+> ⏰ Last updated: 2026-04-17 21:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -62,7 +62,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-vlqqTiRZtzIA4yP2SA00vPq0xwL1Ey6M1TPNxeYqi5hLjJSS` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-y0adL9jr9iVsKNi9WFmTM6bBlnburR6wyXElzNESotWqDPx7` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-6ypBOb6HgoHDjjHHbWEMe33vZ4fCE0o8nPJ7GVtEqjtf7N5X` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
-| `sk-gcbj4Id327Xr6k5bqBoHaYkUXhRDgoLTFr3U1kmAiYpI6k92` | deepseek-reasoner | ⚠️ Low Budget | $20 | 5 RPM | 2026-04-18 |
 | `sk-T0EqFNuRneKVrP2swFw7jRikhvIE7B35B8JCe7987b4kDmgv` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-NHFH1KLnCYKTiG6ZZGlGu8KE0jEUFMz3nW3ry6eC3U9ZSOIG` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-ePuOfj8YtaWKthchx3gbVGadCUDrC7IMlYCzG97HqhvYRD6K` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-18 |

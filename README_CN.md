@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-208-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-207-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-17 21:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-17 21:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -61,7 +61,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-vlqqTiRZtzIA4yP2SA00vPq0xwL1Ey6M1TPNxeYqi5hLjJSS` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-18 |
 | `sk-y0adL9jr9iVsKNi9WFmTM6bBlnburR6wyXElzNESotWqDPx7` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-18 |
 | `sk-6ypBOb6HgoHDjjHHbWEMe33vZ4fCE0o8nPJ7GVtEqjtf7N5X` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-18 |
-| `sk-gcbj4Id327Xr6k5bqBoHaYkUXhRDgoLTFr3U1kmAiYpI6k92` | deepseek-reasoner | ⚠️ 额度低 | $20 | 5 RPM | 2026-04-18 |
 | `sk-T0EqFNuRneKVrP2swFw7jRikhvIE7B35B8JCe7987b4kDmgv` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-18 |
 | `sk-NHFH1KLnCYKTiG6ZZGlGu8KE0jEUFMz3nW3ry6eC3U9ZSOIG` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-18 |
 | `sk-ePuOfj8YtaWKthchx3gbVGadCUDrC7IMlYCzG97HqhvYRD6K` | deepseek-reasoner | 🆕 新增 | $20 | 5 RPM | 2026-04-18 |
