@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-217-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-214-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-17 15:22 (UTC+8)
+> ⏰ Last updated: 2026-04-17 15:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -94,14 +94,11 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-tOWRP0N3u9vgeYNCx2psIiVnqCzGcm7OIkWMjKCrp7j72AaV` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-18 |
 | `sk-9t71LWmlUhLyV4LT9hVQzVXxewAWIk5QzxuejJn4emCyuquK` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-18 |
-| `sk-65SpSdYHRtjkSQnsjWJiRejJSplKoWuqqac1wc4u4UgdnctP` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-18 |
 | `sk-mbFBDJsI9ydjzYOmTMEgWaB1Ad0BgMSknfnHiGPflz2LiUMT` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-18 |
 | `sk-jpTBqUdVJnbMcYF33tayCf117lW61K3JTd19ZCRb9HO1RRrO` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-18 |
-| `sk-XUi82jJ3NOnAInMRTxjdcxqYYOUgGOpNYtyKngLBf39hL97m` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-18 |
+| `sk-XUi82jJ3NOnAInMRTxjdcxqYYOUgGOpNYtyKngLBf39hL97m` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-18 |
 | `sk-FjjMwmq1lOoPE7QAcmcgxnDCGDw1Lo9SYDE0MudwLinS9i9V` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-19 |
-| `sk-8ppVhrpoeeGXcR1tDBOWQZtZmKMO8AqjwLviGldD1UafJvtE` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-yeF8QdcjnhSZDWPNpHpfSFb42shAnjYXRbniyy6yTEh5zeL6` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-BtYTk8xfaVUlZMzqclB3XCKMkqhrASi1XaHY5By04I6so7t6` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-19 |
 | `sk-cK3RNZ8YHPDfickARijEjp8GCGcjhkcQ880mc6vfEj1ToVOi` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
@@ -483,6 +480,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-17
+- 🆕 Added 0 keys (), cleaned 4 expired
 - 🆕 Added 0 keys (), cleaned 19 expired
 - 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 1 expired
