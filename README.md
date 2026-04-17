@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-179-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-178-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-17 02:07 (UTC+8)
+> ⏰ Last updated: 2026-04-17 02:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -209,7 +209,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-nPpPMmDoM7Nh94nZQNuxgeenO1P1L30soALAsj6l5ltg77Xi` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-18 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-KbRuK4GoIGjuB88M6mBr5w7vpKhfq3HNuqmuypb8JNfXzoOO` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-18 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-xztFYDNZVuQOIkODDQ2guYgupSqnVTAjShItFlQaeNBK1vYg` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-18 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-ihbIsi7i5JUXWmfSwwrdud2c6sF4pW4JwuZvUjTxP6Bwr0cq` | smart-chat | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-18 | 多模型自动轮询，不挑模型时用 |
 | `sk-qGneiTTlqxXFgbPP4uPCWoA5kizLdTWDHel1bGDH58wuYrHE` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-18 | 旗舰模型轮询 |
 | `sk-qs1THDEasVM9LqLs1O51apUUrJZdPKuuL5zwPwJQX0HtOryk` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-18 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-pdfMOi4i6Qvro70rBUZSvlw30t2OgWRWOFbkMreKHpU9GFuu` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-18 | Gemini 2.5 Flash，低延迟通用 |
