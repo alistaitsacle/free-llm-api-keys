@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-17 10:37 (UTC+8)
+> ⏰ Last updated: 2026-04-17 10:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -61,7 +61,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 |-----|-------|--------|--------|------------|---------|
 | `sk-5zKvAWjJTAiYAWmEHwLtEnYm8Bm4rG7BiSm9dN3WRuS1AceQ` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-vlqqTiRZtzIA4yP2SA00vPq0xwL1Ey6M1TPNxeYqi5hLjJSS` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
-| `sk-k1a9FjZtfjdTyyr6PhBPBSsUcUqWF48qGGSWZBSgImfooGC1` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-18 |
+| `sk-k1a9FjZtfjdTyyr6PhBPBSsUcUqWF48qGGSWZBSgImfooGC1` | deepseek-reasoner | ⚠️ Low Budget | $20 | 5 RPM | 2026-04-18 |
 | `sk-y0adL9jr9iVsKNi9WFmTM6bBlnburR6wyXElzNESotWqDPx7` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-6ypBOb6HgoHDjjHHbWEMe33vZ4fCE0o8nPJ7GVtEqjtf7N5X` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-gcbj4Id327Xr6k5bqBoHaYkUXhRDgoLTFr3U1kmAiYpI6k92` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-18 |
