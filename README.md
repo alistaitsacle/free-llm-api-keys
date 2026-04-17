@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-213-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-210-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-17 15:52 (UTC+8)
+> ⏰ Last updated: 2026-04-17 16:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -97,18 +97,15 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-9t71LWmlUhLyV4LT9hVQzVXxewAWIk5QzxuejJn4emCyuquK` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-18 |
 | `sk-mbFBDJsI9ydjzYOmTMEgWaB1Ad0BgMSknfnHiGPflz2LiUMT` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-18 |
 | `sk-jpTBqUdVJnbMcYF33tayCf117lW61K3JTd19ZCRb9HO1RRrO` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-18 |
-| `sk-XUi82jJ3NOnAInMRTxjdcxqYYOUgGOpNYtyKngLBf39hL97m` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-18 |
 | `sk-FjjMwmq1lOoPE7QAcmcgxnDCGDw1Lo9SYDE0MudwLinS9i9V` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-19 |
 | `sk-yeF8QdcjnhSZDWPNpHpfSFb42shAnjYXRbniyy6yTEh5zeL6` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-BtYTk8xfaVUlZMzqclB3XCKMkqhrASi1XaHY5By04I6so7t6` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-19 |
-| `sk-cK3RNZ8YHPDfickARijEjp8GCGcjhkcQ880mc6vfEj1ToVOi` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-pVnC57tQJJfxzuXBMhpTWTgpS1jBR1S330GHDtdv0KNlePDT` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-3TLc2hZXOUCRQkvBx6HOHE9pTc42DWJjYPcCYTVdktg9M9jU` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-19 |
 | `sk-JTfouhlv9xbIvG7Od9A8SwUgMt6pmM6p6C1bh34YsGLMh5WM` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-NN2QGEycdptVBdrkhMbbOGANqqznRhbqp5M2LJdSwc0SYkRH` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-19 |
 | `sk-pqs5gtbNbg0Qmyt0vDxAIxgbpzPh3PB8WnpG5hvE8Ceg5J4R` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-4IbuYNfBzYvGgINxbrVfSuu8gxCCbcKeZ5WohwnYGun1wZyq` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-19 |
-| `sk-yJlIqJpfs1d3L95DGZEXTlPCI5OaLYJ33AQEr2I1c5UrUdMb` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-wDC7gXwvm7WDX0cMCeoqbNt1XSxXx7mUPplZ2lovSSXFIqgu` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 ### Cohere `04-17 13:30`
 
