@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-207-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-205-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-18 11:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-18 11:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -114,12 +114,10 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-KDXc4fnxteWtfUyfy1yg7Cwl7x6ZiWtZcGPnzM40w1flDaGE` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-19 |
 | `sk-fMoaZx57kL3cBdOKm5M2TGyjSoYwkvGza8hKzlCowd5FmlVv` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-19 |
 | `sk-3mzz0qilbX4DUcz1Ae0g1mIVbMR20m0wbSEj1zCiHFLjDT8Q` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-19 |
-| `sk-X1bQQUK32Umf8uhYdC4DCMtrYf62CvkD2a3dXvtZyNcK2uKA` | command-a-reasoning-08-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-19 |
 | `sk-TN6CggJacucpGSkuc0w9f5yrJUCoc1VgPBivejpFrOSKQBJ1` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-19 |
 | `sk-Mb9AAHUUWBn8ZLjqaSi0yC54Sg12ysFw19lk9HIm8BR2D823` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-19 |
-| `sk-d6ErWcaNjYg7DfXL0tbgW8TsAcOt69698N2sFf1y43wsHx61` | command-a-reasoning-08-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-19 |
 | `sk-bIhSZTNqVa5bqEmhh8WCTZ8UYRe1qkc2Tz8EDARHa6ZCGIPv` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-20 |
-| `sk-fN1sei0jxIin1LY4dnJPPG8eH9uCKUqZ0POTt4dzxVmbgkaP` | command-a-reasoning-08-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-20 |
+| `sk-fN1sei0jxIin1LY4dnJPPG8eH9uCKUqZ0POTt4dzxVmbgkaP` | command-a-reasoning-08-2025 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-20 |
 | `sk-HC7xubMqIVXIl2DvyAZSoRe9jQifANkAyH6RIqSDewVpWVqx` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-20 |
 | `sk-PJ4pXGVwqB7PXu7MdViIgQbQdN1CWMOWxP99iN8O7znQ2h42` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-20 |
 ### 图像 / 语音 / 向量化 `04-18 10:00`
