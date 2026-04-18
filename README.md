@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-223-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-222-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-18 07:07 (UTC+8)
+> ⏰ Last updated: 2026-04-18 07:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -63,7 +63,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 |-----|-------|--------|--------|------------|---------|
 | `sk-pj8Dt7IIALuNb2uFcFmcuVO4VkduxHi2FqpxaN6llIIgFzpy` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-nxMh9aetpTyEl6CQ3NWPyCBoMS5IyMj10UoS4I53qYy7SJYA` | deepseek-chat | ⚠️ Low Budget | $20 | 20 RPM | 2026-04-18 |
-| `sk-8TkALPLoO2MFveTjj77VsjmTxNxzbQDGMwB8Ud4P40RCVhxp` | deepseek-reasoner | ⚠️ Low Budget | $20 | 5 RPM | 2026-04-18 |
 | `sk-8ZbZSwm2h9GnJrSY5tfi2wcgNq760hIonkhg0Iwn4N5Fnr8F` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-BvM1aWpaKBm5I3pmAE0y9YOGyJOpPq7xEOqRyr8wurMM0zn5` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-18 |
 | `sk-dcQsk3vIqxdHoYZ8beT8sMvVNGt6W1jImVtU7kepZyzvNOGV` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-18 |
