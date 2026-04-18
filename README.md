@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-212-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-207-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-18 11:07 (UTC+8)
+> ⏰ Last updated: 2026-04-18 11:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -113,21 +113,16 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 |-----|-------|--------|--------|------------|---------|
 | `sk-CENgWESFPMsI3cJR0IzWtfmQw63TOTR3bfQ9synhDHU78Vl3` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-18 |
 | `sk-KDXc4fnxteWtfUyfy1yg7Cwl7x6ZiWtZcGPnzM40w1flDaGE` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
-| `sk-YeRSRhMvqn9RKmCrcITRCIjfKfcPKbuefM1jsD76m2cMou9H` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-fMoaZx57kL3cBdOKm5M2TGyjSoYwkvGza8hKzlCowd5FmlVv` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
-| `sk-57Bp1aS4RNF9eeXA85MJZdALnr6f8NtL1BssdYuZPaWQqlOq` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-3mzz0qilbX4DUcz1Ae0g1mIVbMR20m0wbSEj1zCiHFLjDT8Q` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
-| `sk-X1bQQUK32Umf8uhYdC4DCMtrYf62CvkD2a3dXvtZyNcK2uKA` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
+| `sk-X1bQQUK32Umf8uhYdC4DCMtrYf62CvkD2a3dXvtZyNcK2uKA` | command-a-reasoning-08-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-19 |
 | `sk-TN6CggJacucpGSkuc0w9f5yrJUCoc1VgPBivejpFrOSKQBJ1` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
-| `sk-JsQK2lvhcZcrSv0N7m7wLRKRwIv5oS08UzoOuF9zuCq3F9ty` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-Mb9AAHUUWBn8ZLjqaSi0yC54Sg12ysFw19lk9HIm8BR2D823` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
-| `sk-d6ErWcaNjYg7DfXL0tbgW8TsAcOt69698N2sFf1y43wsHx61` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
+| `sk-d6ErWcaNjYg7DfXL0tbgW8TsAcOt69698N2sFf1y43wsHx61` | command-a-reasoning-08-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-19 |
 | `sk-bIhSZTNqVa5bqEmhh8WCTZ8UYRe1qkc2Tz8EDARHa6ZCGIPv` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-fN1sei0jxIin1LY4dnJPPG8eH9uCKUqZ0POTt4dzxVmbgkaP` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-HC7xubMqIVXIl2DvyAZSoRe9jQifANkAyH6RIqSDewVpWVqx` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-NkEB8yYg1Egp9z0HQPv0LBAyfjSFnibbKPxygBhX0vSBZrOq` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-PJ4pXGVwqB7PXu7MdViIgQbQdN1CWMOWxP99iN8O7znQ2h42` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-wNWvXJumGtGL5LQ9ij94QSJtV1wNaxWFiXhahQQp2GS8EioZ` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 ### Image / Audio / Embedding `04-18 10:00`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
@@ -478,6 +473,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-18
+- 🆕 Added 0 keys (), cleaned 6 expired
 - 🆕 Added 0 keys (), cleaned 22 expired
 - 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 4 expired
 - 🆕 Added 0 keys (), cleaned 5 expired
