@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-205-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-204-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-18 13:07 (UTC+8)
+> ⏰ Last updated: 2026-04-18 13:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -118,7 +118,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-TN6CggJacucpGSkuc0w9f5yrJUCoc1VgPBivejpFrOSKQBJ1` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-Mb9AAHUUWBn8ZLjqaSi0yC54Sg12ysFw19lk9HIm8BR2D823` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-19 |
 | `sk-bIhSZTNqVa5bqEmhh8WCTZ8UYRe1qkc2Tz8EDARHa6ZCGIPv` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-fN1sei0jxIin1LY4dnJPPG8eH9uCKUqZ0POTt4dzxVmbgkaP` | command-a-reasoning-08-2025 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-20 |
 | `sk-HC7xubMqIVXIl2DvyAZSoRe9jQifANkAyH6RIqSDewVpWVqx` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-PJ4pXGVwqB7PXu7MdViIgQbQdN1CWMOWxP99iN8O7znQ2h42` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 ### Image / Audio / Embedding `04-18 10:00`
