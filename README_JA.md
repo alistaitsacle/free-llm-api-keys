@@ -100,6 +100,12 @@ print(response.choices[0].message.content)
 
 ---
 
+## 🔗 関連する無料リソース
+
+- **[free-vpn-subscriptions](https://github.com/Au1rxx/free-vpn-subscriptions)** — 毎時自動更新される Clash / sing-box / v2ray 購読リンク。全ノード TCP プローブ済み、レイテンシ順にソート。登録不要、バイナリ不要。
+
+---
+
 ## 📜 License
 
 [MIT License](./LICENSE)

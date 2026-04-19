@@ -100,6 +100,12 @@ print(response.choices[0].message.content)
 
 ---
 
+## 🔗 관련 무료 리소스
+
+- **[free-vpn-subscriptions](https://github.com/Au1rxx/free-vpn-subscriptions)** — 매시간 자동 갱신되는 Clash / sing-box / v2ray 구독 링크. 모든 노드 TCP 프로브 완료, 레이턴시 순 정렬. 가입 불필요, 바이너리 설치 불필요.
+
+---
+
 ## 📜 License
 
 [MIT License](./LICENSE)

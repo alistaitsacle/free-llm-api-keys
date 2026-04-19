@@ -100,6 +100,12 @@ print(response.choices[0].message.content)
 
 ---
 
+## 🔗 Recursos gratuitos relacionados
+
+- **[free-vpn-subscriptions](https://github.com/Au1rxx/free-vpn-subscriptions)** — Enlaces de suscripción Clash / sing-box / v2ray actualizados cada hora. Todos los nodos verificados por TCP y ordenados por latencia. Sin registro, sin instalar ningún binario.
+
+---
+
 ## 📜 Licencia
 
 [MIT License](./LICENSE)
