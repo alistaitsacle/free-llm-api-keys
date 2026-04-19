@@ -732,6 +732,14 @@ Available globally. Direct access from China — no VPN needed.
 
 ---
 
+## 🔗 Related Free Resources
+
+If this repo helped you, you may also like:
+
+- **[free-vpn-subscriptions](https://github.com/Au1rxx/free-vpn-subscriptions)** — hourly-refreshed Clash / sing-box / v2ray subscription URLs, every node TCP-probed and ranked by latency. No signup, no binary to install.
+
+---
+
 ## 📈 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=alistaitsacle/free-llm-api-keys&type=Date)](https://star-history.com/#alistaitsacle/free-llm-api-keys&Date)
