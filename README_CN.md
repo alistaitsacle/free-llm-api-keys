@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-219-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-218-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-20 09:07 (UTC+8)
+> ⏰ 最后更新： 2026-04-20 09:22 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -111,7 +111,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-facNC56KUHgr5D8xpYi2O3GwoRXIZQqre55fI8ldtxDsZilI` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-21 |
 | `sk-WYnHCrcw26DRbstFbaMmCYhbinIPZ2tOTJO1vggSBBFOIWPA` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-21 |
 | `sk-sujND20x2XulFPB9XTUgnL88OcebZaE9h33rAzr6HQIh2g4o` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-22 |
-| `sk-pxcz78qHr8bF3No1R4VdOqDVoeOH59EeaqwV55MqMR2tvBWh` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
 | `sk-MpCjq6SZ5V78uPO9OdLpwhADL7VP7LlhCtRqTIOOqXA3fci1` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
 | `sk-N5eC14vtdEiVoyLEQxqlM31DksoA7TeQ5inrr9Cla0zxzWcN` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-22 |
 | `sk-jiDAzG5YjBNi0NliOaOSaCiSK7yVBetvNC1AW6R8ybSEnJbg` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
