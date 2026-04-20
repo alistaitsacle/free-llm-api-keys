@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-214-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-213-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-20 02:37 (UTC+8)
+> ⏰ Last updated: 2026-04-20 02:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -97,7 +97,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-vCCjQPu1A5NASbCA8rnedQC1DJ9NEltwpvCZGZRqWyar41zs` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-8lxTcRJ6Lj1IWvC17hL9I2RqYLv0hzX36WNr13OwxGtknmEM` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-k4W8BZ5QZmrLMZESOjKtvPWkDLKqDIXcqP5oad8j8zu30CUT` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-KbEWefZAECZy310Dx54cWj2RtLwJbkNoOkAu0kA6CTqkMGle` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-20 |
 | `sk-0pkDm27Y0dUU8IhnefaK7iBidkC0JBHoHmziWpyHsxeFxFTb` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-ak7XtwKq9jwOMV37sVCgo0FpS1DtXax3m9jijdDg6G3SKVOy` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-VRGy8n7zd60Y2H3KgKoc3ibo2vOMDgG6tPV05g09sRSwlQKj` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-20 |
