@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-237-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-221-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-20 06:30 (UTC+8)
+> ⏰ Last updated: 2026-04-20 06:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -60,9 +60,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-TzfGpFGYAmTk85yS9FSU6undLaAx0OZSwJItzwLJsLJvY3zE` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-20 |
-| `sk-fAHoHqB1tdGYo06imU16pMxxZnJWxgVKdy2SX84IgXuoUOze` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-20 |
-| `sk-NYdGNk5TcqILy3cuqz13GdQVCGDh0Tj0mV9eLd1aKuObZ654` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-20 |
 | `sk-K6zeUxRLxlJV2IbvyN6QJTmtBUnVM0OMJREVuvBVwWe6dUs3` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-20 |
 | `sk-PDIBxpulVBwgWawukaar2RQrnfLJ3e4k7n3XU9GmE17SWJeo` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-20 |
 | `sk-f5VCTss2SFfSbmMN1UXNAmIRxgBNE8o8RWLynOxh3b35QzlR` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-20 |
@@ -98,7 +95,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-k4W8BZ5QZmrLMZESOjKtvPWkDLKqDIXcqP5oad8j8zu30CUT` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-0pkDm27Y0dUU8IhnefaK7iBidkC0JBHoHmziWpyHsxeFxFTb` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-ak7XtwKq9jwOMV37sVCgo0FpS1DtXax3m9jijdDg6G3SKVOy` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-C4oytYsJeb1WeB1bSBG9GZqofOeDWsi6zL6BxDSLsqt9PWXA` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-20 |
@@ -147,11 +143,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-eBUGgGnsF9C9LmbSmNtTqGf6zifFztl8cR8KS3EPsxazvLGz` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-ekHt7M5RnYza6ZDB9G2jsRtBK7F6Yk4Qos2ziIcjr9R72rSF` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-Xtfjn0CiMYTZxK1LcBS70eQo30WBHn66jHWJIntRgz2ZOc3g` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-E8t6gaY8z1FcvZKqENoekbECagUFxHeQTM6mh5gXePgptmiM` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-20 |
-| `sk-HwKUu6iUPEMFINHaqi4CMRU2mRZY1EjBIlsxcISQYdDH6qgq` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-cObs06unVjXUz1QlfrxazY7B9osqMOSp36aYcDKGecgEEPcY` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-XvRXm7U12ehGqqegpR5YP7WmPK5JF0gBVICjufz6DKzCxotc` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-WCVwNFq5if1ORSdW5BzlznfHV6KcnZCm37qlog7pD1sJTxbP` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-20 |
@@ -223,9 +214,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-CAAMhRWG57Lrqifg22ywnBUOMcGZqOEnXWh1McrkLTM5eS9e` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-20 | 旗舰模型轮询 |
-| `sk-uQgKyUanSkeWHBBjUeGoY4G6F84mmNiRrv3h4mVgZL7o1gCv` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-20 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-BOsRlgw0RXFpyWtWuja5xmNseXyZaX9BzXP1XDF8kNFUlpdj` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-20 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-tPcRePZUtwzDcKaBUMn8JrZYyTUcRQLxMbaQAZEUcUrq6ltG` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-20 | 旗舰模型轮询 |
 | `sk-e5tBzfHGeBRn0bsSVYLtjMDYPwJLfJiojs7zp9CIeemI4Ukc` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-20 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-OzYOOiCX38oG0TGejBMFeFznDqrAY89Mb4WEj0LXGPOlDk6m` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-20 | Gemini 2.5 Flash，低延迟通用 |
@@ -280,10 +268,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-CmErnTOyL7Wo4l95sqKzijmXUIv69nkiFIulvfS2rJRkGYKJ` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-1mMFNWnjW7gqPY0d0lQM3mYyJhOKckAA0XRHDVKJB45fFLfi` | glm-4.5 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-tI9tGWajVx5kfBxt58FEF02Rc7VhMfdebxrphAv7QvCAsoNs` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
-| `sk-YCDS6c0l971O3bSk4JeQI5CsVYAWjIhOe4lFboKweM7hFpSu` | zai-org/GLM-4.7 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-pq7Pug8KB46047iCvLIf9ituDWbqWhfRcb9ULwhlb8t0RKvY` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-XCxRArklwcr9OT84qi8evamJ4g2Gsk28XWDbCP19TLR4xhLA` | glm-4.5 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
 | `sk-YEvQjCcH0h69yVZw52DKrGwi5sej29hQzerdwKpmzyEJduqL` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-20 |
@@ -503,6 +487,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-20
+- 🆕 Added 0 keys (), cleaned 17 expired
 - 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +18 more), cleaned 2 expired
 - 🆕 Added 0 keys (), cleaned 22 expired
 - 🆕 Added 0 keys (), cleaned 3 expired
