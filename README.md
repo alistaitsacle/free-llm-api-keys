@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-21 18:07 (UTC+8)
+> ⏰ Last updated: 2026-04-21 18:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -252,7 +252,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-4CN9mUrySUfXQxDgIzZHx8rSDLBrfa4yNxXeY4fBdRQpryZC` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-23 | 旗舰模型轮询 |
 | `sk-UUEJ7lA8VXY3sDVaJmSLi5R771LdWZAhkWNGWVjXfDWXBITU` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-Y8kJe1J8PM5WZsjVr2Az62bgPs8n30Rq7Gyi4NBZ1aXtzBOs` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-BGPVSjUGHbUEUkbwN7yiRbw7aOyNpUydNNIu8UOrfCdJJq5h` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-23 | Gemini 2.5 Flash Lite，轻量快速 |
+| `sk-BGPVSjUGHbUEUkbwN7yiRbw7aOyNpUydNNIu8UOrfCdJJq5h` | gemini-2.5-flash-lite | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-23 | Gemini 2.5 Flash Lite，轻量快速 |
 
 
 > 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New
