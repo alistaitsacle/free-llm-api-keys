@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-21 14:37 (UTC+8)
+> ⏰ 最后更新： 2026-04-21 14:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -225,7 +225,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-F3S2RUpUhTdMt9VcJwIchbjwIRhufHrfooB7kJytzbMtNqCx` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-22 | 旗舰模型轮询 |
 | `sk-rsKl2VrRUN8BTa8FYqDvb7uLdgIvlFXyUJ8PzZM0usGFLGPP` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-66A3WHWHgcfI1nJUYBLQk7Li1GIZ7akihyM3m2fNJHHQLq1B` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-mUQf5AdJhCssDLhxCR6Hz9aUHxiN02mOLEvqmRvrs29976yu` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-22 | Gemini 2.5 Flash Lite，轻量快速 |
+| `sk-mUQf5AdJhCssDLhxCR6Hz9aUHxiN02mOLEvqmRvrs29976yu` | gemini-2.5-flash-lite | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-22 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-dwJwf36F596vHl1OBXu2UfKnZhknnVfrGSwTFaRMY0TQf9O8` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-22 | 旗舰模型轮询 |
 | `sk-LRIixTzZGJjbG12IkOUqZxMAsqopp4zVdkrXn2Q2GKinFUM4` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-KCPjP0i5kavv9GiX93IrbTIEKiOLaNoAiSrCAYHgiqsLr5n8` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Flash，低延迟通用 |
@@ -251,7 +251,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-YROlYWlDVyOvxqQryLG3Txh7Df2OT2dWmSu8OLVbA8Jn3U0L` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-23 | 旗舰模型轮询 |
 | `sk-uErtyxRpxBuIbKeSRjXGxZPQpG9p1vQkGFnpGVC3aOLB0Q39` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-Xidi4kC8L4jfOXdqnm34sTnmPINHuVFKdKfHMzfjzqS73sAX` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-U6KD5CZ2AAmgizKH9DIlDsAdSdKWsvJ9dkEnGpj4aKIdkZAK` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-23 | Gemini 2.5 Flash Lite，轻量快速 |
+| `sk-U6KD5CZ2AAmgizKH9DIlDsAdSdKWsvJ9dkEnGpj4aKIdkZAK` | gemini-2.5-flash-lite | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-23 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-CQbWau6YswDjZz8JagvxI1m7MH1hwTXo4erJ5IG8zuAacZv4` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-23 | 多模型自动轮询，不挑模型时用 |
 | `sk-UZdR0fUjsvKQVGbypy16xO06IVo1htiAVIzZUQnxlBdxLXVg` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-23 | 旗舰模型轮询 |
 | `sk-sNkyxHxjBaVPkGYmoNQDPuCoL4k1Fus3RajNLVWkpBpy7hza` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Pro，高质量复杂任务 |
