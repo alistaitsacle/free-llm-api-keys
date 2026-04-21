@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-223-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-222-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-21 16:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-21 16:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -221,7 +221,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-IHh3f0VgeUr23N0b73qAMdMiW9cwkB90bYFX2Uo20ENL7Jfq` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-22 | 旗舰模型轮询 |
 | `sk-fonmsbkCAJkquwrhhBdpn2WBT5THIuACnsCH9uLXpjGdP7hI` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-luG7FZUq7QzIatmHuD0hn3yu9hpu3rZ4S35FXh0ifLYarlvB` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-Fc6gpYmPwbWEqWyiJdrZj4wD60WQxqemGnRvlexxgaVIeVEG` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-22 | Gemini 2.5 Flash Lite，轻量快速 |
+| `sk-Fc6gpYmPwbWEqWyiJdrZj4wD60WQxqemGnRvlexxgaVIeVEG` | gemini-2.5-flash-lite | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-22 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-F3S2RUpUhTdMt9VcJwIchbjwIRhufHrfooB7kJytzbMtNqCx` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-22 | 旗舰模型轮询 |
 | `sk-rsKl2VrRUN8BTa8FYqDvb7uLdgIvlFXyUJ8PzZM0usGFLGPP` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-66A3WHWHgcfI1nJUYBLQk7Li1GIZ7akihyM3m2fNJHHQLq1B` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Flash，低延迟通用 |
@@ -231,7 +231,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-q0aHLXz4Kig7D6Wzha7YnAI5i3YvIdJC9NKZejfXy7y0qCD3` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-22 | 旗舰模型轮询 |
 | `sk-en3pUlyPzfFsedXfEPskqcqEXiTDha2EYPKHGOG3mvvRSzXC` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-TH8t7cbsvHjprvjzIkWqotTVg7qmKOF5Z5VQecAqzAMHCAak` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-qpIgKDSOGAb6PJWhkLqH5nuKsERyBc2YrxnxAkeZK5NC7T2X` | gemini-2.5-flash-lite | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-22 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-0QVAO0VLdHqsP0zpMvZUoGgrZaheWQhP7BTfIpZiY2lcOgaJ` | flagship-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-22 | 旗舰模型轮询 |
 | `sk-qpuLC9SHhuAnnT2NwyHn44WKBmcj0pS43BO5P8fxXLbTGtdj` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-kTrw2AAlYGuuZg0iofUydwKrDiIdGW63aPUUiXarXEf3FdO2` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Flash，低延迟通用 |
