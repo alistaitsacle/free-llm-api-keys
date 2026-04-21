@@ -40,7 +40,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-21 10:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-21 10:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -110,7 +110,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-sujND20x2XulFPB9XTUgnL88OcebZaE9h33rAzr6HQIh2g4o` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-22 |
 | `sk-MpCjq6SZ5V78uPO9OdLpwhADL7VP7LlhCtRqTIOOqXA3fci1` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
 | `sk-N5eC14vtdEiVoyLEQxqlM31DksoA7TeQ5inrr9Cla0zxzWcN` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-22 |
-| `sk-jiDAzG5YjBNi0NliOaOSaCiSK7yVBetvNC1AW6R8ybSEnJbg` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
+| `sk-jiDAzG5YjBNi0NliOaOSaCiSK7yVBetvNC1AW6R8ybSEnJbg` | codestral-latest | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-22 |
 | `sk-0bikL9CCMjMnhIm9JX9tjjHQiESVRKygxJoOk9h0l1lYUqzG` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
 | `sk-tiKn0fwpSqOB7lAFiKMhdk6IFAjAgptW18WXg4y1flpc07Rm` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-22 |
 | `sk-4Qbgm5W5hsRk1ahetWSh0qL72XO4xyxQRbqOUah0ZYXy1Qr4` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
@@ -118,7 +118,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-ZOSVwTnFu0Z6FXporY9bQFqUF73R5G6mNdzW64gncByqnY5B` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-22 |
 | `sk-O55cWtdOfCelXnPN5ts7TO3UX6Ejt9NvuC9IJ7QhFRnTfSvR` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
 | `sk-0JHUvW5UfTs0Qa3lCiqPuJf7o6rgIUMNhGDC5HQVenPSL11n` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-22 |
-| `sk-uKyEoWOZuX1g0CS2OYfdM2JenJNo11RxAwlAS1pnAi4P7nPF` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
+| `sk-uKyEoWOZuX1g0CS2OYfdM2JenJNo11RxAwlAS1pnAi4P7nPF` | codestral-latest | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-22 |
 | `sk-sZylvWNa5KU7hfOGnPc6uagAAQmUMhKi49SDlwk1Hh4r5gJH` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-22 |
 | `sk-7BLhye9GcV5ujiyQfG1ArwFaVFTm6LXkhkGAStTWrZybi65R` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-23 |
 | `sk-kkG1UyJhqWq6hgM1QO90UoInyThkO0wWuMOMDKBzFd2bsTgB` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-23 |

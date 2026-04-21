@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-21 10:22 (UTC+8)
+> ⏰ Last updated: 2026-04-21 10:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -111,7 +111,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-sujND20x2XulFPB9XTUgnL88OcebZaE9h33rAzr6HQIh2g4o` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-22 |
 | `sk-MpCjq6SZ5V78uPO9OdLpwhADL7VP7LlhCtRqTIOOqXA3fci1` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-22 |
 | `sk-N5eC14vtdEiVoyLEQxqlM31DksoA7TeQ5inrr9Cla0zxzWcN` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-22 |
-| `sk-jiDAzG5YjBNi0NliOaOSaCiSK7yVBetvNC1AW6R8ybSEnJbg` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-22 |
+| `sk-jiDAzG5YjBNi0NliOaOSaCiSK7yVBetvNC1AW6R8ybSEnJbg` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-22 |
 | `sk-0bikL9CCMjMnhIm9JX9tjjHQiESVRKygxJoOk9h0l1lYUqzG` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-22 |
 | `sk-tiKn0fwpSqOB7lAFiKMhdk6IFAjAgptW18WXg4y1flpc07Rm` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-22 |
 | `sk-4Qbgm5W5hsRk1ahetWSh0qL72XO4xyxQRbqOUah0ZYXy1Qr4` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-22 |
@@ -119,7 +119,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-ZOSVwTnFu0Z6FXporY9bQFqUF73R5G6mNdzW64gncByqnY5B` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-22 |
 | `sk-O55cWtdOfCelXnPN5ts7TO3UX6Ejt9NvuC9IJ7QhFRnTfSvR` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-22 |
 | `sk-0JHUvW5UfTs0Qa3lCiqPuJf7o6rgIUMNhGDC5HQVenPSL11n` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-22 |
-| `sk-uKyEoWOZuX1g0CS2OYfdM2JenJNo11RxAwlAS1pnAi4P7nPF` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-22 |
+| `sk-uKyEoWOZuX1g0CS2OYfdM2JenJNo11RxAwlAS1pnAi4P7nPF` | codestral-latest | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-22 |
 | `sk-sZylvWNa5KU7hfOGnPc6uagAAQmUMhKi49SDlwk1Hh4r5gJH` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-22 |
 | `sk-7BLhye9GcV5ujiyQfG1ArwFaVFTm6LXkhkGAStTWrZybi65R` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-23 |
 | `sk-kkG1UyJhqWq6hgM1QO90UoInyThkO0wWuMOMDKBzFd2bsTgB` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-23 |
