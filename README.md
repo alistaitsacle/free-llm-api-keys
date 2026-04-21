@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-227-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-226-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-21 14:52 (UTC+8)
+> ⏰ Last updated: 2026-04-21 15:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -230,7 +230,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-dwJwf36F596vHl1OBXu2UfKnZhknnVfrGSwTFaRMY0TQf9O8` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-22 | 旗舰模型轮询 |
 | `sk-LRIixTzZGJjbG12IkOUqZxMAsqopp4zVdkrXn2Q2GKinFUM4` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-KCPjP0i5kavv9GiX93IrbTIEKiOLaNoAiSrCAYHgiqsLr5n8` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-GJwOwZGchleRanwkLZa5moIUf9YDjWHfaeZcnxrfqjIpE6Eu` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-22 | Gemini 2.5 Flash Lite，轻量快速 |
+| `sk-GJwOwZGchleRanwkLZa5moIUf9YDjWHfaeZcnxrfqjIpE6Eu` | gemini-2.5-flash-lite | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-22 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-q0aHLXz4Kig7D6Wzha7YnAI5i3YvIdJC9NKZejfXy7y0qCD3` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-22 | 旗舰模型轮询 |
 | `sk-en3pUlyPzfFsedXfEPskqcqEXiTDha2EYPKHGOG3mvvRSzXC` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-TH8t7cbsvHjprvjzIkWqotTVg7qmKOF5Z5VQecAqzAMHCAak` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-22 | Gemini 2.5 Flash，低延迟通用 |
@@ -252,7 +252,6 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-YROlYWlDVyOvxqQryLG3Txh7Df2OT2dWmSu8OLVbA8Jn3U0L` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-23 | 旗舰模型轮询 |
 | `sk-uErtyxRpxBuIbKeSRjXGxZPQpG9p1vQkGFnpGVC3aOLB0Q39` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-Xidi4kC8L4jfOXdqnm34sTnmPINHuVFKdKfHMzfjzqS73sAX` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-U6KD5CZ2AAmgizKH9DIlDsAdSdKWsvJ9dkEnGpj4aKIdkZAK` | gemini-2.5-flash-lite | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-23 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-CQbWau6YswDjZz8JagvxI1m7MH1hwTXo4erJ5IG8zuAacZv4` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-23 | 多模型自动轮询，不挑模型时用 |
 | `sk-UZdR0fUjsvKQVGbypy16xO06IVo1htiAVIzZUQnxlBdxLXVg` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-23 | 旗舰模型轮询 |
 | `sk-sNkyxHxjBaVPkGYmoNQDPuCoL4k1Fus3RajNLVWkpBpy7hza` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Pro，高质量复杂任务 |
