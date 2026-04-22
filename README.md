@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-204-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-214-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -41,7 +41,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-22 06:22 (UTC+8)
+> ⏰ Last updated: 2026-04-22 06:30 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -50,7 +50,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
-### GPT-5.4 / GPT-5.4-mini `04-22 04:00`
+### GPT-5.4 / GPT-5.4-mini `04-22 06:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -68,6 +68,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-btkyrlc0uh3Z38OLaDtEvi6EMbbtsIPRfcbnBRzM5khl3inn` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-23 |
 | `sk-KgcAZMDbXgw4wwJiRsYuCTaeELlmiVYb0GWPve494ncDqims` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-23 |
 | `sk-R0JNRrB0J0uNDzWvztOm2ncxS0QQcTjDBVnaYNTM61RO5Gi1` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-24 |
+| `sk-iB27G0g3ieBIhTGk5UJYLJWcUikkb8oyl2jElBhi3GeWmgJY` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 ### DeepSeek V3 / DeepSeek R1 `04-22 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
@@ -138,7 +139,7 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-fwrB54hKtyfKgW8nCBTw8zcTpuoRLoLnGUyklF4afcwP3ElR` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-23 |
 | `sk-RlhBXKSNSiKLX33lXLQztlcRyi5vK6X7uO3RAhqfu2XEK1vs` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 | `sk-mQSdRxQYOMLay8x1iWmE7d7hrcfC3CLYJxOSgSOgAmSRPeaX` | command-a-reasoning-08-2025 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-### Image / Audio / Embedding `04-22 04:00`
+### Image / Audio / Embedding `04-22 06:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
@@ -205,8 +206,13 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-Enyg9Rkg5jFuZFEooa8ElBrRru3dXKeAQ0QRlnzWjkWE5Taw` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 | `sk-wfEMZq8PpAVt5ZkH4koSddgMGGmUNQWEgbNL6kmpX6ujh12d` | text-embedding-3-small | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 | `sk-SzRlcvjem0hKy0D5PvwO8QAM0u0iAgsqj8XV8IIQd4XDMJiA` | embed-multilingual-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
+| `sk-8XRW2g4Fl2yp8vkKQoFcghX3hGbsaOdlgyAs3SeSR2x3f2xY` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 |
+| `sk-PbObDm2241VdYp5p2bgtDdckC2MYsqjazj2auKAzd29d6BfU` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-24 |
+| `sk-fZ4preyMwrMKtNCQZeyRjKX9xPlOLlIRSDdi6GfoMZdJDAuG` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
+| `sk-kIYwnlVegL73UolPhf7gUVAPjQXepHEZiSfd2RmgIqYztVkb` | text-embedding-3-small | 🆕 New | $50 | 5 RPM | 2026-04-24 |
+| `sk-WGMNvnqWVH05zw8tA9JgoD8LQE5XsZ8c2FJrlq9p91P280up` | embed-multilingual-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 
-### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-22 04:00`
+### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-22 06:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -244,6 +250,10 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 | `sk-sofRmORp3LZIYzmJa1w1FXO923VmRRiE7sopm70MGfBewiBA` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-Q3C3uzRKQPY4wdepeHkong66Ti4JIqYS2qURA7bTzBAYvNlj` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-eQuzxd2SahHGaixmSKX8YOfNWeI40c6F5TypnCbAnAzK2rCv` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
+| `sk-DISBeKYFYt9r9ozEPZ97DbR8vRHp8JTebf4oHsX0TN44XpKI` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-24 | 多模型自动轮询，不挑模型时用 |
+| `sk-IJ73DKZhni4lz3MNKCDQXbOwDm8jbANm1lyae4eIA9wqh49n` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-cyI69DJ25Uydh5lrHCTfqcuNTk732D0rbdquOrSQwQi3X6E0` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-faJgPl61Bf20fo0OpkYPPVPHuZX0VfZmfj5lrqsFsUqSfUU1` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
 
 
 > 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New
