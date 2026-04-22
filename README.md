@@ -64,7 +64,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-22 20:22 (UTC+8)
+> ⏰ Last updated: 2026-04-22 20:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -226,7 +226,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 | `sk-IJ73DKZhni4lz3MNKCDQXbOwDm8jbANm1lyae4eIA9wqh49n` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-cyI69DJ25Uydh5lrHCTfqcuNTk732D0rbdquOrSQwQi3X6E0` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-faJgPl61Bf20fo0OpkYPPVPHuZX0VfZmfj5lrqsFsUqSfUU1` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-QvFgGqHbctUDarhOqAVdknsEVDvWYamQSHlBU11kB2PeJjDL` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-24 | 多模型自动轮询，不挑模型时用 |
+| `sk-QvFgGqHbctUDarhOqAVdknsEVDvWYamQSHlBU11kB2PeJjDL` | smart-chat | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-24 | 多模型自动轮询，不挑模型时用 |
 | `sk-EHoVfCFe3FMV6Tm5VsmBPtxmNEXmaWa6IUXt219nt08AhDyq` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-hEbI7ZZ4rTOommGwr6PQUagO7z8qgUDSGsArftYG19GjCn1K` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-ZfItI5cHk3gkBEItsPPi0seb8jUzDN7814kuhi8GEJuVZewz` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
