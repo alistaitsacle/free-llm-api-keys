@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-183-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-180-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -64,7 +64,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-22 13:37 (UTC+8)
+> ⏰ Last updated: 2026-04-22 13:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -83,9 +83,6 @@ If you're running a **real product, paid service, or anything that can't tolerat
 | `sk-b9yHCgyebcyHNszSRU1RRh1sQrNeLK7xeQMuMbIk7pUoSUV5` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-23 |
 | `sk-KgcAZMDbXgw4wwJiRsYuCTaeELlmiVYb0GWPve494ncDqims` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-23 |
 | `sk-R0JNRrB0J0uNDzWvztOm2ncxS0QQcTjDBVnaYNTM61RO5Gi1` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-24 |
-| `sk-lKWwtqmVbpFoIsiOdemaggkPRIA6pQg1waTdkAUtlgyqttqM` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-HF9IFXLyHWn5cCN9YMYNF6enKlj6zUriM7sOYzrllJwAE1Dr` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-HYHsagGMvH1gCV6m0f4i14K3qNQeOxZ3wMLWQ0cqYZbvgR4g` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 ### DeepSeek V3 / DeepSeek R1 `04-22 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
@@ -223,7 +220,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 | `sk-4CN9mUrySUfXQxDgIzZHx8rSDLBrfa4yNxXeY4fBdRQpryZC` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-23 | 旗舰模型轮询 |
 | `sk-UUEJ7lA8VXY3sDVaJmSLi5R771LdWZAhkWNGWVjXfDWXBITU` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-Y8kJe1J8PM5WZsjVr2Az62bgPs8n30Rq7Gyi4NBZ1aXtzBOs` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-hzV9ZJ173UHlR082wZqdnxRFvJWyMKLMcRLfU3JucHouSElt` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-24 | 多模型自动轮询，不挑模型时用 |
+| `sk-hzV9ZJ173UHlR082wZqdnxRFvJWyMKLMcRLfU3JucHouSElt` | smart-chat | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-24 | 多模型自动轮询，不挑模型时用 |
 | `sk-Y1ykKk5wd1abzdBMXoHMAW26eJUpnwZhIYmWNUWeFfeAn2Or` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-24 | 旗舰模型轮询 |
 | `sk-Zy0SL9kbGvkBK4lcQpVhloZYFSis1jyhypFiQRx6p7yKTUnc` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-74GhzBouQBZUK7MU31LR3Di9gxM08mKQ8VfESl2AKsuxLgjd` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
