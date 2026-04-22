@@ -59,7 +59,6 @@ If you're running a **real product, paid service, or anything that can't tolerat
 
 - 💬 Telegram: [**@uspython1**](https://t.me/uspython1) (fastest — English / 中文 / 日本語 OK)
 - 📧 Email: **support@pekpik.com**
-- 🌐 Self-serve: <https://aiapiv2.pekpik.com/>
 
 ---
 

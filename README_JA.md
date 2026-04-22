@@ -58,7 +58,6 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 - 💬 Telegram: [**@uspython1**](https://t.me/uspython1)（最速 — 日本語 / English / 中文 対応）
 - 📧 Email: **support@pekpik.com**
-- 🌐 セルフ購入: <https://aiapiv2.pekpik.com/>
 
 ---
 

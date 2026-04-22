@@ -58,7 +58,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 - 💬 Telegram：[**@uspython1**](https://t.me/uspython1)（最快 — 中文 / English / 日本語 都行）
 - 📧 Email：**support@pekpik.com**
-- 🌐 自助购买：<https://aiapiv2.pekpik.com/>
 
 ---
 

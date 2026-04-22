@@ -58,7 +58,6 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 
 - 💬 Telegram: [**@uspython1**](https://t.me/uspython1) (가장 빠름 — 한국어 / English / 中文 / 日本語 지원)
 - 📧 Email: **support@pekpik.com**
-- 🌐 셀프 구매: <https://aiapiv2.pekpik.com/>
 
 ---
 
