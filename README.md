@@ -64,7 +64,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-22 19:22 (UTC+8)
+> ⏰ Last updated: 2026-04-22 19:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -118,7 +118,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 | `sk-PPAv4w0bVMYRx5EecQKGwBLKmmnYxgfYfZWPrgUJxjk80dJv` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-23 |
 | `sk-fhL1ChBshMzcLnSUbenuxlw2hrDfrTcsknX8ZNcZIqePgANs` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-23 |
 | `sk-F11o70Nktt6fPrBOTBk7VnQHFlCV28FiCarMx9FiQeMBaVrk` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-23 |
-| `sk-6iVlPynYAFAaZtIUG0jHuFsXUqWyKrX0YRED6FYLqLgP0qAt` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-23 |
+| `sk-6iVlPynYAFAaZtIUG0jHuFsXUqWyKrX0YRED6FYLqLgP0qAt` | devstral-latest | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-23 |
 | `sk-2OBEWLn3ddLs1eMj3xTzms7TGxYixQ2Rz7wGDCOc93H7PCtU` | codestral-latest | 🆕 New | $50 | 5 RPM | 2026-04-23 |
 | `sk-QuxZd427HtBLw2pOOBkQdox9jig9yhb8n04sYllxaMXT2I2d` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-23 |
 | `sk-fgbqbYZcOtFQmTUr3USU0zQUq2kMGnTNiBWaRyPAOoMHPMII` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-23 |

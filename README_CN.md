@@ -63,7 +63,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-22 19:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-22 19:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -117,7 +117,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-PPAv4w0bVMYRx5EecQKGwBLKmmnYxgfYfZWPrgUJxjk80dJv` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-23 |
 | `sk-fhL1ChBshMzcLnSUbenuxlw2hrDfrTcsknX8ZNcZIqePgANs` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-23 |
 | `sk-F11o70Nktt6fPrBOTBk7VnQHFlCV28FiCarMx9FiQeMBaVrk` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-23 |
-| `sk-6iVlPynYAFAaZtIUG0jHuFsXUqWyKrX0YRED6FYLqLgP0qAt` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-23 |
+| `sk-6iVlPynYAFAaZtIUG0jHuFsXUqWyKrX0YRED6FYLqLgP0qAt` | devstral-latest | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-23 |
 | `sk-2OBEWLn3ddLs1eMj3xTzms7TGxYixQ2Rz7wGDCOc93H7PCtU` | codestral-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-23 |
 | `sk-QuxZd427HtBLw2pOOBkQdox9jig9yhb8n04sYllxaMXT2I2d` | mistral-medium-latest | 🆕 新增 | $50 | 5 RPM | 2026-04-23 |
 | `sk-fgbqbYZcOtFQmTUr3USU0zQUq2kMGnTNiBWaRyPAOoMHPMII` | devstral-latest | 🆕 新增 | $30 | 10 RPM | 2026-04-23 |
