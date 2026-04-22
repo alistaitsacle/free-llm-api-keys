@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-192-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-190-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -64,7 +64,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-22 10:52 (UTC+8)
+> ⏰ Last updated: 2026-04-22 11:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -77,7 +77,6 @@ If you're running a **real product, paid service, or anything that can't tolerat
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-1N2eEfZOS2piqECTYnl9HWgFzScrzRsoVT0VTpvQCJ2jthMH` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-22 |
 | `sk-fV6C0JrBLUwABRLyEDaw9i0SCHWScNtWadpxL3PCLX2CjUPx` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-22 |
 | `sk-wx7aUa6vQvazaGQKWYeiKhAKCSVJBBvIFwMfhEl4n8kLZPXr` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-23 |
 | `sk-6QVTVsoswRQv6j9t4hvF7RA3SIXO00fVVUL34aLu9OKzeTLB` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-23 |
@@ -86,7 +85,6 @@ If you're running a **real product, paid service, or anything that can't tolerat
 | `sk-w7XDvir4eXCQDTfuwtvfaWg66DmfSuDdu9spqqb2F3Atsf4l` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-23 |
 | `sk-IFvCtyrEOn0GYUg7tCG6jlmItBO3IKpF525qKJrkVV6Ex5U9` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-23 |
 | `sk-b9yHCgyebcyHNszSRU1RRh1sQrNeLK7xeQMuMbIk7pUoSUV5` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-23 |
-| `sk-btkyrlc0uh3Z38OLaDtEvi6EMbbtsIPRfcbnBRzM5khl3inn` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-23 |
 | `sk-KgcAZMDbXgw4wwJiRsYuCTaeELlmiVYb0GWPve494ncDqims` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-23 |
 | `sk-R0JNRrB0J0uNDzWvztOm2ncxS0QQcTjDBVnaYNTM61RO5Gi1` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-24 |
 | `sk-iB27G0g3ieBIhTGk5UJYLJWcUikkb8oyl2jElBhi3GeWmgJY` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
@@ -235,7 +233,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 | `sk-UZdR0fUjsvKQVGbypy16xO06IVo1htiAVIzZUQnxlBdxLXVg` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-23 | 旗舰模型轮询 |
 | `sk-sNkyxHxjBaVPkGYmoNQDPuCoL4k1Fus3RajNLVWkpBpy7hza` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-rimadNwZ2gZ3KKEul5vePxldsZLewjBhC2n1HpBB2x32Tc9V` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-6yUd70idywRVc35nHVHxSfKgUHJmAWRoVjYpdfRV3CuaaCXG` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-23 | 多模型自动轮询，不挑模型时用 |
+| `sk-6yUd70idywRVc35nHVHxSfKgUHJmAWRoVjYpdfRV3CuaaCXG` | smart-chat | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-23 | 多模型自动轮询，不挑模型时用 |
 | `sk-4CN9mUrySUfXQxDgIzZHx8rSDLBrfa4yNxXeY4fBdRQpryZC` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-04-23 | 旗舰模型轮询 |
 | `sk-UUEJ7lA8VXY3sDVaJmSLi5R771LdWZAhkWNGWVjXfDWXBITU` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-Y8kJe1J8PM5WZsjVr2Az62bgPs8n30Rq7Gyi4NBZ1aXtzBOs` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-23 | Gemini 2.5 Flash，低延迟通用 |
@@ -489,6 +487,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-22
+- 🆕 Added 0 keys (), cleaned 3 expired
 - 🆕 Added 0 keys (), cleaned 20 expired
 - 🆕 Added 19 keys (embed-english-v3.0, embed-multilingual-v3.0, gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gpt-5.4 +5 more), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 4 expired
