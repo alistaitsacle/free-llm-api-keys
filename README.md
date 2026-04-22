@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-193-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-192-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -64,7 +64,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-22 10:37 (UTC+8)
+> ⏰ Last updated: 2026-04-22 10:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -91,7 +91,6 @@ If you're running a **real product, paid service, or anything that can't tolerat
 | `sk-R0JNRrB0J0uNDzWvztOm2ncxS0QQcTjDBVnaYNTM61RO5Gi1` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-24 |
 | `sk-iB27G0g3ieBIhTGk5UJYLJWcUikkb8oyl2jElBhi3GeWmgJY` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 | `sk-oAxZAX96tYEUIyu92Qlx92znnwlB1xnufFRQuoyMxZM6MkAU` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-M68N7PNsKJW7K32CZIfVyYBPpySJbEtG6k221UEtoJBtydOj` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 | `sk-acOjJ96mrknIj00likWIedptOvQ4CXknGfWhA4qyaPh74jVO` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 ### DeepSeek V3 / DeepSeek R1 `04-22 01:30`
 
