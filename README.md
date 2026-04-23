@@ -39,26 +39,9 @@ I use LLM APIs heavily in my own work. I have spare capacity that would otherwis
 
 ---
 
-## 💼 Need Stable / Production Keys?
+## 💼 Need higher availability?
 
-The free keys above have real limits that make them unfit for production:
-
-- ⏱ **Expire in 24-48 hours** — keys rotate constantly, your app breaks
-- 💰 **$20-$50 budget each, shared publicly** — may be drained before you arrive
-- 🚫 **No SLA, no support** — if it doesn't work, try another one
-- 📉 **Rate limited to 5-20 RPM** — can't scale beyond a demo
-
-If you're running a **real product, paid service, or anything that can't tolerate a broken key at 3 AM**, we offer dedicated paid keys:
-
-- ✅ Never expire (monthly / yearly billing)
-- ✅ Private budget, never shared
-- ✅ Up to 1000+ RPM per key
-- ✅ Direct technical support via Telegram
-
-**Get in touch — reply within 24 hours:**
-
-- 💬 Telegram: [**@uspython1**](https://t.me/uspython1) (fastest — English / 中文 / 日本語 OK)
-- 📧 Email: **alistaitscale@gmail.com**
+For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ---
 
