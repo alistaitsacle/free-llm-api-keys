@@ -47,7 +47,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-23 14:52 (UTC+8)
+> ⏰ Last updated: 2026-04-23 15:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -66,7 +66,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 |-----|-------|--------|--------|------------|---------|
 | `sk-u0mX06rQU63wOVcfM5w5OuxrVkiTOWgYcog6ihhMq6SVtlz9` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-24 |
 | `sk-FvrYZeMU3p9PcZAHl5argatmHj4lGinTkDmquCOxXqwNvc4s` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-24 |
-| `sk-MN6FpqiRO5nkDmNyMHWme1GOdfVZ0hsEO10Dz8wGsV171ALo` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-24 |
+| `sk-MN6FpqiRO5nkDmNyMHWme1GOdfVZ0hsEO10Dz8wGsV171ALo` | deepseek-reasoner | ⚠️ Low Budget | $20 | 5 RPM | 2026-04-24 |
 
 ### Mistral / Codestral `04-22 01:30`
 
