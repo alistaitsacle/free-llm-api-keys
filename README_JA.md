@@ -57,7 +57,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 **お問い合わせ — 24 時間以内に返信：**
 
 - 💬 Telegram: [**@uspython1**](https://t.me/uspython1)（最速 — 日本語 / English / 中文 対応）
-- 📧 Email: **support@pekpik.com**
+- 📧 Email: **alistaitscale@gmail.com**
 
 ---
 
