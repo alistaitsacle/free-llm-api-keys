@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-144-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-143-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -46,7 +46,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-23 13:07 (UTC+8)
+> ⏰ 最后更新： 2026-04-23 13:22 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -121,7 +121,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-4kVLxpDmm0bgUNzlWtFqNdxfMf4cBE0omeBQQJg5En68G2y6` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-24 |
 | `sk-Fkzjg5ePfp4oGtHzFai73nRXJ6YztuMTQiGUTdCKQyvTDSQ4` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
 | `sk-JczklB1vUm86znsbyN9ygLp8F3N6kdDILFK0M5c25FPt2EFp` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-HNnUqATN2KGR9KD6zaAhNtzClo2aR3gr9IWVlyrCYFBjVvgm` | embed-multilingual-v3.0 | ⚠️ 额度低 | $20 | 10 RPM | 2026-04-24 |
 | `sk-vVjHpZP9EImOf3MK2k4y51QX8hXeyILDc3jfDyQR9hEZEOn9` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
 | `sk-LNPE7oliRRDykjw4iHO4LVyyjHJcR3kZUVbH2ND80Vm8XkdB` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
 | `sk-Ecmb9CYKJp5zFtn7UFHDOnB7QW1PCOoLdQuAkJB5kVjJSQjt` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
