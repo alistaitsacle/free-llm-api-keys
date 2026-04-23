@@ -63,7 +63,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-23 04:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-23 04:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -81,7 +81,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-KgcAZMDbXgw4wwJiRsYuCTaeELlmiVYb0GWPve494ncDqims` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-04-23 |
 | `sk-R0JNRrB0J0uNDzWvztOm2ncxS0QQcTjDBVnaYNTM61RO5Gi1` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-04-24 |
 | `sk-0nYGlWpc8TTesMEYWZQLqfrsqVujYw5YIw6xdTCLj47GtlW6` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 |
-| `sk-Ve97SDvZAJ7bGCIFeVwejWKT9sNvRO2kI3UdemZNCR8U8kk2` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 |
+| `sk-Ve97SDvZAJ7bGCIFeVwejWKT9sNvRO2kI3UdemZNCR8U8kk2` | gpt-5.4 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-25 |
 | `sk-gURzaIdX1gNVqh4piCi9YCfjYLfT6Uyqo8h8KOQeIwGFLVLV` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 |
 ### DeepSeek V3 / DeepSeek R1 `04-22 01:30`
 
