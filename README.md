@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-140-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-139-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -47,7 +47,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-23 17:52 (UTC+8)
+> ⏰ Last updated: 2026-04-23 18:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -66,7 +66,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 |-----|-------|--------|--------|------------|---------|
 | `sk-u0mX06rQU63wOVcfM5w5OuxrVkiTOWgYcog6ihhMq6SVtlz9` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-24 |
 | `sk-FvrYZeMU3p9PcZAHl5argatmHj4lGinTkDmquCOxXqwNvc4s` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-24 |
-| `sk-MN6FpqiRO5nkDmNyMHWme1GOdfVZ0hsEO10Dz8wGsV171ALo` | deepseek-reasoner | ⚠️ Low Budget | $20 | 5 RPM | 2026-04-24 |
 
 ### Mistral / Codestral `04-22 01:30`
 
