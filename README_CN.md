@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-165-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-184-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -63,7 +63,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-23 03:52 (UTC+8)
+> ⏰ 最后更新： 2026-04-23 04:00 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -72,7 +72,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 >
 > **[在这里验证你的 Key](https://alistaitsacle.github.io/free-llm-api-keys/)** — 一键检查 Key 是否可用。
 
-### GPT-5.4 / GPT-5.4-mini `04-23 01:30`
+### GPT-5.4 / GPT-5.4-mini `04-23 04:00`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
@@ -81,6 +81,9 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-b9yHCgyebcyHNszSRU1RRh1sQrNeLK7xeQMuMbIk7pUoSUV5` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-04-23 |
 | `sk-KgcAZMDbXgw4wwJiRsYuCTaeELlmiVYb0GWPve494ncDqims` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-04-23 |
 | `sk-R0JNRrB0J0uNDzWvztOm2ncxS0QQcTjDBVnaYNTM61RO5Gi1` | gpt-5.4-mini | 🆕 新增 | $30 | 20 RPM | 2026-04-24 |
+| `sk-0nYGlWpc8TTesMEYWZQLqfrsqVujYw5YIw6xdTCLj47GtlW6` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 |
+| `sk-Ve97SDvZAJ7bGCIFeVwejWKT9sNvRO2kI3UdemZNCR8U8kk2` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 |
+| `sk-gURzaIdX1gNVqh4piCi9YCfjYLfT6Uyqo8h8KOQeIwGFLVLV` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 |
 ### DeepSeek V3 / DeepSeek R1 `04-22 01:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
@@ -121,7 +124,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
 | `sk-RlhBXKSNSiKLX33lXLQztlcRyi5vK6X7uO3RAhqfu2XEK1vs` | command-a-vision-07-2025 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 |
-### 图像 / 语音 / 向量化 `04-23 01:30`
+### 图像 / 语音 / 向量化 `04-23 04:00`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
 |-----|------|------|------|---------|---------|
@@ -184,8 +187,13 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-Ecmb9CYKJp5zFtn7UFHDOnB7QW1PCOoLdQuAkJB5kVjJSQjt` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
 | `sk-En9FQ7S2CYS3m4dHvgizuM11g6pUwajyXyKHjfNy9E95TdMX` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
 | `sk-JHM72pYwQ1CMmuR4bD4IjWDGIVJB7et4geivaNBz0aAd9k0d` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-FQj95AVnLLR8qo9TScKG0pq8eQVIEboJw3yEYw21CqU5bMro` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-B6GQsV15YhfLNkPx2IfZeZweBuI7rUbo2Z0NM6KA3Mt01kqu` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
+| `sk-5Y3OWP1zoVhjCT73YxRwoUazLwKq5xyh0sfaCufTBPOu7UP8` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-Wl8CF1cXCu3Mawiu5hCClHNaUeSvSQ44UUk57K8zVPXLGDvR` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-Fh5MKRGBNcGNj7uawXbH08XVqR5ervXPvQ4KK04kg4L3nsld` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
 
-### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-23 01:30`
+### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-23 04:00`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -220,6 +228,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-tVzDxIxbZLd4Vp0osH1vbo3S1lnYackl9AhwNyzh6P49J2kL` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-hVXkISBnXa7P09KAT83ahO6jF4gRNhnkFkTHg3fBdbxAAOu4` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-24 | 多模型自动轮询，不挑模型时用 |
 | `sk-9PdQm2uzzkspEFikxFqh7UlRRRO7sjrS0KqpPahAM8Dt23cr` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-25 | 多模型自动轮询，不挑模型时用 |
+| `sk-2Dx0gk08d735kcLOJYEbADStcOeJfB3WX1aqEiEoK90RPYfN` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-25 | 多模型自动轮询，不挑模型时用 |
 
 
 > 💡 **状态说明：** ✅ 可用 | ⚠️ 额度低 | 🆕 新增
@@ -255,7 +264,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 ---
 
 
-### Kimi `04-23 01:30`
+### Kimi `04-23 04:00`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -268,11 +277,14 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-pc2FMyceKNWUw3q3uPWGah2xQiWmB20SujberHrr6zSMXj2T` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
 | `sk-6wiTqhpYe6HkFkrRdFYt2KzrGra62zcQLIUnK6AdAynSbyHq` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
 | `sk-I1z5pf0UhqNL66epM1bSV2tg7yGEZau2yjGh9iMAB7PXufup` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-4MS22ZZ4DMWccLH2uGPQ9WNeEDmeKOHUhRRyPuLHcYv2qp3L` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-JFwA3DqrhMUtwxDG955zVeiPTOWYFjWOKy6nrItS8bozoSEd` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-qD9KAIrgdgsAX1KokqLylW8asIR7VnVYYSITY7X6oQd6ZVWU` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
 
 ---
 
 
-### Gemini `04-23 01:30`
+### Gemini `04-23 04:00`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -290,6 +302,13 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-pexOEGHFyftmBUGCKmCpbUDsgZaczkhkH8ddwJ9pOgLDzuz1` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-jgrjPsVCl5b2azgd458eUyBIMLIYpGYeGdyIZsXUDZPz2srO` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-fjLwt7OVEfFqsKRQfPm63FN21cL6HkojWPdZSqUQ8TXgKWiB` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite，轻量快速 |
+| `sk-8pSEsIoz0eC8WzsEzaJCkYs8F5s9OsXzsEWmk8DQod7zz1dj` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-OJmadMXkpR3xbEscFUReTj9maqF6vtmYs140VOvmDHntoxrR` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-h2ylFDsurMjev7oyf5ujkVCemlX5ylQWtcSepPIqlvEGrTWe` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-ohtHx2DPqri4kqV3nrreCt8cCaFsWcmtyL7HOLVfevSD8LWM` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-DFT3imBdoLRsh13uQAXuHcNhsTjJOopzWMPRYXYzuI20h6Gd` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-FuFyA4F6X15piQ4wlNs8xi1a6nT6s09FJTlNUlKkFq8yhzbQ` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-BI9cpP6VEeOdScAQOYXcZ3E8NqNO1QDwT66Kovtn9siNBZdZ` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite，轻量快速 |
 
 ---
 
