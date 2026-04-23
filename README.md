@@ -47,7 +47,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-23 12:07 (UTC+8)
+> ⏰ Last updated: 2026-04-23 12:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -122,7 +122,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 | `sk-4kVLxpDmm0bgUNzlWtFqNdxfMf4cBE0omeBQQJg5En68G2y6` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-24 |
 | `sk-Fkzjg5ePfp4oGtHzFai73nRXJ6YztuMTQiGUTdCKQyvTDSQ4` | embed-english-v3.0 | 🆕 New | $20 | 10 RPM | 2026-04-24 |
 | `sk-JczklB1vUm86znsbyN9ygLp8F3N6kdDILFK0M5c25FPt2EFp` | text-embedding-3-small | 🆕 New | $20 | 10 RPM | 2026-04-24 |
-| `sk-HNnUqATN2KGR9KD6zaAhNtzClo2aR3gr9IWVlyrCYFBjVvgm` | embed-multilingual-v3.0 | 🆕 New | $20 | 10 RPM | 2026-04-24 |
+| `sk-HNnUqATN2KGR9KD6zaAhNtzClo2aR3gr9IWVlyrCYFBjVvgm` | embed-multilingual-v3.0 | ⚠️ Low Budget | $20 | 10 RPM | 2026-04-24 |
 | `sk-vVjHpZP9EImOf3MK2k4y51QX8hXeyILDc3jfDyQR9hEZEOn9` | rerank-v4.0-pro | 🆕 New | $20 | 10 RPM | 2026-04-25 |
 | `sk-LNPE7oliRRDykjw4iHO4LVyyjHJcR3kZUVbH2ND80Vm8XkdB` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-25 |
 | `sk-Ecmb9CYKJp5zFtn7UFHDOnB7QW1PCOoLdQuAkJB5kVjJSQjt` | embed-english-v3.0 | 🆕 New | $20 | 10 RPM | 2026-04-25 |
@@ -165,7 +165,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 | `sk-LTZsil8eXP3RiaZRryAcbmE16BcTPtWwg8HDXYS2lZia0wBc` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-JF15Mq4Wjruj9Ny1M1rS9ZYpU1PyIM8u7e3NnWKcr7cWuqTH` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-tVzDxIxbZLd4Vp0osH1vbo3S1lnYackl9AhwNyzh6P49J2kL` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-m8tKQncFFIvTAcNmtzvmv9PlaSHY04mQpJpY8JBBWyk7lox2` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-25 | 多模型自动轮询，不挑模型时用 |
+| `sk-m8tKQncFFIvTAcNmtzvmv9PlaSHY04mQpJpY8JBBWyk7lox2` | smart-chat | ⚠️ Low Budget | $30 | 10 RPM | 2026-04-25 | 多模型自动轮询，不挑模型时用 |
 
 
 > 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New

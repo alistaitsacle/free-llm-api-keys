@@ -46,7 +46,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-23 12:07 (UTC+8)
+> ⏰ 最后更新： 2026-04-23 12:22 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -121,7 +121,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-4kVLxpDmm0bgUNzlWtFqNdxfMf4cBE0omeBQQJg5En68G2y6` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-24 |
 | `sk-Fkzjg5ePfp4oGtHzFai73nRXJ6YztuMTQiGUTdCKQyvTDSQ4` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
 | `sk-JczklB1vUm86znsbyN9ygLp8F3N6kdDILFK0M5c25FPt2EFp` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-HNnUqATN2KGR9KD6zaAhNtzClo2aR3gr9IWVlyrCYFBjVvgm` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
+| `sk-HNnUqATN2KGR9KD6zaAhNtzClo2aR3gr9IWVlyrCYFBjVvgm` | embed-multilingual-v3.0 | ⚠️ 额度低 | $20 | 10 RPM | 2026-04-24 |
 | `sk-vVjHpZP9EImOf3MK2k4y51QX8hXeyILDc3jfDyQR9hEZEOn9` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
 | `sk-LNPE7oliRRDykjw4iHO4LVyyjHJcR3kZUVbH2ND80Vm8XkdB` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
 | `sk-Ecmb9CYKJp5zFtn7UFHDOnB7QW1PCOoLdQuAkJB5kVjJSQjt` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
@@ -164,7 +164,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-LTZsil8eXP3RiaZRryAcbmE16BcTPtWwg8HDXYS2lZia0wBc` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-JF15Mq4Wjruj9Ny1M1rS9ZYpU1PyIM8u7e3NnWKcr7cWuqTH` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-tVzDxIxbZLd4Vp0osH1vbo3S1lnYackl9AhwNyzh6P49J2kL` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-m8tKQncFFIvTAcNmtzvmv9PlaSHY04mQpJpY8JBBWyk7lox2` | smart-chat | 🆕 新增 | $30 | 10 RPM | 2026-04-25 | 多模型自动轮询，不挑模型时用 |
+| `sk-m8tKQncFFIvTAcNmtzvmv9PlaSHY04mQpJpY8JBBWyk7lox2` | smart-chat | ⚠️ 额度低 | $30 | 10 RPM | 2026-04-25 | 多模型自动轮询，不挑模型时用 |
 
 
 > 💡 **状态说明：** ✅ 可用 | ⚠️ 额度低 | 🆕 新增
