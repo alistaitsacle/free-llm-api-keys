@@ -64,7 +64,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-23 04:37 (UTC+8)
+> ⏰ Last updated: 2026-04-23 04:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -83,7 +83,7 @@ If you're running a **real product, paid service, or anything that can't tolerat
 | `sk-R0JNRrB0J0uNDzWvztOm2ncxS0QQcTjDBVnaYNTM61RO5Gi1` | gpt-5.4-mini | 🆕 New | $30 | 20 RPM | 2026-04-24 |
 | `sk-0nYGlWpc8TTesMEYWZQLqfrsqVujYw5YIw6xdTCLj47GtlW6` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-25 |
 | `sk-Ve97SDvZAJ7bGCIFeVwejWKT9sNvRO2kI3UdemZNCR8U8kk2` | gpt-5.4 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-25 |
-| `sk-gURzaIdX1gNVqh4piCi9YCfjYLfT6Uyqo8h8KOQeIwGFLVLV` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-25 |
+| `sk-gURzaIdX1gNVqh4piCi9YCfjYLfT6Uyqo8h8KOQeIwGFLVLV` | gpt-5.4 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-25 |
 ### DeepSeek V3 / DeepSeek R1 `04-22 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
