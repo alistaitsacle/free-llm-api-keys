@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-160-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-152-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -47,7 +47,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-24 06:30 (UTC+8)
+> ⏰ Last updated: 2026-04-24 06:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -80,11 +80,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-8XRW2g4Fl2yp8vkKQoFcghX3hGbsaOdlgyAs3SeSR2x3f2xY` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-PbObDm2241VdYp5p2bgtDdckC2MYsqjazj2auKAzd29d6BfU` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-24 |
-| `sk-fZ4preyMwrMKtNCQZeyRjKX9xPlOLlIRSDdi6GfoMZdJDAuG` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-kIYwnlVegL73UolPhf7gUVAPjQXepHEZiSfd2RmgIqYztVkb` | text-embedding-3-small | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-WGMNvnqWVH05zw8tA9JgoD8LQE5XsZ8c2FJrlq9p91P280up` | embed-multilingual-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 | `sk-BwqSPY94RGfw3QOttdv2kYSIfBUJCkd53gSjtOYoaK9ILlSG` | rerank-v4.0-pro | 🆕 New | $20 | 10 RPM | 2026-04-24 |
 | `sk-n4GrUp81uTawrdOs2s3fzphSQ6ki1nkthDI1WEmOuP4L00eZ` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-24 |
 | `sk-xdWqBPivd1gbI0XCO6yKLeWhAlJaT6oYsMCV9WOb6evi2ocU` | embed-english-v3.0 | 🆕 New | $20 | 10 RPM | 2026-04-24 |
@@ -138,9 +133,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-IJ73DKZhni4lz3MNKCDQXbOwDm8jbANm1lyae4eIA9wqh49n` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-cyI69DJ25Uydh5lrHCTfqcuNTk732D0rbdquOrSQwQi3X6E0` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-faJgPl61Bf20fo0OpkYPPVPHuZX0VfZmfj5lrqsFsUqSfUU1` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-EHoVfCFe3FMV6Tm5VsmBPtxmNEXmaWa6IUXt219nt08AhDyq` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-hEbI7ZZ4rTOommGwr6PQUagO7z8qgUDSGsArftYG19GjCn1K` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-ZfItI5cHk3gkBEItsPPi0seb8jUzDN7814kuhi8GEJuVZewz` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
