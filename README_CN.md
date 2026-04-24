@@ -55,119 +55,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 >
 > **[在这里验证你的 Key](https://alistaitsacle.github.io/free-llm-api-keys/)** — 一键检查 Key 是否可用。
 
-### 图像 / 语音 / 向量化 `04-24 06:30`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
-|-----|------|------|------|---------|---------|
-| `sk-BwqSPY94RGfw3QOttdv2kYSIfBUJCkd53gSjtOYoaK9ILlSG` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-n4GrUp81uTawrdOs2s3fzphSQ6ki1nkthDI1WEmOuP4L00eZ` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-24 |
-| `sk-xdWqBPivd1gbI0XCO6yKLeWhAlJaT6oYsMCV9WOb6evi2ocU` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-YZK2WcZK5d2m4VAdcmC3s0g0PRy0rDm3W8P6zMGhF4v49lLF` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-SKIeDFEIE0nCy9kkt7NHIV7Mur9oPce1kIIRpR6RTQsYMM1k` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-hSyWOIxCMhY7j4bgq6x4HSDILHmCX5yyOvekaAJlxJ8mzmxh` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-4kVLxpDmm0bgUNzlWtFqNdxfMf4cBE0omeBQQJg5En68G2y6` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-24 |
-| `sk-Fkzjg5ePfp4oGtHzFai73nRXJ6YztuMTQiGUTdCKQyvTDSQ4` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-JczklB1vUm86znsbyN9ygLp8F3N6kdDILFK0M5c25FPt2EFp` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
-| `sk-vVjHpZP9EImOf3MK2k4y51QX8hXeyILDc3jfDyQR9hEZEOn9` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-LNPE7oliRRDykjw4iHO4LVyyjHJcR3kZUVbH2ND80Vm8XkdB` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
-| `sk-Ecmb9CYKJp5zFtn7UFHDOnB7QW1PCOoLdQuAkJB5kVjJSQjt` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-En9FQ7S2CYS3m4dHvgizuM11g6pUwajyXyKHjfNy9E95TdMX` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-JHM72pYwQ1CMmuR4bD4IjWDGIVJB7et4geivaNBz0aAd9k0d` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-FQj95AVnLLR8qo9TScKG0pq8eQVIEboJw3yEYw21CqU5bMro` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-B6GQsV15YhfLNkPx2IfZeZweBuI7rUbo2Z0NM6KA3Mt01kqu` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
-| `sk-5Y3OWP1zoVhjCT73YxRwoUazLwKq5xyh0sfaCufTBPOu7UP8` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-Wl8CF1cXCu3Mawiu5hCClHNaUeSvSQ44UUk57K8zVPXLGDvR` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-Fh5MKRGBNcGNj7uawXbH08XVqR5ervXPvQ4KK04kg4L3nsld` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-FaBs6DGuYFP4qpJJ5pqtAXhKVosE10wwwKhnFQF9YVVDFgWD` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-U5vi1ppbzeHThAjAQebkPSNCpoGsU9LnYcBmZgWYiMnjPrkn` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
-| `sk-1B74ncvI6nNPuwhVFsTqPTfyjgAUxFDQyWJhlGEsIb058FpY` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-bXffYMVbJ4lXMMJLqgEgtE5iGzNcGkrpqPnFkVuW7djZDAL8` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-Zy0NIO5HkfQ6S1pv5QzcalBsice9ehDPg5izBkUKiO13fryv` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-PUY1jD2IKAatiwlQe15NKfNXDSZEDh2Ezo5OiNaMlfZTxI57` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
-| `sk-ai0bBeFaQRAIJqpz3xYWlwAY9K9qy5X8Wt26kjaxUGD81sTU` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-lIbOCII5u3epw24ZLm5auNNItcyWwMg6zECO1fntAvoMNfQd` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-vUy66DzJmxoQuzoQVyK6ISsncTqyGW2R8t2vFvlWnDxTeOJj` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-kxPkdBHntNw2arMs9GkteeSrlf6D1vjPvWijz4HayrwrfVho` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-0Prot9W4vBh3yiEND7UA7SYwLI4W2jN6ofcczCS7oefh1rRh` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
-| `sk-jbkhIrGlbshgjoyGDUHUcSWUuqFoGNHNsJkV1wLeCSl2gBw8` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-lxQ9Hw3BW2CFowO4dYYC5M5NwXaQjMKkRaUlQy7GPigicLRO` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-EwtImyOnKhs4mHqgfhpWqGlT15kkTqtbkJu0jJ9jdJ7k9IJI` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
-| `sk-0G5bBWvLJFA1YPD6Nj59ND05Dm9CJpflTZQ8fWgh5SSRNzgh` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-OOhpQYGTXNJtBr2SENc83pWDWwdwguGAQCPTDWHjeoEdVibT` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-26 |
-| `sk-uaB6hZwxXbuXUd7Vy2017ciBPWxYBgTIr62kZxe37NAHWmnv` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-JtVY6GEukyTiuKRy0ebRE2ICxYaNjtNq6RYFDNFzBVTxOWoH` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-9VAAKC3UgwXgUzwkkls3lcE7DHdw0q4SXuiCwDkt5BtRdG3H` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-zv50GPKSYJkMXUGyk1n53bLQkVnNJyrlmRU80R5oizbPbatt` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-aLXpM9lDUsD3iMWkzpz99QqjgA3930TePjaXIZgGsq8StZ3B` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-26 |
-| `sk-UyGL1cxnlTdusFMFhZCXs3KL2KkH0dy8ngSaqdMae6TwzcGY` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-2l5Cy8xmHMkVua7J05UmcxW9nysyAJQSiK4nVKb4hjtl5kvp` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-sDZU2q4nKtOzfaZOAn4W9p8SnlutFHAu1mPSK6jlM3optA5u` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-tQp6399fjGYRbGI0unROzNFwZRQxLS9cTMIU0QsR6yh7XlwA` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-BHPLt5zvg7Ih2nazG6r2XKDnRm8OgXVM5cqZrNMNjFdDZPMP` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-26 |
-| `sk-7jYfoEb9g8UG3ebq1Vk2IIMzSbnX6gqrmsOPhdhBzl4AUjp6` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-NrwW8gRQLqD8a2qm5R53dYNA4XEJ3kEmJqUeomdpBSyFQ1HY` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-| `sk-mUuKHGsQm5RyQvApM52o6k24pfFwUO4IPiK1QK4VICYTpRGw` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
-
-### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-24 06:30`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-EHoVfCFe3FMV6Tm5VsmBPtxmNEXmaWa6IUXt219nt08AhDyq` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-hEbI7ZZ4rTOommGwr6PQUagO7z8qgUDSGsArftYG19GjCn1K` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-ZfItI5cHk3gkBEItsPPi0seb8jUzDN7814kuhi8GEJuVZewz` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-GM6wvWckvnH2O8JKv5na2hAzZon4IAEMrNTcDDluB8wGW643` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-LTZsil8eXP3RiaZRryAcbmE16BcTPtWwg8HDXYS2lZia0wBc` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-JF15Mq4Wjruj9Ny1M1rS9ZYpU1PyIM8u7e3NnWKcr7cWuqTH` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-tVzDxIxbZLd4Vp0osH1vbo3S1lnYackl9AhwNyzh6P49J2kL` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
-
-
-> 💡 **状态说明：** ✅ 可用 | ⚠️ 额度低 | 🆕 新增
-
----
-
-
-
----
-
-
-### Kimi `04-24 06:30`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-SVcJ76vPoIyfAPUzOWFTm8tkQAToNGTRmK8TiLJxxJqVDE5P` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-hSdBmqCBEip8HyVGEk831fEQxW2LsjDvjblhBfxFxSqypU4J` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-QiZJRwoabswVEO7D5gzx5oI4DYoONF3hcvJVZte4MhaCoh5D` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-FxRLLJB8rpN7lzC0z43VU4kb9W0RlN9RbZNjs5fIFksUecFG` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-5D7yePpvh8aB8WJP7GTKgEnLLYfTr94WFVJjx4LzeZthc0yE` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-zdBsv0V58X71hNc8JVfvzvjkoHZUtNF24O6J3S5HuSuHbeSK` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-pc2FMyceKNWUw3q3uPWGah2xQiWmB20SujberHrr6zSMXj2T` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-6wiTqhpYe6HkFkrRdFYt2KzrGra62zcQLIUnK6AdAynSbyHq` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-I1z5pf0UhqNL66epM1bSV2tg7yGEZau2yjGh9iMAB7PXufup` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-4MS22ZZ4DMWccLH2uGPQ9WNeEDmeKOHUhRRyPuLHcYv2qp3L` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-JFwA3DqrhMUtwxDG955zVeiPTOWYFjWOKy6nrItS8bozoSEd` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-qD9KAIrgdgsAX1KokqLylW8asIR7VnVYYSITY7X6oQd6ZVWU` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-DzwwGUHxEFjIupX5hBOOjTeswMdyuLZZwMrMDbFqSOyssPg3` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-1DoTJ5nNNdVLeQajnNAH3POSTvw42E2AngO7nWDhEom8aW3Z` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-A1BJUn0YjwWPb1EDRjNRySRHQR81bkqKPuCuJPvA9Bur8hSd` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-FBSgImBrE1BYFvbkaOJA2BE9zpFj9bGc73gHQVD8ghLpiq2r` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-LCjzLuTvI6FHFD6YvuDT4lmokuSFxbvQpApwwTFK3dGy2HXh` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-BMDw9M6B5ANU7KkAl52EqzZP1rVh4hGvTG9FUg59ObDFQC2I` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-k0otrP71NkAFvJGORH53G4yekOaBVKCsvIMq8SrCcGQAVEEi` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-VJhPPIpsvYjCWwHpMdEejM6D9o7Y1dIGkDVJr3edy64u7Dkf` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-bkz5EcrLGo1OA6mktH9GyaJzvKvzXuLxJEPwZGcsIX5IvHAa` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-qUZevXIXrZw9bvxiEKMdGopiKNfdEYRTFoaebCykDkvQlWye` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-sG8ZWXbYFMSwhRo06rYdvdTfhYWFcRPKHFvEjryR9QTGiuSa` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-YpZVfoRfrhU6JewKS4Kxx56oLgvHVMux0S7xxHfQXrSySIwL` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-VYGtMt86yx8C78iq3uMtueCLJj6ULttlMWm8Unp0C3vCFeYv` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-rD2JZOSLZvmlFVI5tbuoF6AqRsQH2MRFC9ewpJ2Xn4ioTrYl` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-mXFRgziNvq5OSQzz6J6iF3kUXPrzmk11QliEwafn61AyQCGq` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-zDGevmyxG5LqkyGV2zjVmWV2bjZZd204Gc0R3SvXOmNl4Nh6` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-iIudv5vUZpg74s29eVPep7hI1XKwY1obOTtomSS0DRxUCyjF` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-GpXWB0IIuq6vjCcmkDvuh20wc7qtehBFQKFdOakUpLKcmReN` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-
----
-
-
 ### Gemini `04-24 06:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
@@ -237,6 +124,119 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-jzaq2XIzPDVMMZSEaZUyfsMR39I1fkCq0Mu3qIcRj2h3Y9NF` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite，轻量快速 |
 
 ---
+
+### Kimi `04-24 06:30`
+
+| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
+|-----|------|------|------|---------|---------|------|
+| `sk-SVcJ76vPoIyfAPUzOWFTm8tkQAToNGTRmK8TiLJxxJqVDE5P` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
+| `sk-hSdBmqCBEip8HyVGEk831fEQxW2LsjDvjblhBfxFxSqypU4J` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
+| `sk-QiZJRwoabswVEO7D5gzx5oI4DYoONF3hcvJVZte4MhaCoh5D` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
+| `sk-FxRLLJB8rpN7lzC0z43VU4kb9W0RlN9RbZNjs5fIFksUecFG` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
+| `sk-5D7yePpvh8aB8WJP7GTKgEnLLYfTr94WFVJjx4LzeZthc0yE` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
+| `sk-zdBsv0V58X71hNc8JVfvzvjkoHZUtNF24O6J3S5HuSuHbeSK` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
+| `sk-pc2FMyceKNWUw3q3uPWGah2xQiWmB20SujberHrr6zSMXj2T` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-6wiTqhpYe6HkFkrRdFYt2KzrGra62zcQLIUnK6AdAynSbyHq` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-I1z5pf0UhqNL66epM1bSV2tg7yGEZau2yjGh9iMAB7PXufup` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-4MS22ZZ4DMWccLH2uGPQ9WNeEDmeKOHUhRRyPuLHcYv2qp3L` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-JFwA3DqrhMUtwxDG955zVeiPTOWYFjWOKy6nrItS8bozoSEd` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-qD9KAIrgdgsAX1KokqLylW8asIR7VnVYYSITY7X6oQd6ZVWU` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-DzwwGUHxEFjIupX5hBOOjTeswMdyuLZZwMrMDbFqSOyssPg3` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-1DoTJ5nNNdVLeQajnNAH3POSTvw42E2AngO7nWDhEom8aW3Z` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-A1BJUn0YjwWPb1EDRjNRySRHQR81bkqKPuCuJPvA9Bur8hSd` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-FBSgImBrE1BYFvbkaOJA2BE9zpFj9bGc73gHQVD8ghLpiq2r` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-LCjzLuTvI6FHFD6YvuDT4lmokuSFxbvQpApwwTFK3dGy2HXh` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-BMDw9M6B5ANU7KkAl52EqzZP1rVh4hGvTG9FUg59ObDFQC2I` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-k0otrP71NkAFvJGORH53G4yekOaBVKCsvIMq8SrCcGQAVEEi` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-VJhPPIpsvYjCWwHpMdEejM6D9o7Y1dIGkDVJr3edy64u7Dkf` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-bkz5EcrLGo1OA6mktH9GyaJzvKvzXuLxJEPwZGcsIX5IvHAa` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
+| `sk-qUZevXIXrZw9bvxiEKMdGopiKNfdEYRTFoaebCykDkvQlWye` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-sG8ZWXbYFMSwhRo06rYdvdTfhYWFcRPKHFvEjryR9QTGiuSa` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-YpZVfoRfrhU6JewKS4Kxx56oLgvHVMux0S7xxHfQXrSySIwL` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-VYGtMt86yx8C78iq3uMtueCLJj6ULttlMWm8Unp0C3vCFeYv` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-rD2JZOSLZvmlFVI5tbuoF6AqRsQH2MRFC9ewpJ2Xn4ioTrYl` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-mXFRgziNvq5OSQzz6J6iF3kUXPrzmk11QliEwafn61AyQCGq` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-zDGevmyxG5LqkyGV2zjVmWV2bjZZd204Gc0R3SvXOmNl4Nh6` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-iIudv5vUZpg74s29eVPep7hI1XKwY1obOTtomSS0DRxUCyjF` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-GpXWB0IIuq6vjCcmkDvuh20wc7qtehBFQKFdOakUpLKcmReN` | kimi-k2.5 | 🆕 新增 | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+
+---
+
+
+### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-24 06:30`
+
+| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
+|-----|------|------|------|---------|---------|------|
+| `sk-EHoVfCFe3FMV6Tm5VsmBPtxmNEXmaWa6IUXt219nt08AhDyq` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-hEbI7ZZ4rTOommGwr6PQUagO7z8qgUDSGsArftYG19GjCn1K` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-ZfItI5cHk3gkBEItsPPi0seb8jUzDN7814kuhi8GEJuVZewz` | gemini-2.5-pro | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
+| `sk-GM6wvWckvnH2O8JKv5na2hAzZon4IAEMrNTcDDluB8wGW643` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-LTZsil8eXP3RiaZRryAcbmE16BcTPtWwg8HDXYS2lZia0wBc` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-JF15Mq4Wjruj9Ny1M1rS9ZYpU1PyIM8u7e3NnWKcr7cWuqTH` | gemini-2.5-flash | 🆕 新增 | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
+| `sk-tVzDxIxbZLd4Vp0osH1vbo3S1lnYackl9AhwNyzh6P49J2kL` | gemini-2.5-flash-lite | 🆕 新增 | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
+
+
+> 💡 **状态说明：** ✅ 可用 | ⚠️ 额度低 | 🆕 新增
+
+---
+
+
+
+---
+
+
+### 图像 / 语音 / 向量化 `04-24 06:30`
+
+| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |
+|-----|------|------|------|---------|---------|
+| `sk-BwqSPY94RGfw3QOttdv2kYSIfBUJCkd53gSjtOYoaK9ILlSG` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
+| `sk-n4GrUp81uTawrdOs2s3fzphSQ6ki1nkthDI1WEmOuP4L00eZ` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-24 |
+| `sk-xdWqBPivd1gbI0XCO6yKLeWhAlJaT6oYsMCV9WOb6evi2ocU` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
+| `sk-YZK2WcZK5d2m4VAdcmC3s0g0PRy0rDm3W8P6zMGhF4v49lLF` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
+| `sk-SKIeDFEIE0nCy9kkt7NHIV7Mur9oPce1kIIRpR6RTQsYMM1k` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
+| `sk-hSyWOIxCMhY7j4bgq6x4HSDILHmCX5yyOvekaAJlxJ8mzmxh` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
+| `sk-4kVLxpDmm0bgUNzlWtFqNdxfMf4cBE0omeBQQJg5En68G2y6` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-24 |
+| `sk-Fkzjg5ePfp4oGtHzFai73nRXJ6YztuMTQiGUTdCKQyvTDSQ4` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
+| `sk-JczklB1vUm86znsbyN9ygLp8F3N6kdDILFK0M5c25FPt2EFp` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-24 |
+| `sk-vVjHpZP9EImOf3MK2k4y51QX8hXeyILDc3jfDyQR9hEZEOn9` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-LNPE7oliRRDykjw4iHO4LVyyjHJcR3kZUVbH2ND80Vm8XkdB` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
+| `sk-Ecmb9CYKJp5zFtn7UFHDOnB7QW1PCOoLdQuAkJB5kVjJSQjt` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-En9FQ7S2CYS3m4dHvgizuM11g6pUwajyXyKHjfNy9E95TdMX` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-JHM72pYwQ1CMmuR4bD4IjWDGIVJB7et4geivaNBz0aAd9k0d` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-FQj95AVnLLR8qo9TScKG0pq8eQVIEboJw3yEYw21CqU5bMro` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-B6GQsV15YhfLNkPx2IfZeZweBuI7rUbo2Z0NM6KA3Mt01kqu` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
+| `sk-5Y3OWP1zoVhjCT73YxRwoUazLwKq5xyh0sfaCufTBPOu7UP8` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-Wl8CF1cXCu3Mawiu5hCClHNaUeSvSQ44UUk57K8zVPXLGDvR` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-Fh5MKRGBNcGNj7uawXbH08XVqR5ervXPvQ4KK04kg4L3nsld` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-FaBs6DGuYFP4qpJJ5pqtAXhKVosE10wwwKhnFQF9YVVDFgWD` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-U5vi1ppbzeHThAjAQebkPSNCpoGsU9LnYcBmZgWYiMnjPrkn` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
+| `sk-1B74ncvI6nNPuwhVFsTqPTfyjgAUxFDQyWJhlGEsIb058FpY` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-bXffYMVbJ4lXMMJLqgEgtE5iGzNcGkrpqPnFkVuW7djZDAL8` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-Zy0NIO5HkfQ6S1pv5QzcalBsice9ehDPg5izBkUKiO13fryv` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-PUY1jD2IKAatiwlQe15NKfNXDSZEDh2Ezo5OiNaMlfZTxI57` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
+| `sk-ai0bBeFaQRAIJqpz3xYWlwAY9K9qy5X8Wt26kjaxUGD81sTU` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-lIbOCII5u3epw24ZLm5auNNItcyWwMg6zECO1fntAvoMNfQd` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-vUy66DzJmxoQuzoQVyK6ISsncTqyGW2R8t2vFvlWnDxTeOJj` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-kxPkdBHntNw2arMs9GkteeSrlf6D1vjPvWijz4HayrwrfVho` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-0Prot9W4vBh3yiEND7UA7SYwLI4W2jN6ofcczCS7oefh1rRh` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-25 |
+| `sk-jbkhIrGlbshgjoyGDUHUcSWUuqFoGNHNsJkV1wLeCSl2gBw8` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-lxQ9Hw3BW2CFowO4dYYC5M5NwXaQjMKkRaUlQy7GPigicLRO` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-EwtImyOnKhs4mHqgfhpWqGlT15kkTqtbkJu0jJ9jdJ7k9IJI` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-25 |
+| `sk-0G5bBWvLJFA1YPD6Nj59ND05Dm9CJpflTZQ8fWgh5SSRNzgh` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-OOhpQYGTXNJtBr2SENc83pWDWwdwguGAQCPTDWHjeoEdVibT` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-26 |
+| `sk-uaB6hZwxXbuXUd7Vy2017ciBPWxYBgTIr62kZxe37NAHWmnv` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-JtVY6GEukyTiuKRy0ebRE2ICxYaNjtNq6RYFDNFzBVTxOWoH` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-9VAAKC3UgwXgUzwkkls3lcE7DHdw0q4SXuiCwDkt5BtRdG3H` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-zv50GPKSYJkMXUGyk1n53bLQkVnNJyrlmRU80R5oizbPbatt` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-aLXpM9lDUsD3iMWkzpz99QqjgA3930TePjaXIZgGsq8StZ3B` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-26 |
+| `sk-UyGL1cxnlTdusFMFhZCXs3KL2KkH0dy8ngSaqdMae6TwzcGY` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-2l5Cy8xmHMkVua7J05UmcxW9nysyAJQSiK4nVKb4hjtl5kvp` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-sDZU2q4nKtOzfaZOAn4W9p8SnlutFHAu1mPSK6jlM3optA5u` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-tQp6399fjGYRbGI0unROzNFwZRQxLS9cTMIU0QsR6yh7XlwA` | rerank-v4.0-pro | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-BHPLt5zvg7Ih2nazG6r2XKDnRm8OgXVM5cqZrNMNjFdDZPMP` | rerank-v4.0-fast | 🆕 新增 | $30 | 10 RPM | 2026-04-26 |
+| `sk-7jYfoEb9g8UG3ebq1Vk2IIMzSbnX6gqrmsOPhdhBzl4AUjp6` | embed-english-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-NrwW8gRQLqD8a2qm5R53dYNA4XEJ3kEmJqUeomdpBSyFQ1HY` | text-embedding-3-small | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
+| `sk-mUuKHGsQm5RyQvApM52o6k24pfFwUO4IPiK1QK4VICYTpRGw` | embed-multilingual-v3.0 | 🆕 新增 | $20 | 10 RPM | 2026-04-26 |
 
 ## 🚀 如何使用
 
