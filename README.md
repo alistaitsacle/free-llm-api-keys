@@ -56,23 +56,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
-### GPT-5.4 / GPT-5.4-mini `04-24 06:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires |
-|-----|-------|--------|--------|------------|---------|
-### DeepSeek V3 / DeepSeek R1 `04-22 01:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires |
-|-----|-------|--------|--------|------------|---------|
-
-### Mistral / Codestral `04-22 01:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires |
-|-----|-------|--------|--------|------------|---------|
-### Cohere `04-22 01:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires |
-|-----|-------|--------|--------|------------|---------|
 ### Image / Audio / Embedding `04-24 06:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
@@ -145,10 +128,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 ---
 
 
-### GLM `04-22 01:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires |
-|-----|-------|--------|--------|------------|---------|
 
 ---
 
