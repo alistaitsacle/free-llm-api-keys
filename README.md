@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-157-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-137-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -47,7 +47,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-24 01:30 (UTC+8)
+> ⏰ Last updated: 2026-04-24 01:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -60,38 +60,25 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-hNffOiFc35Ci99qelMT0j3Y6X3JFoDAyBS5TtqQRP9szqELA` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 |
 | `sk-DayToiM193DMqoJRbKddUtWZ1Q8USUF18lsq00TWyvhPTFEf` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 |
 | `sk-HVAGyCJ6h8cm5jcKkgSY03rpuCdhLyyOPlBP9UJZHlYqm8TN` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 |
 ### DeepSeek V3 / DeepSeek R1 `04-22 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-u0mX06rQU63wOVcfM5w5OuxrVkiTOWgYcog6ihhMq6SVtlz9` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-24 |
-| `sk-FvrYZeMU3p9PcZAHl5argatmHj4lGinTkDmquCOxXqwNvc4s` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-24 |
 
 ### Mistral / Codestral `04-22 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-yfjxbI6lotLwU8AbcrM020VtVHtq2vsUYv2P2UlDGOKsZOFR` | devstral-latest | 🆕 New | $30 | 10 RPM | 2026-04-24 |
-| `sk-32jxQdqv7awvb9OXgNH5a8y7KRykUoSSJnGGb69UPPStDl3U` | mistral-medium-latest | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 ### Cohere `04-22 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-RlhBXKSNSiKLX33lXLQztlcRyi5vK6X7uO3RAhqfu2XEK1vs` | command-a-vision-07-2025 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 ### Image / Audio / Embedding `04-24 01:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-PBUoqPDDd4c6x7bxnzPCgDBttscteEbFbDW9oijdipStYi7V` | dall-e-3 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-0RWMwnjmyJ7zR7bQz3FBOiUm36EYNc4LjGqo5QvBSOizQ8rp` | tts-1-hd | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-H5jp8D1Tq30nYZDO3mvM0xYVQM0SyOEktO2tMzwgH77Wr5K7` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-lgD7rId49CwYtyLR3PaPtbLvURaqL38AcmlOzDCMO0JwZSi4` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-24 |
-| `sk-Z9wHcNFoMkFui5f2uQMLzQwLa6G8At9V84O9cKmRRQx1CAsh` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-ILHNuNK93mj21lGDhQxwfr5ZJ0ardRxThkch7KaAiwpC5j9g` | text-embedding-3-small | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-7wVAXZvNeHPelNZY2CnaFp230X0HiKA98lMsg0zogLAiCMsy` | embed-multilingual-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 | `sk-xkxjBqCqg8SgBXUiaMShunQmPjwo8BiD0cBTsDHTrEox8XDd` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 | `sk-bSRTIw5k56IRwA5ueQOTVH7enDFxffBDsxq08uybFJAs2djB` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-24 |
 | `sk-Enyg9Rkg5jFuZFEooa8ElBrRru3dXKeAQ0QRlnzWjkWE5Taw` | embed-english-v3.0 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
@@ -145,9 +132,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-Zy0SL9kbGvkBK4lcQpVhloZYFSis1jyhypFiQRx6p7yKTUnc` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-74GhzBouQBZUK7MU31LR3Di9gxM08mKQ8VfESl2AKsuxLgjd` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-sQGib6Fl740TIFk5X67sjYZcdMrdXfbza7u4do4ARDGi41LF` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-sofRmORp3LZIYzmJa1w1FXO923VmRRiE7sopm70MGfBewiBA` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
 | `sk-Q3C3uzRKQPY4wdepeHkong66Ti4JIqYS2qURA7bTzBAYvNlj` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
 | `sk-eQuzxd2SahHGaixmSKX8YOfNWeI40c6F5TypnCbAnAzK2rCv` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
@@ -173,10 +157,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-sTSvyIWpeAk4E0Wsjue6aKO9gyCcxoDvX9HeYT2NOBr4wrQf` | glm-5 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-KSRBrPpUD68qqWYZb3FnFQUkQqSxsxpm1j6q4m1PZAiGA2uI` | glm-4.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-xAq6TeDFU6k7hnRPWHcQHNZbBdsXilCI8ZUwvjNLGSF0MPIS` | glm-4.6 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
-| `sk-oto1AoB6CP6QAu9AY5XfvlZiMfNFl0BHuzDerGoAGr1quHOw` | zai-org/GLM-4.7 | 🆕 New | $50 | 5 RPM | 2026-04-24 |
 
 ---
 
@@ -445,6 +425,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-24
+- 🆕 Added 0 keys (), cleaned 21 expired
 - 🆕 Added 19 keys (embed-english-v3.0, embed-multilingual-v3.0, gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gpt-5.4 +5 more), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 1 expired
 
