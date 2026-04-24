@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-184-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-169-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -47,7 +47,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-24 10:00 (UTC+8)
+> ⏰ Last updated: 2026-04-24 10:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -172,9 +172,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-SVcJ76vPoIyfAPUzOWFTm8tkQAToNGTRmK8TiLJxxJqVDE5P` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-hSdBmqCBEip8HyVGEk831fEQxW2LsjDvjblhBfxFxSqypU4J` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-QiZJRwoabswVEO7D5gzx5oI4DYoONF3hcvJVZte4MhaCoh5D` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
 | `sk-FxRLLJB8rpN7lzC0z43VU4kb9W0RlN9RbZNjs5fIFksUecFG` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
 | `sk-5D7yePpvh8aB8WJP7GTKgEnLLYfTr94WFVJjx4LzeZthc0yE` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
 | `sk-zdBsv0V58X71hNc8JVfvzvjkoHZUtNF24O6J3S5HuSuHbeSK` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
@@ -213,13 +210,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-EHoVfCFe3FMV6Tm5VsmBPtxmNEXmaWa6IUXt219nt08AhDyq` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-hEbI7ZZ4rTOommGwr6PQUagO7z8qgUDSGsArftYG19GjCn1K` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-ZfItI5cHk3gkBEItsPPi0seb8jUzDN7814kuhi8GEJuVZewz` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-GM6wvWckvnH2O8JKv5na2hAzZon4IAEMrNTcDDluB8wGW643` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-LTZsil8eXP3RiaZRryAcbmE16BcTPtWwg8HDXYS2lZia0wBc` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-JF15Mq4Wjruj9Ny1M1rS9ZYpU1PyIM8u7e3NnWKcr7cWuqTH` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-tVzDxIxbZLd4Vp0osH1vbo3S1lnYackl9AhwNyzh6P49J2kL` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
 | `sk-ciTfiBDFe3Og5I77ufb3oUsYYCpYPJlqmTVpFwsyglSU1vl3` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-26 | 多模型自动轮询，不挑模型时用 |
 
 
@@ -236,11 +226,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires |
 |-----|-------|--------|--------|------------|---------|
-| `sk-BwqSPY94RGfw3QOttdv2kYSIfBUJCkd53gSjtOYoaK9ILlSG` | rerank-v4.0-pro | 🆕 New | $20 | 10 RPM | 2026-04-24 |
-| `sk-n4GrUp81uTawrdOs2s3fzphSQ6ki1nkthDI1WEmOuP4L00eZ` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-24 |
-| `sk-xdWqBPivd1gbI0XCO6yKLeWhAlJaT6oYsMCV9WOb6evi2ocU` | embed-english-v3.0 | 🆕 New | $20 | 10 RPM | 2026-04-24 |
-| `sk-YZK2WcZK5d2m4VAdcmC3s0g0PRy0rDm3W8P6zMGhF4v49lLF` | text-embedding-3-small | 🆕 New | $20 | 10 RPM | 2026-04-24 |
-| `sk-SKIeDFEIE0nCy9kkt7NHIV7Mur9oPce1kIIRpR6RTQsYMM1k` | embed-multilingual-v3.0 | 🆕 New | $20 | 10 RPM | 2026-04-24 |
 | `sk-hSyWOIxCMhY7j4bgq6x4HSDILHmCX5yyOvekaAJlxJ8mzmxh` | rerank-v4.0-pro | 🆕 New | $20 | 10 RPM | 2026-04-24 |
 | `sk-4kVLxpDmm0bgUNzlWtFqNdxfMf4cBE0omeBQQJg5En68G2y6` | rerank-v4.0-fast | 🆕 New | $30 | 10 RPM | 2026-04-24 |
 | `sk-Fkzjg5ePfp4oGtHzFai73nRXJ6YztuMTQiGUTdCKQyvTDSQ4` | embed-english-v3.0 | 🆕 New | $20 | 10 RPM | 2026-04-24 |
@@ -475,6 +460,7 @@ Available globally. Direct access from China — no VPN needed.
 ## 📅 Changelog
 
 ### 2026-04-24
+- 🆕 Added 0 keys (), cleaned 16 expired
 - 🆕 Added 36 keys (claude-opus-4-7, claude-sonnet-4-6, deepseek-chat, deepseek-reasoner, embed-english-v3.0, embed-multilingual-v3.0 +9 more), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 2 expired
 - 🆕 Added 0 keys (), cleaned 5 expired
