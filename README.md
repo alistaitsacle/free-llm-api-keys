@@ -68,9 +68,9 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-nMHsHsRPwVUX1GlABr6I6FLmnHc3uw3B4udxWxEZ9n3cYabh` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 | GPT 旗舰，综合能力最强 |
-| `sk-DhO3yiMB4duIITggAvxE4rQLHPBSYhgkmnjHCjt3kyPl0w5n` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 | GPT 旗舰，综合能力最强 |
-| `sk-hOIEqLm1KKjJDz0YBmHbEeh9rf1BurZE6Pn7eYMSbuLa1aWN` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 | GPT 旗舰，综合能力最强 |
+| `sk-nMHsHsRPwVUX1GlABr6I6FLmnHc3uw3B4udxWxEZ9n3cYabh` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 | GPT flagship — best all-round |
+| `sk-DhO3yiMB4duIITggAvxE4rQLHPBSYhgkmnjHCjt3kyPl0w5n` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 | GPT flagship — best all-round |
+| `sk-hOIEqLm1KKjJDz0YBmHbEeh9rf1BurZE6Pn7eYMSbuLa1aWN` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-26 | GPT flagship — best all-round |
 
 ---
 
@@ -79,10 +79,10 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-m1tGUmemlKrHShraMYywKQfOEXHxVbS1ush5v4HZRftuaOGa` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | 日常对话、代码生成、翻译写作，最稳定首选 |
-| `sk-aVULfKWLQ1qXy1Lrj2efGrSifu06389iUi35szPtd22uMcJU` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | 日常对话、代码生成、翻译写作，最稳定首选 |
-| `sk-155ibFEtc6PEsV1fgrUwKPjNkcawKgRPVsuxteB0VDjGatwT` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | 日常对话、代码生成、翻译写作，最稳定首选 |
-| `sk-dpAZd9CgauNGFLairsnxwVtQqyVFMEmjdWoOAhryDIcvbJaT` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-26 | 复杂推理、数学证明、逻辑分析 |
+| `sk-m1tGUmemlKrHShraMYywKQfOEXHxVbS1ush5v4HZRftuaOGa` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
+| `sk-aVULfKWLQ1qXy1Lrj2efGrSifu06389iUi35szPtd22uMcJU` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
+| `sk-155ibFEtc6PEsV1fgrUwKPjNkcawKgRPVsuxteB0VDjGatwT` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
+| `sk-dpAZd9CgauNGFLairsnxwVtQqyVFMEmjdWoOAhryDIcvbJaT` | deepseek-reasoner | 🆕 New | $20 | 5 RPM | 2026-04-26 | Complex reasoning, proofs, logic analysis |
 
 ---
 
@@ -91,11 +91,11 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-Ze7Z6U0mIMjHGXvHQC69CCYomFgtVNcjP3V74V3b7Z41pMCI` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Claude Opus 旗舰，复杂任务与长文质量高 |
-| `sk-HMSw8w4sDNYVquhZ0pRTXT0TS7Dh3DK7Y26qjeWv7sKvvltz` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Claude Opus 旗舰，复杂任务与长文质量高 |
-| `sk-CDxqzPznAKl3j9YBrC5hvbeKap6DkN5rdMa8Q9Z8FFIhPCf6` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Claude Opus 旗舰，复杂任务与长文质量高 |
-| `sk-vYZECjiGnz3uYiZPe01YNn70CdehwR1oTjh0BX5gZBxX4pvI` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-25 | Claude Sonnet，稳定高质量通用 |
-| `sk-WJYY4hAUpafDL8KicPqHZqsx3L9jYVuzZagrrSk4qluUOSeZ` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-25 | Claude Sonnet，稳定高质量通用 |
+| `sk-Ze7Z6U0mIMjHGXvHQC69CCYomFgtVNcjP3V74V3b7Z41pMCI` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Claude Opus flagship — complex tasks, long-form quality |
+| `sk-HMSw8w4sDNYVquhZ0pRTXT0TS7Dh3DK7Y26qjeWv7sKvvltz` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Claude Opus flagship — complex tasks, long-form quality |
+| `sk-CDxqzPznAKl3j9YBrC5hvbeKap6DkN5rdMa8Q9Z8FFIhPCf6` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Claude Opus flagship — complex tasks, long-form quality |
+| `sk-vYZECjiGnz3uYiZPe01YNn70CdehwR1oTjh0BX5gZBxX4pvI` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-25 | Claude Sonnet — stable general-purpose |
+| `sk-WJYY4hAUpafDL8KicPqHZqsx3L9jYVuzZagrrSk4qluUOSeZ` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-25 | Claude Sonnet — stable general-purpose |
 
 ---
 
@@ -103,76 +103,76 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-uxDpolYSrDQEJ5LqPaAhNP3n0k4TSDLIKBIjo6jAnub4tVLG` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-W7TgTWsgGW1hdRmoKHDA3vkTbTwpuhbnYQn9NxTE34QYm9f3` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-R9bCkRC7fdN5XtVG0nxGyacaG6aXbvNEc2VkQIe6Dlp0AYtq` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-ZDHL3iw1hFJAzy8LY2G6eJWn8UVAZBhI4azmC7bFrG4OF5p3` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-v243DdgHwvRKYfzGJvQj16VqTWLSuxL4Jerg718RMKB2DkVv` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-6o64sIDmbhB1hVwPK7fxywynpi6uxBZGQUjAVZnPdYTPf9O8` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-tWSTJJ9A5PMUJAsa8G4ohQjJDI5IQfkw6uIYSK7Qu3O9hjdZ` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-4LYjBQEygssrn8mZ8NYO6K6vXRAjH5GC9omywNGRCHhMamUp` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-K07vInLdXMKtKelFrw0e649FdvGL1yPF7cR8FtUH0TGgsBo7` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-vkGcfbf1Qs5JKRfxoJVXZdJvk2QDwt8WaheCmgfzn1VPHpyw` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-SgH1sUTc89ujXm9szghUXQXrVXPHCe3srEEXnfSnn5pFzuLT` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-pexOEGHFyftmBUGCKmCpbUDsgZaczkhkH8ddwJ9pOgLDzuz1` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-jgrjPsVCl5b2azgd458eUyBIMLIYpGYeGdyIZsXUDZPz2srO` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-fjLwt7OVEfFqsKRQfPm63FN21cL6HkojWPdZSqUQ8TXgKWiB` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-8pSEsIoz0eC8WzsEzaJCkYs8F5s9OsXzsEWmk8DQod7zz1dj` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-OJmadMXkpR3xbEscFUReTj9maqF6vtmYs140VOvmDHntoxrR` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-h2ylFDsurMjev7oyf5ujkVCemlX5ylQWtcSepPIqlvEGrTWe` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-ohtHx2DPqri4kqV3nrreCt8cCaFsWcmtyL7HOLVfevSD8LWM` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-DFT3imBdoLRsh13uQAXuHcNhsTjJOopzWMPRYXYzuI20h6Gd` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-FuFyA4F6X15piQ4wlNs8xi1a6nT6s09FJTlNUlKkFq8yhzbQ` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-BI9cpP6VEeOdScAQOYXcZ3E8NqNO1QDwT66Kovtn9siNBZdZ` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-uE8rD00rx791zhHZ6LBqWIqjssHw0PN1IvbVRAtD9yKNEibC` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-c0OhaaDTnTEarBGmQUoR5em4uxyIJtMJ6PLGANzSbwv5Ob4V` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-QYkccAQYp8dxgqznnYXuwoErpKtlIeSS0ugbSBaXkEuseSF2` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-pCpK8evROCFuChQwSEm71vuqpsMt8Y5qmqfqo1MfsHVmdw7d` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-hDkflqcwB0CksT5xBYEzesBFnYk0h7igfpRQB644cz0afp8U` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-qmy26JQTLOkFp1zxX6SS1Nayj8mLdwm9pvGOIZFldfRFXDu1` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-eZQNJcAV6xvTPUDO6I3JrRN8Zz4dbzpj939DXRgiAXkh9xJH` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-RzLLLn37cqYozvQVtvQ9rfyZoel5ykWRw3h5A9HP7bhB52jh` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-zsS12bptkbrJroNJKovfcyxqucaJ9sRXmcLsFBKxlkFFU7yE` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-1gMCfUMDT72QDVwWE0AOGEgSHPoYRuC4ofMjn1Q4VIpCnNnq` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-sAurmXDqU0ZhDkzviB5Ybw42xl1QtIsC0aFzBWiknRkV2tcE` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-6jYvpnqbwGibljWas1i8nYnuoYUBfqlz2nlRrRqb13Tx6tfi` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-BiCLxiLogtJKoQQgoCz5J9rVHmRGQjBeFcfQRfK1xRlbMLLe` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-NVfvgCns1zpTElXk8F8WYPJu3G7AvDdpmnOwYoyWNEaaxpRH` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-J3B904c4oQ28Do9BiZacM62aipxQYtTOYnH8AU6KBflcnzyk` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-F0BzsfofY54VLnbYQTs3XC7HOWaSbng3g8zSRGlRNAlBrDwQ` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-qmR1QlcTrpyh0aVtWNnJWVNLfJIT6DRzTT9YictQ5DYC8Pm7` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-9BnCdk5FBH65XEVUBQRboGy7yQ2KE2PHOKqDC6VHFa9RJOty` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-8aiMAnFIzEZY90pmU2W4hW48rFnVgY8hYgm65TszKWdTF47B` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-WM7seWmf3f83wkxcfgnFpEFaNY4Ec9QCxZYfJGzQVPruGZzf` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-tj1DoXB33BKEwn9paYPD0x8P6CWJN10Jn5HjZ52eFUxtdFJK` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-lbiXVS722Xf3XAlhvSfGdDHYjjng1KjdrBUbw0I438LahkUC` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-aUDdenMYyEf5hn8VNRaIyU68kW7aR2SWymyDWEHyAx7HxH2T` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-ANLfKt0zBdrqy9l7kDRQAPZ6Ydm5bGmfagLuCGQNrHPI3Vfa` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-E0APfsl9jaE3bS0ODqxZYhIjUV7RE7GZ7AbwCze3M83CyIhY` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-I7yCjEmy4a9scCHH0FAXz4ucjH2dwVbgY4NEgiIhqqP6Wrru` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-koB1ne3VQRMg69kWOUNjo623njpYLkP3NiyDiEwvDPpNKMQS` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-xHpzaGg9J7r5HoOI7mVnZmb5fZeh9eEwXSixhNtbTnbnb3WM` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-gCOybtH0hUgwOfK6xONhmdP35sr9J5aNqWDin9T0x1nFsUla` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-HqIh2JkHdzsQiExqzwo6O67B4fRUV4UrnQPlUEgNWpU8pib3` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-AwLLqiA7WzYlLagDBoVKknUUUnYk5Z4fOQGZ5Nt6MzNeTxdw` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-WmkX8r6Ue5ghHqh8ixvOMEZTO1m7qplW15ugzwIlxy5rzT6B` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-yCoodOoTBYAdvKn3CsRNuSqIY0DfDnQqia7IsG0OuOPvZvIh` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-ffrF14K7ajaKA3qkleyXobaC9z3JCRmnILfQHnYtZnvUT6Zc` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-KcXONam2s1v1MfSsAvNT9KdRjw7j2TzgfCBK1meUI8f2ZO3r` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-UYq4QaudDfjpHGz0jhm2QU6AqOQmsWqFElpvIvTei0DrFHCl` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-DpZbB8wOK6L26Jy4MU5gSjN21BwyBdhyts3YazvRh6AB4L7A` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-UVJefDiFCskWbgwOSRWFsQVrua0N9Lx7YRlqK285l5VHSXp7` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-v7vLBeN715CD5kCMCyuFBKriRDvFS1HGPRS8eHTtXu94SsN1` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-bekiCVBVoAubNbj6Q11y99cLKW2Svh0FlGvOr4fH3u5wvr4V` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-vGWsqHFGau3BBK6L9vKZ3PIM3J5I3F7r8apU25zhFqYzdWy8` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-jzaq2XIzPDVMMZSEaZUyfsMR39I1fkCq0Mu3qIcRj2h3Y9NF` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite，轻量快速 |
-| `sk-VrfxD9NrP4fgTzRlf7RcKfUhdDPbaWQwb2h4DPmYXArKJTSl` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-5EpyQBedKKzNCKd3AZdrS8LA2AwW6xIyz7RMI5UgphT7eHtv` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-0hRzTvD7deiCiTacUS9ipXdwKqkNZIc1Tx38wGrWu9whIn6K` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro，高质量复杂任务 |
-| `sk-UcAY4ULghwrljoA86zT8ZrFlaRPVpejg5DE5gmvmtMfTjMGo` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-ZHkaKuiwu1zAZIwlln8TRZCU4hV4wMPdAaX1sXDZHtgafWOT` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-1MU4EplL05WceZbBSF7Xj6K7RmZE7h8FLJ3ETKNvGKRr7lEP` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash，低延迟通用 |
-| `sk-i4m75SbxSaXXoBVuHwT98pHRWkRqw7E1xt0xtSRAXfqfLSCY` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite，轻量快速 |
+| `sk-uxDpolYSrDQEJ5LqPaAhNP3n0k4TSDLIKBIjo6jAnub4tVLG` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-W7TgTWsgGW1hdRmoKHDA3vkTbTwpuhbnYQn9NxTE34QYm9f3` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-R9bCkRC7fdN5XtVG0nxGyacaG6aXbvNEc2VkQIe6Dlp0AYtq` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-ZDHL3iw1hFJAzy8LY2G6eJWn8UVAZBhI4azmC7bFrG4OF5p3` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash — low-latency general |
+| `sk-v243DdgHwvRKYfzGJvQj16VqTWLSuxL4Jerg718RMKB2DkVv` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash — low-latency general |
+| `sk-6o64sIDmbhB1hVwPK7fxywynpi6uxBZGQUjAVZnPdYTPf9O8` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-24 | Gemini 2.5 Flash — low-latency general |
+| `sk-tWSTJJ9A5PMUJAsa8G4ohQjJDI5IQfkw6uIYSK7Qu3O9hjdZ` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-24 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-4LYjBQEygssrn8mZ8NYO6K6vXRAjH5GC9omywNGRCHhMamUp` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-K07vInLdXMKtKelFrw0e649FdvGL1yPF7cR8FtUH0TGgsBo7` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-vkGcfbf1Qs5JKRfxoJVXZdJvk2QDwt8WaheCmgfzn1VPHpyw` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-SgH1sUTc89ujXm9szghUXQXrVXPHCe3srEEXnfSnn5pFzuLT` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-pexOEGHFyftmBUGCKmCpbUDsgZaczkhkH8ddwJ9pOgLDzuz1` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-jgrjPsVCl5b2azgd458eUyBIMLIYpGYeGdyIZsXUDZPz2srO` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-fjLwt7OVEfFqsKRQfPm63FN21cL6HkojWPdZSqUQ8TXgKWiB` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-8pSEsIoz0eC8WzsEzaJCkYs8F5s9OsXzsEWmk8DQod7zz1dj` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-OJmadMXkpR3xbEscFUReTj9maqF6vtmYs140VOvmDHntoxrR` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-h2ylFDsurMjev7oyf5ujkVCemlX5ylQWtcSepPIqlvEGrTWe` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-ohtHx2DPqri4kqV3nrreCt8cCaFsWcmtyL7HOLVfevSD8LWM` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-DFT3imBdoLRsh13uQAXuHcNhsTjJOopzWMPRYXYzuI20h6Gd` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-FuFyA4F6X15piQ4wlNs8xi1a6nT6s09FJTlNUlKkFq8yhzbQ` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-BI9cpP6VEeOdScAQOYXcZ3E8NqNO1QDwT66Kovtn9siNBZdZ` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-uE8rD00rx791zhHZ6LBqWIqjssHw0PN1IvbVRAtD9yKNEibC` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-c0OhaaDTnTEarBGmQUoR5em4uxyIJtMJ6PLGANzSbwv5Ob4V` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-QYkccAQYp8dxgqznnYXuwoErpKtlIeSS0ugbSBaXkEuseSF2` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-pCpK8evROCFuChQwSEm71vuqpsMt8Y5qmqfqo1MfsHVmdw7d` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-hDkflqcwB0CksT5xBYEzesBFnYk0h7igfpRQB644cz0afp8U` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-qmy26JQTLOkFp1zxX6SS1Nayj8mLdwm9pvGOIZFldfRFXDu1` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-eZQNJcAV6xvTPUDO6I3JrRN8Zz4dbzpj939DXRgiAXkh9xJH` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-RzLLLn37cqYozvQVtvQ9rfyZoel5ykWRw3h5A9HP7bhB52jh` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-zsS12bptkbrJroNJKovfcyxqucaJ9sRXmcLsFBKxlkFFU7yE` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-1gMCfUMDT72QDVwWE0AOGEgSHPoYRuC4ofMjn1Q4VIpCnNnq` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-sAurmXDqU0ZhDkzviB5Ybw42xl1QtIsC0aFzBWiknRkV2tcE` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-6jYvpnqbwGibljWas1i8nYnuoYUBfqlz2nlRrRqb13Tx6tfi` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-BiCLxiLogtJKoQQgoCz5J9rVHmRGQjBeFcfQRfK1xRlbMLLe` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-NVfvgCns1zpTElXk8F8WYPJu3G7AvDdpmnOwYoyWNEaaxpRH` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-J3B904c4oQ28Do9BiZacM62aipxQYtTOYnH8AU6KBflcnzyk` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-F0BzsfofY54VLnbYQTs3XC7HOWaSbng3g8zSRGlRNAlBrDwQ` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-qmR1QlcTrpyh0aVtWNnJWVNLfJIT6DRzTT9YictQ5DYC8Pm7` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-9BnCdk5FBH65XEVUBQRboGy7yQ2KE2PHOKqDC6VHFa9RJOty` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-8aiMAnFIzEZY90pmU2W4hW48rFnVgY8hYgm65TszKWdTF47B` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-WM7seWmf3f83wkxcfgnFpEFaNY4Ec9QCxZYfJGzQVPruGZzf` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-25 | Gemini 2.5 Flash — low-latency general |
+| `sk-tj1DoXB33BKEwn9paYPD0x8P6CWJN10Jn5HjZ52eFUxtdFJK` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-25 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-lbiXVS722Xf3XAlhvSfGdDHYjjng1KjdrBUbw0I438LahkUC` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-aUDdenMYyEf5hn8VNRaIyU68kW7aR2SWymyDWEHyAx7HxH2T` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-ANLfKt0zBdrqy9l7kDRQAPZ6Ydm5bGmfagLuCGQNrHPI3Vfa` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-E0APfsl9jaE3bS0ODqxZYhIjUV7RE7GZ7AbwCze3M83CyIhY` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-I7yCjEmy4a9scCHH0FAXz4ucjH2dwVbgY4NEgiIhqqP6Wrru` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-koB1ne3VQRMg69kWOUNjo623njpYLkP3NiyDiEwvDPpNKMQS` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-xHpzaGg9J7r5HoOI7mVnZmb5fZeh9eEwXSixhNtbTnbnb3WM` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-gCOybtH0hUgwOfK6xONhmdP35sr9J5aNqWDin9T0x1nFsUla` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-HqIh2JkHdzsQiExqzwo6O67B4fRUV4UrnQPlUEgNWpU8pib3` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-AwLLqiA7WzYlLagDBoVKknUUUnYk5Z4fOQGZ5Nt6MzNeTxdw` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-WmkX8r6Ue5ghHqh8ixvOMEZTO1m7qplW15ugzwIlxy5rzT6B` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-yCoodOoTBYAdvKn3CsRNuSqIY0DfDnQqia7IsG0OuOPvZvIh` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-ffrF14K7ajaKA3qkleyXobaC9z3JCRmnILfQHnYtZnvUT6Zc` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-KcXONam2s1v1MfSsAvNT9KdRjw7j2TzgfCBK1meUI8f2ZO3r` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-UYq4QaudDfjpHGz0jhm2QU6AqOQmsWqFElpvIvTei0DrFHCl` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-DpZbB8wOK6L26Jy4MU5gSjN21BwyBdhyts3YazvRh6AB4L7A` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-UVJefDiFCskWbgwOSRWFsQVrua0N9Lx7YRlqK285l5VHSXp7` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-v7vLBeN715CD5kCMCyuFBKriRDvFS1HGPRS8eHTtXu94SsN1` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-bekiCVBVoAubNbj6Q11y99cLKW2Svh0FlGvOr4fH3u5wvr4V` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-vGWsqHFGau3BBK6L9vKZ3PIM3J5I3F7r8apU25zhFqYzdWy8` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-jzaq2XIzPDVMMZSEaZUyfsMR39I1fkCq0Mu3qIcRj2h3Y9NF` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite — lightweight & fast |
+| `sk-VrfxD9NrP4fgTzRlf7RcKfUhdDPbaWQwb2h4DPmYXArKJTSl` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-5EpyQBedKKzNCKd3AZdrS8LA2AwW6xIyz7RMI5UgphT7eHtv` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-0hRzTvD7deiCiTacUS9ipXdwKqkNZIc1Tx38wGrWu9whIn6K` | gemini-2.5-pro | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Pro — high-quality complex tasks |
+| `sk-UcAY4ULghwrljoA86zT8ZrFlaRPVpejg5DE5gmvmtMfTjMGo` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-ZHkaKuiwu1zAZIwlln8TRZCU4hV4wMPdAaX1sXDZHtgafWOT` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-1MU4EplL05WceZbBSF7Xj6K7RmZE7h8FLJ3ETKNvGKRr7lEP` | gemini-2.5-flash | 🆕 New | $50 | 5 RPM | 2026-04-26 | Gemini 2.5 Flash — low-latency general |
+| `sk-i4m75SbxSaXXoBVuHwT98pHRWkRqw7E1xt0xtSRAXfqfLSCY` | gemini-2.5-flash-lite | 🆕 New | $30 | 10 RPM | 2026-04-26 | Gemini 2.5 Flash Lite — lightweight & fast |
 
 ---
 
@@ -180,36 +180,36 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-FxRLLJB8rpN7lzC0z43VU4kb9W0RlN9RbZNjs5fIFksUecFG` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-5D7yePpvh8aB8WJP7GTKgEnLLYfTr94WFVJjx4LzeZthc0yE` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-zdBsv0V58X71hNc8JVfvzvjkoHZUtNF24O6J3S5HuSuHbeSK` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5，长上下文通用 |
-| `sk-pc2FMyceKNWUw3q3uPWGah2xQiWmB20SujberHrr6zSMXj2T` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-6wiTqhpYe6HkFkrRdFYt2KzrGra62zcQLIUnK6AdAynSbyHq` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-I1z5pf0UhqNL66epM1bSV2tg7yGEZau2yjGh9iMAB7PXufup` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-4MS22ZZ4DMWccLH2uGPQ9WNeEDmeKOHUhRRyPuLHcYv2qp3L` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-JFwA3DqrhMUtwxDG955zVeiPTOWYFjWOKy6nrItS8bozoSEd` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-qD9KAIrgdgsAX1KokqLylW8asIR7VnVYYSITY7X6oQd6ZVWU` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-DzwwGUHxEFjIupX5hBOOjTeswMdyuLZZwMrMDbFqSOyssPg3` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-1DoTJ5nNNdVLeQajnNAH3POSTvw42E2AngO7nWDhEom8aW3Z` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-A1BJUn0YjwWPb1EDRjNRySRHQR81bkqKPuCuJPvA9Bur8hSd` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-FBSgImBrE1BYFvbkaOJA2BE9zpFj9bGc73gHQVD8ghLpiq2r` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-LCjzLuTvI6FHFD6YvuDT4lmokuSFxbvQpApwwTFK3dGy2HXh` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-BMDw9M6B5ANU7KkAl52EqzZP1rVh4hGvTG9FUg59ObDFQC2I` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-k0otrP71NkAFvJGORH53G4yekOaBVKCsvIMq8SrCcGQAVEEi` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-VJhPPIpsvYjCWwHpMdEejM6D9o7Y1dIGkDVJr3edy64u7Dkf` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-bkz5EcrLGo1OA6mktH9GyaJzvKvzXuLxJEPwZGcsIX5IvHAa` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5，长上下文通用 |
-| `sk-qUZevXIXrZw9bvxiEKMdGopiKNfdEYRTFoaebCykDkvQlWye` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-sG8ZWXbYFMSwhRo06rYdvdTfhYWFcRPKHFvEjryR9QTGiuSa` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-YpZVfoRfrhU6JewKS4Kxx56oLgvHVMux0S7xxHfQXrSySIwL` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-VYGtMt86yx8C78iq3uMtueCLJj6ULttlMWm8Unp0C3vCFeYv` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-rD2JZOSLZvmlFVI5tbuoF6AqRsQH2MRFC9ewpJ2Xn4ioTrYl` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-mXFRgziNvq5OSQzz6J6iF3kUXPrzmk11QliEwafn61AyQCGq` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-zDGevmyxG5LqkyGV2zjVmWV2bjZZd204Gc0R3SvXOmNl4Nh6` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-iIudv5vUZpg74s29eVPep7hI1XKwY1obOTtomSS0DRxUCyjF` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-GpXWB0IIuq6vjCcmkDvuh20wc7qtehBFQKFdOakUpLKcmReN` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-oUHSAratpM6jO7sg1csVd03IWVGjO6cZlqcYY0cEECbvYuYr` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-HKxSIIlCntM876PM2BPLlWqwuHUmCrkMImln2dgE5fBN40L8` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
-| `sk-R8Zgk6lE2kfTd1L8hgmBKGDmoryAjg5SMql0F3ezHzzZh0RD` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5，长上下文通用 |
+| `sk-FxRLLJB8rpN7lzC0z43VU4kb9W0RlN9RbZNjs5fIFksUecFG` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5 — long-context general |
+| `sk-5D7yePpvh8aB8WJP7GTKgEnLLYfTr94WFVJjx4LzeZthc0yE` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5 — long-context general |
+| `sk-zdBsv0V58X71hNc8JVfvzvjkoHZUtNF24O6J3S5HuSuHbeSK` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-24 | Kimi K2.5 — long-context general |
+| `sk-pc2FMyceKNWUw3q3uPWGah2xQiWmB20SujberHrr6zSMXj2T` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-6wiTqhpYe6HkFkrRdFYt2KzrGra62zcQLIUnK6AdAynSbyHq` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-I1z5pf0UhqNL66epM1bSV2tg7yGEZau2yjGh9iMAB7PXufup` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-4MS22ZZ4DMWccLH2uGPQ9WNeEDmeKOHUhRRyPuLHcYv2qp3L` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-JFwA3DqrhMUtwxDG955zVeiPTOWYFjWOKy6nrItS8bozoSEd` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-qD9KAIrgdgsAX1KokqLylW8asIR7VnVYYSITY7X6oQd6ZVWU` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-DzwwGUHxEFjIupX5hBOOjTeswMdyuLZZwMrMDbFqSOyssPg3` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-1DoTJ5nNNdVLeQajnNAH3POSTvw42E2AngO7nWDhEom8aW3Z` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-A1BJUn0YjwWPb1EDRjNRySRHQR81bkqKPuCuJPvA9Bur8hSd` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-FBSgImBrE1BYFvbkaOJA2BE9zpFj9bGc73gHQVD8ghLpiq2r` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-LCjzLuTvI6FHFD6YvuDT4lmokuSFxbvQpApwwTFK3dGy2HXh` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-BMDw9M6B5ANU7KkAl52EqzZP1rVh4hGvTG9FUg59ObDFQC2I` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-k0otrP71NkAFvJGORH53G4yekOaBVKCsvIMq8SrCcGQAVEEi` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-VJhPPIpsvYjCWwHpMdEejM6D9o7Y1dIGkDVJr3edy64u7Dkf` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-bkz5EcrLGo1OA6mktH9GyaJzvKvzXuLxJEPwZGcsIX5IvHAa` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-25 | Kimi K2.5 — long-context general |
+| `sk-qUZevXIXrZw9bvxiEKMdGopiKNfdEYRTFoaebCykDkvQlWye` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-sG8ZWXbYFMSwhRo06rYdvdTfhYWFcRPKHFvEjryR9QTGiuSa` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-YpZVfoRfrhU6JewKS4Kxx56oLgvHVMux0S7xxHfQXrSySIwL` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-VYGtMt86yx8C78iq3uMtueCLJj6ULttlMWm8Unp0C3vCFeYv` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-rD2JZOSLZvmlFVI5tbuoF6AqRsQH2MRFC9ewpJ2Xn4ioTrYl` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-mXFRgziNvq5OSQzz6J6iF3kUXPrzmk11QliEwafn61AyQCGq` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-zDGevmyxG5LqkyGV2zjVmWV2bjZZd204Gc0R3SvXOmNl4Nh6` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-iIudv5vUZpg74s29eVPep7hI1XKwY1obOTtomSS0DRxUCyjF` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-GpXWB0IIuq6vjCcmkDvuh20wc7qtehBFQKFdOakUpLKcmReN` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-oUHSAratpM6jO7sg1csVd03IWVGjO6cZlqcYY0cEECbvYuYr` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-HKxSIIlCntM876PM2BPLlWqwuHUmCrkMImln2dgE5fBN40L8` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
+| `sk-R8Zgk6lE2kfTd1L8hgmBKGDmoryAjg5SMql0F3ezHzzZh0RD` | kimi-k2.5 | 🆕 New | $50 | 5 RPM | 2026-04-26 | Kimi K2.5 — long-context general |
 
 ---
 
@@ -218,7 +218,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-ciTfiBDFe3Og5I77ufb3oUsYYCpYPJlqmTVpFwsyglSU1vl3` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-26 | 多模型自动轮询，不挑模型时用 |
+| `sk-ciTfiBDFe3Og5I77ufb3oUsYYCpYPJlqmTVpFwsyglSU1vl3` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-04-26 | Multi-model auto-routing — when you don't care which |
 
 
 > 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New
