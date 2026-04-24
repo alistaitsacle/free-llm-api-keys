@@ -29,6 +29,14 @@ Copy a key from the table below, paste it into your app, and start building.
 
 ---
 
+<div align="center">
+
+🧪 **[Try it in the Playground →](https://alistaitsacle.github.io/free-llm-api-keys/)** — paste a key, chat with 90+ models in your browser, no install
+
+</div>
+
+---
+
 ## 💡 Why This Project?
 
 AI is changing everything, but most APIs are locked behind credit cards and paywalls. Not everyone has access — especially students, hobbyists, and developers in regions where these services aren't available.
@@ -781,6 +789,7 @@ Available globally. Direct access from China — no VPN needed.
 If this repo helped you, you may also like:
 
 - **[free-vpn-subscriptions](https://github.com/Au1rxx/free-vpn-subscriptions)** — hourly-refreshed Clash / sing-box / v2ray subscription URLs, every node TCP-probed and ranked by latency. No signup, no binary to install.
+- **[proxykit](https://github.com/Au1rxx/proxykit)** — Swiss-army knife for proxy subscriptions. Convert Clash / sing-box / v2ray / Surge formats, probe TCP+TLS liveness, detect Netflix / Disney+ / ChatGPT unlock. Single Go binary, no Docker.
 
 ---
 
