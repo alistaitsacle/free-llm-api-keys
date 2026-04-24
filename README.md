@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-173-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-172-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-24 22:37 (UTC+8)
+> ⏰ Last updated: 2026-04-24 22:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -79,7 +79,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 | `sk-m1tGUmemlKrHShraMYywKQfOEXHxVbS1ush5v4HZRftuaOGa` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
 | `sk-aVULfKWLQ1qXy1Lrj2efGrSifu06389iUi35szPtd22uMcJU` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
 | `sk-155ibFEtc6PEsV1fgrUwKPjNkcawKgRPVsuxteB0VDjGatwT` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
-| `sk-dpAZd9CgauNGFLairsnxwVtQqyVFMEmjdWoOAhryDIcvbJaT` | deepseek-reasoner | ⚠️ Low Budget | $20 | 5 RPM | 2026-04-26 | Complex reasoning, proofs, logic analysis |
 | `sk-YBhq4m6pggw3GqEzUmemh5dCFIHcpRDFmrAognIV8Y7bMzjZ` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
 | `sk-zIZSoEX8OPQ9sYyzeyloNEaIib9gGgCdk3GinkFSB8D8PbrD` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
 | `sk-pTEyxdEJzmmntdurBuMxApjSmoInEY6B2ah6s1o8pTuhMwbA` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Everyday chat, coding, translation, writing — most stable |
