@@ -64,31 +64,15 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
+### Start here: GPT → Claude → DeepSeek
+
+- `gpt-5.4` — best first impression for general chat and coding.
+- `claude-sonnet-4-6` — best for writing, code review, and long answers.
+- `deepseek-chat` — fast, stable, and great for everyday use.
+
+If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.
 
 ---
-
-
-
----
-
-
-
----
-
-
-
----
-
-
----
-
-
----
-
-
-
----
-
 
 ### DeepSeek `04-25 13:30`
 

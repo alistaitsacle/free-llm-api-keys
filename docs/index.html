@@ -215,11 +215,11 @@
       </div>
       <div class="model-row">
         <label>Model:</label>
-        <span class="chip active" onclick="pickModel(this,'deepseek-chat')">DeepSeek</span>
-        <span class="chip" onclick="pickModel(this,'gpt-5.4')">GPT-5.4</span>
+        <span class="chip active" onclick="pickModel(this,'gpt-5.4')">GPT-5.4</span>
+        <span class="chip" onclick="pickModel(this,'claude-sonnet-4-6')">Claude</span>
+        <span class="chip" onclick="pickModel(this,'deepseek-chat')">DeepSeek</span>
         <span class="chip" onclick="pickModel(this,'gpt-5.4-mini')">GPT-5.4 Mini</span>
         <span class="chip" onclick="pickModel(this,'x-ai/grok-4.20-beta')">Grok</span>
-        <span class="chip" onclick="pickModel(this,'claude-sonnet-4-6')">Claude</span>
         <span class="chip" onclick="pickModel(this,'gemini-2.5-pro')">Gemini</span>
         <span class="chip" onclick="pickModel(this,'mistral-medium-latest')">Mistral</span>
         <span class="chip" onclick="pickModel(this,'codestral-latest')">Codestral</span>
@@ -255,11 +255,11 @@
       </div>
       <div class="model-row">
         <label>Test with model:</label>
-        <span class="chip active" onclick="pickVerifyModel(this,'deepseek-chat')">DeepSeek</span>
-        <span class="chip" onclick="pickVerifyModel(this,'gpt-5.4')">GPT-5.4</span>
+        <span class="chip active" onclick="pickVerifyModel(this,'gpt-5.4')">GPT-5.4</span>
+        <span class="chip" onclick="pickVerifyModel(this,'claude-sonnet-4-6')">Claude</span>
+        <span class="chip" onclick="pickVerifyModel(this,'deepseek-chat')">DeepSeek</span>
         <span class="chip" onclick="pickVerifyModel(this,'gpt-5.4-mini')">GPT-5.4 Mini</span>
         <span class="chip" onclick="pickVerifyModel(this,'x-ai/grok-4.20-beta')">Grok</span>
-        <span class="chip" onclick="pickVerifyModel(this,'claude-sonnet-4-6')">Claude</span>
         <span class="chip" onclick="pickVerifyModel(this,'gemini-2.5-pro')">Gemini</span>
         <span class="chip" onclick="pickVerifyModel(this,'mistral-medium-latest')">Mistral</span>
       </div>
@@ -312,8 +312,8 @@
 
 <script>
 const API = 'https://aiapiv2.pekpik.com/v1';
-let chatModel = 'deepseek-chat';
-let verifyModel = 'deepseek-chat';
+let chatModel = 'gpt-5.4';
+let verifyModel = 'gpt-5.4';
 let chatHistory = [];
 let streaming = false;
 let msgCount = 0;

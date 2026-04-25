@@ -63,31 +63,15 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 >
 > **[在这里验证你的 Key](https://alistaitsacle.github.io/free-llm-api-keys/)** — 一键检查 Key 是否可用。
 
+### 优先从这里开始：GPT → Claude → DeepSeek
+
+- `gpt-5.4` — 通用对话和代码场景的第一选择。
+- `claude-sonnet-4-6` — 更适合写作、代码审查和长回答。
+- `deepseek-chat` — 响应快、稳定，适合日常使用。
+
+如果某个单模型暂时没有新 Key，优先使用多模型区的 `flagship-chat` 或 `smart-chat`。
 
 ---
-
-
-
----
-
-
-
----
-
-
-
----
-
-
----
-
-
----
-
-
-
----
-
 
 ### DeepSeek `04-25 13:30`
 
