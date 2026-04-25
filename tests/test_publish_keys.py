@@ -226,6 +226,139 @@ class PublishKeysTests(unittest.TestCase):
         self.assertIn("- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired", updated)
         self.assertIn(f"- 🆕 Added 1 keys (gpt-5.4), cleaned 1 expired\n- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired", updated)
 
+
+    def test_update_readme_puts_featured_gpt_and_claude_before_deepseek(self):
+        readme = self.write_temp_readme(
+            "[![Keys](https://img.shields.io/badge/Available_Keys-1-brightgreen?style=for-the-badge)]()\n"
+            "\n"
+            "## 📋 Available Keys\n"
+            "\n"
+            "> ⏰ Last updated: 2026-04-25 13:30 (UTC+8)\n"
+            "\n"
+            "> **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.\n"
+            "\n"
+            "### DeepSeek `04-25 13:30`\n"
+            "\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-deepseek111` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Stable |\n"
+            "\n"
+            "## 📅 Changelog\n"
+        )
+
+        grouped_keys = {
+            "GPT-5.4": [
+                {"key": "sk-gpt111", "model": "gpt-5.4", "budget": "$20", "rpm": "5 RPM", "expires": "2026-04-27", "use_case": "GPT flagship"}
+            ],
+            "Claude Sonnet": [
+                {"key": "sk-claude111", "model": "claude-sonnet-4-6", "budget": "$20", "rpm": "5 RPM", "expires": "2026-04-27", "use_case": "Claude flagship"}
+            ],
+            "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": [
+                {"key": "sk-smart111", "model": "smart-chat", "budget": "$20", "rpm": "10 RPM", "expires": "2026-04-27", "use_case": "Auto-route"}
+            ],
+        }
+
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        gpt_pos = updated.index("### GPT-5.4")
+        claude_pos = updated.index("### Claude Sonnet")
+        deepseek_pos = updated.index("### DeepSeek")
+        self.assertLess(gpt_pos, claude_pos)
+        self.assertLess(claude_pos, deepseek_pos)
+        self.assertIn("### Start here: GPT → Claude → DeepSeek", updated)
+        self.assertIn("| `sk-smart111` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-04-27 | Auto-route |", updated)
+        self.assertNotIn("|-----|-------|--------|--------|------------|---------|-------------|\n\n|", updated)
+
+
+
+
+    def test_update_readme_places_cn_multi_model_before_media_section(self):
+        readme = self.write_temp_readme(
+            "## 📋 可用 Key 列表\n\n"
+            "> **[在这里验证你的 Key](https://alistaitsacle.github.io/free-llm-api-keys/)** — 一键检查 Key 是否可用。\n\n"
+            "### DeepSeek `04-25 13:30`\n\n"
+            "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |\n"
+            "|-----|------|------|------|---------|---------|------|\n"
+            "| `sk-deepseek111` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-26 | 稳定 |\n\n"
+            "### 图像 / 语音 / 向量化 `04-25 13:30`\n\n"
+            "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |\n"
+            "|-----|------|------|------|---------|---------|\n"
+            "| `sk-embed111` | embed-english-v3.0 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 |\n\n"
+            "## 📅 Changelog\n"
+        )
+        grouped_keys = {
+            "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": [
+                {"key": "sk-smart-cn", "model": "smart-chat", "budget": "$100", "rpm": "10 RPM", "expires": "2026-04-27", "use_case_cn": "自动路由"}
+            ]
+        }
+
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="cn")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertLess(updated.index("### 多模型聚合"), updated.index("### 图像 / 语音 / 向量化"))
+
+    def test_update_readme_removes_duplicate_start_here_blocks(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "> **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.\n\n"
+            "### Start here: GPT → Claude → DeepSeek\n\n"
+            "- `gpt-5.4` — best first impression for general chat and coding.\n"
+            "- `claude-sonnet-4-6` — best for writing, code review, and long answers.\n"
+            "- `deepseek-chat` — fast, stable, and great for everyday use.\n\n"
+            "If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.\n\n"
+            "---\n\n"
+            "### DeepSeek `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-deepseek111` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Stable |\n\n"
+            "### Start here: GPT → Claude → DeepSeek\n\n"
+            "- `gpt-5.4` — best first impression for general chat and coding.\n"
+            "- `claude-sonnet-4-6` — best for writing, code review, and long answers.\n"
+            "- `deepseek-chat` — fast, stable, and great for everyday use.\n\n"
+            "If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.\n\n"
+            "---\n\n"
+            "## 🚀 How to Use\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertEqual(updated.count("### Start here: GPT → Claude → DeepSeek"), 1)
+        self.assertLess(updated.index("### Start here: GPT → Claude → DeepSeek"), updated.index("### DeepSeek"))
+
+    def test_extract_bad_keys_from_status_handles_results_dict(self):
+        payload = {
+            "results": {
+                "sk-good": {"status": "active"},
+                "sk-revoked": {"status": "revoked"},
+                "sk-expired": {"status": "expired"},
+                "sk-warning": {"status": "rate_limited"},
+            }
+        }
+
+        deleted, warned = publish_keys.extract_bad_keys_from_status(payload)
+
+        self.assertEqual(deleted, ["sk-revoked", "sk-expired"])
+        self.assertEqual(warned, ["sk-warning"])
+
+    def test_build_featured_key_requests_fills_missing_priority_models(self):
+        active_keys = [
+            {"models": ["deepseek-chat"]},
+            {"models": ["gpt-5.4"]},
+        ]
+        available_models = {"gpt-5.4", "claude-sonnet-4-6", "deepseek-chat", "smart-chat"}
+
+        requests = publish_keys.build_featured_key_requests(active_keys, available_models, remaining_budget_usd=500)
+
+        requested_models = [req["models"][0] for req in requests]
+        self.assertEqual(requested_models.count("gpt-5.4"), 1)
+        self.assertEqual(requested_models.count("claude-sonnet-4-6"), 2)
+        self.assertEqual(requested_models.count("smart-chat"), 2)
+        self.assertNotIn("deepseek-chat", requested_models)
+        self.assertEqual(requested_models[:3], ["gpt-5.4", "claude-sonnet-4-6", "claude-sonnet-4-6"])
+        self.assertTrue(all(req["budget_usd"] == 100 for req in requests))
+
     def test_sync_repo_before_publish_runs_pull_rebase(self):
         calls = []
 

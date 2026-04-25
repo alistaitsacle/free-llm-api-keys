@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-213-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-219-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-25 23:52 (UTC+8)
+> ⏰ Last updated: 2026-04-26 07:53 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -64,6 +64,32 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
+### Start here: GPT → Claude → DeepSeek
+
+- `gpt-5.4` — best first impression for general chat and coding.
+- `claude-sonnet-4-6` — best for writing, code review, and long answers.
+- `deepseek-chat` — fast, stable, and great for everyday use.
+
+If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.
+
+
+---
+
+### GPT-5.4 `04-26 07:53`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-ZVuqaVtFBuO9qp8y0EnQfII579F6wq50kMyjyEbCd4B9mAB7` | gpt-5.4 | 🆕 New | $100 | 5 RPM | 2026-04-27 | GPT flagship — best first impression for chat and coding |
+| `sk-R3cUQFnUgZKp8v658gOqXehMkxG8cM68f1NYPeGpVTts7EjM` | gpt-5.4 | 🆕 New | $100 | 5 RPM | 2026-04-27 | GPT flagship — best first impression for chat and coding |
+
+---
+
+### Claude Sonnet `04-26 07:53`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-MGtl89xJZxEfUeyMeSAFtEvLpKRnkMSWodjQIGsCKIvOA04V` | claude-sonnet-4-6 | 🆕 New | $100 | 5 RPM | 2026-04-27 | Claude Sonnet — writing, code review, and long answers |
+| `sk-ecfkDSjLoWbMQ7BRTGtoUWFfpZZ6oBTskyrBrwxHn1Fyg3KR` | claude-sonnet-4-6 | 🆕 New | $100 | 5 RPM | 2026-04-27 | Claude Sonnet — writing, code review, and long answers |
 
 ---
 
@@ -100,7 +126,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 | `sk-4ByreegUSsfc9CDLrXxi0uQppurRKdmvBsGcqTBy9sUQubuF` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-27 | Everyday chat, coding, translation, writing — most stable |
 
 ---
-
 
 
 ---
@@ -233,18 +258,14 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 ---
 
 
-### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-25 14:34`
+### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-26 07:53`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-> 💡 **Status:** ✅ Available | ⚠️ Low Budget | 🆕 New
+| `sk-4B9wI3aM7w87OUMT8TkmaduKOAB9uHItHoPEvZ016huRhKkd` | smart-chat | 🆕 New | $100 | 10 RPM | 2026-04-27 | Auto-routes across currently healthy chat models |
+| `sk-SQGrKzsdR087n6YLqDQ6He1enp0mordBZLIjMbh1PrAKGJnJ` | smart-chat | 🆕 New | $100 | 10 RPM | 2026-04-27 | Auto-routes across currently healthy chat models |
 
 ---
-
-
-
----
-
 
 ### Image / Audio / Embedding `04-25 13:30`
 
@@ -339,33 +360,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 | `sk-xnCKyHfo7dOGn83weiR6VbIUGouWZAFtsYDUNLL5R3e8oMFt` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-27 |
 | `sk-b54xunisSfsDAgt4xDoD0jgqt7RfTREGSd5OzqsKIueULW11` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-27 |
 | `sk-Ox2sN1CmsDNeJIRe5pxpoNwcahwOAXe8dpVIGRfp511Cwsc8` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-27 |
-
-
-
-
-
-
-
-
-### Start here: GPT → Claude → DeepSeek
-
-- `gpt-5.4` — best first impression for general chat and coding.
-- `claude-sonnet-4-6` — best for writing, code review, and long answers.
-- `deepseek-chat` — fast, stable, and great for everyday use.
-
-If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.
-
----
-
-### Start here: GPT → Claude → DeepSeek
-
-- `gpt-5.4` — best first impression for general chat and coding.
-- `claude-sonnet-4-6` — best for writing, code review, and long answers.
-- `deepseek-chat` — fast, stable, and great for everyday use.
-
-If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.
-
----
 
 ## 🚀 How to Use
 
@@ -542,7 +536,11 @@ Available globally. Direct access from China — no VPN needed.
 
 ## 📅 Changelog
 
+<details>
+<summary><b>Show changelog history</b></summary>
+
 ### 2026-04-25
+- 🆕 Added 6 keys (gpt-5.4, claude-sonnet-4-6, smart-chat), cleaned 0 expired
 - 🆕 Added 22 keys (claude-opus-4-7, deepseek-chat, gemini-2.5-flash, gemini-2.5-pro, gpt-5.4, kimi-k2.5 +2 more), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 8 expired
 - 🆕 Added 28 keys (claude-opus-4-7, claude-sonnet-4-6, deepseek-chat, deepseek-reasoner, embed-english-v3.0, gemini-2.5-flash +6 more), cleaned 1 expired
@@ -751,8 +749,6 @@ Available globally. Direct access from China — no VPN needed.
 - 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
 - 🆕 Added 0 keys (), cleaned 1 expired
 
-<details>
-<summary><b>Show changelog history</b></summary>
 
 ### 2026-04-07
 - 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
