@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-218-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-216-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-25 08:07 (UTC+8)
+> ⏰ Last updated: 2026-04-25 08:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -128,8 +128,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 | `sk-sJbY1VqY14Rr5xsnka0wy5EMH7w3GAPzbVPVxx52KDnZbNvD` | claude-sonnet-4-6 | ⚠️ Low Budget | $30 | 5 RPM | 2026-04-26 | Claude Sonnet — stable general-purpose |
 | `sk-bPdjDFFAjX2O4e488TpX7jbgyETVQraMLywjmAL0J2lNjcw3` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-26 | Claude Sonnet — stable general-purpose |
 | `sk-1P5TjOI8OWpemooxDlfIZKEv4EjOuS7qR9szyCuZ8EjwjMLA` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-27 | Claude Opus flagship — complex tasks, long-form quality |
-| `sk-5S7P79XYFWpQQ5ZjbXoH0ULLEANbjIEUHxn183UEFyoyqmhN` | claude-opus-4-7 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-27 | Claude Opus flagship — complex tasks, long-form quality |
-| `sk-JDAJAVOoQEP3e7HMgmJeku8zwOhvdu1oYe9hiGQJuHjKLtqH` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-27 | Claude Opus flagship — complex tasks, long-form quality |
 | `sk-aK3ZzmIiZ31SCWzRLtdsd1r2BVAhwdetfudNKdeNhyTLQotx` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-26 | Claude Sonnet — stable general-purpose |
 | `sk-zdhzHI18ZbG1pi8UEWmyme7gY88VisI0juHYnerVZjd9n1NA` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-26 | Claude Sonnet — stable general-purpose |
 
