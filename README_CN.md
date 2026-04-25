@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-220-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-216-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-25 13:37 (UTC+8)
+> ⏰ 最后更新： 2026-04-25 13:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -90,7 +90,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
 | `sk-q76AvCqutsihAJcSwMbQfg5emBqmtp7uIuhT7u8oKrVTouD9` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | GPT 旗舰，综合能力最强 |
-| `sk-91xJKQVES0zPGaEzUrUZlinBfUfjs3SCYwjSkpeK6AOFywRd` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | GPT 旗舰，综合能力最强 |
 | `sk-sYYreaaC1KQH7zcMTdJugT4WBL9j1ScoJrrxVIXJGXFcLxjS` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | GPT 旗舰，综合能力最强 |
 
 ---
@@ -142,13 +141,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Claude `04-25 13:30`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-zZWmmevuj1SGOX2sQo20LjfppWFfNr8KNxPIT4BESGi1fsCO` | claude-opus-4-7 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | Claude Opus 旗舰，复杂任务与长文质量高 |
-| `sk-AdhqrjfCRjqTO1LKtKMhZ9uAabJH3uVtQ6L8Ct3xA02t5WCB` | claude-opus-4-7 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | Claude Opus 旗舰，复杂任务与长文质量高 |
-| `sk-8AYvyMKDfdpXQ7EEACYvcE2Wz9APVmEUynKEDF4t5awqlzdW` | claude-opus-4-7 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | Claude Opus 旗舰，复杂任务与长文质量高 |
 
 ---
 
