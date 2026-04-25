@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-25 14:07 (UTC+8)
+> ⏰ Last updated: 2026-04-25 14:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -63,16 +63,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 > ⚠️ **Note:** Keys are shared publicly. Budget may already be consumed by other users. If a key doesn't work, try another one or check back later for fresh keys.
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
-
-### Start here: GPT → Claude → DeepSeek
-
-- `gpt-5.4` — best first impression for general chat and coding.
-- `claude-sonnet-4-6` — best for writing, code review, and long answers.
-- `deepseek-chat` — fast, stable, and great for everyday use.
-
-If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.
-
----
 
 ### DeepSeek `04-25 13:30`
 
@@ -349,6 +339,16 @@ If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `
 
 
 
+
+### Start here: GPT → Claude → DeepSeek
+
+- `gpt-5.4` — best first impression for general chat and coding.
+- `claude-sonnet-4-6` — best for writing, code review, and long answers.
+- `deepseek-chat` — fast, stable, and great for everyday use.
+
+If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.
+
+---
 
 ## 🚀 How to Use
 
