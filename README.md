@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-201-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-200-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-25 06:07 (UTC+8)
+> ⏰ Last updated: 2026-04-25 06:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -113,7 +113,6 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
 | `sk-sJbY1VqY14Rr5xsnka0wy5EMH7w3GAPzbVPVxx52KDnZbNvD` | claude-sonnet-4-6 | ⚠️ Low Budget | $30 | 5 RPM | 2026-04-26 | Claude Sonnet — stable general-purpose |
-| `sk-IQSyso4tjgWmh3YU7HLooWfecCCwjGQqP94l9hX840R3mPhs` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-27 | Claude Opus flagship — complex tasks, long-form quality |
 | `sk-dsnyKzg1pFbn84yfbnLE4fMAJZqj3naZzr9bKITO14JvaruP` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-04-27 | Claude Opus flagship — complex tasks, long-form quality |
 | `sk-JA0oZFi9eWZLhPQijUNyn9ovBeltdHQ1HVP7Ixlgu8coHf0L` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-26 | Claude Sonnet — stable general-purpose |
 | `sk-bPdjDFFAjX2O4e488TpX7jbgyETVQraMLywjmAL0J2lNjcw3` | claude-sonnet-4-6 | 🆕 New | $30 | 5 RPM | 2026-04-26 | Claude Sonnet — stable general-purpose |
