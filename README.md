@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-25 05:37 (UTC+8)
+> ⏰ Last updated: 2026-04-25 05:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -80,7 +80,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-byDk3fLyP5eHpVNflKNbZJnEAZ9nfjY1khJpllQsML9WiT0R` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-27 | GPT flagship — best all-round |
+| `sk-byDk3fLyP5eHpVNflKNbZJnEAZ9nfjY1khJpllQsML9WiT0R` | gpt-5.4 | ⚠️ Low Budget | $50 | 5 RPM | 2026-04-27 | GPT flagship — best all-round |
 
 ---
 
