@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-219-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-218-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-25 07:52 (UTC+8)
+> ⏰ 最后更新： 2026-04-25 08:07 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -125,10 +125,9 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
 | `sk-sJbY1VqY14Rr5xsnka0wy5EMH7w3GAPzbVPVxx52KDnZbNvD` | claude-sonnet-4-6 | ⚠️ 额度低 | $30 | 5 RPM | 2026-04-26 | Claude Sonnet，稳定高质量通用 |
-| `sk-JA0oZFi9eWZLhPQijUNyn9ovBeltdHQ1HVP7Ixlgu8coHf0L` | claude-sonnet-4-6 | 🆕 新增 | $30 | 5 RPM | 2026-04-26 | Claude Sonnet，稳定高质量通用 |
 | `sk-bPdjDFFAjX2O4e488TpX7jbgyETVQraMLywjmAL0J2lNjcw3` | claude-sonnet-4-6 | 🆕 新增 | $30 | 5 RPM | 2026-04-26 | Claude Sonnet，稳定高质量通用 |
 | `sk-1P5TjOI8OWpemooxDlfIZKEv4EjOuS7qR9szyCuZ8EjwjMLA` | claude-opus-4-7 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | Claude Opus 旗舰，复杂任务与长文质量高 |
-| `sk-5S7P79XYFWpQQ5ZjbXoH0ULLEANbjIEUHxn183UEFyoyqmhN` | claude-opus-4-7 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | Claude Opus 旗舰，复杂任务与长文质量高 |
+| `sk-5S7P79XYFWpQQ5ZjbXoH0ULLEANbjIEUHxn183UEFyoyqmhN` | claude-opus-4-7 | ⚠️ 额度低 | $50 | 5 RPM | 2026-04-27 | Claude Opus 旗舰，复杂任务与长文质量高 |
 | `sk-JDAJAVOoQEP3e7HMgmJeku8zwOhvdu1oYe9hiGQJuHjKLtqH` | claude-opus-4-7 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 | Claude Opus 旗舰，复杂任务与长文质量高 |
 | `sk-aK3ZzmIiZ31SCWzRLtdsd1r2BVAhwdetfudNKdeNhyTLQotx` | claude-sonnet-4-6 | 🆕 新增 | $30 | 5 RPM | 2026-04-26 | Claude Sonnet，稳定高质量通用 |
 | `sk-zdhzHI18ZbG1pi8UEWmyme7gY88VisI0juHYnerVZjd9n1NA` | claude-sonnet-4-6 | 🆕 新增 | $30 | 5 RPM | 2026-04-26 | Claude Sonnet，稳定高质量通用 |
