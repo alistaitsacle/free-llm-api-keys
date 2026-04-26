@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-26 07:53 (UTC+8)
+> ⏰ Last updated: 2026-04-26 00:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -64,32 +64,12 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
-### Start here: GPT → Claude → DeepSeek
-
-- `gpt-5.4` — best first impression for general chat and coding.
-- `claude-sonnet-4-6` — best for writing, code review, and long answers.
-- `deepseek-chat` — fast, stable, and great for everyday use.
-
-If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.
-
-
----
-
 ### GPT-5.4 `04-26 07:53`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
 | `sk-ZVuqaVtFBuO9qp8y0EnQfII579F6wq50kMyjyEbCd4B9mAB7` | gpt-5.4 | 🆕 New | $100 | 5 RPM | 2026-04-27 | GPT flagship — best first impression for chat and coding |
 | `sk-R3cUQFnUgZKp8v658gOqXehMkxG8cM68f1NYPeGpVTts7EjM` | gpt-5.4 | 🆕 New | $100 | 5 RPM | 2026-04-27 | GPT flagship — best first impression for chat and coding |
-
----
-
-### Claude Sonnet `04-26 07:53`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-MGtl89xJZxEfUeyMeSAFtEvLpKRnkMSWodjQIGsCKIvOA04V` | claude-sonnet-4-6 | 🆕 New | $100 | 5 RPM | 2026-04-27 | Claude Sonnet — writing, code review, and long answers |
-| `sk-ecfkDSjLoWbMQ7BRTGtoUWFfpZZ6oBTskyrBrwxHn1Fyg3KR` | claude-sonnet-4-6 | 🆕 New | $100 | 5 RPM | 2026-04-27 | Claude Sonnet — writing, code review, and long answers |
 
 ---
 
@@ -142,6 +122,15 @@ If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `
 
 ---
 
+
+---
+
+### Claude Sonnet `04-26 07:53`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-MGtl89xJZxEfUeyMeSAFtEvLpKRnkMSWodjQIGsCKIvOA04V` | claude-sonnet-4-6 | 🆕 New | $100 | 5 RPM | 2026-04-27 | Claude Sonnet — writing, code review, and long answers |
+| `sk-ecfkDSjLoWbMQ7BRTGtoUWFfpZZ6oBTskyrBrwxHn1Fyg3KR` | claude-sonnet-4-6 | 🆕 New | $100 | 5 RPM | 2026-04-27 | Claude Sonnet — writing, code review, and long answers |
 
 ---
 
@@ -361,6 +350,17 @@ If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `
 | `sk-b54xunisSfsDAgt4xDoD0jgqt7RfTREGSd5OzqsKIueULW11` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-27 |
 | `sk-Ox2sN1CmsDNeJIRe5pxpoNwcahwOAXe8dpVIGRfp511Cwsc8` | rerank-v4.0-pro | 🆕 New | $50 | 5 RPM | 2026-04-27 |
 
+### Start here: GPT → Claude → DeepSeek
+
+- `gpt-5.4` — best first impression for general chat and coding.
+- `claude-sonnet-4-6` — best for writing, code review, and long answers.
+- `deepseek-chat` — fast, stable, and great for everyday use.
+
+If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.
+
+
+---
+
 ## 🚀 How to Use
 
 All keys work with the **OpenAI API format**. Just set the base URL and paste your key.
@@ -535,6 +535,9 @@ Available globally. Direct access from China — no VPN needed.
 ---
 
 ## 📅 Changelog
+
+### 2026-04-26
+- 🆕 Added 0 keys (), cleaned 1 expired
 
 <details>
 <summary><b>Show changelog history</b></summary>
