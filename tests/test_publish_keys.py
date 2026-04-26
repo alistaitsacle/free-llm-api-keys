@@ -227,7 +227,7 @@ class PublishKeysTests(unittest.TestCase):
         self.assertIn(f"- 🆕 Added 1 keys (gpt-5.4), cleaned 1 expired\n- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired", updated)
 
 
-    def test_update_readme_puts_featured_gpt_and_claude_before_deepseek(self):
+    def test_update_readme_puts_stable_defaults_before_premium_gpt_and_claude(self):
         readme = self.write_temp_readme(
             "[![Keys](https://img.shields.io/badge/Available_Keys-1-brightgreen?style=for-the-badge)]()\n"
             "\n"
@@ -253,6 +253,9 @@ class PublishKeysTests(unittest.TestCase):
             "Claude Sonnet": [
                 {"key": "sk-claude111", "model": "claude-sonnet-4-6", "budget": "$20", "rpm": "5 RPM", "expires": "2026-04-27", "use_case": "Claude flagship"}
             ],
+            "Gemini": [
+                {"key": "sk-gemini111", "model": "gemini-2.5-flash", "budget": "$20", "rpm": "20 RPM", "expires": "2026-04-27", "use_case": "Gemini fast"}
+            ],
             "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": [
                 {"key": "sk-smart111", "model": "smart-chat", "budget": "$20", "rpm": "10 RPM", "expires": "2026-04-27", "use_case": "Auto-route"}
             ],
@@ -261,12 +264,16 @@ class PublishKeysTests(unittest.TestCase):
         publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
 
         updated = readme.read_text(encoding="utf-8")
+        deepseek_pos = updated.index("### DeepSeek")
+        multi_pos = updated.index("### Multi-Model")
+        gemini_pos = updated.index("### Gemini")
         gpt_pos = updated.index("### GPT-5.4")
         claude_pos = updated.index("### Claude Sonnet")
-        deepseek_pos = updated.index("### DeepSeek")
+        self.assertLess(deepseek_pos, multi_pos)
+        self.assertLess(multi_pos, gemini_pos)
+        self.assertLess(gemini_pos, gpt_pos)
         self.assertLess(gpt_pos, claude_pos)
-        self.assertLess(claude_pos, deepseek_pos)
-        self.assertIn("### Start here: GPT → Claude → DeepSeek", updated)
+        self.assertIn("### Start here: DeepSeek → smart-chat → Gemini", updated)
         self.assertIn("| `sk-smart111` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-04-27 | Auto-route |", updated)
         self.assertNotIn("|-----|-------|--------|--------|------------|---------|-------------|\n\n|", updated)
 
@@ -312,11 +319,11 @@ class PublishKeysTests(unittest.TestCase):
             "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
             "|-----|-------|--------|--------|------------|---------|-------------|\n"
             "| `sk-deepseek111` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Stable |\n\n"
-            "### Start here: GPT → Claude → DeepSeek\n\n"
-            "- `gpt-5.4` — best first impression for general chat and coding.\n"
-            "- `claude-sonnet-4-6` — best for writing, code review, and long answers.\n"
-            "- `deepseek-chat` — fast, stable, and great for everyday use.\n\n"
-            "If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.\n\n"
+            "### Start here: DeepSeek → smart-chat → Gemini\n\n"
+            "- `deepseek-chat` — fast, stable, and best for everyday use.\n"
+            "- `smart-chat` — auto-routes across currently healthy low-cost chat backends.\n"
+            "- `gemini-2.5-flash` — fast Gemini option for long-context general chat.\n\n"
+            "Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are intentionally not the default free high-volume path.\n\n"
             "---\n\n"
             "## 🚀 How to Use\n"
         )
@@ -324,8 +331,9 @@ class PublishKeysTests(unittest.TestCase):
         publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
 
         updated = readme.read_text(encoding="utf-8")
-        self.assertEqual(updated.count("### Start here: GPT → Claude → DeepSeek"), 1)
-        self.assertLess(updated.index("### Start here: GPT → Claude → DeepSeek"), updated.index("### DeepSeek"))
+        self.assertNotIn("### Start here: GPT → Claude → DeepSeek", updated)
+        self.assertEqual(updated.count("### Start here: DeepSeek → smart-chat → Gemini"), 1)
+        self.assertLess(updated.index("### Start here: DeepSeek → smart-chat → Gemini"), updated.index("### DeepSeek"))
 
     def test_extract_bad_keys_from_status_handles_results_dict(self):
         payload = {
@@ -347,17 +355,24 @@ class PublishKeysTests(unittest.TestCase):
             {"models": ["deepseek-chat"]},
             {"models": ["gpt-5.4"]},
         ]
-        available_models = {"gpt-5.4", "claude-sonnet-4-6", "deepseek-chat", "smart-chat"}
+        available_models = {"gpt-5.4", "claude-sonnet-4-6", "deepseek-chat", "smart-chat", "gemini-2.5-flash"}
 
         requests = publish_keys.build_featured_key_requests(active_keys, available_models, remaining_budget_usd=500)
 
         requested_models = [req["models"][0] for req in requests]
-        self.assertEqual(requested_models.count("gpt-5.4"), 1)
-        self.assertEqual(requested_models.count("claude-sonnet-4-6"), 2)
+        self.assertEqual(requested_models.count("deepseek-chat"), 1)
         self.assertEqual(requested_models.count("smart-chat"), 2)
-        self.assertNotIn("deepseek-chat", requested_models)
-        self.assertEqual(requested_models[:3], ["gpt-5.4", "claude-sonnet-4-6", "claude-sonnet-4-6"])
-        self.assertTrue(all(req["budget_usd"] == 100 for req in requests))
+        self.assertEqual(requested_models.count("gemini-2.5-flash"), 2)
+        self.assertEqual(requested_models.count("claude-sonnet-4-6"), 1)
+        self.assertNotIn("gpt-5.4", requested_models)
+        self.assertEqual(requested_models[:5], [
+            "deepseek-chat",
+            "smart-chat",
+            "smart-chat",
+            "gemini-2.5-flash",
+            "gemini-2.5-flash",
+        ])
+        self.assertTrue(all(req["budget_usd"] <= 50 for req in requests))
 
     def test_sync_repo_before_publish_runs_pull_rebase(self):
         calls = []

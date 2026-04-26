@@ -31,52 +31,63 @@ BOT_NAME = os.getenv("GIT_AUTHOR_NAME", "FreeLLMShare Bot")
 BOT_EMAIL = os.getenv("GIT_AUTHOR_EMAIL", "bot@freellmshare.com")
 
 FEATURED_GROUP_ORDER = [
-    "GPT-5.4",
-    "Claude Sonnet",
     "DeepSeek",
     "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
+    "Gemini",
+    "GPT-5.4",
+    "Claude Sonnet",
 ]
 
 FEATURED_MODEL_SPECS = [
     {
-        "group": "GPT-5.4",
-        "model": "gpt-5.4",
-        "target": 2,
-        "budget_usd": 100,
-        "rpm": 5,
-        "duration_hours": 48,
-        "desc_en": "GPT flagship — best first impression for chat and coding",
-        "desc_cn": "GPT 旗舰模型，通用对话和代码首选",
-    },
-    {
-        "group": "Claude Sonnet",
-        "model": "claude-sonnet-4-6",
-        "target": 2,
-        "budget_usd": 100,
-        "rpm": 5,
-        "duration_hours": 48,
-        "desc_en": "Claude Sonnet — writing, code review, and long answers",
-        "desc_cn": "Claude Sonnet，适合写作、代码审查和长回答",
-    },
-    {
         "group": "DeepSeek",
         "model": "deepseek-chat",
-        "target": 1,
+        "target": 2,
         "budget_usd": 20,
         "rpm": 20,
         "duration_hours": 48,
-        "desc_en": "Everyday chat, coding, translation, writing — most stable",
-        "desc_cn": "日常对话、代码生成、翻译写作，最稳定首选",
+        "desc_en": "Everyday chat, coding, translation, writing — most stable default",
+        "desc_cn": "日常对话、代码生成、翻译写作，最稳定默认入口",
     },
     {
         "group": "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
         "model": "smart-chat",
         "target": 2,
-        "budget_usd": 100,
+        "budget_usd": 50,
         "rpm": 10,
         "duration_hours": 48,
-        "desc_en": "Auto-routes across currently healthy chat models",
-        "desc_cn": "自动路由到当前健康的聊天模型",
+        "desc_en": "Auto-routes across currently healthy low-cost chat backends",
+        "desc_cn": "自动路由到当前健康的低成本聊天模型",
+    },
+    {
+        "group": "Gemini",
+        "model": "gemini-2.5-flash",
+        "target": 2,
+        "budget_usd": 20,
+        "rpm": 20,
+        "duration_hours": 48,
+        "desc_en": "Fast Gemini option for long-context general chat",
+        "desc_cn": "Gemini 快速模型，适合长上下文通用对话",
+    },
+    {
+        "group": "GPT-5.4",
+        "model": "gpt-5.4",
+        "target": 1,
+        "budget_usd": 50,
+        "rpm": 5,
+        "duration_hours": 48,
+        "desc_en": "Premium GPT flagship for quality-sensitive chat and coding",
+        "desc_cn": "GPT 旗舰模型，适合高质量对话和代码场景",
+    },
+    {
+        "group": "Claude Sonnet",
+        "model": "claude-sonnet-4-6",
+        "target": 1,
+        "budget_usd": 50,
+        "rpm": 5,
+        "duration_hours": 48,
+        "desc_en": "Premium Claude Sonnet for writing, code review, and long answers",
+        "desc_cn": "Claude Sonnet，适合写作、代码审查和长回答",
     },
 ]
 
@@ -88,6 +99,7 @@ GROUP_ALIASES = {
     "GPT-5.4": ["GPT-5.4"],
     "Claude Sonnet": ["Claude Sonnet"],
     "DeepSeek": ["DeepSeek"],
+    "Gemini": ["Gemini"],
     "Image / Audio / Embedding": ["Image / Audio / Embedding", "图像 / 语音 / 向量化"],
 }
 
@@ -297,27 +309,31 @@ def remove_group_sections(text: str, groups: Iterable[str]) -> str:
 def start_here_block(lang: str) -> str:
     if lang == "cn":
         return (
-            "### 优先从这里开始：GPT → Claude → DeepSeek\n\n"
-            "- `gpt-5.4` — 通用对话和代码场景的第一选择。\n"
-            "- `claude-sonnet-4-6` — 更适合写作、代码审查和长回答。\n"
-            "- `deepseek-chat` — 响应快、稳定，适合日常使用。\n\n"
-            "如果某个单模型暂时没有新 Key，优先使用多模型区的 `flagship-chat` 或 `smart-chat`。\n\n"
+            "### 优先从这里开始：DeepSeek → smart-chat → Gemini\n\n"
+            "- `deepseek-chat` — 响应快、稳定，适合日常使用。\n"
+            "- `smart-chat` — 自动路由到当前健康的低成本聊天模型。\n"
+            "- `gemini-2.5-flash` — Gemini 快速模型，适合长上下文通用对话。\n\n"
+            "需要更高质量时再使用 `gpt-5.4` 或 `claude-sonnet-4-6`，它们不会作为默认免费高并发入口。\n\n"
         )
     return (
-        "### Start here: GPT → Claude → DeepSeek\n\n"
-        "- `gpt-5.4` — best first impression for general chat and coding.\n"
-        "- `claude-sonnet-4-6` — best for writing, code review, and long answers.\n"
-        "- `deepseek-chat` — fast, stable, and great for everyday use.\n\n"
-        "If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.\n\n"
+        "### Start here: DeepSeek → smart-chat → Gemini\n\n"
+        "- `deepseek-chat` — fast, stable, and best for everyday use.\n"
+        "- `smart-chat` — auto-routes across currently healthy low-cost chat backends.\n"
+        "- `gemini-2.5-flash` — fast Gemini option for long-context general chat.\n\n"
+        "Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are intentionally not the default free high-volume path.\n\n"
     )
 
 
 def strip_start_here_blocks(text: str, lang: str) -> str:
-    marker = "### 优先从这里开始：GPT → Claude → DeepSeek" if lang == "cn" else "### Start here: GPT → Claude → DeepSeek"
-    cursor = text.find(marker)
+    markers = [
+        "### 优先从这里开始：DeepSeek → smart-chat → Gemini" if lang == "cn" else "### Start here: DeepSeek → smart-chat → Gemini",
+        "### 优先从这里开始：GPT → Claude → DeepSeek" if lang == "cn" else "### Start here: GPT → Claude → DeepSeek",
+    ]
+    cursor = min((pos for marker in markers if (pos := text.find(marker)) != -1), default=-1)
     while cursor != -1:
-        next_h3 = text.find("\n### ", cursor + len(marker))
-        next_h2 = text.find("\n## ", cursor + len(marker))
+        current_marker = next(marker for marker in markers if text.startswith(marker, cursor))
+        next_h3 = text.find("\n### ", cursor + len(current_marker))
+        next_h2 = text.find("\n## ", cursor + len(current_marker))
         candidates = [pos for pos in (next_h3, next_h2) if pos != -1]
         block_end = min(candidates) if candidates else len(text)
         block = text[cursor:block_end]
@@ -327,7 +343,7 @@ def strip_start_here_blocks(text: str, lang: str) -> str:
             while block_end < len(text) and text[block_end] in " \t\r\n":
                 block_end += 1
         text = text[:cursor].rstrip() + "\n\n" + text[block_end:].lstrip("\n")
-        cursor = text.find(marker)
+        cursor = min((pos for marker in markers if (pos := text.find(marker)) != -1), default=-1)
     return text
 
 
@@ -386,15 +402,26 @@ def insert_sections(text: str, grouped_keys: dict[str, list[dict]], lang: str) -
     groups_to_replace += [group for group in grouped_keys if group not in groups_to_replace]
     text = remove_group_sections(text, groups_to_replace)
 
-    top_groups = [group for group in ["GPT-5.4", "Claude Sonnet"] if grouped_keys.get(group)]
-    top_sections = "".join(render_group_section(group, grouped_keys[group], lang) for group in top_groups)
-    if top_sections:
-        anchor = first_existing_heading_index(text, ["DeepSeek", "Gemini", "Kimi", "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)"])
+    anchor_after_group = {
+        "DeepSeek": ["Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)", "Gemini", "GPT-5.4", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": ["Gemini", "GPT-5.4", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "Gemini": ["GPT-5.4", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "GPT-5.4": ["Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "Claude Sonnet": ["Kimi", "Image / Audio / Embedding"],
+    }
+
+    inserted_groups = []
+    for group in FEATURED_GROUP_ORDER:
+        if not grouped_keys.get(group):
+            continue
+        section = render_group_section(group, grouped_keys[group], lang)
+        anchor = first_existing_heading_index(text, anchor_after_group.get(group, []))
         if anchor is None:
             anchor = text.find("## 📅 Changelog")
-        text = text[:anchor] + top_sections + text[anchor:] if anchor != -1 else text + "\n" + top_sections
+        text = text[:anchor] + section + text[anchor:] if anchor != -1 else text + "\n" + section
+        inserted_groups.append(group)
 
-    other_groups = [group for group in grouped_keys if group not in top_groups]
+    other_groups = [group for group in grouped_keys if group not in inserted_groups]
     for group in other_groups:
         section = render_group_section(group, grouped_keys[group], lang)
         if group == "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)":
@@ -412,7 +439,7 @@ def insert_sections(text: str, grouped_keys: dict[str, list[dict]], lang: str) -
 
 
 def dedupe_start_here(text: str, lang: str) -> str:
-    marker = "### 优先从这里开始：GPT → Claude → DeepSeek" if lang == "cn" else "### Start here: GPT → Claude → DeepSeek"
+    marker = "### 优先从这里开始：DeepSeek → smart-chat → Gemini" if lang == "cn" else "### Start here: DeepSeek → smart-chat → Gemini"
     first = text.find(marker)
     if first == -1:
         return text
@@ -540,6 +567,7 @@ def update_readme(path: str, grouped_keys: dict[str, list[dict]], deleted_keys: 
     text = p.read_text(encoding="utf-8")
     text = remove_key_rows(text, deleted_keys)
     text = update_timestamp(text, lang)
+    text = ensure_start_here(text, lang)
     text = dedupe_start_here(text, lang)
     text = insert_sections(text, grouped_keys, lang)
     text = dedupe_start_here(text, lang)
