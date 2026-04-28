@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-0-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-8-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-28 17:52 (UTC+8)
+> ⏰ 最后更新： 2026-04-28 17:53 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -72,50 +72,46 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 需要更高质量时再使用 `gpt-5.4` 或 `claude-sonnet-4-6`，它们不会作为默认免费高并发入口。
 
 
-### GPT-5.4 `04-26 07:53`
+### DeepSeek `04-28 17:53`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
+| `sk-kOaU3co3XXW4UG4Moz0YDQqxKhosybd6WyDwLBOgmtVxNwEF` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-30 | 日常对话、代码生成、翻译写作，最稳定默认入口 |
+| `sk-AJiFNHQOggsDlfNtr6W8zFsAdlfAqTYOZVVv97joMdEuAhU6` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-30 | 日常对话、代码生成、翻译写作，最稳定默认入口 |
 
 ---
 
-### DeepSeek `04-25 13:30`
-
+### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-28 17:53`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
+| `sk-53raWozNjsOK8KjPDSaSnoBUqkRsi17hfKs1WzPsu4NKZNPd` | smart-chat | 🆕 新增 | $50 | 10 RPM | 2026-04-30 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-daEIYAwBtAaxWZA5AYXUOxNefhYCX34XAxgDwg12iErAAKwW` | smart-chat | 🆕 新增 | $50 | 10 RPM | 2026-04-30 | 自动路由到当前健康的低成本聊天模型 |
 
 ---
 
-
----
-
-
----
-
-
----
-
-
----
-
-
----
-
-
----
-
-### Claude Sonnet `04-26 07:53`
+### Gemini `04-28 17:53`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
+| `sk-OUcnJt879jYJKj2r7AMD9MvIduQVvinSwPMGHbRXlMlzf3xu` | gemini-2.5-flash | 🆕 新增 | $20 | 20 RPM | 2026-04-30 | Gemini 快速模型，适合长上下文通用对话 |
+| `sk-86fwmWZSNxRaLgdzFZRuKvRkVhhtqPXaXzSV7i40EneN36H9` | gemini-2.5-flash | 🆕 新增 | $20 | 20 RPM | 2026-04-30 | Gemini 快速模型，适合长上下文通用对话 |
 
 ---
 
-### Gemini `04-25 13:30`
+### GPT-5.4 `04-28 17:53`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
+| `sk-S7KpkbZM6dmhDVVYTKjS4CJsQtvfHAjSiLVrkMOMQlwST6vL` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-04-30 | GPT 旗舰模型，适合高质量对话和代码场景 |
+
+---
+
+### Claude Sonnet `04-28 17:53`
+
+| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
+|-----|------|------|------|---------|---------|------|
+| `sk-xCjyGgpojvqb6icuWsMeSeq8cdZ7CZSKuHIawnu8DchUK87R` | claude-sonnet-4-6 | 🆕 新增 | $50 | 5 RPM | 2026-04-30 | Claude Sonnet，适合写作、代码审查和长回答 |
 
 ---
 
@@ -126,13 +122,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-
-### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-26 07:53`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-
----
 
 ### 图像 / 语音 / 向量化 `04-25 13:30`
 
