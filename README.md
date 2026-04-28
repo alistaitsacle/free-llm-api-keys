@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-28 17:51 (UTC+8)
+> ⏰ Last updated: 2026-04-28 17:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -322,6 +322,7 @@ Available globally. Direct access from China — no VPN needed.
 <summary><b>Show changelog history</b></summary>
 
 ### 2026-04-28
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
 - 🆕 Added 0 keys (no new keys), cleaned 220 expired
 
 ### 2026-04-25
