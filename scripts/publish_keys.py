@@ -157,7 +157,7 @@ def list_active_keys() -> list[dict]:
     keys: list[dict] = []
     page = 1
     while True:
-        data = api_request("GET", f"/api/keys?status=active&page={page}&page_size=100")
+        data = api_request("GET", f"/keys?status=active&page={page}&page_size=100")
         batch = data.get("keys", [])
         keys.extend(batch)
         total = int(data.get("total", len(keys)))
@@ -167,13 +167,13 @@ def list_active_keys() -> list[dict]:
 
 
 def fetch_recommended_models() -> list[dict]:
-    data = api_request("GET", "/api/models")
+    data = api_request("GET", "/models")
     models = data.get("models", data if isinstance(data, list) else [])
     return [m for m in models if m.get("recommended")]
 
 
 def check_budget() -> float:
-    data = api_request("GET", "/api/budget")
+    data = api_request("GET", "/budget")
     return float(data.get("remaining_budget_usd", 0) or 0)
 
 
@@ -220,7 +220,7 @@ def create_keys(recommended_models: list[dict], remaining_budget_usd: float) -> 
     requests = build_featured_key_requests(active_keys, available, remaining_budget_usd)
     if not requests:
         return {}
-    data = api_request("POST", "/api/keys/batch", {"keys": requests})
+    data = api_request("POST", "/keys/batch", {"keys": requests})
     created = data.get("created", [])
     grouped: dict[str, list[dict]] = {}
     for item in created:
@@ -272,11 +272,11 @@ def clean_expired_keys() -> tuple[list[str], list[str]]:
     keys = extract_readme_keys(text)
     if not keys:
         return [], []
-    data = api_request("POST", "/api/keys/status", {"keys": keys})
+    data = api_request("POST", "/keys/status", {"keys": keys})
     deleted, warn = extract_bad_keys_from_status(data)
     if deleted:
         try:
-            api_request("DELETE", "/api/keys/batch", {"keys": deleted})
+            api_request("DELETE", "/keys/batch", {"keys": deleted})
         except RuntimeError:
             pass
     return deleted, warn
@@ -619,7 +619,7 @@ def git_commit_and_push(new_count: int, deleted_count: int) -> None:
 
 def log_usage_stats() -> None:
     try:
-        data = api_request("GET", "/api/budget")
+        data = api_request("GET", "/budget")
         print(json.dumps(data, ensure_ascii=False))
     except Exception as exc:
         print(f"budget log skipped: {exc}", file=sys.stderr)
