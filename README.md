@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-29 20:22 (UTC+8)
+> ⏰ Last updated: 2026-04-29 20:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -104,18 +104,6 @@ Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are int
 |-----|-------|--------|--------|------------|---------|-------------|
 
 ---
-
-<details>
-<summary><b>Temporarily unavailable models</b></summary>
-
-### Claude Sonnet `04-29 18:01`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-
----
-</details>
-
 ## 🚀 How to Use
 
 All keys work with the **OpenAI API format**. Just set the base URL and paste your key.
