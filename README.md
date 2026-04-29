@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-7-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-5-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-29 18:07 (UTC+8)
+> ⏰ Last updated: 2026-04-29 18:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -103,7 +103,6 @@ Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are int
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-MGLG7atn0H3Ksxde7hE9If8oGpst9alqmXsKq4HDODawcNXX` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-05-01 | Premium GPT flagship for quality-sensitive chat and coding |
 
 ---
 
@@ -111,7 +110,6 @@ Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are int
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-ZYKZOU2swsnW8eNDZf6idMGxfUd67672oZrPRcLirxXWgQCW` | claude-sonnet-4-6 | 🆕 New | $50 | 5 RPM | 2026-05-01 | Premium Claude Sonnet for writing, code review, and long answers |
 
 ---
 
