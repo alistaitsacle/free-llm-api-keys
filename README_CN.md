@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-4-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-8-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-29 09:22 (UTC+8)
+> ⏰ 最后更新： 2026-04-29 09:31 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > Key 每天刷新 **3-5 次**，每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -81,10 +81,12 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-28 21:30`
+### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-29 09:31`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
+| `sk-9mGehpqg1MoamcuJ1RNUpVtiiJa6k22vHJPLIBM6l6n0teDn` | smart-chat | 🆕 新增 | $50 | 10 RPM | 2026-05-01 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-pppySiHWeREcdMKywUUznSvnjqkh3zaFgsuxjMmntEpSAgbj` | smart-chat | 🆕 新增 | $50 | 10 RPM | 2026-05-01 | 自动路由到当前健康的低成本聊天模型 |
 
 ---
 
@@ -97,17 +99,19 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### GPT-5.4 `04-28 21:30`
+### GPT-5.4 `04-29 09:31`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
+| `sk-1bykUpzwMzk9JQOAySTCjBYEA8vWMtg0xBjKyUHIhDOd9mEA` | gpt-5.4 | 🆕 新增 | $50 | 5 RPM | 2026-05-01 | GPT 旗舰模型，适合高质量对话和代码场景 |
 
 ---
 
-### Claude Sonnet `04-28 21:30`
+### Claude Sonnet `04-29 09:31`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
+| `sk-gU0PeLPcXp21CbdmKxRN0kqcaGv7Pp4drkO60nGPHIn1cXn7` | claude-sonnet-4-6 | 🆕 新增 | $50 | 5 RPM | 2026-05-01 | Claude Sonnet，适合写作、代码审查和长回答 |
 
 ---
 

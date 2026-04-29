@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-4-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-8-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-29 09:22 (UTC+8)
+> ⏰ Last updated: 2026-04-29 09:31 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -82,10 +82,12 @@ Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are int
 
 ---
 
-### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-28 21:30`
+### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-29 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
+| `sk-9mGehpqg1MoamcuJ1RNUpVtiiJa6k22vHJPLIBM6l6n0teDn` | smart-chat | 🆕 New | $50 | 10 RPM | 2026-05-01 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-pppySiHWeREcdMKywUUznSvnjqkh3zaFgsuxjMmntEpSAgbj` | smart-chat | 🆕 New | $50 | 10 RPM | 2026-05-01 | Auto-routes across currently healthy low-cost chat backends |
 
 ---
 
@@ -98,17 +100,19 @@ Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are int
 
 ---
 
-### GPT-5.4 `04-28 21:30`
+### GPT-5.4 `04-29 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
+| `sk-1bykUpzwMzk9JQOAySTCjBYEA8vWMtg0xBjKyUHIhDOd9mEA` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-05-01 | Premium GPT flagship for quality-sensitive chat and coding |
 
 ---
 
-### Claude Sonnet `04-28 21:30`
+### Claude Sonnet `04-29 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
+| `sk-gU0PeLPcXp21CbdmKxRN0kqcaGv7Pp4drkO60nGPHIn1cXn7` | claude-sonnet-4-6 | 🆕 New | $50 | 5 RPM | 2026-05-01 | Premium Claude Sonnet for writing, code review, and long answers |
 
 ---
 
