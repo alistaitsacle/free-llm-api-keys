@@ -480,6 +480,74 @@ def update_badge(text: str, count: int, lang: str) -> str:
     return re.sub(r"Available_Keys-\d+-brightgreen", f"Available_Keys-{count}-brightgreen", text, count=1)
 
 
+MAX_VISIBLE_EMPTY_GROUPS = 2
+_UNAVAILABLE_SUMMARY = {
+    "en": "Temporarily unavailable models",
+    "cn": "暂时不可用模型",
+}
+
+
+def strip_unavailable_details(section: str) -> str:
+    summaries = "|".join(re.escape(text) for text in _UNAVAILABLE_SUMMARY.values())
+    pattern = re.compile(
+        rf"\n*<details>\n<summary><b>(?:{summaries})</b></summary>\n\n.*?\n</details>\n*",
+        re.DOTALL,
+    )
+    return pattern.sub("\n\n", section)
+
+
+def is_empty_key_group(block: str) -> bool:
+    has_key_table = re.search(r"^\|\s*Key\s*\|", block, re.MULTILINE) is not None
+    has_key_row = re.search(r"^\|\s*`sk-[A-Za-z0-9]+`\s*\|", block, re.MULTILINE) is not None
+    return has_key_table and not has_key_row
+
+
+def limit_empty_groups(text: str, lang: str, max_visible: int = MAX_VISIBLE_EMPTY_GROUPS) -> str:
+    """Keep a small number of empty model groups visible and fold the rest."""
+    start = text.find("## 📋")
+    if start == -1:
+        return text
+
+    tail_match = re.search(r"\n## (?!📋)", text[start + len("## 📋"):])
+    end = start + len("## 📋") + tail_match.start() if tail_match else len(text)
+    section = strip_unavailable_details(text[start:end])
+
+    headings = list(re.finditer(r"^### .+$", section, re.MULTILINE))
+    if not headings:
+        return text[:start] + section + text[end:]
+
+    pieces = []
+    extras = []
+    cursor = 0
+    empty_seen = 0
+    for idx, heading in enumerate(headings):
+        block_start = heading.start()
+        block_end = headings[idx + 1].start() if idx + 1 < len(headings) else len(section)
+        block = section[block_start:block_end]
+        pieces.append(section[cursor:block_start])
+        if is_empty_key_group(block):
+            empty_seen += 1
+            if empty_seen > max_visible:
+                extras.append(block.strip())
+            else:
+                pieces.append(block)
+        else:
+            pieces.append(block)
+        cursor = block_end
+    pieces.append(section[cursor:])
+
+    section = "".join(pieces).rstrip()
+    if extras:
+        summary = _UNAVAILABLE_SUMMARY.get(lang, _UNAVAILABLE_SUMMARY["en"])
+        section += (
+            f"\n\n<details>\n<summary><b>{summary}</b></summary>\n\n"
+            + "\n\n".join(extras)
+            + "\n</details>\n"
+        )
+
+    return text[:start] + section + text[end:]
+
+
 def models_summary(grouped_keys: dict[str, list[dict]]) -> str:
     models = []
     for rows in grouped_keys.values():
@@ -576,6 +644,7 @@ def update_readme(path: str, grouped_keys: dict[str, list[dict]], deleted_keys: 
     text = normalize_changelog_markup(text)
     text = re.sub(r"(</details>\n)(?:\s*</details>\n)+", r"\1", text)
     text = re.sub(r"\n{4,}", "\n\n\n", text)
+    text = limit_empty_groups(text, lang=lang)
     text = update_badge(text, count_table_keys(text), lang)
     p.write_text(text, encoding="utf-8")
 

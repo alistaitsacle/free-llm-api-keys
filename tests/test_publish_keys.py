@@ -335,6 +335,42 @@ class PublishKeysTests(unittest.TestCase):
         self.assertEqual(updated.count("### Start here: DeepSeek → smart-chat → Gemini"), 1)
         self.assertLess(updated.index("### Start here: DeepSeek → smart-chat → Gemini"), updated.index("### DeepSeek"))
 
+    def test_update_readme_limits_visible_empty_groups_and_folds_extras(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-04-25 13:30 (UTC+8)\n\n"
+            "### DeepSeek `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-deepseek111` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Stable |\n\n"
+            "### GPT-5.4 `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "### Claude Sonnet `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "### Kimi `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "### Image / Audio / Embedding `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires |\n"
+            "|-----|-------|--------|--------|------------|---------|\n\n"
+            "## 🚀 How to Use\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        before_fold = updated.split("<details>", 1)[0]
+        self.assertIn("### GPT-5.4", before_fold)
+        self.assertIn("### Claude Sonnet", before_fold)
+        self.assertNotIn("### Kimi", before_fold)
+        self.assertNotIn("### Image / Audio / Embedding", before_fold)
+        self.assertIn("<summary><b>Temporarily unavailable models</b></summary>", updated)
+        self.assertIn("### Kimi", updated)
+        self.assertIn("### Image / Audio / Embedding", updated)
+        self.assertLess(updated.find("</details>"), updated.find("## 🚀 How to Use"))
+
     def test_extract_bad_keys_from_status_handles_results_dict(self):
         payload = {
             "results": {
