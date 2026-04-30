@@ -251,6 +251,85 @@ def create_keys(recommended_models: list[dict], remaining_budget_usd: float) -> 
     return grouped
 
 
+FALLBACK_MARKER = "<!-- fallback -->"
+
+
+def existing_readme_keys(paths: Iterable[str]) -> set[str]:
+    """Return the union of `sk-` tokens currently rendered in the READMEs."""
+    seen: set[str] = set()
+    for path in paths:
+        p = Path(path)
+        if not p.exists():
+            continue
+        text = p.read_text(encoding="utf-8")
+        for line in text.splitlines():
+            if FALLBACK_MARKER in line:
+                continue
+            m = re.match(r"^\|\s*`(sk-[A-Za-z0-9]+)`\s*\|", line)
+            if m:
+                seen.add(m.group(1))
+    return seen
+
+
+def grouped_from_active(active_keys: Iterable[dict], already_rendered: set[str]) -> dict[str, list[dict]]:
+    """Build a grouped_keys payload for update_readme() from server-side active keys.
+
+    The payload only carries keys whose token is NOT yet present in either
+    README. This way insert_sections() will splice them in alongside the rows
+    collect_shelf_rows() already preserves, lifting Opus/Kimi/Multi-Model back
+    to their real density without re-creating anything on the Key Manager.
+    """
+    grouped: dict[str, list[dict]] = {}
+    for item in active_keys:
+        key = item.get("key") or item.get("token") or ""
+        if not key or key in already_rendered:
+            continue
+        models = normalize_models(item.get("models") or item.get("model_limits") or item.get("model"))
+        model = models[0] if models else ""
+        spec = MODEL_TO_SPEC.get(model)
+        if not spec:
+            continue
+        group = spec["group"]
+        rpm_raw = item.get("rpm") or spec.get("rpm", 5)
+        try:
+            rpm_int = int(rpm_raw) if rpm_raw is not None else int(spec.get("rpm", 5))
+        except (TypeError, ValueError):
+            rpm_int = int(spec.get("rpm", 5))
+        budget_raw = item.get("budget_usd") or spec.get("budget_usd", 0)
+        try:
+            budget_int = int(float(budget_raw))
+        except (TypeError, ValueError):
+            budget_int = int(spec.get("budget_usd", 0))
+        grouped.setdefault(group, []).append(
+            {
+                "key": key,
+                "model": model,
+                "budget": f"${budget_int}",
+                "rpm": f"{rpm_int} RPM",
+                "expires": str(item.get("expires_at", ""))[:10],
+                "use_case": spec.get("desc_en", ""),
+                "use_case_cn": spec.get("desc_cn", spec.get("desc_en", "")),
+            }
+        )
+    return grouped
+
+
+def sync_from_active() -> dict[str, list[dict]]:
+    """Merge server-side active keys into the README without creating new keys.
+
+    Useful from `--cleanup-only` and at the start of the full publish run, so
+    the shelf always reflects every live key even if a previous render only
+    captured a subset.
+    """
+    try:
+        active = list_active_keys()
+    except Exception as exc:
+        print(f"sync_from_active skipped: {exc}", file=sys.stderr)
+        return {}
+    already = existing_readme_keys([README_PATH, README_CN_PATH])
+    return grouped_from_active(active, already)
+
+
 def extract_readme_keys(text: str) -> list[str]:
     return re.findall(r"`(sk-[A-Za-z0-9]+)`", text)
 
@@ -494,9 +573,6 @@ def count_table_keys(text: str) -> int:
         if m:
             seen.add(m.group(1))
     return len(seen)
-
-
-FALLBACK_MARKER = "<!-- fallback -->"
 
 
 def update_badge(text: str, count: int, lang: str) -> str:
@@ -1080,22 +1156,35 @@ def main() -> None:
 
     deleted_keys, warn_keys = clean_expired_keys()
     if args.cleanup_only:
-        update_readme(README_PATH, {}, deleted_keys, warn_keys, lang="en")
-        update_readme(README_CN_PATH, {}, deleted_keys, warn_keys, lang="cn")
-        git_commit_and_push(0, len(deleted_keys))
+        # Pull any active server-side keys that the README currently forgets —
+        # the main source of "shelf looks half empty" drift. Nothing gets
+        # created on the Key Manager side.
+        grouped_keys = sync_from_active()
+        update_readme(README_PATH, grouped_keys, deleted_keys, warn_keys, lang="en")
+        update_readme(README_CN_PATH, grouped_keys, deleted_keys, warn_keys, lang="cn")
+        git_commit_and_push(sum(len(rows) for rows in grouped_keys.values()), len(deleted_keys))
         log_usage_stats()
         return
 
     remaining = check_budget()
     if remaining <= 0:
-        update_readme(README_PATH, {}, deleted_keys, warn_keys, lang="en")
-        update_readme(README_CN_PATH, {}, deleted_keys, warn_keys, lang="cn")
-        git_commit_and_push(0, len(deleted_keys))
+        grouped_keys = sync_from_active()
+        update_readme(README_PATH, grouped_keys, deleted_keys, warn_keys, lang="en")
+        update_readme(README_CN_PATH, grouped_keys, deleted_keys, warn_keys, lang="cn")
+        git_commit_and_push(sum(len(rows) for rows in grouped_keys.values()), len(deleted_keys))
         log_usage_stats()
         return
 
     recommended_models = fetch_recommended_models()
     grouped_keys = create_keys(recommended_models, remaining)
+    # Merge any active keys that aren't in the create payload — otherwise a
+    # fresh run right after a cleanup would lose density until the next cron.
+    backfill = sync_from_active()
+    for group, rows in backfill.items():
+        grouped_keys.setdefault(group, [])
+        existing_tokens = {row["key"] for row in grouped_keys[group]}
+        grouped_keys[group].extend(r for r in rows if r["key"] not in existing_tokens)
+
     update_readme(README_PATH, grouped_keys, deleted_keys, warn_keys, lang="en")
     update_readme(README_CN_PATH, grouped_keys, deleted_keys, warn_keys, lang="cn")
     git_commit_and_push(sum(len(rows) for rows in grouped_keys.values()), len(deleted_keys))

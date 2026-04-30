@@ -517,10 +517,18 @@ class PublishKeysTests(unittest.TestCase):
         self.assertFalse(any(" push" in f" {cmd}" for cmd in flattened))
 
     def test_main_cleanup_only_skips_creation_and_commits_cleanup_changes(self):
+        fake_grouped = {
+            "GPT-5.5": [
+                {"key": "sk-active1", "model": "gpt-5.5", "budget": "$20", "rpm": "5 RPM",
+                 "expires": "2026-05-02", "use_case": "Premium GPT flagship",
+                 "use_case_cn": "GPT 旗舰模型"}
+            ]
+        }
         with mock.patch("sys.argv", ["publish_keys.py", "--cleanup-only"]), \
              mock.patch.object(publish_keys, "KM_TOKEN", "token"), \
              mock.patch.object(publish_keys, "sync_repo_before_publish", return_value=True), \
              mock.patch.object(publish_keys, "clean_expired_keys", return_value=(["sk-old1"], [])), \
+             mock.patch.object(publish_keys, "sync_from_active", return_value=fake_grouped), \
              mock.patch.object(publish_keys, "update_readme") as update_readme, \
              mock.patch.object(publish_keys, "git_commit_and_push") as git_commit_and_push, \
              mock.patch.object(publish_keys, "log_usage_stats") as log_usage_stats, \
@@ -530,9 +538,10 @@ class PublishKeysTests(unittest.TestCase):
             publish_keys.main()
 
         self.assertEqual(update_readme.call_count, 2)
-        update_readme.assert_any_call(publish_keys.README_PATH, {}, ["sk-old1"], [], lang="en")
-        update_readme.assert_any_call(publish_keys.README_CN_PATH, {}, ["sk-old1"], [], lang="cn")
-        git_commit_and_push.assert_called_once_with(0, 1)
+        update_readme.assert_any_call(publish_keys.README_PATH, fake_grouped, ["sk-old1"], [], lang="en")
+        update_readme.assert_any_call(publish_keys.README_CN_PATH, fake_grouped, ["sk-old1"], [], lang="cn")
+        # The row surfaced by sync_from_active is counted in the commit message.
+        git_commit_and_push.assert_called_once_with(1, 1)
         log_usage_stats.assert_called_once()
         check_budget.assert_not_called()
         fetch_recommended_models.assert_not_called()
@@ -543,6 +552,7 @@ class PublishKeysTests(unittest.TestCase):
              mock.patch.object(publish_keys, "KM_TOKEN", "token"), \
              mock.patch.object(publish_keys, "sync_repo_before_publish", return_value=True), \
              mock.patch.object(publish_keys, "clean_expired_keys", return_value=(["sk-old1", "sk-old2"], [])), \
+             mock.patch.object(publish_keys, "sync_from_active", return_value={}), \
              mock.patch.object(publish_keys, "check_budget", return_value=0), \
              mock.patch.object(publish_keys, "update_readme") as update_readme, \
              mock.patch.object(publish_keys, "git_commit_and_push") as git_commit_and_push, \
@@ -558,6 +568,50 @@ class PublishKeysTests(unittest.TestCase):
         log_usage_stats.assert_called_once()
         fetch_recommended_models.assert_not_called()
         create_keys.assert_not_called()
+
+    def test_sync_from_active_skips_keys_already_rendered_in_readme(self):
+        # Keys already present in README should NOT be re-inserted — otherwise
+        # insert_sections would paint duplicate rows. Only genuinely missing
+        # active server keys should come back.
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "### GPT-5.5 `01-01 00:00`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-existing1` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-02 | Premium GPT flagship |\n\n"
+        )
+        readme_cn = self.write_temp_readme(
+            "## 📋 可用 Key 列表\n\n"
+            "### GPT-5.5 `01-01 00:00`\n\n"
+            "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |\n"
+            "|-----|------|------|------|---------|---------|------|\n"
+            "| `sk-existing1` | gpt-5.5 | 🆕 新增 | $20 | 5 RPM | 2026-05-02 | GPT 旗舰模型 |\n\n"
+        )
+
+        active = [
+            {"key": "sk-existing1", "models": ["gpt-5.5"], "budget_usd": 20,
+             "expires_at": "2026-05-02T11:00:00+00:00", "rpm": 5},
+            {"key": "sk-newopus1", "models": ["claude-opus-4-7"], "budget_usd": 20,
+             "expires_at": "2026-05-02T11:00:00+00:00", "rpm": 5},
+            {"key": "sk-unknownmodel", "models": ["gpt-4o"], "budget_usd": 20,
+             "expires_at": "2026-05-02T11:00:00+00:00", "rpm": 5},
+        ]
+
+        with mock.patch.object(publish_keys, "README_PATH", str(readme)), \
+             mock.patch.object(publish_keys, "README_CN_PATH", str(readme_cn)), \
+             mock.patch.object(publish_keys, "list_active_keys", return_value=active):
+            grouped = publish_keys.sync_from_active()
+
+        self.assertNotIn("GPT-5.5", grouped)  # existing key ignored
+        self.assertIn("Claude Opus 4.7", grouped)
+        opus_rows = grouped["Claude Opus 4.7"]
+        self.assertEqual(len(opus_rows), 1)
+        self.assertEqual(opus_rows[0]["key"], "sk-newopus1")
+        self.assertEqual(opus_rows[0]["budget"], "$20")
+        self.assertEqual(opus_rows[0]["rpm"], "5 RPM")
+        self.assertEqual(opus_rows[0]["use_case"], "Claude Opus flagship")
+        # Unknown / off-shelf models (gpt-4o) are dropped.
+        self.assertNotIn("gpt-4o", {row["model"] for rows in grouped.values() for row in rows})
 
     def test_update_readme_removes_orphan_shelf_sections_even_when_filled(self):
         # Regression for a cc77a47-era rendering glitch where a fully-populated
