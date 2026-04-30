@@ -490,10 +490,13 @@ def insert_sections(text: str, grouped_keys: dict[str, list[dict]], lang: str) -
     text = remove_group_sections(text, groups_to_replace)
 
     anchor_after_group = {
-        "DeepSeek": [MULTI_MODEL_GROUP_EN, "Gemini", "GPT-5.5", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
-        MULTI_MODEL_GROUP_EN: ["Gemini", "GPT-5.5", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
-        "Gemini": ["GPT-5.5", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
-        "GPT-5.5": ["Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "DeepSeek": [MULTI_MODEL_GROUP_EN, "Gemini", "GPT-5.5", "Claude Opus 4.7", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        MULTI_MODEL_GROUP_EN: ["Gemini", "GPT-5.5", "Claude Opus 4.7", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "Gemini": ["GPT-5.5", "Claude Opus 4.7", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        # GPT-5.5 is first in FEATURED_GROUP_ORDER — anchor to Claude Opus so
+        # it pins at the very top of the Available Keys shelf.
+        "GPT-5.5": ["Claude Opus 4.7", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "Claude Opus 4.7": ["Gemini", "DeepSeek", MULTI_MODEL_GROUP_EN, "Kimi", "Image / Audio / Embedding"],
         "Claude Sonnet": ["Kimi", "Image / Audio / Embedding"],
     }
 
