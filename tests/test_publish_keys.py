@@ -264,16 +264,16 @@ class PublishKeysTests(unittest.TestCase):
         publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
 
         updated = readme.read_text(encoding="utf-8")
+        gpt_pos = updated.index("### GPT-5.4")
+        claude_pos = updated.index("### Claude Opus 4.7")
+        gemini_pos = updated.index("### Gemini")
         deepseek_pos = updated.index("### DeepSeek")
         multi_pos = updated.index("### Multi-Model")
-        gemini_pos = updated.index("### Gemini")
-        gpt_pos = updated.index("### GPT-5.4")
-        claude_pos = updated.index("### Claude Sonnet")
-        self.assertLess(deepseek_pos, multi_pos)
-        self.assertLess(multi_pos, gemini_pos)
-        self.assertLess(gemini_pos, gpt_pos)
         self.assertLess(gpt_pos, claude_pos)
-        self.assertIn("### Start here: DeepSeek → smart-chat → Gemini", updated)
+        self.assertLess(claude_pos, gemini_pos)
+        self.assertLess(gemini_pos, deepseek_pos)
+        self.assertLess(deepseek_pos, multi_pos)
+        self.assertIn("### Featured models", updated)
         self.assertIn("| `sk-smart111` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-04-27 | Auto-route |", updated)
         self.assertNotIn("|-----|-------|--------|--------|------------|---------|-------------|\n\n|", updated)
 
@@ -332,23 +332,24 @@ class PublishKeysTests(unittest.TestCase):
 
         updated = readme.read_text(encoding="utf-8")
         self.assertNotIn("### Start here: GPT → Claude → DeepSeek", updated)
-        self.assertEqual(updated.count("### Start here: DeepSeek → smart-chat → Gemini"), 1)
-        self.assertLess(updated.index("### Start here: DeepSeek → smart-chat → Gemini"), updated.index("### DeepSeek"))
+        self.assertEqual(updated.count("### Featured models"), 1)
+        self.assertLess(updated.index("### Featured models"), updated.index("### GPT-5.4"))
 
-    def test_update_readme_limits_visible_empty_groups_and_folds_extras(self):
+    def test_update_readme_renders_full_model_shelf_with_restocking_rows(self):
         readme = self.write_temp_readme(
             "## 📋 Available Keys\n\n"
             "> ⏰ Last updated: 2026-04-25 13:30 (UTC+8)\n\n"
             "### DeepSeek `04-25 13:30`\n\n"
             "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
             "|-----|-------|--------|--------|------------|---------|-------------|\n"
-            "| `sk-deepseek111` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Stable |\n\n"
+            "\n"
             "### GPT-5.4 `04-25 13:30`\n\n"
             "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
             "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
-            "### Claude Sonnet `04-25 13:30`\n\n"
+            "### Gemini `04-25 13:30`\n\n"
             "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
-            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |\n\n"
             "### Kimi `04-25 13:30`\n\n"
             "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
             "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
@@ -361,15 +362,23 @@ class PublishKeysTests(unittest.TestCase):
         publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
 
         updated = readme.read_text(encoding="utf-8")
-        before_fold = updated.split("<details>", 1)[0]
-        self.assertIn("### GPT-5.4", before_fold)
-        self.assertIn("### Claude Sonnet", before_fold)
-        self.assertNotIn("### Kimi", before_fold)
-        self.assertNotIn("### Image / Audio / Embedding", before_fold)
-        self.assertIn("<summary><b>Temporarily unavailable models</b></summary>", updated)
-        self.assertIn("### Kimi", updated)
-        self.assertIn("### Image / Audio / Embedding", updated)
-        self.assertLess(updated.find("</details>"), updated.find("## 🚀 How to Use"))
+        ordered_titles = [
+            "### GPT-5.4",
+            "### Claude Opus 4.7",
+            "### Gemini",
+            "### DeepSeek",
+            "### Multi-Model",
+            "### Kimi",
+            "### Image / Audio / Embedding",
+        ]
+        positions = [updated.index(title) for title in ordered_titles]
+        self.assertEqual(positions, sorted(positions))
+        self.assertNotIn("<summary><b>Temporarily unavailable models</b></summary>", updated)
+        self.assertIn("| Restocking | gpt-5.4 | Temporarily unavailable | - | - | Next refresh | Premium GPT flagship |", updated)
+        self.assertIn("| Restocking | claude-opus-4-7 | Temporarily unavailable | - | - | Next refresh | Claude Opus flagship |", updated)
+        self.assertIn("| Restocking | deepseek-chat | Temporarily unavailable | - | - | Next refresh | Everyday chat, coding, translation, writing |", updated)
+        self.assertIn("| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |", updated)
+        self.assertEqual(updated.count("| Restocking |"), 6)
 
     def test_extract_bad_keys_from_status_handles_results_dict(self):
         payload = {
@@ -391,7 +400,7 @@ class PublishKeysTests(unittest.TestCase):
             {"models": ["deepseek-chat"]},
             {"models": ["gpt-5.4"]},
         ]
-        available_models = {"gpt-5.4", "claude-sonnet-4-6", "deepseek-chat", "smart-chat", "gemini-2.5-flash"}
+        available_models = {"gpt-5.4", "claude-opus-4-7", "deepseek-chat", "smart-chat", "gemini-2.5-flash"}
 
         requests = publish_keys.build_featured_key_requests(active_keys, available_models, remaining_budget_usd=500)
 
@@ -399,14 +408,14 @@ class PublishKeysTests(unittest.TestCase):
         self.assertEqual(requested_models.count("deepseek-chat"), 1)
         self.assertEqual(requested_models.count("smart-chat"), 2)
         self.assertEqual(requested_models.count("gemini-2.5-flash"), 2)
-        self.assertEqual(requested_models.count("claude-sonnet-4-6"), 1)
+        self.assertEqual(requested_models.count("claude-opus-4-7"), 1)
         self.assertNotIn("gpt-5.4", requested_models)
         self.assertEqual(requested_models[:5], [
+            "claude-opus-4-7",
+            "gemini-2.5-flash",
+            "gemini-2.5-flash",
             "deepseek-chat",
             "smart-chat",
-            "smart-chat",
-            "gemini-2.5-flash",
-            "gemini-2.5-flash",
         ])
         self.assertTrue(all(req["budget_usd"] <= 50 for req in requests))
 

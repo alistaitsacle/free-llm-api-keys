@@ -31,33 +31,33 @@ BOT_NAME = os.getenv("GIT_AUTHOR_NAME", "FreeLLMShare Bot")
 BOT_EMAIL = os.getenv("GIT_AUTHOR_EMAIL", "bot@freellmshare.com")
 
 FEATURED_GROUP_ORDER = [
+    "GPT-5.4",
+    "Claude Opus 4.7",
+    "Gemini",
     "DeepSeek",
     "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
-    "Gemini",
-    "GPT-5.4",
-    "Claude Sonnet",
 ]
 
 FEATURED_MODEL_SPECS = [
     {
-        "group": "DeepSeek",
-        "model": "deepseek-chat",
-        "target": 2,
-        "budget_usd": 20,
-        "rpm": 20,
+        "group": "GPT-5.4",
+        "model": "gpt-5.4",
+        "target": 1,
+        "budget_usd": 50,
+        "rpm": 5,
         "duration_hours": 48,
-        "desc_en": "Everyday chat, coding, translation, writing — most stable default",
-        "desc_cn": "日常对话、代码生成、翻译写作，最稳定默认入口",
+        "desc_en": "Premium GPT flagship",
+        "desc_cn": "GPT 旗舰模型",
     },
     {
-        "group": "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
-        "model": "smart-chat",
-        "target": 2,
+        "group": "Claude Opus 4.7",
+        "model": "claude-opus-4-7",
+        "target": 1,
         "budget_usd": 50,
-        "rpm": 10,
+        "rpm": 5,
         "duration_hours": 48,
-        "desc_en": "Auto-routes across currently healthy low-cost chat backends",
-        "desc_cn": "自动路由到当前健康的低成本聊天模型",
+        "desc_en": "Claude Opus flagship",
+        "desc_cn": "Claude Opus 旗舰模型",
     },
     {
         "group": "Gemini",
@@ -70,24 +70,24 @@ FEATURED_MODEL_SPECS = [
         "desc_cn": "Gemini 快速模型，适合长上下文通用对话",
     },
     {
-        "group": "GPT-5.4",
-        "model": "gpt-5.4",
-        "target": 1,
-        "budget_usd": 50,
-        "rpm": 5,
+        "group": "DeepSeek",
+        "model": "deepseek-chat",
+        "target": 2,
+        "budget_usd": 20,
+        "rpm": 20,
         "duration_hours": 48,
-        "desc_en": "Premium GPT flagship for quality-sensitive chat and coding",
-        "desc_cn": "GPT 旗舰模型，适合高质量对话和代码场景",
+        "desc_en": "Everyday chat, coding, translation, writing",
+        "desc_cn": "日常对话、代码生成、翻译写作",
     },
     {
-        "group": "Claude Sonnet",
-        "model": "claude-sonnet-4-6",
-        "target": 1,
+        "group": "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
+        "model": "smart-chat",
+        "target": 2,
         "budget_usd": 50,
-        "rpm": 5,
+        "rpm": 10,
         "duration_hours": 48,
-        "desc_en": "Premium Claude Sonnet for writing, code review, and long answers",
-        "desc_cn": "Claude Sonnet，适合写作、代码审查和长回答",
+        "desc_en": "Auto-routes across currently healthy low-cost chat backends",
+        "desc_cn": "自动路由到当前健康的低成本聊天模型",
     },
 ]
 
@@ -97,10 +97,12 @@ GROUP_ALIASES = {
         "多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询）",
     ],
     "GPT-5.4": ["GPT-5.4"],
+    "Claude Opus 4.7": ["Claude Opus 4.7", "Claude Sonnet", "Claude"],
     "Claude Sonnet": ["Claude Sonnet"],
     "DeepSeek": ["DeepSeek"],
     "Gemini": ["Gemini"],
     "Image / Audio / Embedding": ["Image / Audio / Embedding", "图像 / 语音 / 向量化"],
+    "Kimi": ["Kimi"],
 }
 
 MODEL_TO_GROUP = {spec["model"]: spec["group"] for spec in FEATURED_MODEL_SPECS}
@@ -309,23 +311,20 @@ def remove_group_sections(text: str, groups: Iterable[str]) -> str:
 def start_here_block(lang: str) -> str:
     if lang == "cn":
         return (
-            "### 优先从这里开始：DeepSeek → smart-chat → Gemini\n\n"
-            "- `deepseek-chat` — 响应快、稳定，适合日常使用。\n"
-            "- `smart-chat` — 自动路由到当前健康的低成本聊天模型。\n"
-            "- `gemini-2.5-flash` — Gemini 快速模型，适合长上下文通用对话。\n\n"
-            "需要更高质量时再使用 `gpt-5.4` 或 `claude-sonnet-4-6`，它们不会作为默认免费高并发入口。\n\n"
+            "### 重点模型\n\n"
+            "覆盖 GPT-5.4、Claude Opus 4.7、Gemini、DeepSeek、smart-chat 等模型。\n"
+            "Key 会全天轮换；如果某个模型暂时无可用 Key，等待下一轮刷新即可。\n\n"
         )
     return (
-        "### Start here: DeepSeek → smart-chat → Gemini\n\n"
-        "- `deepseek-chat` — fast, stable, and best for everyday use.\n"
-        "- `smart-chat` — auto-routes across currently healthy low-cost chat backends.\n"
-        "- `gemini-2.5-flash` — fast Gemini option for long-context general chat.\n\n"
-        "Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are intentionally not the default free high-volume path.\n\n"
+        "### Featured models\n\n"
+        "GPT-5.4, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.\n"
+        "Keys rotate throughout the day. If a model is temporarily unavailable, check back after the next refresh.\n\n"
     )
 
 
 def strip_start_here_blocks(text: str, lang: str) -> str:
     markers = [
+        "### 重点模型" if lang == "cn" else "### Featured models",
         "### 优先从这里开始：DeepSeek → smart-chat → Gemini" if lang == "cn" else "### Start here: DeepSeek → smart-chat → Gemini",
         "### 优先从这里开始：GPT → Claude → DeepSeek" if lang == "cn" else "### Start here: GPT → Claude → DeepSeek",
     ]
@@ -480,6 +479,170 @@ def update_badge(text: str, count: int, lang: str) -> str:
     return re.sub(r"Available_Keys-\d+-brightgreen", f"Available_Keys-{count}-brightgreen", text, count=1)
 
 
+MODEL_SHELF = [
+    {
+        "group": "GPT-5.4",
+        "title_en": "GPT-5.4",
+        "title_cn": "GPT-5.4",
+        "model": "gpt-5.4",
+        "desc_en": "Premium GPT flagship",
+        "desc_cn": "GPT 旗舰模型",
+        "aliases": ["GPT-5.4"],
+    },
+    {
+        "group": "Claude Opus 4.7",
+        "title_en": "Claude Opus 4.7",
+        "title_cn": "Claude Opus 4.7",
+        "model": "claude-opus-4-7",
+        "desc_en": "Claude Opus flagship",
+        "desc_cn": "Claude Opus 旗舰模型",
+        "aliases": ["Claude Opus 4.7", "Claude Sonnet", "Claude"],
+    },
+    {
+        "group": "Gemini",
+        "title_en": "Gemini",
+        "title_cn": "Gemini",
+        "model": "gemini-2.5-flash",
+        "desc_en": "Fast Gemini option for long-context general chat",
+        "desc_cn": "Gemini 快速模型，适合长上下文通用对话",
+        "aliases": ["Gemini"],
+    },
+    {
+        "group": "DeepSeek",
+        "title_en": "DeepSeek",
+        "title_cn": "DeepSeek",
+        "model": "deepseek-chat",
+        "desc_en": "Everyday chat, coding, translation, writing",
+        "desc_cn": "日常对话、代码生成、翻译写作",
+        "aliases": ["DeepSeek"],
+    },
+    {
+        "group": "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
+        "title_en": "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
+        "title_cn": "多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询）",
+        "model": "smart-chat",
+        "desc_en": "Auto-routes across currently healthy low-cost chat backends",
+        "desc_cn": "自动路由到当前健康的低成本聊天模型",
+        "aliases": [
+            "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
+            "多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询）",
+        ],
+    },
+    {
+        "group": "Kimi",
+        "title_en": "Kimi",
+        "title_cn": "Kimi",
+        "model": "kimi-k2.5",
+        "desc_en": "Kimi long-context general model",
+        "desc_cn": "Kimi 长上下文通用模型",
+        "aliases": ["Kimi"],
+    },
+    {
+        "group": "Image / Audio / Embedding",
+        "title_en": "Image / Audio / Embedding",
+        "title_cn": "图像 / 语音 / 向量化",
+        "model": "dall-e-3 / tts / embeddings",
+        "desc_en": "Image, audio, and embedding models",
+        "desc_cn": "图像、语音和向量模型",
+        "aliases": ["Image / Audio / Embedding", "图像 / 语音 / 向量化"],
+    },
+]
+
+
+def shelf_title(spec: dict, lang: str) -> str:
+    return spec["title_cn"] if lang == "cn" else spec["title_en"]
+
+
+def shelf_header(lang: str) -> str:
+    if lang == "cn":
+        return "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |\n|-----|------|------|------|---------|---------|------|"
+    return "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n|-----|-------|--------|--------|------------|---------|-------------|"
+
+
+def restocking_row(spec: dict, lang: str) -> str:
+    if lang == "cn":
+        return (
+            f"| 补货中 | {spec['model']} | 暂时无可用 Key | - | - | 下次刷新 | "
+            f"{spec['desc_cn']} |"
+        )
+    return (
+        f"| Restocking | {spec['model']} | Temporarily unavailable | - | - | Next refresh | "
+        f"{spec['desc_en']} |"
+    )
+
+
+def spec_for_heading(title: str) -> dict | None:
+    plain_title = title.split(" `", 1)[0].strip()
+    for spec in MODEL_SHELF:
+        if any(plain_title.startswith(alias) for alias in spec["aliases"]):
+            return spec
+    return None
+
+
+def collect_shelf_rows(section: str) -> dict[str, list[str]]:
+    rows = {spec["group"]: [] for spec in MODEL_SHELF}
+    headings = list(re.finditer(r"^### (.+)$", section, re.MULTILINE))
+    for idx, heading in enumerate(headings):
+        spec = spec_for_heading(heading.group(1))
+        if not spec:
+            continue
+        block_end = headings[idx + 1].start() if idx + 1 < len(headings) else len(section)
+        block = section[heading.end():block_end]
+        for line in block.splitlines():
+            if re.match(r"^\|\s*`sk-[A-Za-z0-9]+`\s*\|", line):
+                rows[spec["group"]].append(line)
+    return rows
+
+
+def render_shelf_section(rows_by_group: dict[str, list[str]], lang: str) -> str:
+    sections = []
+    stamp = display_stamp()
+    for spec in MODEL_SHELF:
+        rows = rows_by_group.get(spec["group"]) or [restocking_row(spec, lang)]
+        sections.append(
+            f"### {shelf_title(spec, lang)} `{stamp}`\n\n"
+            + shelf_header(lang)
+            + "\n"
+            + "\n".join(rows)
+            + "\n\n---"
+        )
+    return "\n\n".join(sections).rstrip("-").rstrip()
+
+
+def normalize_model_shelf(text: str, lang: str) -> str:
+    start = text.find("## 📋")
+    if start == -1:
+        return text
+    tail_match = re.search(r"\n## (?!📋)", text[start + len("## 📋"):])
+    end = start + len("## 📋") + tail_match.start() if tail_match else len(text)
+    section = strip_unavailable_details(text[start:end])
+
+    headings = list(re.finditer(r"^### (.+)$", section, re.MULTILINE))
+    if not headings:
+        return text
+    shelf_start = None
+    shelf_end = None
+    for idx, heading in enumerate(headings):
+        if spec_for_heading(heading.group(1)):
+            if shelf_start is None:
+                shelf_start = heading.start()
+            shelf_end = headings[idx + 1].start() if idx + 1 < len(headings) else len(section)
+
+    if shelf_start is None:
+        return text
+
+    rows_by_group = collect_shelf_rows(section)
+    normalized = (
+        section[:shelf_start].rstrip()
+        + "\n\n"
+        + render_shelf_section(rows_by_group, lang)
+        + "\n\n"
+        + section[shelf_end:].lstrip()
+    )
+    normalized = re.sub(r"\n{4,}", "\n\n\n", normalized)
+    return text[:start] + normalized + text[end:]
+
+
 MAX_VISIBLE_EMPTY_GROUPS = 2
 _UNAVAILABLE_SUMMARY = {
     "en": "Temporarily unavailable models",
@@ -512,7 +675,7 @@ def limit_empty_groups(text: str, lang: str, max_visible: int = MAX_VISIBLE_EMPT
     end = start + len("## 📋") + tail_match.start() if tail_match else len(text)
     section = strip_unavailable_details(text[start:end])
 
-    headings = list(re.finditer(r"^### .+$", section, re.MULTILINE))
+    headings = list(re.finditer(r"^### (.+)$", section, re.MULTILINE))
     if not headings:
         return text[:start] + section + text[end:]
 
@@ -644,7 +807,7 @@ def update_readme(path: str, grouped_keys: dict[str, list[dict]], deleted_keys: 
     text = normalize_changelog_markup(text)
     text = re.sub(r"(</details>\n)(?:\s*</details>\n)+", r"\1", text)
     text = re.sub(r"\n{4,}", "\n\n\n", text)
-    text = limit_empty_groups(text, lang=lang)
+    text = normalize_model_shelf(text, lang=lang)
     text = update_badge(text, count_table_keys(text), lang)
     p.write_text(text, encoding="utf-8")
 
