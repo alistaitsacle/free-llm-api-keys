@@ -58,7 +58,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 > ⏰ Last updated: 2026-04-30 08:53 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
-> Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
+> New keys are restocked **twice daily**. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
 >
 > ⚠️ **Note:** Keys are shared publicly. Budget may already be consumed by other users. If a key doesn't work, try another one or check back later for fresh keys.
 >
@@ -278,7 +278,7 @@ API tokens (`sk-xxx`) issued by our own platform. They are compatible with the O
 <details>
 <summary><b>Key not working?</b></summary>
 
-Keys are shared publicly, so they may run out of budget. This repo is **auto-updated 3-5 times daily** — just come back later for fresh keys. You can also **Watch → Releases** to get notified.
+Keys are shared publicly, so they may run out of budget. This repo restocks new keys **twice daily** and cleans expired keys throughout the day — just come back later for fresh keys. You can also **Watch → Releases** to get notified.
 </details>
 
 <details>
