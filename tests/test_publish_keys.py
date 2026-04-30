@@ -247,8 +247,8 @@ class PublishKeysTests(unittest.TestCase):
         )
 
         grouped_keys = {
-            "GPT-5.4": [
-                {"key": "sk-gpt111", "model": "gpt-5.4", "budget": "$20", "rpm": "5 RPM", "expires": "2026-04-27", "use_case": "GPT flagship"}
+            "GPT-5.5": [
+                {"key": "sk-gpt111", "model": "gpt-5.5", "budget": "$20", "rpm": "5 RPM", "expires": "2026-04-27", "use_case": "GPT flagship"}
             ],
             "Claude Sonnet": [
                 {"key": "sk-claude111", "model": "claude-sonnet-4-6", "budget": "$20", "rpm": "5 RPM", "expires": "2026-04-27", "use_case": "Claude flagship"}
@@ -256,7 +256,7 @@ class PublishKeysTests(unittest.TestCase):
             "Gemini": [
                 {"key": "sk-gemini111", "model": "gemini-2.5-flash", "budget": "$20", "rpm": "20 RPM", "expires": "2026-04-27", "use_case": "Gemini fast"}
             ],
-            "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": [
+            publish_keys.MULTI_MODEL_GROUP_EN: [
                 {"key": "sk-smart111", "model": "smart-chat", "budget": "$20", "rpm": "10 RPM", "expires": "2026-04-27", "use_case": "Auto-route"}
             ],
         }
@@ -264,7 +264,7 @@ class PublishKeysTests(unittest.TestCase):
         publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
 
         updated = readme.read_text(encoding="utf-8")
-        gpt_pos = updated.index("### GPT-5.4")
+        gpt_pos = updated.index("### GPT-5.5")
         claude_pos = updated.index("### Claude Opus 4.7")
         gemini_pos = updated.index("### Gemini")
         deepseek_pos = updated.index("### DeepSeek")
@@ -295,7 +295,7 @@ class PublishKeysTests(unittest.TestCase):
             "## 📅 Changelog\n"
         )
         grouped_keys = {
-            "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": [
+            publish_keys.MULTI_MODEL_GROUP_EN: [
                 {"key": "sk-smart-cn", "model": "smart-chat", "budget": "$100", "rpm": "10 RPM", "expires": "2026-04-27", "use_case_cn": "自动路由"}
             ]
         }
@@ -310,7 +310,7 @@ class PublishKeysTests(unittest.TestCase):
             "## 📋 Available Keys\n\n"
             "> **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.\n\n"
             "### Start here: GPT → Claude → DeepSeek\n\n"
-            "- `gpt-5.4` — best first impression for general chat and coding.\n"
+            "- `gpt-5.5` — best first impression for general chat and coding.\n"
             "- `claude-sonnet-4-6` — best for writing, code review, and long answers.\n"
             "- `deepseek-chat` — fast, stable, and great for everyday use.\n\n"
             "If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.\n\n"
@@ -323,7 +323,7 @@ class PublishKeysTests(unittest.TestCase):
             "- `deepseek-chat` — fast, stable, and best for everyday use.\n"
             "- `smart-chat` — auto-routes across currently healthy low-cost chat backends.\n"
             "- `gemini-2.5-flash` — fast Gemini option for long-context general chat.\n\n"
-            "Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are intentionally not the default free high-volume path.\n\n"
+            "Use `gpt-5.5` or `claude-sonnet-4-6` when you need premium quality; they are intentionally not the default free high-volume path.\n\n"
             "---\n\n"
             "## 🚀 How to Use\n"
         )
@@ -333,7 +333,7 @@ class PublishKeysTests(unittest.TestCase):
         updated = readme.read_text(encoding="utf-8")
         self.assertNotIn("### Start here: GPT → Claude → DeepSeek", updated)
         self.assertEqual(updated.count("### Featured models"), 1)
-        self.assertLess(updated.index("### Featured models"), updated.index("### GPT-5.4"))
+        self.assertLess(updated.index("### Featured models"), updated.index("### GPT-5.5"))
 
     def test_update_readme_renders_full_model_shelf_with_restocking_rows(self):
         readme = self.write_temp_readme(
@@ -343,7 +343,7 @@ class PublishKeysTests(unittest.TestCase):
             "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
             "|-----|-------|--------|--------|------------|---------|-------------|\n"
             "\n"
-            "### GPT-5.4 `04-25 13:30`\n\n"
+            "### GPT-5.5 `04-25 13:30`\n\n"
             "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
             "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
             "### Gemini `04-25 13:30`\n\n"
@@ -363,7 +363,7 @@ class PublishKeysTests(unittest.TestCase):
 
         updated = readme.read_text(encoding="utf-8")
         ordered_titles = [
-            "### GPT-5.4",
+            "### GPT-5.5",
             "### Claude Opus 4.7",
             "### Gemini",
             "### DeepSeek",
@@ -374,7 +374,8 @@ class PublishKeysTests(unittest.TestCase):
         positions = [updated.index(title) for title in ordered_titles]
         self.assertEqual(positions, sorted(positions))
         self.assertNotIn("<summary><b>Temporarily unavailable models</b></summary>", updated)
-        self.assertIn("| Restocking | gpt-5.4 | Temporarily unavailable | - | - | Next refresh | Premium GPT flagship |", updated)
+        # smart-chat itself has no real key, so everyone falls back to Restocking here.
+        self.assertIn("| Restocking | gpt-5.5 | Temporarily unavailable | - | - | Next refresh | Premium GPT flagship |", updated)
         self.assertIn("| Restocking | claude-opus-4-7 | Temporarily unavailable | - | - | Next refresh | Claude Opus flagship |", updated)
         self.assertIn("| Restocking | deepseek-chat | Temporarily unavailable | - | - | Next refresh | Everyday chat, coding, translation, writing |", updated)
         self.assertIn("| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |", updated)
@@ -391,7 +392,7 @@ class PublishKeysTests(unittest.TestCase):
             "## 🚀 How to Use\n\n"
             "Use the keys above.\n\n"
             "---\n\n"
-            "### GPT-5.4 `04-24 19:30`\n\n"
+            "### GPT-5.5 `04-24 19:30`\n\n"
             "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
             "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
             "---\n\n"
@@ -404,7 +405,7 @@ class PublishKeysTests(unittest.TestCase):
         publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
 
         updated = readme.read_text(encoding="utf-8")
-        self.assertEqual(updated.count("### GPT-5.4"), 1)
+        self.assertEqual(updated.count("### GPT-5.5"), 1)
         self.assertNotIn("### Claude Sonnet", updated)
         self.assertIn("## 🚀 How to Use", updated)
         self.assertIn("| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |", updated)
@@ -427,9 +428,9 @@ class PublishKeysTests(unittest.TestCase):
     def test_build_featured_key_requests_fills_missing_priority_models(self):
         active_keys = [
             {"models": ["deepseek-chat"]},
-            {"models": ["gpt-5.4"]},
+            {"models": ["gpt-5.5"]},
         ]
-        available_models = {"gpt-5.4", "claude-opus-4-7", "deepseek-chat", "smart-chat", "gemini-2.5-flash"}
+        available_models = {"gpt-5.5", "claude-opus-4-7", "deepseek-chat", "smart-chat", "gemini-2.5-flash"}
 
         requests = publish_keys.build_featured_key_requests(active_keys, available_models, remaining_budget_usd=500)
 
@@ -557,6 +558,136 @@ class PublishKeysTests(unittest.TestCase):
         log_usage_stats.assert_called_once()
         fetch_recommended_models.assert_not_called()
         create_keys.assert_not_called()
+
+    def test_update_readme_uses_smart_chat_fallback_for_empty_flagship_groups(self):
+        readme = self.write_temp_readme(
+            "[![Keys](https://img.shields.io/badge/Available_Keys-0-brightgreen?style=for-the-badge)]()\n\n"
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-04-30 17:52 (UTC+8)\n\n"
+            "### Gemini `04-30 17:52`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-30 | Fast |\n\n"
+            f"### {publish_keys.MULTI_MODEL_GROUP_EN} `04-30 17:52`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-smartfallback` | smart-chat | 🆕 New | $50 | 10 RPM | 2026-05-02 | Auto-routes |\n\n"
+            "## 🚀 How to Use\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+
+        # Every flagship shelf group (GPT-5.5, Opus 4.7, Kimi, Image) that has
+        # no real key should surface a smart-chat fallback row carrying the
+        # same `sk-` token, so users always have something to copy.
+        for group_title in ("### GPT-5.5", "### Claude Opus 4.7", "### Kimi", "### Image / Audio / Embedding"):
+            self.assertIn(group_title, updated)
+        self.assertIn("smart-chat (gpt-5.5 fallback)", updated)
+        self.assertIn("smart-chat (claude-opus-4-7 fallback)", updated)
+        self.assertIn("🛟 Fallback", updated)
+        self.assertIn(publish_keys.FALLBACK_MARKER, updated)
+
+        # Fallback rows reuse the smart-chat sk- token but must NOT appear as
+        # Restocking placeholders — the whole point is to keep the shelf full.
+        self.assertNotIn("| Restocking | gpt-5.5 |", updated)
+        self.assertNotIn("| Restocking | claude-opus-4-7 |", updated)
+
+        # Badge must still count unique keys: 1 smart-chat + 1 gemini = 2.
+        self.assertIn("Available_Keys-2-brightgreen", updated)
+
+    def test_update_readme_cn_smart_chat_fallback_writes_chinese_labels(self):
+        readme = self.write_temp_readme(
+            "[![Keys](https://img.shields.io/badge/可用_Key-0-brightgreen?style=for-the-badge)]()\n\n"
+            "## 📋 可用 Key 列表\n\n"
+            "> ⏰ 最后更新: 2026-04-30 17:52 (UTC+8)\n\n"
+            f"### {publish_keys.MULTI_MODEL_GROUP_CN} `04-30 17:52`\n\n"
+            "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |\n"
+            "|-----|------|------|------|---------|---------|------|\n"
+            "| `sk-smartcn` | smart-chat | 🆕 新增 | $50 | 10 RPM | 2026-05-02 | 自动路由 |\n\n"
+            "## 🚀 如何使用\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="cn")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertIn("🛟 兜底", updated)
+        self.assertIn("smart-chat (gpt-5.5 兜底)", updated)
+        self.assertIn("补货期间由 smart-chat 自动路由", updated)
+        # Unique-key badge still counts the smart-chat token only once.
+        self.assertIn("可用_Key-1-brightgreen", updated)
+
+    def test_count_table_keys_dedupes_fallback_rows(self):
+        text = (
+            "| `sk-a` | smart-chat | 🆕 New | $50 | 10 RPM | 2026-05-02 | Auto |\n"
+            "| `sk-a` | smart-chat (gpt-5.5 fallback) | 🛟 Fallback | $50 | 10 RPM | 2026-05-02 | Premium — fallback | "
+            + publish_keys.FALLBACK_MARKER
+            + "\n"
+            "| `sk-b` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-05-02 | Stable |\n"
+        )
+        self.assertEqual(publish_keys.count_table_keys(text), 2)
+
+    def test_git_commit_and_push_skips_pure_timestamp_diff(self):
+        with mock.patch.object(publish_keys, "contains_conflict_markers", return_value=False), \
+             mock.patch.object(publish_keys.subprocess, "run") as run:
+            # 1st call: git add; 2nd: diff --cached --quiet (returns 1 = has
+            # changes); 3rd: diff --cached --unified=0 (timestamp-only diff);
+            # 4th & 5th: reset + checkout to drop the cosmetic change.
+            run.side_effect = [
+                CompletedProcess(args=[], returncode=0),
+                CompletedProcess(args=[], returncode=1),
+                CompletedProcess(
+                    args=[],
+                    returncode=0,
+                    stdout=(
+                        "--- a/README.md\n"
+                        "+++ b/README.md\n"
+                        "@@\n"
+                        "-> ⏰ Last updated: 2026-04-30 17:37 (UTC+8)\n"
+                        "+> ⏰ Last updated: 2026-04-30 17:52 (UTC+8)\n"
+                        "@@\n"
+                        "-### GPT-5.5 `04-30 17:37`\n"
+                        "+### GPT-5.5 `04-30 17:52`\n"
+                    ),
+                ),
+                CompletedProcess(args=[], returncode=0),
+                CompletedProcess(args=[], returncode=0),
+            ]
+            publish_keys.git_commit_and_push(0, 0)
+
+        commands = [call.args[0] for call in run.call_args_list]
+        # Must have issued a reset + checkout to drop the cosmetic diff.
+        self.assertTrue(any(cmd[3] == "reset" for cmd in commands if len(cmd) > 3))
+        self.assertTrue(any(cmd[3] == "checkout" for cmd in commands if len(cmd) > 3))
+        # Must NOT have issued commit / push.
+        self.assertFalse(any(cmd[3] == "commit" for cmd in commands if len(cmd) > 3))
+        self.assertFalse(any(cmd[3] == "push" for cmd in commands if len(cmd) > 3))
+
+    def test_git_commit_and_push_still_commits_real_diff(self):
+        with mock.patch.object(publish_keys, "contains_conflict_markers", return_value=False), \
+             mock.patch.object(publish_keys.subprocess, "run") as run:
+            run.side_effect = [
+                CompletedProcess(args=[], returncode=0),  # git add
+                CompletedProcess(args=[], returncode=1),  # diff --cached --quiet
+                CompletedProcess(
+                    args=[],
+                    returncode=0,
+                    stdout=(
+                        "--- a/README.md\n"
+                        "+++ b/README.md\n"
+                        "@@\n"
+                        "+| `sk-new` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-05-02 | Stable |\n"
+                    ),
+                ),  # meaningful diff check
+                CompletedProcess(args=[], returncode=0),  # commit
+                CompletedProcess(args=[], returncode=0),  # push
+            ]
+            publish_keys.git_commit_and_push(1, 0)
+
+        commands = [call.args[0] for call in run.call_args_list]
+        self.assertTrue(any(cmd[3] == "commit" for cmd in commands if len(cmd) > 3))
+        self.assertTrue(any(cmd[3] == "push" for cmd in commands if len(cmd) > 3))
 
 
 if __name__ == "__main__":

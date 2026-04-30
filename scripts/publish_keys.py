@@ -30,18 +30,23 @@ KM_TOKEN = os.getenv("KEY_MANAGER_TOKEN") or os.getenv("KEY_MANAGER_ADMIN_TOKEN"
 BOT_NAME = os.getenv("GIT_AUTHOR_NAME", "FreeLLMShare Bot")
 BOT_EMAIL = os.getenv("GIT_AUTHOR_EMAIL", "bot@freellmshare.com")
 
+MULTI_MODEL_GROUP_EN = "Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate)"
+MULTI_MODEL_GROUP_CN = "多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询）"
+MULTI_MODEL_GROUP_LEGACY_EN = "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)"
+MULTI_MODEL_GROUP_LEGACY_CN = "多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询）"
+
 FEATURED_GROUP_ORDER = [
-    "GPT-5.4",
+    "GPT-5.5",
     "Claude Opus 4.7",
     "Gemini",
     "DeepSeek",
-    "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
+    MULTI_MODEL_GROUP_EN,
 ]
 
 FEATURED_MODEL_SPECS = [
     {
-        "group": "GPT-5.4",
-        "model": "gpt-5.4",
+        "group": "GPT-5.5",
+        "model": "gpt-5.5",
         "target": 1,
         "budget_usd": 50,
         "rpm": 5,
@@ -80,7 +85,7 @@ FEATURED_MODEL_SPECS = [
         "desc_cn": "日常对话、代码生成、翻译写作",
     },
     {
-        "group": "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
+        "group": MULTI_MODEL_GROUP_EN,
         "model": "smart-chat",
         "target": 2,
         "budget_usd": 50,
@@ -92,11 +97,13 @@ FEATURED_MODEL_SPECS = [
 ]
 
 GROUP_ALIASES = {
-    "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": [
-        "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
-        "多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询）",
+    MULTI_MODEL_GROUP_EN: [
+        MULTI_MODEL_GROUP_EN,
+        MULTI_MODEL_GROUP_CN,
+        MULTI_MODEL_GROUP_LEGACY_EN,
+        MULTI_MODEL_GROUP_LEGACY_CN,
     ],
-    "GPT-5.4": ["GPT-5.4"],
+    "GPT-5.5": ["GPT-5.5", "GPT-5.4"],
     "Claude Opus 4.7": ["Claude Opus 4.7", "Claude Sonnet", "Claude"],
     "Claude Sonnet": ["Claude Sonnet"],
     "DeepSeek": ["DeepSeek"],
@@ -312,13 +319,13 @@ def start_here_block(lang: str) -> str:
     if lang == "cn":
         return (
             "### 重点模型\n\n"
-            "覆盖 GPT-5.4、Claude Opus 4.7、Gemini、DeepSeek、smart-chat 等模型。\n"
-            "Key 会全天轮换；如果某个模型暂时无可用 Key，等待下一轮刷新即可。\n\n"
+            "覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat 等模型。\n"
+            "Key 会全天轮换；当旗舰模型暂时补货中时，自动以 smart-chat 兜底 Key 替代，复制即可请求。\n\n"
         )
     return (
         "### Featured models\n\n"
-        "GPT-5.4, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.\n"
-        "Keys rotate throughout the day. If a model is temporarily unavailable, check back after the next refresh.\n\n"
+        "GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.\n"
+        "Keys rotate throughout the day. When a flagship is restocking we surface a smart-chat fallback key so you can always copy and call.\n\n"
     )
 
 
@@ -359,8 +366,10 @@ def ensure_start_here(text: str, lang: str) -> str:
 
 
 def localized_group_name(group: str, lang: str) -> str:
-    if lang == "cn" and group == "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)":
-        return "多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询）"
+    if lang == "cn" and group in (MULTI_MODEL_GROUP_EN, MULTI_MODEL_GROUP_LEGACY_EN):
+        return MULTI_MODEL_GROUP_CN
+    if group == MULTI_MODEL_GROUP_LEGACY_EN:
+        return MULTI_MODEL_GROUP_EN
     return group
 
 
@@ -402,10 +411,10 @@ def insert_sections(text: str, grouped_keys: dict[str, list[dict]], lang: str) -
     text = remove_group_sections(text, groups_to_replace)
 
     anchor_after_group = {
-        "DeepSeek": ["Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)", "Gemini", "GPT-5.4", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
-        "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": ["Gemini", "GPT-5.4", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
-        "Gemini": ["GPT-5.4", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
-        "GPT-5.4": ["Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "DeepSeek": [MULTI_MODEL_GROUP_EN, "Gemini", "GPT-5.5", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        MULTI_MODEL_GROUP_EN: ["Gemini", "GPT-5.5", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "Gemini": ["GPT-5.5", "Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
+        "GPT-5.5": ["Claude Sonnet", "Kimi", "Image / Audio / Embedding"],
         "Claude Sonnet": ["Kimi", "Image / Audio / Embedding"],
     }
 
@@ -423,12 +432,12 @@ def insert_sections(text: str, grouped_keys: dict[str, list[dict]], lang: str) -
     other_groups = [group for group in grouped_keys if group not in inserted_groups]
     for group in other_groups:
         section = render_group_section(group, grouped_keys[group], lang)
-        if group == "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)":
+        if group == MULTI_MODEL_GROUP_EN:
             anchor = first_existing_heading_index(text, ["Image / Audio / Embedding"])
             if anchor is None:
                 anchor = text.find("## 📅 Changelog")
         elif group == "DeepSeek":
-            anchor = first_existing_heading_index(text, ["Gemini", "Kimi", "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)"])
+            anchor = first_existing_heading_index(text, ["Gemini", "Kimi", MULTI_MODEL_GROUP_EN])
             if anchor is None:
                 anchor = text.find("## 📅 Changelog")
         else:
@@ -470,7 +479,24 @@ def update_timestamp(text: str, lang: str) -> str:
 
 
 def count_table_keys(text: str) -> int:
-    return len(re.findall(r"^\| `sk-[A-Za-z0-9]+` \|", text, re.M))
+    """Count unique real `sk-` keys in Markdown tables.
+
+    - Rows that carry the smart-chat `<!-- fallback -->` marker are ignored
+      (they are a duplicate of a smart-chat row already counted elsewhere).
+    - The same `sk-` token appearing in multiple rows only counts once so the
+      shelf never double-counts fallback references.
+    """
+    seen: set[str] = set()
+    for line in text.splitlines():
+        if FALLBACK_MARKER in line:
+            continue
+        m = re.match(r"^\|\s*`(sk-[A-Za-z0-9]+)`\s*\|", line)
+        if m:
+            seen.add(m.group(1))
+    return len(seen)
+
+
+FALLBACK_MARKER = "<!-- fallback -->"
 
 
 def update_badge(text: str, count: int, lang: str) -> str:
@@ -481,13 +507,13 @@ def update_badge(text: str, count: int, lang: str) -> str:
 
 MODEL_SHELF = [
     {
-        "group": "GPT-5.4",
-        "title_en": "GPT-5.4",
-        "title_cn": "GPT-5.4",
-        "model": "gpt-5.4",
+        "group": "GPT-5.5",
+        "title_en": "GPT-5.5",
+        "title_cn": "GPT-5.5",
+        "model": "gpt-5.5",
         "desc_en": "Premium GPT flagship",
         "desc_cn": "GPT 旗舰模型",
-        "aliases": ["GPT-5.4"],
+        "aliases": ["GPT-5.5", "GPT-5.4"],
     },
     {
         "group": "Claude Opus 4.7",
@@ -517,15 +543,17 @@ MODEL_SHELF = [
         "aliases": ["DeepSeek"],
     },
     {
-        "group": "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
-        "title_en": "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
-        "title_cn": "多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询）",
+        "group": MULTI_MODEL_GROUP_EN,
+        "title_en": MULTI_MODEL_GROUP_EN,
+        "title_cn": MULTI_MODEL_GROUP_CN,
         "model": "smart-chat",
         "desc_en": "Auto-routes across currently healthy low-cost chat backends",
         "desc_cn": "自动路由到当前健康的低成本聊天模型",
         "aliases": [
-            "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)",
-            "多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询）",
+            MULTI_MODEL_GROUP_EN,
+            MULTI_MODEL_GROUP_CN,
+            MULTI_MODEL_GROUP_LEGACY_EN,
+            MULTI_MODEL_GROUP_LEGACY_CN,
         ],
     },
     {
@@ -571,6 +599,74 @@ def restocking_row(spec: dict, lang: str) -> str:
     )
 
 
+def pick_fallback_key(rows_by_group: dict[str, list[str]]) -> str | None:
+    """Return the first real `sk-` row from the smart-chat / Multi-Model group."""
+    for group in (MULTI_MODEL_GROUP_EN, MULTI_MODEL_GROUP_LEGACY_EN):
+        for row in rows_by_group.get(group, []):
+            if FALLBACK_MARKER in row:
+                continue
+            if re.match(r"^\|\s*`sk-[A-Za-z0-9]+`\s*\|", row):
+                return row
+    return None
+
+
+def _split_table_cells(row: str) -> list[str] | None:
+    if not row.startswith("|") or not row.rstrip().endswith("|"):
+        return None
+    parts = row.strip().strip("|").split("|")
+    return [part.strip() for part in parts]
+
+
+def adapt_fallback_row(smart_row: str, spec: dict, lang: str) -> str | None:
+    """Rewrite a smart-chat key row to act as a fallback for a flagship shelf.
+
+    Keeps `key`, `budget`, `rate limit`, `expires` from smart-chat; overrides
+    the `model` column (so users clearly see it routes to the target flagship),
+    the `status` column, and the `description` column. A trailing HTML comment
+    lets `count_table_keys` skip this duplicate to avoid inflating the badge.
+    """
+    cells = _split_table_cells(smart_row)
+    if not cells or len(cells) < 7:
+        return None
+    key_cell, _model, _status, budget, rpm, expires, *rest_desc = cells
+    if not re.match(r"^`sk-[A-Za-z0-9]+`$", key_cell):
+        return None
+    if lang == "cn":
+        model_cell = f"smart-chat ({spec['model']} 兜底)"
+        status_cell = "🛟 兜底"
+        desc_cell = f"{spec['desc_cn']} — 补货期间由 smart-chat 自动路由"
+    else:
+        model_cell = f"smart-chat ({spec['model']} fallback)"
+        status_cell = "🛟 Fallback"
+        desc_cell = f"{spec['desc_en']} — auto-routes via smart-chat while restocking"
+    row = (
+        f"| {key_cell} | {model_cell} | {status_cell} | {budget} | {rpm} | "
+        f"{expires} | {desc_cell} | {FALLBACK_MARKER}"
+    )
+    return row
+
+
+def rows_for_shelf_spec(spec: dict, rows_by_group: dict[str, list[str]], fallback: str | None, lang: str) -> list[str]:
+    """Resolve rows for a given shelf entry, using smart-chat fallback when empty.
+
+    - Real rows always win.
+    - If the shelf entry is the smart-chat / Multi-Model itself, fall through
+      to `restocking_row` (we never point smart-chat at itself as fallback).
+    - Other flagship/shelf entries with no real key adopt the fallback row if
+      available; otherwise show the legacy Restocking placeholder.
+    """
+    real_rows = [row for row in rows_by_group.get(spec["group"], []) if FALLBACK_MARKER not in row]
+    if real_rows:
+        return real_rows
+    if spec["group"] in (MULTI_MODEL_GROUP_EN, MULTI_MODEL_GROUP_LEGACY_EN):
+        return [restocking_row(spec, lang)]
+    if fallback:
+        adapted = adapt_fallback_row(fallback, spec, lang)
+        if adapted:
+            return [adapted]
+    return [restocking_row(spec, lang)]
+
+
 def spec_for_heading(title: str) -> dict | None:
     plain_title = title.split(" `", 1)[0].strip()
     for spec in MODEL_SHELF:
@@ -589,6 +685,10 @@ def collect_shelf_rows(section: str) -> dict[str, list[str]]:
         block_end = headings[idx + 1].start() if idx + 1 < len(headings) else len(section)
         block = section[heading.end():block_end]
         for line in block.splitlines():
+            if FALLBACK_MARKER in line:
+                # Fallback rows are re-generated from smart-chat each render;
+                # never carry them over as if they were real keys of this shelf.
+                continue
             if re.match(r"^\|\s*`sk-[A-Za-z0-9]+`\s*\|", line):
                 rows[spec["group"]].append(line)
     return rows
@@ -606,8 +706,9 @@ def available_keys_bounds(text: str) -> tuple[int, int] | None:
 def render_shelf_section(rows_by_group: dict[str, list[str]], lang: str) -> str:
     sections = []
     stamp = display_stamp()
+    fallback = pick_fallback_key(rows_by_group)
     for spec in MODEL_SHELF:
-        rows = rows_by_group.get(spec["group"]) or [restocking_row(spec, lang)]
+        rows = rows_for_shelf_spec(spec, rows_by_group, fallback, lang)
         sections.append(
             f"### {shelf_title(spec, lang)} `{stamp}`\n\n"
             + shelf_header(lang)
@@ -868,6 +969,41 @@ def sync_repo_before_publish() -> bool:
     return True
 
 
+def _readme_has_meaningful_diff(paths: Iterable[str]) -> bool:
+    """Return True when the staged README diff contains changes other than
+    the `Last updated` timestamp + shelf stamps.
+
+    Filters out lines that start with `+> ⏰`, `-> ⏰`, and rows that only
+    differ in their `` `MM-DD HH:MM` `` stamp near shelf headings. When the
+    only diff is a cosmetic timestamp bump we skip the commit entirely so
+    that hourly cleanup runs don't flood the public repo with empty
+    `+0 keys, -1 expired` churn.
+    """
+    diff = subprocess.run(
+        ["git", "-C", REPO_PATH, "diff", "--cached", "--unified=0", "--", *paths],
+        capture_output=True,
+        text=True,
+    )
+    if diff.returncode != 0:
+        return True  # err on the safe side
+    for line in diff.stdout.splitlines():
+        if not line or line[0] not in "+-":
+            continue
+        if line.startswith("+++ ") or line.startswith("--- "):
+            continue
+        content = line[1:]
+        stripped = content.strip()
+        if not stripped:
+            continue
+        if stripped.startswith("> ⏰"):
+            continue
+        # Shelf heading timestamp lines, e.g. `### GPT-5.5 \`04-30 17:52\``
+        if re.match(r"^### .+ `\d{2}-\d{2} \d{2}:\d{2}`$", stripped):
+            continue
+        return True
+    return False
+
+
 def git_commit_and_push(new_count: int, deleted_count: int) -> None:
     paths = [README_PATH, README_CN_PATH]
     if contains_conflict_markers(paths):
@@ -876,6 +1012,13 @@ def git_commit_and_push(new_count: int, deleted_count: int) -> None:
     subprocess.run(["git", "-C", REPO_PATH, "add", "README.md", "README_CN.md"], capture_output=True, text=True)
     diff = subprocess.run(["git", "-C", REPO_PATH, "diff", "--cached", "--quiet"], capture_output=True, text=True)
     if diff.returncode == 0:
+        return
+    # When nothing new or interesting changed (only timestamps), drop the
+    # diff quietly instead of shipping a noisy commit. This keeps the public
+    # repo history readable and maximises SEO / star-worthy "activity" signal.
+    if new_count == 0 and deleted_count == 0 and not _readme_has_meaningful_diff(["README.md", "README_CN.md"]):
+        subprocess.run(["git", "-C", REPO_PATH, "reset", "HEAD", "--", "README.md", "README_CN.md"], capture_output=True, text=True)
+        subprocess.run(["git", "-C", REPO_PATH, "checkout", "--", "README.md", "README_CN.md"], capture_output=True, text=True)
         return
     msg = f"feat: +{new_count} keys, -{deleted_count} expired ({date_stamp()} {now_utc8().strftime('%H:%M')})"
     env = os.environ.copy()
