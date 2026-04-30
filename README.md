@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-4-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-2-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-30 17:52 (UTC+8)
+> ⏰ Last updated: 2026-04-30 18:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are restocked **twice daily**. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,7 +69,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.4, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.
 Keys rotate throughout the day. If a model is temporarily unavailable, check back after the next refresh.
 
-### GPT-5.4 `04-30 17:52`
+### GPT-5.4 `04-30 18:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -77,7 +77,7 @@ Keys rotate throughout the day. If a model is temporarily unavailable, check bac
 
 ---
 
-### Claude Opus 4.7 `04-30 17:52`
+### Claude Opus 4.7 `04-30 18:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -85,16 +85,15 @@ Keys rotate throughout the day. If a model is temporarily unavailable, check bac
 
 ---
 
-### Gemini `04-30 17:52`
+### Gemini `04-30 18:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-OUcnJt879jYJKj2r7AMD9MvIduQVvinSwPMGHbRXlMlzf3xu` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-30 | Fast Gemini option for long-context general chat |
-| `sk-86fwmWZSNxRaLgdzFZRuKvRkVhhtqPXaXzSV7i40EneN36H9` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-30 | Fast Gemini option for long-context general chat |
+| Restocking | gemini-2.5-flash | Temporarily unavailable | - | - | Next refresh | Fast Gemini option for long-context general chat |
 
 ---
 
-### DeepSeek `04-30 17:52`
+### DeepSeek `04-30 18:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -103,7 +102,7 @@ Keys rotate throughout the day. If a model is temporarily unavailable, check bac
 
 ---
 
-### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-30 17:52`
+### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-30 18:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -111,7 +110,7 @@ Keys rotate throughout the day. If a model is temporarily unavailable, check bac
 
 ---
 
-### Kimi `04-30 17:52`
+### Kimi `04-30 18:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -119,7 +118,7 @@ Keys rotate throughout the day. If a model is temporarily unavailable, check bac
 
 ---
 
-### Image / Audio / Embedding `04-30 17:52`
+### Image / Audio / Embedding `04-30 18:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|

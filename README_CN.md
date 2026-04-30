@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-4-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-2-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-04-30 17:52 (UTC+8)
+> ⏰ 最后更新： 2026-04-30 18:07 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 每天补货 **2 次**，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -68,7 +68,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 覆盖 GPT-5.4、Claude Opus 4.7、Gemini、DeepSeek、smart-chat 等模型。
 Key 会全天轮换；如果某个模型暂时无可用 Key，等待下一轮刷新即可。
 
-### GPT-5.4 `04-30 17:52`
+### GPT-5.4 `04-30 18:07`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -76,7 +76,7 @@ Key 会全天轮换；如果某个模型暂时无可用 Key，等待下一轮刷
 
 ---
 
-### Claude Opus 4.7 `04-30 17:52`
+### Claude Opus 4.7 `04-30 18:07`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -84,16 +84,15 @@ Key 会全天轮换；如果某个模型暂时无可用 Key，等待下一轮刷
 
 ---
 
-### Gemini `04-30 17:52`
+### Gemini `04-30 18:07`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-OUcnJt879jYJKj2r7AMD9MvIduQVvinSwPMGHbRXlMlzf3xu` | gemini-2.5-flash | 🆕 新增 | $20 | 20 RPM | 2026-04-30 | Gemini 快速模型，适合长上下文通用对话 |
-| `sk-86fwmWZSNxRaLgdzFZRuKvRkVhhtqPXaXzSV7i40EneN36H9` | gemini-2.5-flash | 🆕 新增 | $20 | 20 RPM | 2026-04-30 | Gemini 快速模型，适合长上下文通用对话 |
+| 补货中 | gemini-2.5-flash | 暂时无可用 Key | - | - | 下次刷新 | Gemini 快速模型，适合长上下文通用对话 |
 
 ---
 
-### DeepSeek `04-30 17:52`
+### DeepSeek `04-30 18:07`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -102,7 +101,7 @@ Key 会全天轮换；如果某个模型暂时无可用 Key，等待下一轮刷
 
 ---
 
-### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-30 17:52`
+### 多模型聚合（GPT-5.4 / Claude / DeepSeek / Gemini 自动轮询） `04-30 18:07`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -110,7 +109,7 @@ Key 会全天轮换；如果某个模型暂时无可用 Key，等待下一轮刷
 
 ---
 
-### Kimi `04-30 17:52`
+### Kimi `04-30 18:07`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -118,7 +117,7 @@ Key 会全天轮换；如果某个模型暂时无可用 Key，等待下一轮刷
 
 ---
 
-### 图像 / 语音 / 向量化 `04-30 17:52`
+### 图像 / 语音 / 向量化 `04-30 18:07`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
