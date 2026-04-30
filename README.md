@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-30 08:37 (UTC+8)
+> ⏰ Last updated: 2026-04-30 08:51 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > Keys are refreshed **3-5 times daily**. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -64,30 +64,28 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
 
-### Start here: DeepSeek → smart-chat → Gemini
+### Featured models
 
-- `deepseek-chat` — fast, stable, and best for everyday use.
-- `smart-chat` — auto-routes across currently healthy low-cost chat backends.
-- `gemini-2.5-flash` — fast Gemini option for long-context general chat.
+GPT-5.4, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.
+Keys rotate throughout the day. If a model is temporarily unavailable, check back after the next refresh.
 
-Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are intentionally not the default free high-volume path.
-
-
-### DeepSeek `04-28 17:53`
+### GPT-5.4 `04-30 08:51`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
+| Restocking | gpt-5.4 | Temporarily unavailable | - | - | Next refresh | Premium GPT flagship |
 
 ---
 
-### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-29 21:30`
+### Claude Opus 4.7 `04-30 08:51`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
+| Restocking | claude-opus-4-7 | Temporarily unavailable | - | - | Next refresh | Claude Opus flagship |
 
 ---
 
-### Gemini `04-28 17:53`
+### Gemini `04-30 08:51`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -95,6 +93,38 @@ Use `gpt-5.4` or `claude-sonnet-4-6` when you need premium quality; they are int
 | `sk-86fwmWZSNxRaLgdzFZRuKvRkVhhtqPXaXzSV7i40EneN36H9` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-30 | Fast Gemini option for long-context general chat |
 
 ---
+
+### DeepSeek `04-30 08:51`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| Restocking | deepseek-chat | Temporarily unavailable | - | - | Next refresh | Everyday chat, coding, translation, writing |
+
+---
+
+### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `04-30 08:51`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| Restocking | smart-chat | Temporarily unavailable | - | - | Next refresh | Auto-routes across currently healthy low-cost chat backends |
+
+---
+
+### Kimi `04-30 08:51`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| Restocking | kimi-k2.5 | Temporarily unavailable | - | - | Next refresh | Kimi long-context general model |
+
+---
+
+### Image / Audio / Embedding `04-30 08:51`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| Restocking | dall-e-3 / tts / embeddings | Temporarily unavailable | - | - | Next refresh | Image, audio, and embedding models |
+
+
 ## 🚀 How to Use
 
 All keys work with the **OpenAI API format**. Just set the base URL and paste your key.
