@@ -594,6 +594,15 @@ def collect_shelf_rows(section: str) -> dict[str, list[str]]:
     return rows
 
 
+def available_keys_bounds(text: str) -> tuple[int, int] | None:
+    start = text.find("## 📋")
+    if start == -1:
+        return None
+    tail_match = re.search(r"\n## (?!📋)", text[start + len("## 📋"):])
+    end = start + len("## 📋") + tail_match.start() if tail_match else len(text)
+    return start, end
+
+
 def render_shelf_section(rows_by_group: dict[str, list[str]], lang: str) -> str:
     sections = []
     stamp = display_stamp()
@@ -610,11 +619,10 @@ def render_shelf_section(rows_by_group: dict[str, list[str]], lang: str) -> str:
 
 
 def normalize_model_shelf(text: str, lang: str) -> str:
-    start = text.find("## 📋")
-    if start == -1:
+    bounds = available_keys_bounds(text)
+    if bounds is None:
         return text
-    tail_match = re.search(r"\n## (?!📋)", text[start + len("## 📋"):])
-    end = start + len("## 📋") + tail_match.start() if tail_match else len(text)
+    start, end = bounds
     section = strip_unavailable_details(text[start:end])
 
     headings = list(re.finditer(r"^### (.+)$", section, re.MULTILINE))
@@ -641,6 +649,37 @@ def normalize_model_shelf(text: str, lang: str) -> str:
     )
     normalized = re.sub(r"\n{4,}", "\n\n\n", normalized)
     return text[:start] + normalized + text[end:]
+
+
+def remove_empty_shelf_sections_from_segment(segment: str) -> str:
+    headings = list(re.finditer(r"^### (.+)$", segment, re.MULTILINE))
+    if not headings:
+        return segment
+
+    pieces = []
+    cursor = 0
+    for idx, heading in enumerate(headings):
+        block_start = heading.start()
+        block_end = headings[idx + 1].start() if idx + 1 < len(headings) else len(segment)
+        block = segment[block_start:block_end]
+        pieces.append(segment[cursor:block_start])
+        if not (spec_for_heading(heading.group(1)) and is_empty_key_group(block)):
+            pieces.append(block)
+        cursor = block_end
+    pieces.append(segment[cursor:])
+    return re.sub(r"\n{4,}", "\n\n\n", "".join(pieces))
+
+
+def remove_orphan_empty_model_sections(text: str) -> str:
+    bounds = available_keys_bounds(text)
+    if bounds is None:
+        return text
+    start, end = bounds
+    return (
+        remove_empty_shelf_sections_from_segment(text[:start])
+        + text[start:end]
+        + remove_empty_shelf_sections_from_segment(text[end:])
+    )
 
 
 MAX_VISIBLE_EMPTY_GROUPS = 2
@@ -808,6 +847,7 @@ def update_readme(path: str, grouped_keys: dict[str, list[dict]], deleted_keys: 
     text = re.sub(r"(</details>\n)(?:\s*</details>\n)+", r"\1", text)
     text = re.sub(r"\n{4,}", "\n\n\n", text)
     text = normalize_model_shelf(text, lang=lang)
+    text = remove_orphan_empty_model_sections(text)
     text = update_badge(text, count_table_keys(text), lang)
     p.write_text(text, encoding="utf-8")
 

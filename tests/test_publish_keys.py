@@ -380,6 +380,35 @@ class PublishKeysTests(unittest.TestCase):
         self.assertIn("| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |", updated)
         self.assertEqual(updated.count("| Restocking |"), 6)
 
+    def test_update_readme_removes_orphan_empty_model_sections_outside_key_list(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-04-25 13:30 (UTC+8)\n\n"
+            "### Gemini `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |\n\n"
+            "## 🚀 How to Use\n\n"
+            "Use the keys above.\n\n"
+            "---\n\n"
+            "### GPT-5.4 `04-24 19:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "---\n\n"
+            "### Claude Sonnet `04-24 19:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "---\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertEqual(updated.count("### GPT-5.4"), 1)
+        self.assertNotIn("### Claude Sonnet", updated)
+        self.assertIn("## 🚀 How to Use", updated)
+        self.assertIn("| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |", updated)
+
     def test_extract_bad_keys_from_status_handles_results_dict(self):
         payload = {
             "results": {
