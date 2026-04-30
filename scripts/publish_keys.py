@@ -771,6 +771,36 @@ def remove_empty_shelf_sections_from_segment(segment: str) -> str:
     return re.sub(r"\n{4,}", "\n\n\n", "".join(pieces))
 
 
+def remove_any_shelf_sections_from_segment(segment: str) -> str:
+    """Drop any shelf-spec heading block found outside of ## 📋 Available Keys.
+
+    When a previous render placed a duplicate (e.g. Opus as both the anchored
+    first insertion and a tail-appended fallback), the tail copy would linger
+    after the License section. Those belong inside the Available Keys section
+    only, so we strip them wholesale — empty or not — wherever we find them
+    outside that boundary.
+    """
+    headings = list(re.finditer(r"^### (.+)$", segment, re.MULTILINE))
+    if not headings:
+        return segment
+
+    pieces = []
+    cursor = 0
+    for idx, heading in enumerate(headings):
+        block_start = heading.start()
+        block_end = headings[idx + 1].start() if idx + 1 < len(headings) else len(segment)
+        block = segment[block_start:block_end]
+        pieces.append(segment[cursor:block_start])
+        if not spec_for_heading(heading.group(1)):
+            pieces.append(block)
+        cursor = block_end
+    pieces.append(segment[cursor:])
+    cleaned = "".join(pieces)
+    # Collapse trailing horizontal separators that lose their previous sibling.
+    cleaned = re.sub(r"\n{3,}---\n(?=(?:\n|$))", "\n\n", cleaned)
+    return re.sub(r"\n{4,}", "\n\n\n", cleaned)
+
+
 def remove_orphan_empty_model_sections(text: str) -> str:
     bounds = available_keys_bounds(text)
     if bounds is None:
@@ -779,7 +809,7 @@ def remove_orphan_empty_model_sections(text: str) -> str:
     return (
         remove_empty_shelf_sections_from_segment(text[:start])
         + text[start:end]
-        + remove_empty_shelf_sections_from_segment(text[end:])
+        + remove_any_shelf_sections_from_segment(text[end:])
     )
 
 

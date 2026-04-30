@@ -559,6 +559,38 @@ class PublishKeysTests(unittest.TestCase):
         fetch_recommended_models.assert_not_called()
         create_keys.assert_not_called()
 
+    def test_update_readme_removes_orphan_shelf_sections_even_when_filled(self):
+        # Regression for a cc77a47-era rendering glitch where a fully-populated
+        # Claude Opus block ended up duplicated after the License section.
+        # Those trailing blocks must be stripped regardless of content.
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-04-30 19:09 (UTC+8)\n\n"
+            "### Gemini `04-30 19:09`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-g` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-05-02 | Fast |\n\n"
+            "## 🚀 How to Use\n\n"
+            "Use the keys above.\n\n"
+            "## 📜 License\n\n"
+            "[MIT License](./LICENSE)\n\n"
+            "### Claude Opus 4.7 `04-30 19:03`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-orphan1` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-02 | Opus |\n"
+            "| `sk-orphan2` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-02 | Opus |\n\n"
+            "---\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertEqual(updated.count("### Claude Opus 4.7"), 1)
+        self.assertLess(updated.index("### Claude Opus 4.7"), updated.index("## 🚀 How to Use"))
+        self.assertNotIn("sk-orphan1", updated)
+        self.assertNotIn("sk-orphan2", updated)
+
+
     def test_update_readme_uses_smart_chat_fallback_for_empty_flagship_groups(self):
         readme = self.write_temp_readme(
             "[![Keys](https://img.shields.io/badge/Available_Keys-0-brightgreen?style=for-the-badge)]()\n\n"
