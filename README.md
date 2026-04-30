@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-7-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-6-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-30 18:37 (UTC+8)
+> ⏰ Last updated: 2026-04-30 18:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are restocked **twice daily**. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,7 +69,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.
 Keys rotate throughout the day. When a flagship is restocking we surface a smart-chat fallback key so you can always copy and call.
 
-### GPT-5.5 `04-30 18:37`
+### GPT-5.5 `04-30 18:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -77,7 +77,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Claude Opus 4.7 `04-30 18:37`
+### Claude Opus 4.7 `04-30 18:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -85,7 +85,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Gemini `04-30 18:37`
+### Gemini `04-30 18:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -94,7 +94,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### DeepSeek `04-30 18:37`
+### DeepSeek `04-30 18:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -103,7 +103,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `04-30 18:37`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `04-30 18:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -111,7 +111,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Kimi `04-30 18:37`
+### Kimi `04-30 18:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -119,7 +119,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Image / Audio / Embedding `04-30 18:37`
+### Image / Audio / Embedding `04-30 18:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -686,12 +686,4 @@ If this repo helped you, you may also like:
 
 [MIT License](./LICENSE)
 
-
-### Claude Opus 4.7 `04-30 18:36`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-3SQ8COrGTMOcWl5WiVoqtNokR3mECzlc8PeqrtxHRueP96KC` | claude-opus-4-7 | 🆕 New | $50 | 5 RPM | 2026-05-02 | Claude Opus flagship |
-
----
 
