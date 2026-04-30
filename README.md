@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-04-30 19:13 (UTC+8)
+> ⏰ Last updated: 2026-04-30 19:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are restocked **twice daily**. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,7 +69,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.
 Keys rotate throughout the day. When a flagship is restocking we surface a smart-chat fallback key so you can always copy and call.
 
-### GPT-5.5 `04-30 19:13`
+### GPT-5.5 `04-30 19:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -81,7 +81,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Claude Opus 4.7 `04-30 19:13`
+### Claude Opus 4.7 `04-30 19:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -89,7 +89,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Gemini `04-30 19:13`
+### Gemini `04-30 19:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -100,7 +100,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### DeepSeek `04-30 19:13`
+### DeepSeek `04-30 19:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -111,7 +111,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `04-30 19:13`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `04-30 19:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -122,7 +122,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Kimi `04-30 19:13`
+### Kimi `04-30 19:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -130,7 +130,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Image / Audio / Embedding `04-30 19:13`
+### Image / Audio / Embedding `04-30 19:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
