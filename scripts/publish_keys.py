@@ -47,8 +47,8 @@ FEATURED_MODEL_SPECS = [
     {
         "group": "GPT-5.5",
         "model": "gpt-5.5",
-        "target": 1,
-        "budget_usd": 50,
+        "target": 6,
+        "budget_usd": 20,
         "rpm": 5,
         "duration_hours": 48,
         "desc_en": "Premium GPT flagship",
@@ -57,8 +57,8 @@ FEATURED_MODEL_SPECS = [
     {
         "group": "Claude Opus 4.7",
         "model": "claude-opus-4-7",
-        "target": 1,
-        "budget_usd": 50,
+        "target": 6,
+        "budget_usd": 20,
         "rpm": 5,
         "duration_hours": 48,
         "desc_en": "Claude Opus flagship",
@@ -67,7 +67,7 @@ FEATURED_MODEL_SPECS = [
     {
         "group": "Gemini",
         "model": "gemini-2.5-flash",
-        "target": 2,
+        "target": 6,
         "budget_usd": 20,
         "rpm": 20,
         "duration_hours": 48,
@@ -77,7 +77,7 @@ FEATURED_MODEL_SPECS = [
     {
         "group": "DeepSeek",
         "model": "deepseek-chat",
-        "target": 2,
+        "target": 6,
         "budget_usd": 20,
         "rpm": 20,
         "duration_hours": 48,
@@ -87,8 +87,8 @@ FEATURED_MODEL_SPECS = [
     {
         "group": MULTI_MODEL_GROUP_EN,
         "model": "smart-chat",
-        "target": 2,
-        "budget_usd": 50,
+        "target": 6,
+        "budget_usd": 20,
         "rpm": 10,
         "duration_hours": 48,
         "desc_en": "Auto-routes across currently healthy low-cost chat backends",

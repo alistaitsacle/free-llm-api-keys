@@ -432,21 +432,21 @@ class PublishKeysTests(unittest.TestCase):
         ]
         available_models = {"gpt-5.5", "claude-opus-4-7", "deepseek-chat", "smart-chat", "gemini-2.5-flash"}
 
-        requests = publish_keys.build_featured_key_requests(active_keys, available_models, remaining_budget_usd=500)
+        requests = publish_keys.build_featured_key_requests(active_keys, available_models, remaining_budget_usd=2000)
 
         requested_models = [req["models"][0] for req in requests]
-        self.assertEqual(requested_models.count("deepseek-chat"), 1)
-        self.assertEqual(requested_models.count("smart-chat"), 2)
-        self.assertEqual(requested_models.count("gemini-2.5-flash"), 2)
-        self.assertEqual(requested_models.count("claude-opus-4-7"), 1)
+        # Each featured group targets 6 keys. One deepseek-chat and one
+        # gpt-5.5 already exist, so we should request 5 more of each plus the
+        # full 6 for groups without any active keys yet.
+        self.assertEqual(requested_models.count("deepseek-chat"), 5)
+        self.assertEqual(requested_models.count("gpt-5.5"), 5)
+        self.assertEqual(requested_models.count("claude-opus-4-7"), 6)
+        self.assertEqual(requested_models.count("smart-chat"), 6)
+        self.assertEqual(requested_models.count("gemini-2.5-flash"), 6)
         self.assertNotIn("gpt-5.4", requested_models)
-        self.assertEqual(requested_models[:5], [
-            "claude-opus-4-7",
-            "gemini-2.5-flash",
-            "gemini-2.5-flash",
-            "deepseek-chat",
-            "smart-chat",
-        ])
+        # FEATURED_GROUP_ORDER puts GPT-5.5 first, so the missing 5 gpt-5.5
+        # requests should lead the batch.
+        self.assertEqual(requested_models[:5], ["gpt-5.5"] * 5)
         self.assertTrue(all(req["budget_usd"] <= 50 for req in requests))
 
     def test_sync_repo_before_publish_runs_pull_rebase(self):
