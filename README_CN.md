@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-4-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-21-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-05-01 21:22 (UTC+8)
+> ⏰ 最后更新： 2026-05-01 21:30 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 每天补货 **2 次**，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -68,61 +68,76 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat 等模型。
 Key 会全天轮换；当旗舰模型暂时补货中时，自动以 smart-chat 兜底 Key 替代，复制即可请求。
 
-### GPT-5.5 `05-01 21:22`
+### GPT-5.5 `05-01 21:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| 补货中 | gpt-5.5 | 暂时无可用 Key | - | - | 下次刷新 | GPT 旗舰模型 |
+| `sk-lCQWtTMdIbCoD2X00NOWk1LPgAk9QYRbUOZfju89zF64p9YP` | gpt-5.5 | 🆕 新增 | $20 | 5 RPM | 2026-05-03 | GPT 旗舰模型 |
+| `sk-0mqojOWKoRxLPeFx33coPPEBF2ZgD2vq4h36ZFJgTyf0vSjg` | gpt-5.5 | 🆕 新增 | $20 | 5 RPM | 2026-05-03 | GPT 旗舰模型 |
+| `sk-D4K7XlAvr2onGgj8Di4tx76ulXCnfe6gXSTzMKwGuqstsszo` | gpt-5.5 | 🆕 新增 | $20 | 5 RPM | 2026-05-03 | GPT 旗舰模型 |
+| `sk-sLHYUKAeBO7TfP4cD06OuHwsKyQ2pui0zf0avP0lBtEIRNqI` | gpt-5.5 | 🆕 新增 | $20 | 5 RPM | 2026-05-03 | GPT 旗舰模型 |
+| `sk-j8qRrqXpElHTbhmJGS6DD9K7MIcYfPyiFJAqXwbkK8QzbNts` | gpt-5.5 | 🆕 新增 | $20 | 5 RPM | 2026-05-03 | GPT 旗舰模型 |
+| `sk-cfvLrjCox2DH7k4TWi0NTAFNmQIALvI0GZAKqMQ47JLwdA2E` | gpt-5.5 | 🆕 新增 | $20 | 5 RPM | 2026-05-03 | GPT 旗舰模型 |
 
 ---
 
-### Claude Opus 4.7 `05-01 21:22`
+### Claude Opus 4.7 `05-01 21:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| 补货中 | claude-opus-4-7 | 暂时无可用 Key | - | - | 下次刷新 | Claude Opus 旗舰模型 |
+| `sk-ehWceeGWEBVR4C2x6OXwWpBiRQiTWQEStJZS0QwbwI8WTfP7` | smart-chat (claude-opus-4-7 兜底) | 🛟 兜底 | $20 | 10 RPM | 2026-05-03 | Claude Opus 旗舰模型 — 补货期间由 smart-chat 自动路由 | <!-- fallback -->
 
 ---
 
-### Gemini `05-01 21:22`
+### Gemini `05-01 21:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-sTh31ra2wOkiSU4QAhw3utCSGtcIS8bc89zgAR4MYMvYD9vL` | gemini-2.5-flash | 🆕 新增 | $19 | 20 RPM | 2026-05-02 | Gemini 快速模型，适合长上下文通用对话 |
-| `sk-8nYvUd9eEk35uane3Imr4CH5fne9bGCDMgbNKmf0RzWtUpyu` | gemini-2.5-flash | 🆕 新增 | $19 | 20 RPM | 2026-05-02 | Gemini 快速模型，适合长上下文通用对话 |
+| `sk-Wiu7BLhrmSsgzUXOBrT9paP0dV6aqn7EAh1z6Co8hdl9GfQ9` | gemini-2.5-flash | 🆕 新增 | $19 | 20 RPM | 2026-05-02 | Gemini 快速模型，适合长上下文通用对话 |
+| `sk-QOkbZGaUHAr5VALHYf40iGCGW4GQIdJftfxiYZkTy36b3r70` | gemini-2.5-flash | 🆕 新增 | $19 | 20 RPM | 2026-05-02 | Gemini 快速模型，适合长上下文通用对话 |
+| `sk-urNiTiqT3DY5dnmUuISZpgetPpk45pSKGVxLgESVq2uDh3ON` | gemini-2.5-flash | 🆕 新增 | $19 | 20 RPM | 2026-05-02 | Gemini 快速模型，适合长上下文通用对话 |
+| `sk-NqHXFjgTECAMrjQztjkPO6KyxAivnxwDAaZqlYTVTc4isOcg` | gemini-2.5-flash | 🆕 新增 | $19 | 20 RPM | 2026-05-02 | Gemini 快速模型，适合长上下文通用对话 |
 
 ---
 
-### DeepSeek `05-01 21:22`
+### DeepSeek `05-01 21:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-mpVTPyPqfbTJUniIrWhXF7qvSwSBqmQrCAQKqWBo4gmkVKvc` | deepseek-chat | 🆕 新增 | $12 | 20 RPM | 2026-05-02 | 日常对话、代码生成、翻译写作 |
-| `sk-oAoc48XwNt2XpaixEDmjgBNFnUWXdnIBkzM4s6waeO5wGwO2` | deepseek-chat | 🆕 新增 | $10 | 20 RPM | 2026-05-02 | 日常对话、代码生成、翻译写作 |
+| `sk-B5r2hLqffjKNllTLvuxdNDrj1dX53rM51Sq70oDodOiBE4Jz` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-05-03 | 日常对话、代码生成、翻译写作 |
+| `sk-UDC6i6ng6YWhaezj2fuK7vLIma7WvKq7cwFBQMsbBbuvYZIC` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-05-03 | 日常对话、代码生成、翻译写作 |
+| `sk-KtVrJcqwqpeZjvOHq42P0v4Kdtg0F2NYc5SzBflxWS79C5jT` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-05-03 | 日常对话、代码生成、翻译写作 |
+| `sk-Q6gaOjlrcwmmsttZdLDO3cofKmgk7lregVRpvDDOS08dpf3Z` | deepseek-chat | 🆕 新增 | $14 | 20 RPM | 2026-05-02 | 日常对话、代码生成、翻译写作 |
+| `sk-1RkX3ihMnBG3DRqrITJtW741jhgB647ZxAexr3IaLuFLpDVD` | deepseek-chat | 🆕 新增 | $13 | 20 RPM | 2026-05-02 | 日常对话、代码生成、翻译写作 |
 
 ---
 
-### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-01 21:22`
+### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-01 21:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| 补货中 | smart-chat | 暂时无可用 Key | - | - | 下次刷新 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-ehWceeGWEBVR4C2x6OXwWpBiRQiTWQEStJZS0QwbwI8WTfP7` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-03 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-FQJkFsX6bsY17BC61Y8WwReTlvInWvTXcx64XfPZM76HKqBY` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-03 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-nQRdUFIXndTCTDC844FAyuqzOcS7a1stHdYN2bBKHHWe2x9s` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-03 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-qcKBRTCkm4F0l2FQ5VrCe14Qv0izfv6maQaZ4yOy92qvRCgl` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-03 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-Yt0chvBWskBeF4VDYuGqWljPEHbkgpjIf3KBeF7ZtDMRjhXK` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-03 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-dCcYuGyhYqpAjB2ezdVIym1I3Rqa7YHiq99uw4gkWE2pt75p` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-03 | 自动路由到当前健康的低成本聊天模型 |
 
 ---
 
-### Kimi `05-01 21:22`
+### Kimi `05-01 21:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| 补货中 | kimi-k2.5 | 暂时无可用 Key | - | - | 下次刷新 | Kimi 长上下文通用模型 |
+| `sk-ehWceeGWEBVR4C2x6OXwWpBiRQiTWQEStJZS0QwbwI8WTfP7` | smart-chat (kimi-k2.5 兜底) | 🛟 兜底 | $20 | 10 RPM | 2026-05-03 | Kimi 长上下文通用模型 — 补货期间由 smart-chat 自动路由 | <!-- fallback -->
 
 ---
 
-### 图像 / 语音 / 向量化 `05-01 21:22`
+### 图像 / 语音 / 向量化 `05-01 21:30`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| 补货中 | dall-e-3 / tts / embeddings | 暂时无可用 Key | - | - | 下次刷新 | 图像、语音和向量模型 |
+| `sk-ehWceeGWEBVR4C2x6OXwWpBiRQiTWQEStJZS0QwbwI8WTfP7` | smart-chat (dall-e-3 / tts / embeddings 兜底) | 🛟 兜底 | $20 | 10 RPM | 2026-05-03 | 图像、语音和向量模型 — 补货期间由 smart-chat 自动路由 | <!-- fallback -->
 
 
 ## 🚀 如何使用
