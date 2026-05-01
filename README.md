@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-3-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-9-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-05-02 01:07 (UTC+8)
+> ⏰ Last updated: 2026-05-02 01:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are restocked **twice daily**. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,7 +69,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.
 Keys rotate throughout the day. When a flagship is restocking we surface a smart-chat fallback key so you can always copy and call.
 
-### GPT-5.5 `05-02 01:07`
+### GPT-5.5 `05-02 01:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -77,7 +77,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Claude Opus 4.7 `05-02 01:07`
+### Claude Opus 4.7 `05-02 01:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -85,24 +85,30 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Gemini `05-02 01:07`
+### Gemini `05-02 01:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-sTh31ra2wOkiSU4QAhw3utCSGtcIS8bc89zgAR4MYMvYD9vL` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
-| `sk-8nYvUd9eEk35uane3Imr4CH5fne9bGCDMgbNKmf0RzWtUpyu` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
+| `sk-Wiu7BLhrmSsgzUXOBrT9paP0dV6aqn7EAh1z6Co8hdl9GfQ9` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
+| `sk-QOkbZGaUHAr5VALHYf40iGCGW4GQIdJftfxiYZkTy36b3r70` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
+| `sk-urNiTiqT3DY5dnmUuISZpgetPpk45pSKGVxLgESVq2uDh3ON` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
+| `sk-NqHXFjgTECAMrjQztjkPO6KyxAivnxwDAaZqlYTVTc4isOcg` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
 
 ---
 
-### DeepSeek `05-02 01:07`
+### DeepSeek `05-02 01:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-mpVTPyPqfbTJUniIrWhXF7qvSwSBqmQrCAQKqWBo4gmkVKvc` | deepseek-chat | 🆕 New | $12 | 20 RPM | 2026-05-02 | Everyday chat, coding, translation, writing |
+| `sk-KtVrJcqwqpeZjvOHq42P0v4Kdtg0F2NYc5SzBflxWS79C5jT` | deepseek-chat | 🆕 New | $19 | 20 RPM | 2026-05-03 | Everyday chat, coding, translation, writing |
+| `sk-UDC6i6ng6YWhaezj2fuK7vLIma7WvKq7cwFBQMsbBbuvYZIC` | deepseek-chat | 🆕 New | $19 | 20 RPM | 2026-05-03 | Everyday chat, coding, translation, writing |
+| `sk-B5r2hLqffjKNllTLvuxdNDrj1dX53rM51Sq70oDodOiBE4Jz` | deepseek-chat | 🆕 New | $19 | 20 RPM | 2026-05-03 | Everyday chat, coding, translation, writing |
+| `sk-Q6gaOjlrcwmmsttZdLDO3cofKmgk7lregVRpvDDOS08dpf3Z` | deepseek-chat | 🆕 New | $12 | 20 RPM | 2026-05-02 | Everyday chat, coding, translation, writing |
+| `sk-1RkX3ihMnBG3DRqrITJtW741jhgB647ZxAexr3IaLuFLpDVD` | deepseek-chat | 🆕 New | $13 | 20 RPM | 2026-05-02 | Everyday chat, coding, translation, writing |
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-02 01:07`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-02 01:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -110,7 +116,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Kimi `05-02 01:07`
+### Kimi `05-02 01:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -118,7 +124,7 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Image / Audio / Embedding `05-02 01:07`
+### Image / Audio / Embedding `05-02 01:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
