@@ -602,6 +602,18 @@ If this repo helped you, you may also like:
 
 ---
 
+## 📅 Changelog
+
+<details>
+<summary><b>Show changelog history</b></summary>
+
+### 2026-05-02
+- 🆕 Added 39 keys (text-embedding-3-small, kimi-k2.5, smart-chat, deepseek-chat, claude-opus-4-7, gpt-5.5, gemini-2.5-flash), cleaned 1 expired
+
+</details>
+
+---
+
 ## 📈 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=alistaitsacle/free-llm-api-keys&type=Date)](https://star-history.com/#alistaitsacle/free-llm-api-keys&Date)
