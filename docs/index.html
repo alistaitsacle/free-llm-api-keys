@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- SEO -->
-  <title>Free LLM API Playground — Chat with GPT-5.4, Claude, DeepSeek, Gemini for Free</title>
-  <meta name="description" content="Free AI chat playground. Use free API keys to chat with GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ models. No sign-up, no credit card. Verify keys and start chatting instantly.">
+  <title>Free LLM API Playground — Chat with GPT-5.5, Claude, DeepSeek, Gemini for Free</title>
+  <meta name="description" content="Free AI chat playground. Use free API keys to chat with GPT-5.5, Claude Opus, DeepSeek, Gemini, Grok and 90+ models. No sign-up, no credit card. Verify keys and start chatting instantly.">
   <meta name="keywords" content="free llm api key, free gpt chat, free claude chat, free ai chat, api key checker, free deepseek api, free gemini api, openai api free, llm playground, free ai playground">
   <meta name="author" content="FreeLLMShare">
   <meta name="robots" content="index, follow">
@@ -14,7 +14,7 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="Free LLM API Playground — Chat with 90+ AI Models for Free">
-  <meta property="og:description" content="Free AI playground. Chat with GPT-5.4, Claude, DeepSeek, Gemini, Grok — no credit card, no sign-up.">
+  <meta property="og:description" content="Free AI playground. Chat with GPT-5.5, Claude Opus, DeepSeek, Gemini, Grok — no credit card, no sign-up.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://alistaitsacle.github.io/free-llm-api-keys/">
   <meta property="og:image" content="https://raw.githubusercontent.com/alistaitsacle/free-llm-api-keys/main/assets/banner.jpg">
@@ -22,7 +22,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Free LLM API Playground — Chat with 90+ Models">
-  <meta name="twitter:description" content="Chat with GPT-5.4, Claude, DeepSeek, Gemini for free. No credit card needed.">
+  <meta name="twitter:description" content="Chat with GPT-5.5, Claude Opus, DeepSeek, Gemini for free. No credit card needed.">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/alistaitsacle/free-llm-api-keys/main/assets/banner.jpg">
 
   <!-- JSON-LD -->
@@ -31,7 +31,7 @@
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": "Free LLM API Playground",
-    "description": "Free AI chat playground — chat with GPT-5.4, Claude, DeepSeek, Gemini, Grok and 90+ LLM models using free API keys",
+    "description": "Free AI chat playground — chat with GPT-5.5, Claude Opus, DeepSeek, Gemini, Grok and 90+ LLM models using free API keys",
     "url": "https://alistaitsacle.github.io/free-llm-api-keys/",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "Web",
@@ -67,6 +67,35 @@
       transition: all 0.2s;
     }
     .header .get-keys:hover { background: rgba(0, 212, 255, 0.2); }
+
+    /* Live status */
+    .live-status {
+      margin-bottom: 24px; padding: 18px;
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px;
+    }
+    .live-head {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      gap: 16px; margin-bottom: 14px;
+    }
+    .eyebrow {
+      display: block; margin-bottom: 4px; color: #60a5fa;
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+    }
+    .live-head h2 { font-size: 1.25rem; color: #f8fafc; }
+    .updated { color: #a0b0c0; font-size: 0.78rem; white-space: nowrap; }
+    .status-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 8px;
+    }
+    .status-card {
+      display: flex; justify-content: space-between; align-items: center;
+      min-height: 44px; padding: 10px 12px; border-radius: 8px;
+      background: rgba(0,0,0,0.18); border: 1px solid rgba(255,255,255,0.08);
+    }
+    .status-card span { color: #b7c3d0; font-size: 0.78rem; line-height: 1.35; }
+    .status-card strong { color: #00d4ff; font-size: 1.05rem; }
+    .live-note { margin-top: 12px; color: #8899aa; font-size: 0.78rem; line-height: 1.5; }
 
     /* Tabs */
     .tabs {
@@ -201,6 +230,28 @@
     </a>
   </div>
 
+<!-- live-status:start -->
+  <section class="live-status" aria-label="Live public key inventory">
+    <div class="live-head">
+      <div>
+        <span class="eyebrow">Live public keys</span>
+        <h2>34 keys available now</h2>
+      </div>
+      <span class="updated">Updated 2026-05-02 17:27 UTC+8</span>
+    </div>
+    <div class="status-grid">
+        <div class="status-card"><span>GPT-5.5</span><strong>6</strong></div>
+        <div class="status-card"><span>Claude Opus 4.7</span><strong>1</strong></div>
+        <div class="status-card"><span>Gemini</span><strong>6</strong></div>
+        <div class="status-card"><span>DeepSeek</span><strong>6</strong></div>
+        <div class="status-card"><span>Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate)</span><strong>6</strong></div>
+        <div class="status-card"><span>Kimi</span><strong>6</strong></div>
+        <div class="status-card"><span>Image / Audio / Embedding</span><strong>3</strong></div>
+    </div>
+    <p class="live-note">The server publishes fresh keys every 3 hours and hides shelves without quota-backed real keys.</p>
+  </section>
+<!-- live-status:end -->
+
   <!-- Tabs -->
   <div class="tabs">
     <div class="tab active" onclick="switchTab('chat')">Chat</div>
@@ -215,14 +266,13 @@
       </div>
       <div class="model-row">
         <label>Model:</label>
-        <span class="chip active" onclick="pickModel(this,'gpt-5.4')">GPT-5.4</span>
-        <span class="chip" onclick="pickModel(this,'claude-sonnet-4-6')">Claude</span>
+        <span class="chip active" onclick="pickModel(this,'smart-chat')">Smart (Auto)</span>
+        <span class="chip" onclick="pickModel(this,'gpt-5.5')">GPT-5.5</span>
+        <span class="chip" onclick="pickModel(this,'claude-opus-4-7')">Claude Opus</span>
         <span class="chip" onclick="pickModel(this,'deepseek-chat')">DeepSeek</span>
-        <span class="chip" onclick="pickModel(this,'gpt-5.4-mini')">GPT-5.4 Mini</span>
-        <span class="chip" onclick="pickModel(this,'gemini-2.5-pro')">Gemini</span>
+        <span class="chip" onclick="pickModel(this,'gemini-2.5-flash')">Gemini</span>
         <span class="chip" onclick="pickModel(this,'mistral-medium-latest')">Mistral</span>
         <span class="chip" onclick="pickModel(this,'codestral-latest')">Codestral</span>
-        <span class="chip" onclick="pickModel(this,'smart-chat')">Smart (Auto)</span>
       </div>
     </div>
 
@@ -254,11 +304,11 @@
       </div>
       <div class="model-row">
         <label>Test with model:</label>
-        <span class="chip active" onclick="pickVerifyModel(this,'gpt-5.4')">GPT-5.4</span>
-        <span class="chip" onclick="pickVerifyModel(this,'claude-sonnet-4-6')">Claude</span>
+        <span class="chip active" onclick="pickVerifyModel(this,'smart-chat')">Smart (Auto)</span>
+        <span class="chip" onclick="pickVerifyModel(this,'gpt-5.5')">GPT-5.5</span>
+        <span class="chip" onclick="pickVerifyModel(this,'claude-opus-4-7')">Claude Opus</span>
         <span class="chip" onclick="pickVerifyModel(this,'deepseek-chat')">DeepSeek</span>
-        <span class="chip" onclick="pickVerifyModel(this,'gpt-5.4-mini')">GPT-5.4 Mini</span>
-        <span class="chip" onclick="pickVerifyModel(this,'gemini-2.5-pro')">Gemini</span>
+        <span class="chip" onclick="pickVerifyModel(this,'gemini-2.5-flash')">Gemini</span>
         <span class="chip" onclick="pickVerifyModel(this,'mistral-medium-latest')">Mistral</span>
       </div>
     </div>
@@ -274,7 +324,7 @@
     <p>
       Chat with the latest AI models for free using keys from
       <a href="https://github.com/alistaitsacle/free-llm-api-keys">free-llm-api-keys</a>.
-      Supports GPT-5.4, Claude Opus 4.7, DeepSeek V3, Gemini 2.5, Grok 4.20, Mistral, and 90+ more.
+      Supports GPT-5.5, Claude Opus 4.7, DeepSeek V3, Gemini 2.5, Grok 4.20, Mistral, and 90+ more.
     </p>
 
     <h3>How It Works</h3>
@@ -287,7 +337,7 @@
 
     <h3>Supported Models</h3>
     <p>
-      GPT-5.4, GPT-5.4 Mini, GPT-5.4 Pro, Claude Opus 4.7, Claude Sonnet 4.6,
+      GPT-5.5, GPT-5.4 Mini, Claude Opus 4.7, Claude Sonnet 4.6,
       DeepSeek Chat V3, DeepSeek Reasoner R1, Gemini 2.5 Pro, Gemini 2.5 Flash, Grok 4.20,
       Mistral Medium, Codestral, Devstral, Cohere Command, DALL-E 3, TTS-1-HD,
       text-embedding-3-small, and many more. All accessible with a single free API key.
@@ -304,14 +354,14 @@
   <!-- Footer -->
   <div class="footer">
     <a href="https://github.com/alistaitsacle/free-llm-api-keys">GitHub — Get Free API Keys</a>
-    <p>Free LLM API Playground — GPT-5.4 / Claude / DeepSeek / Gemini / Grok / 90+ Models</p>
+    <p>Free LLM API Playground — GPT-5.5 / Claude Opus / DeepSeek / Gemini / Grok / 90+ Models</p>
   </div>
 </div>
 
 <script>
 const API = 'https://aiapiv2.pekpik.com/v1';
-let chatModel = 'gpt-5.4';
-let verifyModel = 'gpt-5.4';
+let chatModel = 'smart-chat';
+let verifyModel = 'smart-chat';
 let chatHistory = [];
 let streaming = false;
 let msgCount = 0;
