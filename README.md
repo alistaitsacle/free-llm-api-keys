@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-9-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-25-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-05-02 09:22 (UTC+8)
+> ⏰ Last updated: 2026-05-02 09:31 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are restocked **twice daily**. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,34 +69,42 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat and more.
 Keys rotate throughout the day. When a flagship is restocking we surface a smart-chat fallback key so you can always copy and call.
 
-### GPT-5.5 `05-02 09:22`
+### GPT-5.5 `05-02 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| Restocking | gpt-5.5 | Temporarily unavailable | - | - | Next refresh | Premium GPT flagship |
+| `sk-p4pLL6ARu0CJYmn2boLbMzyuchUbWlZ7JeM0cvMJmP2qcquJ` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Premium GPT flagship |
+| `sk-IsnAet8jLLwBkRsUjXVd4L4VRqM9e3FG8IqW9H36E1Td4Sn7` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Premium GPT flagship |
+| `sk-RfLqNiZcuEozARpAmnzD3ptoStLqyZqRohiy0glY33HCXPzR` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Premium GPT flagship |
+| `sk-fLFu8YvTdHsGnC6b36HcmZHkK2pa5qYl78zct35Ag9rHTmdl` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Premium GPT flagship |
+| `sk-czAk3ds2wHFo9a95JXFFenVsAUeVEokoelMnw4cL4nvpgIjS` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Premium GPT flagship |
+| `sk-82Ykmvh7YuURNLGAJWVYE6d4QhMBPSocQAtwR6mnH1WXR2VT` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Premium GPT flagship |
 
 ---
 
-### Claude Opus 4.7 `05-02 09:22`
+### Claude Opus 4.7 `05-02 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| Restocking | claude-opus-4-7 | Temporarily unavailable | - | - | Next refresh | Claude Opus flagship |
+| `sk-4XO1AeQrYppNYt52pQaHSNAwWwUCAAQNss6nygsOfQyhRypy` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Claude Opus flagship |
+| `sk-ntBy3SBHubrzM1ZO1mw1NVXl2mjDsbD9uyXEmXcpiJSSI1Oy` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Claude Opus flagship |
+| `sk-OSv1N5M0cRix54MqPBLgG6JMUQqkblVAiLC3oM757PetSZJh` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Claude Opus flagship |
+| `sk-qdJMbEh9B1VPeWW3N4828Z0J4EuhlyDmmcydfyCr5JAgqSY1` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Claude Opus flagship |
+| `sk-DCq73XjZVvV5ApciJPL3w2oa9vcmVoHuuLSP7SZ0JJvoMLDn` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Claude Opus flagship |
+| `sk-L9dz3AqcqGh5KfGGlOEe5sbI1CwMrHs93G4IKXKhBKsoA7DS` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-04 | Claude Opus flagship |
 
 ---
 
-### Gemini `05-02 09:22`
+### Gemini `05-02 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-Wiu7BLhrmSsgzUXOBrT9paP0dV6aqn7EAh1z6Co8hdl9GfQ9` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
-| `sk-QOkbZGaUHAr5VALHYf40iGCGW4GQIdJftfxiYZkTy36b3r70` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
-| `sk-urNiTiqT3DY5dnmUuISZpgetPpk45pSKGVxLgESVq2uDh3ON` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
-| `sk-NqHXFjgTECAMrjQztjkPO6KyxAivnxwDAaZqlYTVTc4isOcg` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
+| `sk-sTh31ra2wOkiSU4QAhw3utCSGtcIS8bc89zgAR4MYMvYD9vL` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
+| `sk-8nYvUd9eEk35uane3Imr4CH5fne9bGCDMgbNKmf0RzWtUpyu` | gemini-2.5-flash | 🆕 New | $19 | 20 RPM | 2026-05-02 | Fast Gemini option for long-context general chat |
 
 ---
 
-### DeepSeek `05-02 09:22`
+### DeepSeek `05-02 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -108,27 +116,32 @@ Keys rotate throughout the day. When a flagship is restocking we surface a smart
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-02 09:22`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-02 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| Restocking | smart-chat | Temporarily unavailable | - | - | Next refresh | Auto-routes across currently healthy low-cost chat backends |
+| `sk-V5Tdge0YJbg6SFCBSqi9jYEqCQ2W5hM8PyUmFMbDS10497B6` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-04 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-k1OTZ6MgDFp5st7IOX1qfShqCHBAh7aWkq5z34HH9ZSPc1Tw` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-04 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-pwbTGOYI3ZpSxaM17xDaUOUGhC6X7ApKyvzL9wwN1dGI6rA3` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-04 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-eTyGshFkItCzkOwePbke5n74T7TnTfGqWKDN6FundbfP89ga` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-04 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-ggxcxhWVMBStiygsRkKZH07tlNI3MDirfsAquProcOTkfUCK` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-04 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-ScPpacGvU7H8CWTVlpjwaGBNLNfvka8e3YL2ea40NVUpNOZ7` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-04 | Auto-routes across currently healthy low-cost chat backends |
 
 ---
 
-### Kimi `05-02 09:22`
+### Kimi `05-02 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| Restocking | kimi-k2.5 | Temporarily unavailable | - | - | Next refresh | Kimi long-context general model |
+| `sk-V5Tdge0YJbg6SFCBSqi9jYEqCQ2W5hM8PyUmFMbDS10497B6` | smart-chat (kimi-k2.5 fallback) | 🛟 Fallback | $20 | 10 RPM | 2026-05-04 | Kimi long-context general model — auto-routes via smart-chat while restocking | <!-- fallback -->
 
 ---
 
-### Image / Audio / Embedding `05-02 09:22`
+### Image / Audio / Embedding `05-02 09:31`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| Restocking | dall-e-3 / tts / embeddings | Temporarily unavailable | - | - | Next refresh | Image, audio, and embedding models |
+| `sk-V5Tdge0YJbg6SFCBSqi9jYEqCQ2W5hM8PyUmFMbDS10497B6` | smart-chat (dall-e-3 / tts / embeddings fallback) | 🛟 Fallback | $20 | 10 RPM | 2026-05-04 | Image, audio, and embedding models — auto-routes via smart-chat while restocking | <!-- fallback -->
 
 
 ## 🚀 How to Use
