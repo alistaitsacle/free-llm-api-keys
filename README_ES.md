@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="./assets/banner.jpg" alt="Claves API LLM Gratis — GPT-5.4, Claude, DeepSeek, Gemini, Grok, 90+ Modelos" width="100%">
+<img src="./assets/banner.jpg" alt="Claves API LLM Gratis — GPT-5.5, Claude, DeepSeek, Gemini, Grok, 90+ Modelos" width="100%">
 
 <br>
 
@@ -57,7 +57,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="gpt-5.4",
+    model="gpt-5.5",
     messages=[{"role": "user", "content": "¡Hola!"}]
 )
 print(response.choices[0].message.content)
@@ -80,7 +80,7 @@ print(response.choices[0].message.content)
 
 | Proveedor | Modelos | Notas |
 |-----------|---------|-------|
-| **OpenAI** | gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro | Último GPT |
+| **OpenAI** | gpt-5.5, gpt-5.4-mini, gpt-4 | Último GPT |
 | **Anthropic** | claude-opus-4-6, claude-sonnet-4-6, claude-haiku-4-5 | Último Claude |
 | **DeepSeek** | deepseek-chat (V3), deepseek-reasoner (R1) | Chat + razonamiento |
 | **Google** | gemini-3.1-flash-lite, gemini-3.1-flash-image | Gemini 3.1 |

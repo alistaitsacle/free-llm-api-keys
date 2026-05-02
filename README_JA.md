@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="./assets/banner.jpg" alt="無料 LLM API キー — GPT-5.4, Claude, DeepSeek, Gemini, Grok, 90以上のモデル" width="100%">
+<img src="./assets/banner.jpg" alt="無料 LLM API キー — GPT-5.5, Claude, DeepSeek, Gemini, Grok, 90以上のモデル" width="100%">
 
 <br>
 
@@ -71,7 +71,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="gpt-5.4",
+    model="gpt-5.5",
     messages=[{"role": "user", "content": "こんにちは！"}]
 )
 print(response.choices[0].message.content)
@@ -94,7 +94,7 @@ print(response.choices[0].message.content)
 
 | プロバイダー | モデル | 説明 |
 |-------------|--------|------|
-| **OpenAI** | gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro | 最新GPT |
+| **OpenAI** | gpt-5.5, gpt-5.4-mini, gpt-4 | 最新GPT |
 | **Anthropic** | claude-opus-4-6, claude-sonnet-4-6, claude-haiku-4-5 | 最新Claude |
 | **DeepSeek** | deepseek-chat (V3), deepseek-reasoner (R1) | チャット + 推論 |
 | **Google** | gemini-3.1-flash-lite, gemini-3.1-flash-image | Gemini 3.1 |

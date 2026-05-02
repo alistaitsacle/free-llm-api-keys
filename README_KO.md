@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="./assets/banner.jpg" alt="무료 LLM API 키 — GPT-5.4, Claude, DeepSeek, Gemini, Grok, 90+ 모델" width="100%">
+<img src="./assets/banner.jpg" alt="무료 LLM API 키 — GPT-5.5, Claude, DeepSeek, Gemini, Grok, 90+ 모델" width="100%">
 
 <br>
 
@@ -71,7 +71,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="gpt-5.4",
+    model="gpt-5.5",
     messages=[{"role": "user", "content": "안녕하세요!"}]
 )
 print(response.choices[0].message.content)
@@ -94,7 +94,7 @@ print(response.choices[0].message.content)
 
 | 제공업체 | 모델 | 설명 |
 |---------|------|------|
-| **OpenAI** | gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro | 최신 GPT |
+| **OpenAI** | gpt-5.5, gpt-5.4-mini, gpt-4 | 최신 GPT |
 | **Anthropic** | claude-opus-4-6, claude-sonnet-4-6, claude-haiku-4-5 | 최신 Claude |
 | **DeepSeek** | deepseek-chat (V3), deepseek-reasoner (R1) | 대화 + 추론 |
 | **Google** | gemini-3.1-flash-lite, gemini-3.1-flash-image | Gemini 3.1 |
