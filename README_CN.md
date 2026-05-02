@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-6-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-0-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-05-02 16:52 (UTC+8)
+> ⏰ 最后更新： 2026-05-02 17:04 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 每天补货 **2 次**，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -65,66 +65,8 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ### 重点模型
 
-覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat 等模型。
-Key 会全天轮换；当旗舰模型暂时补货中时，自动以 smart-chat 兜底 Key 替代，复制即可请求。
-
-### GPT-5.5 `05-02 16:52`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| 补货中 | gpt-5.5 | 暂时无可用 Key | - | - | 下次刷新 | GPT 旗舰模型 |
-
----
-
-### Claude Opus 4.7 `05-02 16:52`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| 补货中 | claude-opus-4-7 | 暂时无可用 Key | - | - | 下次刷新 | Claude Opus 旗舰模型 |
-
----
-
-### Gemini `05-02 16:52`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-sTh31ra2wOkiSU4QAhw3utCSGtcIS8bc89zgAR4MYMvYD9vL` | gemini-2.5-flash | 🆕 新增 | $19 | 20 RPM | 2026-05-02 | Gemini 快速模型，适合长上下文通用对话 |
-| `sk-8nYvUd9eEk35uane3Imr4CH5fne9bGCDMgbNKmf0RzWtUpyu` | gemini-2.5-flash | 🆕 新增 | $19 | 20 RPM | 2026-05-02 | Gemini 快速模型，适合长上下文通用对话 |
-
----
-
-### DeepSeek `05-02 16:52`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-KtVrJcqwqpeZjvOHq42P0v4Kdtg0F2NYc5SzBflxWS79C5jT` | deepseek-chat | 🆕 新增 | $18 | 20 RPM | 2026-05-03 | 日常对话、代码生成、翻译写作 |
-| `sk-UDC6i6ng6YWhaezj2fuK7vLIma7WvKq7cwFBQMsbBbuvYZIC` | deepseek-chat | 🆕 新增 | $18 | 20 RPM | 2026-05-03 | 日常对话、代码生成、翻译写作 |
-| `sk-B5r2hLqffjKNllTLvuxdNDrj1dX53rM51Sq70oDodOiBE4Jz` | deepseek-chat | 🆕 新增 | $19 | 20 RPM | 2026-05-03 | 日常对话、代码生成、翻译写作 |
-| `sk-1RkX3ihMnBG3DRqrITJtW741jhgB647ZxAexr3IaLuFLpDVD` | deepseek-chat | 🆕 新增 | $12 | 20 RPM | 2026-05-02 | 日常对话、代码生成、翻译写作 |
-
----
-
-### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-02 16:52`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| 补货中 | smart-chat | 暂时无可用 Key | - | - | 下次刷新 | 自动路由到当前健康的低成本聊天模型 |
-
----
-
-### Kimi `05-02 16:52`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| 补货中 | kimi-k2.5 | 暂时无可用 Key | - | - | 下次刷新 | Kimi 长上下文通用模型 |
-
----
-
-### 图像 / 语音 / 向量化 `05-02 16:52`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| 补货中 | dall-e-3 / tts / embeddings | 暂时无可用 Key | - | - | 下次刷新 | 图像、语音和向量模型 |
+覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat、Kimi、图像、语音和向量模型。
+发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同类模型，仍不可用则留空不展示。
 
 
 ## 🚀 如何使用
@@ -645,6 +587,18 @@ Key 是公开共享的，额度可能已被用完。本项目新 Key **每天补
 
 - **[free-vpn-subscriptions](https://github.com/Au1rxx/free-vpn-subscriptions)** — 每小时自动刷新的 Clash / sing-box / v2ray 订阅链接,所有节点 TCP 探测并按延迟排序。无需注册,无需安装任何二进制。
 - **[proxykit](https://github.com/Au1rxx/proxykit)** — 代理订阅瑞士军刀。Clash / sing-box / v2ray / Surge 格式互转，TCP+TLS 活性探测，Netflix / Disney+ / ChatGPT 解锁检测。单 Go 二进制，免 Docker。
+
+---
+
+## 📅 Changelog
+
+<details>
+<summary><b>显示更新历史</b></summary>
+
+### 2026-05-02
+- 🆕 新增 33 个 Key (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small, gemini-2.5-flash)，清理 1 个过期 Key
+
+</details>
 
 ---
 
