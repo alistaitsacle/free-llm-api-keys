@@ -54,10 +54,10 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-05-02 17:04 (UTC+8)
+> ⏰ 最后更新： 2026-05-02 17:07 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
-> 新 Key 每天补货 **2 次**，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
+> 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
 >
 > ⚠️ **提示：** Key 是公开共享的，额度可能已被其他用户消耗。如果某个 Key 不能用，请换一个试试，或稍后回来获取新 Key。
 >
@@ -222,7 +222,7 @@ print(f"向量维度: {len(response.data[0].embedding)}")
 <details>
 <summary><b>Key 不能用了？</b></summary>
 
-Key 是公开共享的，额度可能已被用完。本项目新 Key **每天补货 2 次**，失效 Key 全天自动清理——稍后回来即可。也可以 **Watch → Releases** 接收通知。
+Key 是公开共享的，额度可能已被用完。服务器定时任务每天多次发布新 Key，并全天清理失效 Key；稍后回来即可看到最新可用 Key。也可以 **Watch → Releases** 接收通知。
 </details>
 
 <details>
@@ -590,12 +590,8 @@ Key 是公开共享的，额度可能已被用完。本项目新 Key **每天补
 
 ---
 
-## 📅 Changelog
-
-<details>
-<summary><b>显示更新历史</b></summary>
-
 ### 2026-05-02
+- 🆕 新增 39 个 Key (text-embedding-3-small, kimi-k2.5, smart-chat, deepseek-chat, claude-opus-4-7, gpt-5.5, gemini-2.5-flash)，清理 1 个过期 Key
 - 🆕 新增 33 个 Key (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small, gemini-2.5-flash)，清理 1 个过期 Key
 
 </details>
