@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-05-03 14:07 (UTC+8)
+> ⏰ Last updated: 2026-05-03 14:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,7 +69,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. If a target model has no KM recommendation or quota, it tries a quota-backed KM-recommended model in the same capability; otherwise that shelf stays hidden.
 
-### Gemini `05-03 14:07`
+### Gemini `05-03 14:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -82,28 +82,28 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### DeepSeek `05-03 14:07`
+### DeepSeek `05-03 14:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-LcI04I5hbzSfumtFVkZjyq2SIt79AtrDmBaAc2h2jnmNa5m8` | deepseek-chat | 🆕 New | $17 | 20 RPM | 2026-05-04 | Everyday chat, coding, translation, writing |
-| `sk-EohgSiOGcCALuq1rRHZWRQksFMqf3gQxzGx4XPp0kkS9JJM8` | deepseek-chat | 🆕 New | $14 | 20 RPM | 2026-05-04 | Everyday chat, coding, translation, writing |
+| `sk-suxUZb4AaWvsCJmG5rpQkGMVOFhRpfapQkuZmeGaDGkFfj7h` | deepseek-chat | 🆕 New | $11 | 20 RPM | 2026-05-04 | Everyday chat, coding, translation, writing |
+| `sk-KtVrJcqwqpeZjvOHq42P0v4Kdtg0F2NYc5SzBflxWS79C5jT` | deepseek-chat | 🆕 New | $11 | 20 RPM | 2026-05-03 | Everyday chat, coding, translation, writing |
+| `sk-B5r2hLqffjKNllTLvuxdNDrj1dX53rM51Sq70oDodOiBE4Jz` | deepseek-chat | 🆕 New | $13 | 20 RPM | 2026-05-03 | Everyday chat, coding, translation, writing |
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-03 14:07`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-03 14:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
 | `sk-oma5jvLCpwApVoVTQcloPlSdAUISEibn9Okdu0U33lJZOBiT` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-05 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-1I4HJQTNNg1gNhMzZgfMJKaipsi32FeRrKPGth5ilI4Wjx5L` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-05 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-8cv8qcVYJuFe7KXBuYxOHcL455XD038hDo3bGmSzkhpYgMbx` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-05 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-rC48SsCX7BCBG7VjXGdh1dwBSASn5inaE0VOdGBzrQomGWKU` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-05 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-gNa4um7y4BfjOmU2uqzcAA1ETd1XN68a00sxCRrrdBPTqGMq` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-05 | Auto-routes across currently healthy low-cost chat backends |
 
 ---
 
-### Kimi `05-03 14:07`
+### Kimi `05-03 14:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -116,7 +116,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Image / Audio / Embedding `05-03 14:07`
+### Image / Audio / Embedding `05-03 14:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
