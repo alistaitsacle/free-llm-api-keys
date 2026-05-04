@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-05-04 16:07 (UTC+8)
+> ⏰ Last updated: 2026-05-04 16:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,7 +69,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. If a target model has no KM recommendation or quota, it tries a quota-backed KM-recommended model in the same capability; otherwise that shelf stays hidden.
 
-### Gemini `05-04 16:07`
+### Gemini `05-04 16:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -82,29 +82,29 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### DeepSeek `05-04 16:07`
+### DeepSeek `05-04 16:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-aKuleoTPeQDzs1ZCQCl3goEmi2Lwpy2On5iAUyc4nCgh8M7A` | deepseek-chat | 🆕 New | $19 | 20 RPM | 2026-05-06 | Everyday chat, coding, translation, writing |
-| `sk-WBQYFJh2dEbPUNGzFPUx91bMefZxR8s5NiEOjOQYj16mYHm9` | deepseek-chat | 🆕 New | $10 | 20 RPM | 2026-05-05 | Everyday chat, coding, translation, writing |
+| `sk-vW0ro6qlCSi91aUOccztxWv13udbaq1za6lYUznYzaCRgD93` | deepseek-chat | 🆕 New | $14 | 20 RPM | 2026-05-05 | Everyday chat, coding, translation, writing |
+| `sk-WHLaG9BKWuNn0AqXYyZ9Cc4DeODsMTsNt7uRvQG55vG5Dnmv` | deepseek-chat | 🆕 New | $16 | 20 RPM | 2026-05-05 | Everyday chat, coding, translation, writing |
+| `sk-XGutnrP5yGXybpF5GpZ29qdqSXVedCnSHrh0xcfJcvBYOR6i` | deepseek-chat | 🆕 New | $16 | 20 RPM | 2026-05-05 | Everyday chat, coding, translation, writing |
+| `sk-7a2ZwYQdSvX2MSLXQGWt5gWEUES58YCUQQf5hgS4TWhENj5U` | deepseek-chat | 🆕 New | $17 | 20 RPM | 2026-05-05 | Everyday chat, coding, translation, writing |
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-04 16:07`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-04 16:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
 | `sk-h9YonAJwjrFLVopVEEXmnRW2Qyry3EYVX4GhKkDh0hzVOoMk` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-06 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-kLlWVyvuK4ArNvH34umGvggBvYGgP6M5Sqvn6Du7CV2WCJNP` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-06 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-PcWgYT3AHGlgIhxQ2VS9n6yWmfQ5jbw7U3sGtupdGWfFcLlF` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-06 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-GKKKI3Dd9jtkbPS7ljAAhDQOcNNuUmGVsEE0yrVef65yZPmC` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-06 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-Rx16hfqpZGASlbVsQKWuTMu9iBvOMLEQshceHP2GQDD4asYy` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-06 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-bz0VbuTcfZ2lRpSqwg2ObEgxcpz6sE2Xo4imrx1Omo2hmnak` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-06 | Auto-routes across currently healthy low-cost chat backends |
 
 ---
 
-### Kimi `05-04 16:07`
+### Kimi `05-04 16:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -117,7 +117,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Image / Audio / Embedding `05-04 16:07`
+### Image / Audio / Embedding `05-04 16:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
