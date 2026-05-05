@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-05-05 08:37 (UTC+8)
+> ⏰ 最后更新： 2026-05-05 08:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -68,7 +68,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat、Kimi、图像、语音和向量模型。
 发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同类模型，仍不可用则留空不展示。
 
-### GPT-5.5 `05-05 08:37`
+### GPT-5.5 `05-05 08:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -81,7 +81,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Claude Opus 4.7 `05-05 08:37`
+### Claude Opus 4.7 `05-05 08:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -94,7 +94,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Gemini `05-05 08:37`
+### Gemini `05-05 08:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -107,27 +107,27 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### DeepSeek `05-05 08:37`
+### DeepSeek `05-05 08:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-wsxWtoLVB6RsBTEChWAVGCKcdHqXtBS19IS41UDV7AVPuZIx` | deepseek-chat | 🆕 新增 | $10 | 20 RPM | 2026-05-06 | 日常对话、代码生成、翻译写作 |
+| `sk-uVTMb6J6bds72w0ZJdjfHF59EhKTH2Qy5sHmy26ZsymFBIvE` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-05-07 | 日常对话、代码生成、翻译写作 |
+| `sk-jY7PYxproBNpMyw0FSVoFTjYpfmuCggIj6Sr5ZyzJlO9zpZy` | deepseek-chat | 🆕 新增 | $19 | 20 RPM | 2026-05-07 | 日常对话、代码生成、翻译写作 |
+| `sk-K6Tb8nCdWYPpy5sDbLGirlSRtaYCsrWwIcWDDDWVKejhjE8m` | deepseek-chat | 🆕 新增 | $18 | 20 RPM | 2026-05-06 | 日常对话、代码生成、翻译写作 |
+| `sk-WHLaG9BKWuNn0AqXYyZ9Cc4DeODsMTsNt7uRvQG55vG5Dnmv` | deepseek-chat | 🆕 新增 | $14 | 20 RPM | 2026-05-05 | 日常对话、代码生成、翻译写作 |
+| `sk-7a2ZwYQdSvX2MSLXQGWt5gWEUES58YCUQQf5hgS4TWhENj5U` | deepseek-chat | 🆕 新增 | $11 | 20 RPM | 2026-05-05 | 日常对话、代码生成、翻译写作 |
 
 ---
 
-### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-05 08:37`
+### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-05 08:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-eZYFIDrrp36iutPhZhrsCSQPJiPWAEMw4idjmKI2SdN7Hw4h` | smart-chat | 🆕 新增 | $15 | 10 RPM | 2026-05-06 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-qAFRWXcmKqulIsEDypeDO20jAig0LH6VcjxhgMy4dDnJXXhO` | smart-chat | 🆕 新增 | $12 | 10 RPM | 2026-05-06 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-GYdS8ZNnFa9cyIgWf24NvJixbgIX81SFKArsaHQsGy4DKjwm` | smart-chat | 🆕 新增 | $13 | 10 RPM | 2026-05-06 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-AGjOuLuwHI4H51wSexGCDQDeptWJlHCAWTQVKmRXdc6PRNM3` | smart-chat | 🆕 新增 | $12 | 10 RPM | 2026-05-06 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-6pL4WgRoNYilplBgFbn2NpCIwXGwySZmghFPSIBoHxSd42b8` | smart-chat | 🆕 新增 | $12 | 10 RPM | 2026-05-06 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-xQGpgHFnPzLjdLr1DZzagA3g3hHD6NQVOQlkpS0U2wHoE6Hr` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-07 | 自动路由到当前健康的低成本聊天模型 |
 
 ---
 
-### Kimi `05-05 08:37`
+### Kimi `05-05 08:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -140,7 +140,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### 图像 / 语音 / 向量化 `05-05 08:37`
+### 图像 / 语音 / 向量化 `05-05 08:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
