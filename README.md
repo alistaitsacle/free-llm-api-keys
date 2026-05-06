@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-36-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-21-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 
 **⭐ Star this repo = more free keys for everyone**
@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-05-06 08:37 (UTC+8)
+> ⏰ Last updated: 2026-05-06 08:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,33 +69,17 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. If a target model has no KM recommendation or quota, it tries a quota-backed KM-recommended model in the same capability; otherwise that shelf stays hidden.
 
-### GPT-5.5 `05-06 08:37`
+### GPT-5.5 `05-06 08:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-DH5216T0PCFdTsUfnWA0SHJtJpxG9IZtnjYpJgsicvXdSoSe` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Premium GPT flagship |
 | `sk-2LjoRAE3R9sWwAox5dSwo86FZEDgoFhvHwYo78fazvBzA2F9` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Premium GPT flagship |
 | `sk-M2nfo6DklEaGBqVv51WfPOfQ29ZzmUd9WvyYxyIVAU5dZpga` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Premium GPT flagship |
 | `sk-5f7oyc2y98z6eBCFaE3dwG2crQyyboZJU4qNhVjtW4qbAnEY` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Premium GPT flagship |
-| `sk-0gwJmidtZO9FaX4HIKAFyl7utChpvtswtEAFrRvjzbboj45m` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Premium GPT flagship |
-| `sk-GemS1TuBk9QZG0IrijBFDVpZn4ZcSJufGWs7KsX171ewAi2E` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Premium GPT flagship |
 
 ---
 
-### Claude Opus 4.7 `05-06 08:37`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-5CYjpZmfd4cfYgUVbMUwZLL5t06EhMHuPRZ73SSOkfU3BNZs` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Claude Opus flagship |
-| `sk-kuiKms46GlvP1HES74vx82k6z6A3aWiJouqKrDJs2A0gHnmr` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Claude Opus flagship |
-| `sk-5B5XFeqtYdXjbfeLf1WkkAxPSIaYS03kO7JkyOqNCTQmkxz9` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Claude Opus flagship |
-| `sk-4Ogu47UBW9J0q4OVdhv48Kjn3ushFrXNg1IX6KSo490h7NJK` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Claude Opus flagship |
-| `sk-m8gl1M3yLicsHa4rPBpRCeYa1tBNbdmbg8lw8H4oTwff83dt` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Claude Opus flagship |
-| `sk-Jnfp3KjGRK52G7WYlWCOxY6YUtxJrdrcn4rBQ9chkSBxuT0u` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-08 | Claude Opus flagship |
-
----
-
-### Gemini `05-06 08:37`
+### Gemini `05-06 08:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -108,30 +92,24 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### DeepSeek `05-06 08:37`
+### DeepSeek `05-06 08:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-Qv9SSaXgGVsMM1fZtGHVtsg29OmAUpNPDjXygdkp3fg6vQsa` | deepseek-chat | 🆕 New | $18 | 20 RPM | 2026-05-07 | Everyday chat, coding, translation, writing |
-| `sk-3ZQZBsFMrxB9QrIIkRv2zGOdPZ0pngp9enN5g0OO6fbxBMID` | deepseek-chat | 🆕 New | $16 | 20 RPM | 2026-05-07 | Everyday chat, coding, translation, writing |
-| `sk-oHzcyMEct2wfMZDy27HtbRuq3564637rRXIHtRLffYAmQHzl` | deepseek-chat | 🆕 New | $18 | 20 RPM | 2026-05-07 | Everyday chat, coding, translation, writing |
-| `sk-RfhcL8RcYHGn5uVGKW36kcNZYrPKUPATZfPjbtqNsbppQkDf` | deepseek-chat | 🆕 New | $16 | 20 RPM | 2026-05-07 | Everyday chat, coding, translation, writing |
+| `sk-QskMqH2vosUARGtEVfYOQx8SSZq6t70R1eyqvODRu1AB9a7Z` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-05-08 | Everyday chat, coding, translation, writing |
+| `sk-plMBUkF55ZDNc2wbG0FeiWIcy9sUH2MHO43kSbfNX4egqOCf` | deepseek-chat | 🆕 New | $12 | 20 RPM | 2026-05-07 | Everyday chat, coding, translation, writing |
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-06 08:37`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-06 08:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-enxfHeydL0jPJYsyX9lki07i4IGzplNnh8Q7aOOMbQtamx6j` | smart-chat | 🆕 New | $19 | 10 RPM | 2026-05-07 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-hoUkVNA5ihZtkEg9jJlUTGddvGss5z6kBDNs5a3s16MqXOsm` | smart-chat | 🆕 New | $19 | 10 RPM | 2026-05-07 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-nWrkUBZv45cHWQ4RxhXrReaDciOQKVhs08BIZ9oRXa3Z3roR` | smart-chat | 🆕 New | $16 | 10 RPM | 2026-05-07 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-0GzkdRjxwczqQoBABxWJbaiRQ5Rbi3QIe2rNDEWLkWriIBDG` | smart-chat | 🆕 New | $19 | 10 RPM | 2026-05-07 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-Q55JzWHkRFh5mPV51WxGGiDSOfBgicevRVgqfSN3aTBkEQ7G` | smart-chat | 🆕 New | $16 | 10 RPM | 2026-05-07 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-Ehd0jFPas8UJurgjzGmW9SwvVgDF73w2v6MXzihNnQs7sfIj` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-05-08 | Auto-routes across currently healthy low-cost chat backends |
 
 ---
 
-### Kimi `05-06 08:37`
+### Kimi `05-06 08:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -144,7 +122,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Image / Audio / Embedding `05-06 08:37`
+### Image / Audio / Embedding `05-06 08:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -691,6 +669,7 @@ If this repo helped you, you may also like:
 <summary><b>Show changelog history</b></summary>
 
 ### 2026-05-06
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 10 expired
 - 🆕 Added 15 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
 - 🆕 Added 4 keys (deepseek-chat), cleaned 7 expired
 - 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
