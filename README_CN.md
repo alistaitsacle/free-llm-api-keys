@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-05-07 08:30 (UTC+8)
+> ⏰ 最后更新： 2026-05-07 08:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -68,19 +68,15 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat、Kimi、图像、语音和向量模型。
 发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同类模型，仍不可用则留空不展示。
 
-### GPT-5.5 `05-07 08:30`
+### GPT-5.5 `05-07 08:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-eiQoqzBzvoGmGwHxmd5quUZNZDbhE1yh1vcc5zmKLCoK9z6Z` | gpt-5.5 | 🆕 新增 | $16 | 5 RPM | 2026-05-08 | GPT 旗舰模型 |
-| `sk-P9yGLPld8pf4ubEtVzhe0J8nFUQQRHJgU0hKI6YFI4tcCM1E` | gpt-5.5 | 🆕 新增 | $18 | 5 RPM | 2026-05-08 | GPT 旗舰模型 |
-| `sk-x8QgyoOsuQnzSTWxrzxta9yWqjw2AP6r4z88CUxjmDqgNra5` | gpt-5.5 | 🆕 新增 | $12 | 5 RPM | 2026-05-08 | GPT 旗舰模型 |
-| `sk-wjVWhxd1BdavEBSpL62po4BGyP9DtsLoz0j3IVMODGe5bckg` | gpt-5.5 | 🆕 新增 | $19 | 5 RPM | 2026-05-08 | GPT 旗舰模型 |
-| `sk-4Q4oe7ELGucOPli6IB2tmp2qAgGiMSGXWrFysVFgz3g29ovw` | gpt-5.5 | 🆕 新增 | $18 | 5 RPM | 2026-05-08 | GPT 旗舰模型 |
+| `sk-p2tVLaheXhuB3D2jucpbXQFznp9FMRBJcADUYm8ennslHIkM` | gpt-5.5 | 🆕 新增 | $18 | 5 RPM | 2026-05-08 | GPT 旗舰模型 |
 
 ---
 
-### Claude Opus 4.7 `05-07 08:30`
+### Claude Opus 4.7 `05-07 08:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -93,7 +89,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Gemini `05-07 08:30`
+### Gemini `05-07 08:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -106,25 +102,29 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### DeepSeek `05-07 08:30`
+### DeepSeek `05-07 08:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-Gh6b9j5ySdGlgvnecV1WIJOZtfCMHGeDtOL0Evhn99L6JBax` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-05-09 | 日常对话、代码生成、翻译写作 |
-| `sk-RfhcL8RcYHGn5uVGKW36kcNZYrPKUPATZfPjbtqNsbppQkDf` | deepseek-chat | 🆕 新增 | $12 | 20 RPM | 2026-05-07 | 日常对话、代码生成、翻译写作 |
+| `sk-YOcA8ex84G9pXE3pQK0AJ96mfTgaH86HIonVvH4LWzzoL4Sg` | deepseek-chat | 🆕 新增 | $14 | 20 RPM | 2026-05-08 | 日常对话、代码生成、翻译写作 |
+| `sk-VcTuZ3TBVMObkEPYo3KrDgnAo9ESPwfrCVDWCj91GmSTOlmb` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-05-08 | 日常对话、代码生成、翻译写作 |
+| `sk-bY7FyThEgpHmQ5sOUhFJ3jgNxx70itYrBoXBP37rHSeXie0l` | deepseek-chat | 🆕 新增 | $19 | 20 RPM | 2026-05-08 | 日常对话、代码生成、翻译写作 |
+| `sk-VtV1WdaGAMYaYxHIeLN6wwwuYR1SZACjbXSeA44cDKz7y4ss` | deepseek-chat | 🆕 新增 | $19 | 20 RPM | 2026-05-08 | 日常对话、代码生成、翻译写作 |
 
 ---
 
-### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-07 08:30`
+### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-07 08:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-DbJrETUSbgpyWz9cEqFrwFi4iYdx1dhavohBNW6MMQFFK5hI` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-09 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-98y6tTXtll92cn0KTBMGS9peurMWv7g1DNAsOlVo5g8UIyfa` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-09 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-vGgB1cnS6Gwo1oKobGr0ta0KDAooIN8U5zTqfnN31NENNedn` | smart-chat | 🆕 新增 | $19 | 10 RPM | 2026-05-08 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-RfwtbJ1G56vaJMj3WvKZ30zpM9lo6jYSd2tg8pvmQfXqOp3D` | smart-chat | 🆕 新增 | $19 | 10 RPM | 2026-05-08 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-AuUtHLhrbiOzNleQeWgH4iF1L56b62Lq1P5QwCmXlCuPbO9Z` | smart-chat | 🆕 新增 | $19 | 10 RPM | 2026-05-08 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-ijx74nePdoI2K3O9jb0vXB4TusZy0vdW9tNIh33qyCYSCJAW` | smart-chat | 🆕 新增 | $19 | 10 RPM | 2026-05-08 | 自动路由到当前健康的低成本聊天模型 |
 
 ---
 
-### Kimi `05-07 08:30`
+### Kimi `05-07 08:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -137,7 +137,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### 图像 / 语音 / 向量化 `05-07 08:30`
+### 图像 / 语音 / 向量化 `05-07 08:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
