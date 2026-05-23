@@ -1,6 +1,8 @@
 import importlib.util
+import io
 import tempfile
 import unittest
+import urllib.error
 from datetime import datetime
 from pathlib import Path
 from subprocess import CompletedProcess
@@ -26,6 +28,43 @@ class PublishKeysTests(unittest.TestCase):
         path = Path(tmpdir.name) / "README.md"
         path.write_text(content, encoding="utf-8")
         return path
+
+    def test_api_request_retries_transient_bad_gateway(self):
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, tb):
+                return False
+
+            def read(self):
+                return b'{"ok": true}'
+
+        transient = urllib.error.HTTPError(
+            url="https://example.test/keys/status",
+            code=502,
+            msg="Bad Gateway",
+            hdrs=None,
+            fp=io.BytesIO(b"error code: 502"),
+        )
+
+        with mock.patch.object(publish_keys, "KM_TOKEN", "test-token"), \
+             mock.patch.object(publish_keys, "KM_URL", "https://example.test"), \
+             mock.patch.object(publish_keys.urllib.request, "urlopen", side_effect=[transient, FakeResponse()]) as urlopen:
+            result = publish_keys.api_request("POST", "/keys/status", {"keys": ["sk-test"]}, retry_sleep_seconds=0)
+
+        self.assertEqual(result, {"ok": True})
+        self.assertEqual(urlopen.call_count, 2)
+
+    def test_clean_expired_keys_skips_cleanup_when_status_api_is_temporarily_unavailable(self):
+        readme = self.write_temp_readme("| `sk-existing111` | deepseek-chat | active |\n")
+
+        with mock.patch.object(publish_keys, "README_PATH", str(readme)), \
+             mock.patch.object(publish_keys, "api_request", side_effect=RuntimeError("POST /keys/status failed: 502")):
+            deleted, warn = publish_keys.clean_expired_keys()
+
+        self.assertEqual(deleted, [])
+        self.assertEqual(warn, [])
 
     def test_update_readme_counts_only_table_key_rows_for_badge(self):
         readme = self.write_temp_readme(

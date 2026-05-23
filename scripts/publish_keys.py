@@ -14,6 +14,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -26,6 +27,7 @@ README_CN_PATH = str(Path(REPO_PATH) / "README_CN.md")
 
 KM_URL = os.getenv("KEY_MANAGER_URL", "https://aiapiv2.pekpik.com/km")
 KM_TOKEN = os.getenv("KEY_MANAGER_TOKEN") or os.getenv("KEY_MANAGER_ADMIN_TOKEN", "")
+TRANSIENT_HTTP_STATUS = {429, 500, 502, 503, 504}
 
 BOT_NAME = os.getenv("GIT_AUTHOR_NAME", "FreeLLMShare Bot")
 BOT_EMAIL = os.getenv("GIT_AUTHOR_EMAIL", "bot@freellmshare.com")
@@ -128,28 +130,48 @@ def date_stamp() -> str:
     return datetime.now().strftime("%Y-%m-%d")
 
 
-def api_request(method: str, path: str, body: dict | None = None) -> dict:
+def api_request(
+    method: str,
+    path: str,
+    body: dict | None = None,
+    *,
+    retry_attempts: int = 3,
+    retry_sleep_seconds: float = 2.0,
+) -> dict:
     if not KM_TOKEN:
         raise RuntimeError("KEY_MANAGER_TOKEN or KEY_MANAGER_ADMIN_TOKEN is required")
     url = f"{KM_URL.rstrip('/')}/{path.lstrip('/')}"
     data = None if body is None else json.dumps(body).encode("utf-8")
-    req = urllib.request.Request(
-        url,
-        data=data,
-        method=method,
-        headers={
-            "Authorization": f"Bearer {KM_TOKEN}",
-            "Content-Type": "application/json",
-            "User-Agent": "free-llm-api-keys-publisher/1.0",
-        },
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            raw = resp.read().decode("utf-8")
-            return json.loads(raw) if raw else {}
-    except urllib.error.HTTPError as exc:
-        detail = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"{method} {url} failed: {exc.code} {detail[:500]}") from exc
+    attempts = max(1, retry_attempts)
+    for attempt in range(1, attempts + 1):
+        req = urllib.request.Request(
+            url,
+            data=data,
+            method=method,
+            headers={
+                "Authorization": f"Bearer {KM_TOKEN}",
+                "Content-Type": "application/json",
+                "User-Agent": "free-llm-api-keys-publisher/1.0",
+            },
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                raw = resp.read().decode("utf-8")
+                return json.loads(raw) if raw else {}
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")
+            message = f"{method} {url} failed: {exc.code} {detail[:500]}"
+            if exc.code not in TRANSIENT_HTTP_STATUS or attempt == attempts:
+                raise RuntimeError(message) from exc
+            print(f"transient Key Manager error; retrying {attempt}/{attempts}: {message}", file=sys.stderr)
+        except urllib.error.URLError as exc:
+            message = f"{method} {url} failed: {exc.reason}"
+            if attempt == attempts:
+                raise RuntimeError(message) from exc
+            print(f"transient Key Manager connection error; retrying {attempt}/{attempts}: {message}", file=sys.stderr)
+        time.sleep(retry_sleep_seconds * attempt)
+
+    raise RuntimeError(f"{method} {url} failed after {attempts} attempts")
 
 
 def normalize_models(value) -> list[str]:
@@ -360,7 +382,11 @@ def clean_expired_keys() -> tuple[list[str], list[str]]:
     keys = extract_readme_keys(text)
     if not keys:
         return [], []
-    data = api_request("POST", "/keys/status", {"keys": keys})
+    try:
+        data = api_request("POST", "/keys/status", {"keys": keys})
+    except RuntimeError as exc:
+        print(f"status cleanup skipped: {exc}", file=sys.stderr)
+        return [], []
     deleted, warn = extract_bad_keys_from_status(data)
     if deleted:
         try:
