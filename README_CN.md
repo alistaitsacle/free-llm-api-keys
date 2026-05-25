@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-34-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-25-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 
 **⭐ Star 本项目 = 更多免费 Key 给大家**
@@ -54,7 +54,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-05-25 16:30 (UTC+8)
+> ⏰ 最后更新： 2026-05-25 16:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -68,7 +68,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat、Kimi、图像、语音和向量模型。
 发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同类模型，仍不可用则留空不展示。
 
-### GPT-5.5 `05-25 16:30`
+### GPT-5.5 `05-25 16:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -77,7 +77,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Claude Opus 4.7 `05-25 16:30`
+### Claude Opus 4.7 `05-25 16:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -90,7 +90,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Gemini `05-25 16:30`
+### Gemini `05-25 16:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -103,32 +103,23 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### DeepSeek `05-25 16:30`
+### DeepSeek `05-25 16:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-dpcyKZuec41434HjKsMQOKD5DfEVOr4zNVD9lz2ZYSXCXuZO` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-05-27 | 日常对话、代码生成、翻译写作 |
-| `sk-0d0YP1wW18xROL2GY2WkXQY52Z4ovPNLiQ4e9TL04wGL2EbO` | deepseek-chat | 🆕 新增 | $11 | 20 RPM | 2026-05-27 | 日常对话、代码生成、翻译写作 |
-| `sk-L25TD93enbRYAiENlVIpLeXVaVWF59AXQzjF0BuVPHASza76` | deepseek-chat | 🆕 新增 | $12 | 20 RPM | 2026-05-26 | 日常对话、代码生成、翻译写作 |
-| `sk-8s2uYxKSn4Rq9EWncc6FxlSUb8LKNW5bojiNVsQrbeWFRqfp` | deepseek-chat | 🆕 新增 | $10 | 20 RPM | 2026-05-26 | 日常对话、代码生成、翻译写作 |
-| `sk-9xYZlbegbolk6hI3LHsfboKAZJgkzmNxZABSZjqyoe6k1TnE` | deepseek-chat | 🆕 新增 | $15 | 20 RPM | 2026-05-26 | 日常对话、代码生成、翻译写作 |
+| `sk-dQfOBL4SpMDm6csGubxYyiMEWhTEtMsglgvvVrMCz3fINzTS` | deepseek-chat | 🆕 新增 | $11 | 20 RPM | 2026-05-27 | 日常对话、代码生成、翻译写作 |
 
 ---
 
-### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-25 16:30`
+### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `05-25 16:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-9zHVoOMTbjvy3RDEck5w7HrEXxtPxp87idn0iOFdTW142ebR` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-27 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-RjutnzAH8jv0KTcN9uhrfEdMvFup8Lt4Gp6PBMntE0Tfowl6` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-27 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-YFixNN5iDWnzD7X2eu4Ia0C5huBzwxxtAcuVAdOnoOkX1ExO` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-27 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-zIN8x2TbZCAMojXNA61DC1czNAjJbrwU4k9VOehYQnnwGwq1` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-27 | 自动路由到当前健康的低成本聊天模型 |
 | `sk-lgN9h0iTZryZoFB7MNZXgbYAMC9KV5nKTVhQhSKcpl5KkfP1` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-27 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-ZmJtlUuW6dNfFiN77Gi9HsFmyUrk6xfpJc4VFWShChRy3oMl` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-05-27 | 自动路由到当前健康的低成本聊天模型 |
 
 ---
 
-### Kimi `05-25 16:30`
+### Kimi `05-25 16:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -141,7 +132,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### 图像 / 语音 / 向量化 `05-25 16:30`
+### 图像 / 语音 / 向量化 `05-25 16:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
