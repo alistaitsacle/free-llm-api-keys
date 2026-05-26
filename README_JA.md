@@ -54,11 +54,11 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 ## 📋 利用可能なキー
 
-> ⏰ 最終更新: 2026-05-27 04:52 (UTC+8)
+> ⏰ 最終更新: 2026-05-27 05:07 (UTC+8)
 
 ### 主要モデル
 
-### GPT-5.5 `05-27 04:52`
+### GPT-5.5 `05-27 05:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -67,7 +67,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-b8InkId7n3pI5zANHZvtAJ7daF1xo2p1lZT85UIfP0nTF39u` | gpt-5.5 | 🆕 新規 | $20 | 5 RPM | 2026-05-28 | Premium GPT flagship |
 | `sk-HC2B8zIbEgcjZkVwL14bkac38gGrt9YU656zcoEI6yaYDO6b` | gpt-5.5 | 🆕 新規 | $20 | 5 RPM | 2026-05-28 | Premium GPT flagship |
 
-### Claude Opus 4.7 `05-27 04:52`
+### Claude Opus 4.7 `05-27 05:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -78,7 +78,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-oSpDazuu3yRS7aW7YewrmM2HlFSJOMTraj4OtvtO1XYxFWu3` | claude-opus-4-7 | 🆕 新規 | $20 | 5 RPM | 2026-05-28 | Claude Opus flagship |
 | `sk-jcKAQYEbjwnGNrL6nJBchqiXCBnzlf1Col74byVRaVWp4jqh` | claude-opus-4-7 | 🆕 新規 | $20 | 5 RPM | 2026-05-28 | Claude Opus flagship |
 
-### Gemini `05-27 04:52`
+### Gemini `05-27 05:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -89,7 +89,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-XgjyFvFKwlN3owoZkPiGpCO2Mdw9yHOYgah7CaLtIwONjCrF` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-05-27 | Fast Gemini option for long-context general chat |
 | `sk-jCUWe0iXNGBHHxu4iYGTXe3lbOU30Ypf4uckmijtK6Bexnx0` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-05-27 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `05-27 04:52`
+### DeepSeek `05-27 05:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -100,7 +100,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-dClzKrWSsI2ptlGWWdWIwCmPYbyBfbGRTx2G4f9lHwFiLzTx` | deepseek-chat | 🆕 新規 | $20 | 20 RPM | 2026-05-28 | Everyday chat, coding, translation, writing |
 | `sk-dgOl2bWJbEpbjqZNXxH46soNtnN0SoVkYS3DV8EFW8BdqCxk` | deepseek-chat | 🆕 新規 | $20 | 20 RPM | 2026-05-28 | Everyday chat, coding, translation, writing |
 
-### Kimi `05-27 04:52`
+### Kimi `05-27 05:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -111,7 +111,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-8tP25tC4Z0SXw53E9tIWuR21W69VDqlMb0g0nGq2RIURjeSI` | kimi-k2.5 | 🆕 新規 | $20 | 10 RPM | 2026-05-27 | Kimi long-context general model |
 | `sk-agA3ZWsT50zauu7Yut1siURisRijrSLeJjw8G5Z7XRQqx8wR` | kimi-k2.5 | 🆕 新規 | $20 | 10 RPM | 2026-05-27 | Kimi long-context general model |
 
-### Image / Audio / Embedding `05-27 04:52`
+### Image / Audio / Embedding `05-27 05:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
