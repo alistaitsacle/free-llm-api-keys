@@ -40,18 +40,18 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 
 ## 📋 Claves Disponibles
 
-> ⏰ Última actualización: 2026-05-26 08:30 (UTC+8)
+> ⏰ Última actualización: 2026-05-26 08:37 (UTC+8)
 
 ### Modelos destacados
 
-### GPT-5.5 `05-26 08:30`
+### GPT-5.5 `05-26 08:37`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
 | `sk-ahXL4sXYXwlzxweIJg9Ryk4cC8j4OvHSkeGEQJ4uGyCl4z8R` | gemini-2.5-pro | 🆕 Nueva | $20 | 5 RPM | 2026-05-26 | KM recommended alternative for Premium GPT flagship |
 | `sk-qyJFCHtjAKsj6KDyPWumo7ECLnrFTgRO5NaEIXviynJo7By7` | gemini-2.5-pro | 🆕 Nueva | $20 | 5 RPM | 2026-05-26 | KM recommended alternative for Premium GPT flagship |
 
-### Claude Opus 4.7 `05-26 08:30`
+### Claude Opus 4.7 `05-26 08:37`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -62,7 +62,7 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-3C1hyMFd2w2kIaM4a5hvIWWw61upIcrdlUay7KA2FfVDrO6a` | claude-opus-4-7 | 🆕 Nueva | $20 | 5 RPM | 2026-05-27 | Claude Opus flagship |
 | `sk-BxWHshqlDNgIyxrUJiPWbHQZtR9qJFlgtvHbUv0Rfm0y8fu0` | claude-opus-4-7 | 🆕 Nueva | $20 | 5 RPM | 2026-05-27 | Claude Opus flagship |
 
-### Gemini `05-26 08:30`
+### Gemini `05-26 08:37`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -73,15 +73,15 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-XgjyFvFKwlN3owoZkPiGpCO2Mdw9yHOYgah7CaLtIwONjCrF` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-05-27 | Fast Gemini option for long-context general chat |
 | `sk-jCUWe0iXNGBHHxu4iYGTXe3lbOU30Ypf4uckmijtK6Bexnx0` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-05-27 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `05-26 08:30`
+### DeepSeek `05-26 08:37`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
-| `sk-Rpfj6NF8m6hd9AOmXHl9Dk9RA2Hy4d9ElPGKSkeaw7OG4oUG` | deepseek-chat | 🆕 Nueva | $20 | 20 RPM | 2026-05-28 | Everyday chat, coding, translation, writing |
-| `sk-fN31cBx06jJZafVpbD7HoOXj8FGSCwnq1K2Rqujf6HW50jWm` | deepseek-chat | 🆕 Nueva | $20 | 20 RPM | 2026-05-28 | Everyday chat, coding, translation, writing |
-| `sk-1Bk0Q12dWl2bxuNQBkrQfw6cGv07LmpASf7HIc5siREvwYj8` | deepseek-chat | 🆕 Nueva | $14 | 20 RPM | 2026-05-27 | Everyday chat, coding, translation, writing |
+| `sk-bSUKPfhCKEtxHWH7ATA8ZUblfoczokjVy2HbCowe1qemg9nB` | deepseek-chat | 🆕 Nueva | $19 | 20 RPM | 2026-05-27 | Everyday chat, coding, translation, writing |
+| `sk-TUd9l0G6oWrZevVSOmmNVrZmxG3MuXXCgVW6u58fv5T1o6BW` | deepseek-chat | 🆕 Nueva | $12 | 20 RPM | 2026-05-27 | Everyday chat, coding, translation, writing |
+| `sk-DE8RgmMOoYr8wgRgUP7rWOZxoiFBu8xjJSzWgw1ZrrfdeDR1` | deepseek-chat | 🆕 Nueva | $17 | 20 RPM | 2026-05-27 | Everyday chat, coding, translation, writing |
 
-### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini ruteo automático) `05-26 08:30`
+### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini ruteo automático) `05-26 08:37`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -92,7 +92,7 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-ECPeRN6nGcenrEoSV1pdqp2MNpHGsZzCoAhZHOsClJP0kGZ4` | smart-chat | 🆕 Nueva | $20 | 10 RPM | 2026-05-28 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-4nlBIpTZyxPwjKyUjby3shivMFcQrpUH5QxX9bBTdZyKzbTg` | smart-chat | 🆕 Nueva | $20 | 10 RPM | 2026-05-28 | Auto-routes across currently healthy low-cost chat backends |
 
-### Kimi `05-26 08:30`
+### Kimi `05-26 08:37`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -103,7 +103,7 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-8tP25tC4Z0SXw53E9tIWuR21W69VDqlMb0g0nGq2RIURjeSI` | kimi-k2.5 | 🆕 Nueva | $20 | 10 RPM | 2026-05-27 | Kimi long-context general model |
 | `sk-agA3ZWsT50zauu7Yut1siURisRijrSLeJjw8G5Z7XRQqx8wR` | kimi-k2.5 | 🆕 Nueva | $20 | 10 RPM | 2026-05-27 | Kimi long-context general model |
 
-### Image / Audio / Embedding `05-26 08:30`
+### Image / Audio / Embedding `05-26 08:37`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
