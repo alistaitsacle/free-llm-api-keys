@@ -55,7 +55,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-05-27 12:52 (UTC+8)
+> ⏰ Last updated: 2026-05-27 13:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -69,18 +69,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. If a target model has no KM recommendation or quota, it tries a quota-backed KM-recommended model in the same capability; otherwise that shelf stays hidden.
 
-### GPT-5.5 `05-27 12:52`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-EVrIE19KYB1YY7kEVjmBaqrTPRKikssg9jTXhls3KN00ZoGP` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-29 | Premium GPT flagship |
-| `sk-x9m7ayIkn2jZXOo3ka7oKGw5apnKogimsUBrClqHrchpGcpl` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-29 | Premium GPT flagship |
-| `sk-U0tPDchVgx5IcFKKT7vY2zeVGusElm9biWhPfV4VkPImIx3A` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-29 | Premium GPT flagship |
-| `sk-qyWrRsM8zKZkwDhNVHELvsw4MqTYVPAEozivDEry9SrgaWQj` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-29 | Premium GPT flagship |
-
----
-
-### Claude Opus 4.7 `05-27 12:52`
+### Claude Opus 4.7 `05-27 13:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -93,7 +82,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Gemini `05-27 12:52`
+### Gemini `05-27 13:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -106,15 +95,19 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### DeepSeek `05-27 12:52`
+### DeepSeek `05-27 13:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-sBmZ7dWpWt2gW8xUiKujzU1tKvaVebmNFakETFT05jqY1Hxe` | deepseek-chat | 🆕 New | $19 | 20 RPM | 2026-05-29 | Everyday chat, coding, translation, writing |
+| `sk-th4rqECBT5Xx4TDCCMznkljeRqSnqqZpTXunSQj4SfwtJKw9` | deepseek-chat | 🆕 New | $15 | 20 RPM | 2026-05-29 | Everyday chat, coding, translation, writing |
+| `sk-AeQiJxScxZbO0NNnEi7YLJwX89dZ0cZo2CT2N5YZTaGUvMHq` | deepseek-chat | 🆕 New | $18 | 20 RPM | 2026-05-29 | Everyday chat, coding, translation, writing |
+| `sk-rYu1Qh5hOfRf4K2VY3mfz8wZlBs6YMIX3dkqC3adeTvfVZRg` | deepseek-chat | 🆕 New | $19 | 20 RPM | 2026-05-29 | Everyday chat, coding, translation, writing |
+| `sk-4yfZzevfR8bY9moC34AQIpq9cufmyCZkWxJHAg1jLoA0myqL` | deepseek-chat | 🆕 New | $19 | 20 RPM | 2026-05-29 | Everyday chat, coding, translation, writing |
+| `sk-34qxKDEVY92hGWrZl5fm3z4IEQZzabRwlPU2gWbjEhLUmg2O` | deepseek-chat | 🆕 New | $19 | 20 RPM | 2026-05-29 | Everyday chat, coding, translation, writing |
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-27 12:52`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `05-27 13:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -127,7 +120,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Kimi `05-27 12:52`
+### Kimi `05-27 13:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -140,7 +133,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Image / Audio / Embedding `05-27 12:52`
+### Image / Audio / Embedding `05-27 13:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
