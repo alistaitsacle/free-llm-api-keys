@@ -54,11 +54,11 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 ## 📋 利用可能なキー
 
-> ⏰ 最終更新: 2026-05-29 06:52 (UTC+8)
+> ⏰ 最終更新: 2026-05-29 07:07 (UTC+8)
 
 ### 主要モデル
 
-### GPT-5.5 `05-29 06:52`
+### GPT-5.5 `05-29 07:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -67,7 +67,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-s6wjTkVIdQDQLEKDGtny6VyIE1Qos7LqHS7EpTxYLGzIH6W5` | gpt-5.5 | 🆕 新規 | $19 | 5 RPM | 2026-05-29 | Premium GPT flagship |
 | `sk-HgBgtmb9dPxFgZyJ5TunM7vbX4z1t8nWJv9Jk7k0g2eik4ZV` | gpt-5.5 | 🆕 新規 | $19 | 5 RPM | 2026-05-29 | Premium GPT flagship |
 
-### Claude Opus 4.7 `05-29 06:52`
+### Claude Opus 4.7 `05-29 07:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -76,7 +76,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-TORtnOOKC7ws15iPbuUwAcyZ83V5HOvnlvXVhc674IpCHX1U` | claude-opus-4-7 | 🆕 新規 | $20 | 5 RPM | 2026-05-30 | Claude Opus flagship |
 | `sk-iDwcs9Jj1ColnHj5i8zablmzQFckjInS4SXkvTxhzkrMNSK2` | claude-opus-4-7 | 🆕 新規 | $20 | 5 RPM | 2026-05-30 | Claude Opus flagship |
 
-### Gemini `05-29 06:52`
+### Gemini `05-29 07:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -87,15 +87,15 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-wJXnp9Qe7m9x9AlRb1B9hMJmS08NQpWrxTc1TZmSOcFkDIJX` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-05-29 | Fast Gemini option for long-context general chat |
 | `sk-MNj5JufH4gWXVI4AJeDy6bOPzvSpWz7uat2rCQ6q3tFKQIbN` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-05-29 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `05-29 06:52`
+### DeepSeek `05-29 07:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
-| `sk-eyVLvNMOC0icOO6X0Sii4Z002YHP4v4VAQxuCsegdxNkA2Hv` | deepseek-chat | 🆕 新規 | $19 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
-| `sk-7GzuiA8qi9ZsKDTudEelCSNgRq2QWeK1OSZLxYAkO2OinVHz` | deepseek-chat | 🆕 新規 | $15 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
-| `sk-i9ljiRBc0e5NN9exuJJQIl68qSIh9E2DZcDZR2652Usk8j1E` | deepseek-chat | 🆕 新規 | $14 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-Thd7RC5NKq42Y9ZfHeLkbXCZAglq6q1N1JPdXZGVT7g1fuYh` | deepseek-chat | 🆕 新規 | $18 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-6lhojrnGlmCdpngdEKxmsCZ6MfuYYON6s6qcqfnjSHN9i0LP` | deepseek-chat | 🆕 新規 | $18 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-8R2TpN6FMJTEV7cYjeM7Ocp0GBERKLrRjaJxFSCHY8oXYdKG` | deepseek-chat | 🆕 新規 | $14 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
 
-### マルチモデル (GPT-5.5 / Claude / DeepSeek / Gemini 自動ルーティング) `05-29 06:52`
+### マルチモデル (GPT-5.5 / Claude / DeepSeek / Gemini 自動ルーティング) `05-29 07:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -106,7 +106,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-8JhQUiJKyMO2jdb6yJTaNb6jQoxTOX3HTEYHf2bcUBHcONAm` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-05-30 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-wJeAHYkKBzNQgOJq8ZRhZPArLhdyGUlfGhc0saN3QgYAvesn` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-05-30 | Auto-routes across currently healthy low-cost chat backends |
 
-### Kimi `05-29 06:52`
+### Kimi `05-29 07:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -117,7 +117,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-qHiE26SeDvEw9Z2FcBvIWY3TBMRI1kCMFbRq3gjfErSTTu4d` | kimi-k2.5 | 🆕 新規 | $20 | 10 RPM | 2026-05-30 | Kimi long-context general model |
 | `sk-UwOh9dok6RQKDIBRTMSAIlYPs0QDKeqXeyo9jC3HPqFYp9Le` | kimi-k2.5 | 🆕 新規 | $20 | 10 RPM | 2026-05-30 | Kimi long-context general model |
 
-### Image / Audio / Embedding `05-29 06:52`
+### Image / Audio / Embedding `05-29 07:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
