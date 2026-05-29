@@ -54,11 +54,11 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 ## 📋 利用可能なキー
 
-> ⏰ 最終更新: 2026-05-29 08:07 (UTC+8)
+> ⏰ 最終更新: 2026-05-29 08:22 (UTC+8)
 
 ### 主要モデル
 
-### GPT-5.5 `05-29 08:07`
+### GPT-5.5 `05-29 08:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -67,7 +67,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-s6wjTkVIdQDQLEKDGtny6VyIE1Qos7LqHS7EpTxYLGzIH6W5` | gpt-5.5 | 🆕 新規 | $19 | 5 RPM | 2026-05-29 | Premium GPT flagship |
 | `sk-HgBgtmb9dPxFgZyJ5TunM7vbX4z1t8nWJv9Jk7k0g2eik4ZV` | gpt-5.5 | 🆕 新規 | $19 | 5 RPM | 2026-05-29 | Premium GPT flagship |
 
-### Gemini `05-29 08:07`
+### Gemini `05-29 08:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -78,15 +78,15 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-wJXnp9Qe7m9x9AlRb1B9hMJmS08NQpWrxTc1TZmSOcFkDIJX` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-05-29 | Fast Gemini option for long-context general chat |
 | `sk-MNj5JufH4gWXVI4AJeDy6bOPzvSpWz7uat2rCQ6q3tFKQIbN` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-05-29 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `05-29 08:07`
+### DeepSeek `05-29 08:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
-| `sk-Thd7RC5NKq42Y9ZfHeLkbXCZAglq6q1N1JPdXZGVT7g1fuYh` | deepseek-chat | 🆕 新規 | $15 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
-| `sk-6lhojrnGlmCdpngdEKxmsCZ6MfuYYON6s6qcqfnjSHN9i0LP` | deepseek-chat | 🆕 新規 | $15 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
-| `sk-8R2TpN6FMJTEV7cYjeM7Ocp0GBERKLrRjaJxFSCHY8oXYdKG` | deepseek-chat | 🆕 新規 | $11 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-eyVLvNMOC0icOO6X0Sii4Z002YHP4v4VAQxuCsegdxNkA2Hv` | deepseek-chat | 🆕 新規 | $16 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-7GzuiA8qi9ZsKDTudEelCSNgRq2QWeK1OSZLxYAkO2OinVHz` | deepseek-chat | 🆕 新規 | $11 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-i9ljiRBc0e5NN9exuJJQIl68qSIh9E2DZcDZR2652Usk8j1E` | deepseek-chat | 🆕 新規 | $9 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
 
-### Image / Audio / Embedding `05-29 08:07`
+### Image / Audio / Embedding `05-29 08:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|

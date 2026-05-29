@@ -54,11 +54,11 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 
 ## 📋 사용 가능한 키
 
-> ⏰ 마지막 업데이트: 2026-05-29 08:07 (UTC+8)
+> ⏰ 마지막 업데이트: 2026-05-29 08:22 (UTC+8)
 
 ### 주요 모델
 
-### GPT-5.5 `05-29 08:07`
+### GPT-5.5 `05-29 08:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -67,7 +67,7 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-s6wjTkVIdQDQLEKDGtny6VyIE1Qos7LqHS7EpTxYLGzIH6W5` | gpt-5.5 | 🆕 신규 | $19 | 5 RPM | 2026-05-29 | Premium GPT flagship |
 | `sk-HgBgtmb9dPxFgZyJ5TunM7vbX4z1t8nWJv9Jk7k0g2eik4ZV` | gpt-5.5 | 🆕 신규 | $19 | 5 RPM | 2026-05-29 | Premium GPT flagship |
 
-### Gemini `05-29 08:07`
+### Gemini `05-29 08:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -78,15 +78,15 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-wJXnp9Qe7m9x9AlRb1B9hMJmS08NQpWrxTc1TZmSOcFkDIJX` | gemini-2.5-flash | 🆕 신규 | $20 | 20 RPM | 2026-05-29 | Fast Gemini option for long-context general chat |
 | `sk-MNj5JufH4gWXVI4AJeDy6bOPzvSpWz7uat2rCQ6q3tFKQIbN` | gemini-2.5-flash | 🆕 신규 | $20 | 20 RPM | 2026-05-29 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `05-29 08:07`
+### DeepSeek `05-29 08:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
-| `sk-Thd7RC5NKq42Y9ZfHeLkbXCZAglq6q1N1JPdXZGVT7g1fuYh` | deepseek-chat | 🆕 신규 | $15 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
-| `sk-6lhojrnGlmCdpngdEKxmsCZ6MfuYYON6s6qcqfnjSHN9i0LP` | deepseek-chat | 🆕 신규 | $15 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
-| `sk-8R2TpN6FMJTEV7cYjeM7Ocp0GBERKLrRjaJxFSCHY8oXYdKG` | deepseek-chat | 🆕 신규 | $11 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-eyVLvNMOC0icOO6X0Sii4Z002YHP4v4VAQxuCsegdxNkA2Hv` | deepseek-chat | 🆕 신규 | $16 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-7GzuiA8qi9ZsKDTudEelCSNgRq2QWeK1OSZLxYAkO2OinVHz` | deepseek-chat | 🆕 신규 | $11 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
+| `sk-i9ljiRBc0e5NN9exuJJQIl68qSIh9E2DZcDZR2652Usk8j1E` | deepseek-chat | 🆕 신규 | $9 | 20 RPM | 2026-05-30 | Everyday chat, coding, translation, writing |
 
-### Image / Audio / Embedding `05-29 08:07`
+### Image / Audio / Embedding `05-29 08:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
