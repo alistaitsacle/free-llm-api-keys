@@ -1,8 +1,8 @@
 """FreeLLMShare — Compare responses from different models. Usage: pip install openai && python multi_model.py"""
 from openai import OpenAI
 
-client = OpenAI(base_url="https://aiapiv2.pekpik.com/v1", api_key="YOUR_KEY_HERE")
-models = ["gpt-5.5", "claude-sonnet-4-6", "deepseek-chat", "mistral-medium-latest"]
+client = OpenAI(base_url="https://api.openai.com/v1", api_key="YOUR_ACTUAL_API_KEY_HERE")
+models = ["gpt-4", "claude-sonnet-4-6", "deepseek-chat", "mistral-medium-latest"]
 question = "Explain quantum computing in one paragraph."
 
 for model in models:
