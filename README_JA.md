@@ -57,18 +57,18 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 ## 📋 利用可能なキー
 
-> ⏰ 最終更新: 2026-05-31 23:37 (UTC+8)
+> ⏰ 最終更新: 2026-05-31 23:52 (UTC+8)
 
 ### 主要モデル
 
-### GPT-5.5 `05-31 23:37`
+### GPT-5.5 `05-31 23:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
 | `sk-1EL1QJ3YyLpt7wEi0lzKELZdtxnbx9eQr34GKicbtTBxSDld` | gemini-2.5-pro | 🆕 新規 | $20 | 5 RPM | 2026-06-01 | KM recommended alternative for Premium GPT flagship |
 | `sk-KNKalSmgCb3l563aL07xrJU0fM1ezBT47ZEGFnNUUBPo9cfy` | gemini-2.5-pro | 🆕 新規 | $20 | 5 RPM | 2026-06-01 | KM recommended alternative for Premium GPT flagship |
 
-### Claude Opus 4.7 `05-31 23:37`
+### Claude Opus 4.7 `05-31 23:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -79,7 +79,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-pSNRhFDVYrhQvrbSO5L9TSZ0nBbI77eK0kEuboftxSEScDVE` | gemini-2.5-pro | 🆕 新規 | $20 | 5 RPM | 2026-06-01 | KM recommended alternative for Claude Opus flagship |
 | `sk-GPw0ScwJUW6QlD9fsAQaF81xmnpMG4W5R7T8eZsGYucBADD0` | gemini-2.5-pro | 🆕 新規 | $20 | 5 RPM | 2026-06-01 | KM recommended alternative for Claude Opus flagship |
 
-### Gemini `05-31 23:37`
+### Gemini `05-31 23:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -90,7 +90,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-AZaXsOWfo3wYGZ6a66hTZL5dzhxEoaSgIV440clViPs4p7Jl` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-06-02 | Fast Gemini option for long-context general chat |
 | `sk-JQs67IeI6xPODnGbsh6rbPdkCXGfrWM7298XhHNGgoOEliF6` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-06-02 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `05-31 23:37`
+### DeepSeek `05-31 23:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -98,7 +98,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-9PMCkE8F7XCwQIjXoB18TA9orOREcN1KLe92avrm5svok58q` | gemini-2.5-pro | 🆕 新規 | $20 | 20 RPM | 2026-06-02 | KM recommended alternative for Everyday chat, coding, translation, writing |
 | `sk-ZXOs3g7MeCmnlwFlHQWYfGjtI7iIQZp7OklP97Q7zh5ttGo0` | gemini-2.5-pro | 🆕 新規 | $20 | 20 RPM | 2026-06-02 | KM recommended alternative for Everyday chat, coding, translation, writing |
 
-### Kimi `05-31 23:37`
+### Kimi `05-31 23:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -108,7 +108,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-wLzzALrkzxb7rOL1p29DLWVzRTK661cpvmXLEpan3BYxIJVO` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-06-02 | Kimi long-context general model |
 | `sk-4o3j1qQZfWGDsy8MgMPid6US8yR9DKeuz4PtwVinrEkYJKc0` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-06-02 | Kimi long-context general model |
 
-### Image / Audio / Embedding `05-31 23:37`
+### Image / Audio / Embedding `05-31 23:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
