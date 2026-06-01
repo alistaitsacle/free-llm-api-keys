@@ -43,11 +43,11 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-06-01 18:07 (UTC+8)
+> ⏰ Última atualização: 2026-06-01 18:22 (UTC+8)
 
 ### Modelos em destaque
 
-### GPT-5.5 `06-01 18:07`
+### GPT-5.5 `06-01 18:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -56,7 +56,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-9cycgCYhq4M9B7UGCkdO5RM6tYBymrAllBp9rHOoqcaR33Qg` | gemini-2.5-pro | 🆕 Nova | $20 | 5 RPM | 2026-06-02 | KM recommended alternative for Premium GPT flagship |
 | `sk-4Vt0D4rQwMStPBHswFCANvgZ2AkeflMKMpfOxmxAUqy61fFs` | gemini-2.5-pro | 🆕 Nova | $20 | 5 RPM | 2026-06-02 | KM recommended alternative for Premium GPT flagship |
 
-### Claude Opus 4.7 `06-01 18:07`
+### Claude Opus 4.7 `06-01 18:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -66,7 +66,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-mxFF8sXyDZmr68Z93DGIaBoSM7amY8DjhZo7V1RCVSDeayRG` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-06-03 | Claude Opus flagship |
 | `sk-oKRdukD3RceGIv6YtMfFs2sFwQlQFVCQe1vn4EwrIDCmxgcl` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-06-03 | Claude Opus flagship |
 
-### Gemini `06-01 18:07`
+### Gemini `06-01 18:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -77,7 +77,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-AZaXsOWfo3wYGZ6a66hTZL5dzhxEoaSgIV440clViPs4p7Jl` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-02 | Fast Gemini option for long-context general chat |
 | `sk-JQs67IeI6xPODnGbsh6rbPdkCXGfrWM7298XhHNGgoOEliF6` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-02 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `06-01 18:07`
+### DeepSeek `06-01 18:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -85,7 +85,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-es7rQPIKqbD6nVAYLsQtetZFxFodkwz2pcuU5TB3sjTFlytY` | gemini-2.5-pro | 🆕 Nova | $20 | 20 RPM | 2026-06-02 | KM recommended alternative for Everyday chat, coding, translation, writing |
 | `sk-VIk9vgJe1x2eursqN5XK8tkiHzT3h2GOCfNRWhOc014twzrm` | gemini-2.5-pro | 🆕 Nova | $20 | 20 RPM | 2026-06-02 | KM recommended alternative for Everyday chat, coding, translation, writing |
 
-### Image / Audio / Embedding `06-01 18:07`
+### Image / Audio / Embedding `06-01 18:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
