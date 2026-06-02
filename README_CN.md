@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-31-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-23-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/在_X_关注-获取新key-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -57,7 +57,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-06-02 20:37 (UTC+8)
+> ⏰ 最后更新： 2026-06-02 20:52 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -71,7 +71,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat、Kimi、图像、语音和向量模型。
 发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同类模型，仍不可用则留空不展示。
 
-### GPT-5.5 `06-02 20:37`
+### GPT-5.5 `06-02 20:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -80,7 +80,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Claude Opus 4.7 `06-02 20:37`
+### Claude Opus 4.7 `06-02 20:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -93,7 +93,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Gemini `06-02 20:37`
+### Gemini `06-02 20:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -106,7 +106,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### DeepSeek `06-02 20:37`
+### DeepSeek `06-02 20:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -116,32 +116,24 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `06-02 20:37`
+### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `06-02 20:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-gDuAt9dZFdMRZmE4giw2moC6LE5g3RG2LqqWIdOnoEhCRKuF` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-06-04 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-cRvJMEZH5SGN4IdP2il8UqHtc84K4tk49EtSCWbDMUUr18d7` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-06-04 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-VHfqygYYz8Tcq5kTGFzf6Bth3KZs2Ya9Mx5UhOl840zSPeE0` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-06-04 | 自动路由到当前健康的低成本聊天模型 |
 | `sk-RRwwXu69nCD4CVLPDNmqTONFAiXk8iZdRnvtWYF8mOQEFfwt` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-06-04 | 自动路由到当前健康的低成本聊天模型 |
 | `sk-PuOknvHmRoE3yFokLo6kdX83PKM54l5pXBoVte64NFHYVeMI` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-06-04 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-lc0z4XNWwKyWsLYvdEDlVRbldfIrkSd4Iayhq2TcNHxiulbw` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-06-04 | 自动路由到当前健康的低成本聊天模型 |
 
 ---
 
-### Kimi `06-02 20:37`
+### Kimi `06-02 20:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-3bRYtyQqrHz64fOjvuNq1nN8HQWyNlpi0HJxOha6HQWy7Uxh` | kimi-k2.5 | 🆕 新增 | $11 | 10 RPM | 2026-06-04 | Kimi 长上下文通用模型 |
-| `sk-FCLuVITMvGe2DemO7mFh1CQilHcEHK8PnF2II4IxKYrlhrN6` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-04 | Kimi 长上下文通用模型 |
-| `sk-dpPPXgVGD0ACXnklVU4QNwcw5YBTjL67T236nekxCsjffqSE` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-04 | Kimi 长上下文通用模型 |
-| `sk-gTk21v3jR0Nypr4PPWPdMn3f7DCCMs3u3rga52po4d6WrC3A` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-04 | Kimi 长上下文通用模型 |
-| `sk-rfPQnTlqqJewHYjcTF0ZVRKXG1zP0XMU7YDzQi8N8WdWzVBH` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-04 | Kimi 长上下文通用模型 |
+| `sk-rW8ZGLU1aTvjGrxHT9vbLROhRldERQYHg8ehTWF6LnpvdS5o` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-04 | Kimi 长上下文通用模型 |
 
 ---
 
-### 图像 / 语音 / 向量化 `06-02 20:37`
+### 图像 / 语音 / 向量化 `06-02 20:52`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
