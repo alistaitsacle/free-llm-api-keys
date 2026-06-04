@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-28-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-30-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Follow_on_X-for_key_drops-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -58,7 +58,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-04 08:31 (UTC+8)
+> ⏰ Last updated: 2026-06-04 08:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -72,7 +72,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. If a target model has no KM recommendation or quota, it tries a quota-backed KM-recommended model in the same capability; otherwise that shelf stays hidden.
 
-### GPT-5.5 `06-04 08:31`
+### GPT-5.5 `06-04 08:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -81,16 +81,18 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Claude Opus 4.7 `06-04 08:31`
+### Claude Opus 4.7 `06-04 08:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-9rXktDzYmBWxAGKpySLisOwuRGvxHFnUZ6ISgynEi9hfcXe8` | gemini-2.5-pro | 🆕 New | $20 | 5 RPM | 2026-06-06 | KM recommended alternative for Claude Opus flagship |
-| `sk-Ni2I0RWpsg0M3J3lh1E4gjBcclgQIZdkZpcILTOKuMmvsBSM` | claude-opus-4-7 | 🆕 New | $13 | 5 RPM | 2026-06-05 | Claude Opus flagship |
+| `sk-ImEz8mf3Yfiren0TDeootkhAtVSkcszV5P1POcqWzn0GsMs9` | claude-opus-4-7 | 🆕 New | $13 | 5 RPM | 2026-06-05 | Claude Opus flagship |
+| `sk-xpbVL0y3HthcjovSnaTUIUaSiaJA1aaLMzmnPBMGF0IThPhB` | claude-opus-4-7 | 🆕 New | $12 | 5 RPM | 2026-06-05 | Claude Opus flagship |
+| `sk-e6cKorvV1oMBDLrkWmEa4jfIY34bCbKQ2Z5QcfGoaolXcIJy` | claude-opus-4-7 | 🆕 New | $13 | 5 RPM | 2026-06-05 | Claude Opus flagship |
+| `sk-sjS921jvK5jtv8c0wye7kRxbuHMnNn2tnAXWFcTbwwBdN63E` | claude-opus-4-7 | 🆕 New | $10 | 5 RPM | 2026-06-05 | Claude Opus flagship |
 
 ---
 
-### Gemini `06-04 08:31`
+### Gemini `06-04 08:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -103,7 +105,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### DeepSeek `06-04 08:31`
+### DeepSeek `06-04 08:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -113,7 +115,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `06-04 08:31`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `06-04 08:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -126,7 +128,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Kimi `06-04 08:31`
+### Kimi `06-04 08:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -139,7 +141,7 @@ The publisher only shows real keys. If a target model has no KM recommendation o
 
 ---
 
-### Image / Audio / Embedding `06-04 08:31`
+### Image / Audio / Embedding `06-04 08:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
