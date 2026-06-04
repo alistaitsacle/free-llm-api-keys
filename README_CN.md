@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-21-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-16-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/在_X_关注-获取新key-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -69,16 +69,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 ### 重点模型
 
 覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat、Kimi、图像、语音和向量模型。
-发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同类模型，仍不可用则留空不展示。
-
-### GPT-5.5 `06-04 16:07`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-KxZrrOZZ2kt4m0SIJT0zN9iEVRH9W6gfEkfmAnqmPz3vkruh` | gemini-2.5-pro | 🆕 新增 | $20 | 5 RPM | 2026-06-05 | KM 推荐的可用替代模型：GPT 旗舰模型 |
-| `sk-iTvAN33LSia8nRbbHsaVAY2D95lrK3zo8h7Qe1RICIRrIjYC` | gemini-2.5-pro | 🆕 新增 | $20 | 5 RPM | 2026-06-05 | KM 推荐的可用替代模型：GPT 旗舰模型 |
-
----
+发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同一模型家族，仍不可用则留空不展示。
 
 ### Claude Opus 4.7 `06-04 16:07`
 
@@ -101,16 +92,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | `sk-UjGmzDTQiuhA1JQhDkeLwlRDuOyIkPxyxaMIoAolUr2pfZij` | gemini-2.5-flash | 🆕 新增 | $20 | 20 RPM | 2026-06-04 | Gemini 快速模型，适合长上下文通用对话 |
 | `sk-UapGlJuQyvDboowuY890a3Qyqd5j5fMrKH2vAgt2v6a9u3Ct` | gemini-2.5-flash | 🆕 新增 | $20 | 20 RPM | 2026-06-04 | Gemini 快速模型，适合长上下文通用对话 |
 | `sk-ncGnn0fCZ3BEmvow31TctGEhm7GttX7vN0dAksCsb2M1COh3` | gemini-2.5-flash | 🆕 新增 | $20 | 20 RPM | 2026-06-04 | Gemini 快速模型，适合长上下文通用对话 |
-
----
-
-### DeepSeek `06-04 16:07`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-PqZTvcsUCxbzMbdBtc24nAOpe3DXm4YLjST91sZFsbAJSa2S` | gemini-2.5-pro | 🆕 新增 | $20 | 20 RPM | 2026-06-04 | KM 推荐的可用替代模型：日常对话、代码生成、翻译写作 |
-| `sk-ADscW2NDvYKkuwHvnsEw6IiDtcq7YzKdcOXmNsGwjmGBFyU2` | gemini-2.5-pro | 🆕 新增 | $20 | 20 RPM | 2026-06-04 | KM 推荐的可用替代模型：日常对话、代码生成、翻译写作 |
-| `sk-ACB81N7ARULaC4fCTsxwM9j8U2IjNLKCdNe7VlRYLCHRTlK9` | gemini-2.5-pro | 🆕 新增 | $20 | 20 RPM | 2026-06-04 | KM 推荐的可用替代模型：日常对话、代码生成、翻译写作 |
 
 ---
 

@@ -378,6 +378,33 @@ def model_capability(model: str, item: dict | None = None) -> str:
     return "chat"
 
 
+def model_fallback_family(model: str, item: dict | None = None) -> str:
+    capability = model_capability(model, item)
+    if capability != "chat":
+        return capability
+
+    slug = model_slug(model, limit=80)
+    if "gpt55" in slug:
+        return "gpt-5.5"
+    if "claudeopus47" in slug or "claude47opus" in slug:
+        return "claude-opus-4-7"
+    if "gemini" in slug:
+        return "gemini"
+    if "deepseek" in slug:
+        return "deepseek"
+    if "smartchat" in slug or "flagshipchat" in slug:
+        return "multi-model"
+    if "kimi" in slug or "moonshot" in slug:
+        return "kimi"
+    return ""
+
+
+def can_substitute_model(target_model: str, candidate_model: str, candidate: dict | None = None) -> bool:
+    target_family = model_fallback_family(target_model)
+    candidate_family = model_fallback_family(candidate_model, candidate)
+    return bool(target_family and target_family == candidate_family)
+
+
 def recommended_model_candidates(recommended_models: Iterable[dict]) -> tuple[dict[str, dict], dict[str, list[dict]]]:
     direct: dict[str, dict] = {}
     by_capability: dict[str, list[dict]] = {"chat": [], "image": [], "audio": [], "embedding": []}
@@ -398,7 +425,11 @@ def select_recommended_model(spec: dict, direct: dict[str, dict], by_capability:
     capability = model_capability(model)
     for candidate in by_capability.get(capability, []):
         candidate_model = model_identifier(candidate)
-        if candidate_model and candidate_model not in FEATURED_MODEL_IDS:
+        if (
+            candidate_model
+            and candidate_model not in FEATURED_MODEL_IDS
+            and can_substitute_model(model, candidate_model, candidate)
+        ):
             return candidate_model
     return None
 
@@ -642,12 +673,12 @@ def start_here_block(lang: str) -> str:
         return (
             "### 重点模型\n\n"
             "覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat、Kimi、图像、语音和向量模型。\n"
-            "发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同类模型，仍不可用则留空不展示。\n\n"
+            "发布器只展示真实 Key；目标模型没有 KM 推荐或额度不足时，会尝试 KM 推荐且有额度的同一模型家族，仍不可用则留空不展示。\n\n"
         )
     return (
         "### Featured models\n\n"
         "GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.\n"
-        "The publisher only shows real keys. If a target model has no KM recommendation or quota, it tries a quota-backed KM-recommended model in the same capability; otherwise that shelf stays hidden.\n\n"
+        "The publisher only shows real keys. If a target model has no KM recommendation or quota, it tries a quota-backed KM-recommended model in the same model family; otherwise that shelf stays hidden.\n\n"
     )
 
 
@@ -917,6 +948,24 @@ def rows_for_shelf_spec(spec: dict, rows_by_group: dict[str, list[str]], lang: s
     return []
 
 
+def table_row_model(row: str) -> str:
+    if not row.startswith("|") or not row.rstrip().endswith("|"):
+        return ""
+    cells = [part.strip() for part in row.strip().strip("|").split("|")]
+    if len(cells) < 2:
+        return ""
+    return cells[1]
+
+
+def shelf_row_matches_spec(spec: dict, row: str) -> bool:
+    model = table_row_model(row)
+    if not model:
+        return False
+    if spec["group"] == "Image / Audio / Embedding":
+        return model_capability(model) in {"image", "audio", "embedding"}
+    return model == spec["model"] or can_substitute_model(spec["model"], model)
+
+
 def spec_for_heading(title: str) -> dict | None:
     plain_title = title.split(" `", 1)[0].strip()
     for spec in MODEL_SHELF:
@@ -940,7 +989,8 @@ def collect_shelf_rows(section: str) -> dict[str, list[str]]:
                 # never carry them over as if they were real keys of this shelf.
                 continue
             if re.match(r"^\|\s*`sk-[A-Za-z0-9]+`\s*\|", line):
-                rows[spec["group"]].append(line)
+                if shelf_row_matches_spec(spec, line):
+                    rows[spec["group"]].append(line)
     return rows
 
 
