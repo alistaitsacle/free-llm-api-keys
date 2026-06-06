@@ -17,7 +17,7 @@ Copie uma chave da tabela, cole no seu app e comece a construir
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-33-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-30-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Modelos-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Siga_no_X-novas_chaves-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -43,11 +43,11 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-06-06 17:27 (UTC+8)
+> ⏰ Última atualização: 2026-06-06 17:37 (UTC+8)
 
 ### Modelos em destaque
 
-### Gemini `06-06 17:27`
+### Gemini `06-06 17:37`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -58,18 +58,15 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-ObA5HqmsF1IyPuAZR3lwuynFtuG7wbkloHR45BDUJHkdIbea` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-08 | Fast Gemini option for long-context general chat |
 | `sk-EYAwA23uy3ODMCcMgOVbKW5MwYtnEDikwVHfq9Uhr4cV65GH` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-08 | Fast Gemini option for long-context general chat |
 
-### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini roteamento automático) `06-06 17:27`
+### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini roteamento automático) `06-06 17:37`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
 | `sk-gtcnwoOyD6yLdoKevUDkZohX8k7MQBHFbGfSrkkYWuPXgMT5` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-08 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-TAo0OEonqmz6QPeBzwPJV6H0pofXPTwaGHM0IThdpTsLzNEB` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-08 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-6464uTTmueEPWGUL1bf66INGhkoKgQg30aXrtrrp8ycTi82u` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-08 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-nMV0yRjyNAQP25TDQqg3PCMujRweYdj1cZ0mF9rw0dViiR0H` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-08 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-Y9IO621vz3G6JUhDXRFLCL1391JbbvhzeQnnrb6AM0vOTPad` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-08 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-KDCvlZunbMngSLkBm7bX2SecufcPUk599qVGAMHpIUDIVYNl` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-08 | Auto-routes across currently healthy low-cost chat backends |
 
-### Kimi `06-06 17:27`
+### Kimi `06-06 17:37`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -80,7 +77,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-fGkG6GQY7oNGrhXKm4TX0b7BHBPG02Yja9oTiVX9qTgjg7nl` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-08 | Kimi long-context general model |
 | `sk-UvPcufDnYdMzJGH9x3gMAtMcO9JSxGoXV64zj7oKo516vPG4` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-08 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-06 17:27`
+### Image / Audio / Embedding `06-06 17:37`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -88,7 +85,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-1BuHOUNN8yaoIavpGG6LuhRA1gu1cWWrBMBe1bJ09o5BIpuN` | text-embedding-3-small | 🆕 Nova | $20 | 20 RPM | 2026-06-08 | Text embeddings |
 | `sk-eSiXtzYDNThMQgh9RkWWzwkyNGQCgopV3J9WBSsLviOob0gV` | text-embedding-3-small | 🆕 Nova | $20 | 20 RPM | 2026-06-08 | Text embeddings |
 
-### More Available Models `06-06 17:27`
+### More Available Models `06-06 17:37`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
