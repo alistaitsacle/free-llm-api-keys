@@ -1,4 +1,29 @@
-"""FreeLLMShare — Compare responses from different models. Usage: pip install openai && python multi_model.py"""
+"""
+FreeLLMShare — Compare responses from different models.
+
+This script demonstrates how to compare responses from multiple AI models using a free API gateway.
+It is designed for easy testing and comparison.
+
+Dependencies:
+- openai: Install using `pip install openai`.
+
+Configuration:
+- API Key: Replace 'YOUR_KEY_HERE' with a valid free API key from the repository.
+  Example: api_key="your_actual_key"
+
+Usage:
+- Run the script: `python multi_model.py`
+- The script will query each model in the list and print the responses.
+
+Expected Output:
+- For each model, it prints a separator line, the model name, and the response.
+- If successful, the response is printed; otherwise, an error message is shown.
+
+Error Handling:
+- Common errors include invalid API key, network issues, or model unavailability.
+- The script catches general exceptions and prints error messages.
+- Ensure the API key is correct and the endpoint is accessible.
+"""
 from openai import OpenAI
 
 client = OpenAI(base_url="https://aiapiv2.pekpik.com/v1", api_key="YOUR_KEY_HERE")
