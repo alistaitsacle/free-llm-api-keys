@@ -75,9 +75,13 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
 >
-> ⚠️ **提示：** Key 是公开共享的，额度可能已被其他用户消耗。如果某个 Key 不能用，请换一个试试，或稍后回来获取新 Key。
+> ⚠️ **提示：** Key 是公开共享的，额度可能已被其他用户消耗。如果某个 Key 或模型不能用，请换一个试试；如果仍然失败，请把模型名发给 [@getkeyway](https://x.com/getkeyway)。
 >
 > **[在这里验证你的 Key](https://alistaitsacle.github.io/free-llm-api-keys/)** — 一键检查 Key 是否可用。
+
+<!-- daily-grant-keylist:start -->
+> 🎁 想要指定模型的私有 24 小时访问权限？关注 X 上的每日 grant：[@getkeyway](https://x.com/getkeyway)。最新活动帖：[2026-06-07 · x-ai/grok-4.3](https://x.com/getkeyway/status/2063452859719708883)。Star 是可选支持，不是参与或中奖条件。
+<!-- daily-grant-keylist:end -->
 
 ### 重点模型
 

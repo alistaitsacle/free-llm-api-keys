@@ -76,9 +76,13 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
 >
-> ⚠️ **Note:** Keys are shared publicly. Budget may already be consumed by other users. If a key doesn't work, try another one or check back later for fresh keys.
+> ⚠️ **Note:** Keys are shared publicly. Budget may already be consumed by other users. If a key or model doesn't work, try another one; if it still fails, send the model name to [@getkeyway](https://x.com/getkeyway).
 >
 > **[Verify your key here](https://alistaitsacle.github.io/free-llm-api-keys/)** — one-click check if a key still works.
+
+<!-- daily-grant-keylist:start -->
+> 🎁 Want private 24h access to selected models? Join the daily grant on X: [@getkeyway](https://x.com/getkeyway). Latest post: [2026-06-07 · x-ai/grok-4.3](https://x.com/getkeyway/status/2063452859719708883). Stars are optional and never required to win.
+<!-- daily-grant-keylist:end -->
 
 ### Featured models
 
