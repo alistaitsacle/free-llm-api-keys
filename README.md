@@ -46,6 +46,7 @@ Copy a key from the table below, paste it into your app, and start building.
 We run a small daily AI API grant from spare production-grade API capacity. Each day, we share a few private 24h API keys with builders on X.
 
 **Follow daily grants:** [@getkeyway on X](https://x.com/getkeyway)
+**Latest grant post:** [2026-06-07 · x-ai/grok-4.3](https://x.com/getkeyway/status/2063452859719708883)
 
 Stars are optional and never required to win. They simply help the project stay visible and keep the grants going.
 
@@ -86,7 +87,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 
 <!-- daily-grant-keylist:start -->
-> 🎁 Want private 24h access to selected models? Join the daily grant on X: [@getkeyway](https://x.com/getkeyway). Stars are optional and never required to win.
+> 🎁 Want private 24h access to selected models? Join the daily grant on X: [@getkeyway](https://x.com/getkeyway). Latest post: [2026-06-07 · x-ai/grok-4.3](https://x.com/getkeyway/status/2063452859719708883). Stars are optional and never required to win.
 <!-- daily-grant-keylist:end -->
 
 ### Claude Opus 4.7 `06-07 11:44`

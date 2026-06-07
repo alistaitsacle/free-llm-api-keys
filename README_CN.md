@@ -45,6 +45,7 @@
 我们会从生产级 AI API 资源池的健康富余容量中，每天拿出一小部分，作为私有 24 小时 API key 分享给真实 builder。
 
 **每日活动发布在 X：** [@getkeyway](https://x.com/getkeyway)
+**最新活动帖：** [2026-06-07 · x-ai/grok-4.3](https://x.com/getkeyway/status/2063452859719708883)
 
 Star 是可选支持，不是参与或中奖条件。它只帮助项目保持可见，让我们更容易继续提供免费 Key。
 
@@ -85,7 +86,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 
 <!-- daily-grant-keylist:start -->
-> 🎁 想要指定模型的私有 24 小时访问权限？关注 X 上的每日 grant：[@getkeyway](https://x.com/getkeyway)。Star 是可选支持，不是参与或中奖条件。
+> 🎁 想要指定模型的私有 24 小时访问权限？关注 X 上的每日 grant：[@getkeyway](https://x.com/getkeyway)。最新活动帖：[2026-06-07 · x-ai/grok-4.3](https://x.com/getkeyway/status/2063452859719708883)。Star 是可选支持，不是参与或中奖条件。
 <!-- daily-grant-keylist:end -->
 
 ### Claude Opus 4.7 `06-07 11:44`
