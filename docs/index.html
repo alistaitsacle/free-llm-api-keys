@@ -97,6 +97,22 @@
     .status-card strong { color: #00d4ff; font-size: 1.05rem; }
     .live-note { margin-top: 12px; color: #8899aa; font-size: 0.78rem; line-height: 1.5; }
 
+
+    .grant-callout {
+      margin-bottom: 24px; padding: 18px;
+      background: linear-gradient(135deg, rgba(0,212,255,0.10), rgba(123,47,247,0.10));
+      border: 1px solid rgba(96,165,250,0.25); border-radius: 12px;
+    }
+    .grant-callout h2 { font-size: 1.2rem; color: #f8fafc; margin-bottom: 8px; }
+    .grant-callout p { color: #b7c3d0; font-size: 0.86rem; line-height: 1.55; margin-bottom: 12px; }
+    .grant-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .grant-button {
+      display: inline-block; padding: 9px 14px; border-radius: 8px;
+      color: #020617; background: #f8fafc; text-decoration: none; font-weight: 700;
+      font-size: 0.82rem;
+    }
+    .grant-note { margin: 0; color: #8899aa; font-size: 0.76rem; }
+
     /* Tabs */
     .tabs {
       display: flex; gap: 0; margin-bottom: 24px;
@@ -240,7 +256,7 @@
         <span class="eyebrow">Live public keys</span>
         <h2>36 keys available now</h2>
       </div>
-      <span class="updated">Updated 2026-06-07 11:37 UTC+8</span>
+      <span class="updated">Updated 2026-06-07 11:44 UTC+8</span>
     </div>
     <div class="status-grid">
         <div class="status-card"><span>Claude Opus 4.7</span><strong>4</strong></div>
@@ -273,6 +289,18 @@
     <p class="live-note">The server publishes fresh keys every 3 hours and hides shelves without quota-backed real keys.</p>
   </section>
 <!-- live-status:end -->
+
+<!-- daily-grant:start -->
+  <section class="grant-callout" aria-label="Daily AI API grant">
+    <span class="eyebrow">Daily AI API Grant</span>
+    <h2>Private 24h model keys for builders</h2>
+    <p>We share a small amount of healthy spare production-grade API capacity on X every day. Reply with what you would build; useful, specific replies may receive private keys by DM.</p>
+    <div class="grant-actions">
+      <a class="grant-button" href="https://x.com/getkeyway" target="_blank" rel="noopener">Follow Daily Grants on X</a>
+      <p class="grant-note">Stars are optional and never required to win. No purchase. Not affiliated with X or GitHub.</p>
+    </div>
+  </section>
+<!-- daily-grant:end -->
 
   <!-- Tabs -->
   <div class="tabs">

@@ -22,7 +22,7 @@ Copy a key from the table below, paste it into your app, and start building.
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Follow_on_X-for_key_drops-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
-**⭐ Star this repo = more free keys for everyone**
+**⭐ Stars are optional support, never required to join or win. They simply help keep the project visible and the free keys going.**
 <br>
 **🔔 [Follow @getkeyway on X](https://x.com/getkeyway) for fresh key drops, new model alerts & uptime status**
 
@@ -39,6 +39,18 @@ Copy a key from the table below, paste it into your app, and start building.
 </div>
 
 ---
+
+<!-- daily-grant:start -->
+## 🎁 Daily AI API Grant
+
+We run a small daily AI API grant from spare production-grade API capacity. Each day, we share a few private 24h API keys with builders on X.
+
+**Follow daily grants:** [@getkeyway on X](https://x.com/getkeyway)
+
+Stars are optional and never required to win. They simply help the project stay visible and keep the grants going.
+
+No purchase. Not affiliated with X or GitHub.
+<!-- daily-grant:end -->
 
 ## 💡 Why This Project?
 
@@ -58,7 +70,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-07 11:37 (UTC+8)
+> ⏰ Last updated: 2026-06-07 11:44 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -72,7 +84,12 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### Claude Opus 4.7 `06-07 11:37`
+
+<!-- daily-grant-keylist:start -->
+> 🎁 Want private 24h access to selected models? Join the daily grant on X: [@getkeyway](https://x.com/getkeyway). Stars are optional and never required to win.
+<!-- daily-grant-keylist:end -->
+
+### Claude Opus 4.7 `06-07 11:44`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -83,7 +100,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `06-07 11:37`
+### Gemini `06-07 11:44`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -96,7 +113,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Kimi `06-07 11:37`
+### Kimi `06-07 11:44`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -104,7 +121,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Image / Audio / Embedding `06-07 11:37`
+### Image / Audio / Embedding `06-07 11:44`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
