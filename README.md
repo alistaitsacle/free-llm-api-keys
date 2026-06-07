@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-08 01:52 (UTC+8)
+> ⏰ Last updated: 2026-06-08 02:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -85,7 +85,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### Claude Opus 4.7 `06-08 01:52`
+### Claude Opus 4.7 `06-08 02:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -96,7 +96,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `06-08 01:52`
+### Gemini `06-08 02:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -109,15 +109,15 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Kimi `06-08 01:52`
+### Kimi `06-08 02:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-HlbhZ18hFZWdUErQOT2FfoVXoxxRhAVQNEPyvgjEEDNH4Kwc` | kimi-k2.5 | 🆕 New | $8 | 10 RPM | 2026-06-09 | Kimi long-context general model |
+| `sk-9k39V9Eprpj0t6dNqwUHE2LvM0Mbllr12ClFgnckldGGrNrt` | kimi-k2.5 | 🆕 New | $11 | 10 RPM | 2026-06-09 | Kimi long-context general model |
 
 ---
 
-### Image / Audio / Embedding `06-08 01:52`
+### Image / Audio / Embedding `06-08 02:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -510,6 +510,7 @@ If this repo helped you, you may also like:
 <summary><b>Show changelog history</b></summary>
 
 ### 2026-06-08
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
 - 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
 - 🆕 Added 2 keys (kimi-k2.5), cleaned 4 expired
 - 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
