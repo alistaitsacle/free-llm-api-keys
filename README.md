@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-09 06:31 (UTC+8)
+> ⏰ Last updated: 2026-06-09 06:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -85,7 +85,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### GPT-5.5 `06-09 06:31`
+### GPT-5.5 `06-09 06:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -98,7 +98,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Claude Opus 4.7 `06-09 06:31`
+### Claude Opus 4.7 `06-09 06:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -107,7 +107,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `06-09 06:31`
+### Gemini `06-09 06:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -120,7 +120,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `06-09 06:31`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `06-09 06:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -133,17 +133,17 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Kimi `06-09 06:31`
+### Kimi `06-09 06:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-8mcq8dxTgRUgUTTGRgT5rLI10pUKx0WpxFIUrn5QgHNtYgMD` | kimi-k2.5 | 🆕 New | $17 | 10 RPM | 2026-06-10 | Kimi long-context general model |
-| `sk-gOSPRCxSFehoUDvHBsLVqOMdJcD4K4JHUNOtxFQANz7UMVFm` | kimi-k2.5 | 🆕 New | $18 | 10 RPM | 2026-06-10 | Kimi long-context general model |
-| `sk-6WJdtTywS2L8C62pNJrBVqNR0LaCUYR7RTueiUZwthJAY0Fc` | kimi-k2.5 | 🆕 New | $12 | 10 RPM | 2026-06-10 | Kimi long-context general model |
+| `sk-Z20fGO8EFLUTHEEqg7hyqQR1k1VmHy7aCuK5F5Iw9jc2PDQh` | kimi-k2.5 | 🆕 New | $18 | 10 RPM | 2026-06-10 | Kimi long-context general model |
+| `sk-C9JjlIEiBJ4J8xGhHHKyRbskd5jZYWCsgQtbxi7v3LNdWncO` | kimi-k2.5 | 🆕 New | $17 | 10 RPM | 2026-06-10 | Kimi long-context general model |
+| `sk-ka3qG6Z8VuRdWlveq5d3F5myc8qkP5OYkPE0Lw0AWgYo0hzZ` | kimi-k2.5 | 🆕 New | $16 | 10 RPM | 2026-06-10 | Kimi long-context general model |
 
 ---
 
-### Image / Audio / Embedding `06-09 06:31`
+### Image / Audio / Embedding `06-09 06:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
