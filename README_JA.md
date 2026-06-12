@@ -57,11 +57,11 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 ## 📋 利用可能なキー
 
-> ⏰ 最終更新: 2026-06-13 05:37 (UTC+8)
+> ⏰ 最終更新: 2026-06-13 05:52 (UTC+8)
 
 ### 主要モデル
 
-### Gemini `06-13 05:37`
+### Gemini `06-13 05:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -72,7 +72,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-KAll7amtqMSmGkkHCksb5gxy37sfUmVbTiJll6P0uuwNBdCg` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 | `sk-tWXco929P2wqNMbwZh4ZFyE3KHYbOHPi7vr2Yztp3Ope3EJ1` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 
-### Kimi `06-13 05:37`
+### Kimi `06-13 05:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -81,7 +81,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-mTvtyTu6Dq13oC3ANHyn6VNODj2Oi7hxjTf4T3YepsFZBMwD` | kimi-k2.5 | 🆕 新規 | $14 | 10 RPM | 2026-06-14 | Kimi long-context general model |
 | `sk-nAMaKvbImox2QgYM94jGUSckd3A2fCMstqIn507k38WCSNYj` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-06-14 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-13 05:37`
+### Image / Audio / Embedding `06-13 05:52`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
