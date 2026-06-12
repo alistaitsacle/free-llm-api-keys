@@ -43,11 +43,11 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 
 ## 📋 Claves Disponibles
 
-> ⏰ Última actualización: 2026-06-12 16:08 (UTC+8)
+> ⏰ Última actualización: 2026-06-12 16:22 (UTC+8)
 
 ### Modelos destacados
 
-### Gemini `06-12 16:08`
+### Gemini `06-12 16:22`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -58,15 +58,15 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-TP1SZ708cVIslUDSsE2UQ8tZsnO5POT9IqLfHmYySuz0ocwU` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-06-12 | Fast Gemini option for long-context general chat |
 | `sk-kozkUQanFpTiMuEK17nyxkvAGGsc7JlWBokl1VWDxdm8yZ2U` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-06-12 | Fast Gemini option for long-context general chat |
 
-### Kimi `06-12 16:08`
+### Kimi `06-12 16:22`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
-| `sk-oFteq9yNmckpw4ruJk2Pa9aSTxSEVUM4uoO6fP0JiTwGiBqV` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-06-14 | Kimi long-context general model |
-| `sk-8RYqnatMofvCXXKBfyt615mallLTr022x4KWLGNKli3IJGFV` | kimi-k2.5 | 🆕 Nueva | $16 | 10 RPM | 2026-06-14 | Kimi long-context general model |
-| `sk-JxWg2BmQ8XcsGf5ulfJLVFpIcHc5q2YxWRwuLbVVba7Q9iDY` | kimi-k2.5 | 🆕 Nueva | $10 | 10 RPM | 2026-06-13 | Kimi long-context general model |
+| `sk-WQY6dXyj6cpmb0LRxSW1V3fk6EsBIBW1BZ95CY9zj5oNrY95` | kimi-k2.5 | 🆕 Nueva | $11 | 10 RPM | 2026-06-13 | Kimi long-context general model |
+| `sk-1z0Dd3dO2EO24BU301qJAaNhgDC9GVZvoKB5czjYsIQdwgni` | kimi-k2.5 | 🆕 Nueva | $9 | 10 RPM | 2026-06-13 | Kimi long-context general model |
+| `sk-mmJNWfbzZkiEG41qb5wQlgK8lhoKtnFdn7aE9KIA2T3SMwNP` | kimi-k2.5 | 🆕 Nueva | $14 | 10 RPM | 2026-06-13 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-12 16:08`
+### Image / Audio / Embedding `06-12 16:22`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
