@@ -17,7 +17,7 @@ Copie uma chave da tabela, cole no seu app e comece a construir
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-29-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-46-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Modelos-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Siga_no_X-novas_chaves-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -43,11 +43,11 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-06-13 00:22 (UTC+8)
+> ⏰ Última atualização: 2026-06-13 00:31 (UTC+8)
 
 ### Modelos em destaque
 
-### Gemini `06-13 00:22`
+### Gemini `06-13 00:31`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -58,7 +58,29 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-KAll7amtqMSmGkkHCksb5gxy37sfUmVbTiJll6P0uuwNBdCg` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 | `sk-tWXco929P2wqNMbwZh4ZFyE3KHYbOHPi7vr2Yztp3Ope3EJ1` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 
-### Image / Audio / Embedding `06-13 00:22`
+### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini roteamento automático) `06-13 00:31`
+
+| Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
+|-----|--------|--------|-----------|------|--------|-------------|
+| `sk-6pqFgk7mSE4qdqgQEZaebdqrCViLYogz8m8gS5nSZYRDlcJe` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-GoIP2Wbm4JLEaJX0tizqENM64I6phuDaeovPld29q3WkVhm9` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-B5En5lrqiUhU6eKTRxVZn0XzDC8cWBITCiziOrk08ZSMm4xC` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-DhG3ah2zQ4ENd5v6OkIpyYCIyNzgwFlTEWdBuvqotJ2CGHDR` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-ZIZ0bXxdJOb58sj3jtTgvsTc0YakF1q6e6rxrL70YOT0ocnT` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-24iGyPqwfUhOm80rYBKQuhZUHe8ssf6FPCrbsaaousqRurd9` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Auto-routes across currently healthy low-cost chat backends |
+
+### Kimi `06-13 00:31`
+
+| Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
+|-----|--------|--------|-----------|------|--------|-------------|
+| `sk-9EvPfq5swXEKtJi43ILWmHETZUZJy71JfUwdgtpTifoynOe0` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Kimi long-context general model |
+| `sk-97soqEB9bOiedKvX9KAy6YTSdDDJfXPFy6yNoogZcTANFpXj` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Kimi long-context general model |
+| `sk-rC3PLKPrEpsMWsiobHzBMRF0BWpJZnxBtt5Is1J7wadwvcS4` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Kimi long-context general model |
+| `sk-nAMaKvbImox2QgYM94jGUSckd3A2fCMstqIn507k38WCSNYj` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Kimi long-context general model |
+| `sk-v18fvKJkVbFzd6fZNBifatHnHj69FzzxeMQSYzTBGkuFCQNE` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Kimi long-context general model |
+| `sk-mTvtyTu6Dq13oC3ANHyn6VNODj2Oi7hxjTf4T3YepsFZBMwD` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-14 | Kimi long-context general model |
+
+### Image / Audio / Embedding `06-13 00:31`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
