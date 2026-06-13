@@ -70,7 +70,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-06-13 19:22 (UTC+8)
+> ⏰ 最后更新： 2026-06-13 19:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -93,7 +93,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Gemini `06-13 19:22`
+### Gemini `06-13 19:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -106,17 +106,17 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Kimi `06-13 19:22`
+### Kimi `06-13 19:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-D9XrwC17plk2iKGBNDsWkoSN19LoujlZKc9TI5FZq0sD5Gqa` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-15 | Kimi 长上下文通用模型 |
-| `sk-Oc7xaYWkObNPCaMYtDJEOC4GnXDCrjNXtKlUoyg1AxF3ZsSl` | kimi-k2.5 | 🆕 新增 | $18 | 10 RPM | 2026-06-15 | Kimi 长上下文通用模型 |
-| `sk-Jx76WI0BxgCqJGTvjqhcUqJsh4aqIxFqeQHxQRAoY7NNYDCp` | kimi-k2.5 | 🆕 新增 | $18 | 10 RPM | 2026-06-15 | Kimi 长上下文通用模型 |
+| `sk-6uL5CCCowM9eV6ZAJZ6n45YYbZifwVLpdWPTJPuxtwkMViXy` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-15 | Kimi 长上下文通用模型 |
+| `sk-874U1kHeSu9v7aVv8e7o4gf3BAFLI6eyRIZaxV2szC4WZP43` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-15 | Kimi 长上下文通用模型 |
+| `sk-G4ZPm4HTwiKJOpJo8dOCLGc9trgYxnSwv8zkCFHsvfY1y2jH` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-06-15 | Kimi 长上下文通用模型 |
 
 ---
 
-### 图像 / 语音 / 向量化 `06-13 19:22`
+### 图像 / 语音 / 向量化 `06-13 19:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|

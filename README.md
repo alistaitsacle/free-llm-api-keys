@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-13 19:22 (UTC+8)
+> ⏰ Last updated: 2026-06-13 19:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -94,7 +94,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `06-13 19:22`
+### Gemini `06-13 19:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -107,17 +107,17 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Kimi `06-13 19:22`
+### Kimi `06-13 19:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-D9XrwC17plk2iKGBNDsWkoSN19LoujlZKc9TI5FZq0sD5Gqa` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-15 | Kimi long-context general model |
-| `sk-Oc7xaYWkObNPCaMYtDJEOC4GnXDCrjNXtKlUoyg1AxF3ZsSl` | kimi-k2.5 | 🆕 New | $18 | 10 RPM | 2026-06-15 | Kimi long-context general model |
-| `sk-Jx76WI0BxgCqJGTvjqhcUqJsh4aqIxFqeQHxQRAoY7NNYDCp` | kimi-k2.5 | 🆕 New | $18 | 10 RPM | 2026-06-15 | Kimi long-context general model |
+| `sk-6uL5CCCowM9eV6ZAJZ6n45YYbZifwVLpdWPTJPuxtwkMViXy` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-15 | Kimi long-context general model |
+| `sk-874U1kHeSu9v7aVv8e7o4gf3BAFLI6eyRIZaxV2szC4WZP43` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-15 | Kimi long-context general model |
+| `sk-G4ZPm4HTwiKJOpJo8dOCLGc9trgYxnSwv8zkCFHsvfY1y2jH` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-15 | Kimi long-context general model |
 
 ---
 
-### Image / Audio / Embedding `06-13 19:22`
+### Image / Audio / Embedding `06-13 19:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
