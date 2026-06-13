@@ -43,11 +43,11 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 
 ## 📋 Claves Disponibles
 
-> ⏰ Última actualización: 2026-06-13 17:52 (UTC+8)
+> ⏰ Última actualización: 2026-06-13 18:07 (UTC+8)
 
 ### Modelos destacados
 
-### Gemini `06-13 17:52`
+### Gemini `06-13 18:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -58,15 +58,15 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-KAll7amtqMSmGkkHCksb5gxy37sfUmVbTiJll6P0uuwNBdCg` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 | `sk-tWXco929P2wqNMbwZh4ZFyE3KHYbOHPi7vr2Yztp3Ope3EJ1` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 
-### Kimi `06-13 17:52`
+### Kimi `06-13 18:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
-| `sk-6uL5CCCowM9eV6ZAJZ6n45YYbZifwVLpdWPTJPuxtwkMViXy` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-06-15 | Kimi long-context general model |
-| `sk-874U1kHeSu9v7aVv8e7o4gf3BAFLI6eyRIZaxV2szC4WZP43` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-06-15 | Kimi long-context general model |
-| `sk-G4ZPm4HTwiKJOpJo8dOCLGc9trgYxnSwv8zkCFHsvfY1y2jH` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-06-15 | Kimi long-context general model |
+| `sk-D9XrwC17plk2iKGBNDsWkoSN19LoujlZKc9TI5FZq0sD5Gqa` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-06-15 | Kimi long-context general model |
+| `sk-Oc7xaYWkObNPCaMYtDJEOC4GnXDCrjNXtKlUoyg1AxF3ZsSl` | kimi-k2.5 | 🆕 Nueva | $18 | 10 RPM | 2026-06-15 | Kimi long-context general model |
+| `sk-Jx76WI0BxgCqJGTvjqhcUqJsh4aqIxFqeQHxQRAoY7NNYDCp` | kimi-k2.5 | 🆕 Nueva | $18 | 10 RPM | 2026-06-15 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-13 17:52`
+### Image / Audio / Embedding `06-13 18:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
