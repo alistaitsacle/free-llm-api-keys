@@ -17,7 +17,7 @@ Copie uma chave da tabela, cole no seu app e comece a construir
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-33-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-45-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Modelos-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Siga_no_X-novas_chaves-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -43,11 +43,11 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-06-14 08:22 (UTC+8)
+> ⏰ Última atualização: 2026-06-14 08:31 (UTC+8)
 
 ### Modelos em destaque
 
-### Gemini `06-14 08:22`
+### Gemini `06-14 08:31`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -58,13 +58,28 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-KAll7amtqMSmGkkHCksb5gxy37sfUmVbTiJll6P0uuwNBdCg` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 | `sk-tWXco929P2wqNMbwZh4ZFyE3KHYbOHPi7vr2Yztp3Ope3EJ1` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 
-### Kimi `06-14 08:22`
+### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini roteamento automático) `06-14 08:31`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
-| `sk-hK23TaYTs90LguDkg7pLxLU3fu0XKADUTd9DdmtsFqkmdtol` | kimi-k2.5 | 🆕 Nova | $14 | 10 RPM | 2026-06-15 | Kimi long-context general model |
+| `sk-sE6cB9lKWsJXTvUPlymAQAQO8romyFFGmwTD6rSsvCdJjZWs` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-iHnerlmcaKpvFkzfqhSNyDUAiWK9bLYLNEFcMmGbW4lVGCb1` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-7oOqSkCdqk0gYqPkyHMJ1Y0IaSk5ROswJR1xy8ThfcXWtMEi` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-aat6DO1GZQHaMXLiOq7OzLQinWDrRm3JWhV9mnNyxZWim7rG` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-jaUTw3ROfN8nrIvsY26A17yrcFKu8OA6f3eDOd59EHzosR9A` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-BUIoyIWT57SwtdeJkmE4o4GS6mZrEIPVo9a94Zm5l51umjp6` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Auto-routes across currently healthy low-cost chat backends |
 
-### Image / Audio / Embedding `06-14 08:22`
+### Kimi `06-14 08:31`
+
+| Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
+|-----|--------|--------|-----------|------|--------|-------------|
+| `sk-Ub7hvjcDuy06fw9iwJyqDYPyYjoUQI1Oqsqf6t5nb7NMJdGd` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Kimi long-context general model |
+| `sk-HWuWHPO7g1GzN8psoEg5crHE8TH0J1upU1zhHtvbT9WJTlGs` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Kimi long-context general model |
+| `sk-b2jvMM9SRgSmzlf0kMXRbyJL0khtXaJWrJqYODqaSY7g9m8E` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Kimi long-context general model |
+| `sk-YAXf2RpnlO7JpVH7s8WDcJayetXprgWiu6qXDFXMmHeuq2Fj` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-06-16 | Kimi long-context general model |
+| `sk-2MUuX3pkXT83RkKm6yDH0Fh622tTeMi9DVvRfm4qeWU6vNPE` | kimi-k2.5 | 🆕 Nova | $16 | 10 RPM | 2026-06-15 | Kimi long-context general model |
+
+### Image / Audio / Embedding `06-14 08:31`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
