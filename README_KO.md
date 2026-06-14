@@ -57,11 +57,11 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 
 ## 📋 사용 가능한 키
 
-> ⏰ 마지막 업데이트: 2026-06-14 19:22 (UTC+8)
+> ⏰ 마지막 업데이트: 2026-06-14 19:37 (UTC+8)
 
 ### 주요 모델
 
-### Claude Opus 4.7 `06-14 19:22`
+### Claude Opus 4.7 `06-14 19:37`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -72,7 +72,7 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-QXHqpne6Xz4wYR328y5GSCc8EQtr7Ddlx1diNZagVfY8iejO` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-16 | Claude Opus flagship |
 | `sk-F5QAJNWmmpTaGIo4fAxKhVhcifU6KBlAZcjAKfGvPalg21ir` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-16 | Claude Opus flagship |
 
-### Gemini `06-14 19:22`
+### Gemini `06-14 19:37`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -83,14 +83,14 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-KAll7amtqMSmGkkHCksb5gxy37sfUmVbTiJll6P0uuwNBdCg` | gemini-2.5-flash | 🆕 신규 | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 | `sk-tWXco929P2wqNMbwZh4ZFyE3KHYbOHPi7vr2Yztp3Ope3EJ1` | gemini-2.5-flash | 🆕 신규 | $20 | 20 RPM | 2026-06-14 | Fast Gemini option for long-context general chat |
 
-### Kimi `06-14 19:22`
+### Kimi `06-14 19:37`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
-| `sk-T6MgnCkcxWXLYkd45qpQZf0q6qV2EzCg1z3b2syIFxxlqnF6` | kimi-k2.5 | 🆕 신규 | $18 | 10 RPM | 2026-06-16 | Kimi long-context general model |
-| `sk-nAv3CO3gtY8LyqPG9291MyUyMMKRw7Va2w6oYZmQf4L3jVT9` | kimi-k2.5 | 🆕 신규 | $19 | 10 RPM | 2026-06-16 | Kimi long-context general model |
+| `sk-DKkEhS4SC4xvuWz2rh26IaOQISzgU0i4kcOZL7OKDEdsoCGc` | kimi-k2.5 | 🆕 신규 | $13 | 10 RPM | 2026-06-16 | Kimi long-context general model |
+| `sk-iEB2dUsMopECTKbC5IW2x751jixo8xPrdfaznMcpmuJRpBFa` | kimi-k2.5 | 🆕 신규 | $19 | 10 RPM | 2026-06-16 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-14 19:22`
+### Image / Audio / Embedding `06-14 19:37`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|

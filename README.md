@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-14 19:22 (UTC+8)
+> ⏰ Last updated: 2026-06-14 19:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -85,7 +85,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### Claude Opus 4.7 `06-14 19:22`
+### Claude Opus 4.7 `06-14 19:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -98,7 +98,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `06-14 19:22`
+### Gemini `06-14 19:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -111,16 +111,16 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Kimi `06-14 19:22`
+### Kimi `06-14 19:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-T6MgnCkcxWXLYkd45qpQZf0q6qV2EzCg1z3b2syIFxxlqnF6` | kimi-k2.5 | 🆕 New | $18 | 10 RPM | 2026-06-16 | Kimi long-context general model |
-| `sk-nAv3CO3gtY8LyqPG9291MyUyMMKRw7Va2w6oYZmQf4L3jVT9` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-16 | Kimi long-context general model |
+| `sk-DKkEhS4SC4xvuWz2rh26IaOQISzgU0i4kcOZL7OKDEdsoCGc` | kimi-k2.5 | 🆕 New | $13 | 10 RPM | 2026-06-16 | Kimi long-context general model |
+| `sk-iEB2dUsMopECTKbC5IW2x751jixo8xPrdfaznMcpmuJRpBFa` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-16 | Kimi long-context general model |
 
 ---
 
-### Image / Audio / Embedding `06-14 19:22`
+### Image / Audio / Embedding `06-14 19:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
