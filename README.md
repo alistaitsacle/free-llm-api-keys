@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-18 11:52 (UTC+8)
+> ⏰ Last updated: 2026-06-18 12:07 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -85,15 +85,19 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### Claude Opus 4.7 `06-18 11:52`
+### Claude Opus 4.7 `06-18 12:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-Ko41fbaY8RWa1F5CsWRx29z37KDGSwghotHOTFR8ZpxQAmjI` | claude-opus-4-7 | 🆕 New | $19 | 5 RPM | 2026-06-18 | Claude Opus flagship |
+| `sk-jzKBe16W1IEwf8cRnhdRTRlGTtcmCRhEOC6dZjJtnQ8rDwSz` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-06-19 | Claude Opus flagship |
+| `sk-FdL9Ej9GoPAtISe7FihuJFbb2rpuLi6yXCfVC2Q2eBakp6R7` | claude-opus-4-7 | 🆕 New | $19 | 5 RPM | 2026-06-18 | Claude Opus flagship |
+| `sk-l1y11wVV1t1Bo1bHijjSQjn1aCNebgf3fhtLz7zZg61IfVAr` | claude-opus-4-7 | 🆕 New | $19 | 5 RPM | 2026-06-18 | Claude Opus flagship |
+| `sk-FFeCdCNr0q87U3KxL4Yk4b43XlExLSb2zJxvxsxBkI0RhknE` | claude-opus-4-7 | 🆕 New | $19 | 5 RPM | 2026-06-18 | Claude Opus flagship |
+| `sk-r2U9eBeefc2bozPLK54ycSI8Z5kJrLRfPeZGA507xffRHD7S` | claude-opus-4-7 | 🆕 New | $19 | 5 RPM | 2026-06-18 | Claude Opus flagship |
 
 ---
 
-### Gemini `06-18 11:52`
+### Gemini `06-18 12:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -106,18 +110,16 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Kimi `06-18 11:52`
+### Kimi `06-18 12:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-K4ViA4my0qEfwip2OncNXirhEdP928MrOQQey4pPDZHuz7wN` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-20 | Kimi long-context general model |
-| `sk-QpVVEStiAeK22iiGb1tnkxkHuNnxXWcUQXVk4VT49DftzmJ5` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-20 | Kimi long-context general model |
-| `sk-741F2Iv6VDbTlbuPIHulG1ApgG9HCCsITxR94EiYmq059Keo` | kimi-k2.5 | 🆕 New | $10 | 10 RPM | 2026-06-19 | Kimi long-context general model |
-| `sk-RTwzxHNWcDtwjgZuIBlAEAG9TVAS1tg7tiD6dfcdmVk3W9P9` | kimi-k2.5 | 🆕 New | $17 | 10 RPM | 2026-06-19 | Kimi long-context general model |
+| `sk-8pWMdL0ZdqQnUPpw5fFHQ7Njk7ADq72K46HZNtmFnCmY7Bqg` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-20 | Kimi long-context general model |
+| `sk-vBO41o84z6edV9WDDKp2v6fOsSKVezYvn91WtPHbLmiIPy11` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-20 | Kimi long-context general model |
 
 ---
 
-### Image / Audio / Embedding `06-18 11:52`
+### Image / Audio / Embedding `06-18 12:07`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -245,27 +247,11 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### nex-agi/nex-n2-pro:free `06-18 06:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-YznLPqdVko4xkKKmpa1k2LWOgJczXJegedkzlbSryRUG3RjF` | nex-agi/nex-n2-pro:free | 🆕 New | $20 | 10 RPM | 2026-06-18 | Live positive-balance channel |
-
----
-
 ### inclusionai/ring-2.6-1t `06-18 04:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
 | `sk-q7J6nfcnSRV0HEWXMCppVbzFATVVgsAu4PDfWCvnG2CfTMzI` | inclusionai/ring-2.6-1t | 🆕 New | $20 | 10 RPM | 2026-06-18 | Live positive-balance channel |
-
----
-
-### openrouter/owl-alpha `06-18 04:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-Q1cOzXYM5olF9m2EZyRh6Rojam9abcNdSFLrAYx9mVIGU0f3` | openrouter/owl-alpha | 🆕 New | $20 | 10 RPM | 2026-06-18 | Live positive-balance channel |
 
 ---
 
