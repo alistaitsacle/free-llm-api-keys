@@ -17,7 +17,7 @@ Copia una clave de la tabla, pégala en tu app y empieza a construir
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Claves_Disponibles-48-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Claves_Disponibles-45-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Modelos-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Sigue_en_X-nuevas_claves-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -43,11 +43,11 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 
 ## 📋 Claves Disponibles
 
-> ⏰ Última actualización: 2026-06-20 02:52 (UTC+8)
+> ⏰ Última actualización: 2026-06-20 03:07 (UTC+8)
 
 ### Modelos destacados
 
-### Claude Opus 4.7 `06-20 02:52`
+### Claude Opus 4.7 `06-20 03:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -58,7 +58,7 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-e7pHSE4iXx15Nyq01c3ZX39UAgb9Bc2arVuAGCF9AfOojgZA` | claude-opus-4-7 | 🆕 Nueva | $20 | 5 RPM | 2026-06-21 | Claude Opus flagship |
 | `sk-dj54P0lPmMUjE0I6KqAlPWUPEyWRYqo9ZYH5btB56JRZiGBl` | claude-opus-4-7 | 🆕 Nueva | $20 | 5 RPM | 2026-06-21 | Claude Opus flagship |
 
-### Gemini `06-20 02:52`
+### Gemini `06-20 03:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -69,25 +69,17 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-UqL8sQa5nrRVccFWfNb0S9NP9JVlJJanzWlYYhQ1yvvCDKF9` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-06-20 | Fast Gemini option for long-context general chat |
 | `sk-FglJR3effER7F3Is3jvtlLS7ctHkcbvXCtsoSenCOT9qYGKo` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-06-20 | Fast Gemini option for long-context general chat |
 
-### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini ruteo automático) `06-20 02:52`
+### Kimi `06-20 03:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
-| `sk-Gc3lVSHRj9J86e4j2izxnc6oJO0izNW6uPHEVNp5U3yzGP1U` | smart-chat | 🆕 Nueva | $20 | 10 RPM | 2026-06-21 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-5WaHBhjOqyp71rom0QtFp7ThBTsdBoQWr2DEEF3TEGd9Y6Mc` | smart-chat | 🆕 Nueva | $20 | 10 RPM | 2026-06-21 | Auto-routes across currently healthy low-cost chat backends |
-
-### Kimi `06-20 02:52`
-
-| Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
-|-----|--------|--------|-------------|------|--------|-------------|
-| `sk-wnStdUaI7UqGcwR083aS2thE2yeasYtPJmK7rEqzknTLwHfB` | kimi-k2.5 | 🆕 Nueva | $20 | 10 RPM | 2026-06-21 | Kimi long-context general model |
 | `sk-BW3P0qNrTKLdc75CMUpM3P0V68DSFwpwIwnIi3XtMcCBncHn` | kimi-k2.5 | 🆕 Nueva | $20 | 10 RPM | 2026-06-21 | Kimi long-context general model |
 | `sk-C12pRFZu75cs44cxWc98YbN0cvYaNZR1cjgu8eSEYVwn7B1h` | kimi-k2.5 | 🆕 Nueva | $20 | 10 RPM | 2026-06-21 | Kimi long-context general model |
 | `sk-Pt9xcgNrtUgO01L872w9bDgO6qlfhyoJHmQiVTmBTw7RSaGL` | kimi-k2.5 | 🆕 Nueva | $20 | 10 RPM | 2026-06-21 | Kimi long-context general model |
 | `sk-Tsebc9CVQ2VkBFkRzKN2H9bQsU66awyJmb8m5DMcLyOyTdgB` | kimi-k2.5 | 🆕 Nueva | $20 | 10 RPM | 2026-06-21 | Kimi long-context general model |
 | `sk-07MUGPTIgbdN3IwoexdJVhKbl4vDmkE0iX5PYFxcf48PZe06` | kimi-k2.5 | 🆕 Nueva | $20 | 10 RPM | 2026-06-21 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-20 02:52`
+### Image / Audio / Embedding `06-20 03:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
