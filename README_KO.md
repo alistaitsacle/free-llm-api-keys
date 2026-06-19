@@ -57,11 +57,11 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 
 ## 📋 사용 가능한 키
 
-> ⏰ 마지막 업데이트: 2026-06-20 03:07 (UTC+8)
+> ⏰ 마지막 업데이트: 2026-06-20 03:22 (UTC+8)
 
 ### 주요 모델
 
-### Claude Opus 4.7 `06-20 03:07`
+### Claude Opus 4.7 `06-20 03:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -72,7 +72,7 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-e7pHSE4iXx15Nyq01c3ZX39UAgb9Bc2arVuAGCF9AfOojgZA` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-21 | Claude Opus flagship |
 | `sk-dj54P0lPmMUjE0I6KqAlPWUPEyWRYqo9ZYH5btB56JRZiGBl` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-21 | Claude Opus flagship |
 
-### Gemini `06-20 03:07`
+### Gemini `06-20 03:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -83,7 +83,7 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-UqL8sQa5nrRVccFWfNb0S9NP9JVlJJanzWlYYhQ1yvvCDKF9` | gemini-2.5-flash | 🆕 신규 | $20 | 20 RPM | 2026-06-20 | Fast Gemini option for long-context general chat |
 | `sk-FglJR3effER7F3Is3jvtlLS7ctHkcbvXCtsoSenCOT9qYGKo` | gemini-2.5-flash | 🆕 신규 | $20 | 20 RPM | 2026-06-20 | Fast Gemini option for long-context general chat |
 
-### Kimi `06-20 03:07`
+### Kimi `06-20 03:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -93,7 +93,7 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-Tsebc9CVQ2VkBFkRzKN2H9bQsU66awyJmb8m5DMcLyOyTdgB` | kimi-k2.5 | 🆕 신규 | $20 | 10 RPM | 2026-06-21 | Kimi long-context general model |
 | `sk-07MUGPTIgbdN3IwoexdJVhKbl4vDmkE0iX5PYFxcf48PZe06` | kimi-k2.5 | 🆕 신규 | $20 | 10 RPM | 2026-06-21 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-20 03:07`
+### Image / Audio / Embedding `06-20 03:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
