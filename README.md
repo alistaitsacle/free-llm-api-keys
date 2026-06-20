@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-34-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-37-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Follow_on_X-for_key_drops-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-20 15:07 (UTC+8)
+> ⏰ Last updated: 2026-06-20 15:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -85,7 +85,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### Gemini `06-20 15:07`
+### Gemini `06-20 15:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -98,23 +98,19 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `06-20 15:07`
+### Kimi `06-20 15:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-6xIQMn1a2xdN4puTcmEHaypeypM3zzEBBv5rigxJspuKm7mp` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-06-22 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-F0MZ0ZrEz39UpI4xtg7ZMPp7iUZQ33IbD41DAVO1hAUBpvzb` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-hAHlWwnbOv0gT8jo3YXsc1L7dxBMfmbW8FwswwH92vfU1Mvb` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-3zuHG5oXfRPvrWZK9wlWwWCSVdJohW7181ZruVHZalxwYnlJ` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-v6Dnj3r1qLY2J6WzjuUAMDfMAJzs7igXOTnaYJjsb3zEd5J6` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-MBqI6ED3hfYxG9Cq0F5yBa0VilBz11wTABdSw45n4WaYahoA` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
 
 ---
 
-### Kimi `06-20 15:07`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-uWySFWtPxViQjhnr12SaEY94JTO1lEUuVLJqwM5aDroucczQ` | kimi-k2.5 | 🆕 New | $10 | 10 RPM | 2026-06-21 | Kimi long-context general model |
-
----
-
-### Image / Audio / Embedding `06-20 15:07`
+### Image / Audio / Embedding `06-20 15:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -495,6 +491,7 @@ If this repo helped you, you may also like:
 <summary><b>Show changelog history</b></summary>
 
 ### 2026-06-20
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 3 expired
 - 🆕 Added 1 keys (kimi-k2.5), cleaned 6 expired
 - 🆕 Added 5 keys (kimi-k2.5), cleaned 8 expired
 - 🆕 Added 20 keys (claude-opus-4-7, smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, qwen/qwen3.6-27b), cleaned 1 expired
