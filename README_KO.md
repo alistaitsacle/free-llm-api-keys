@@ -57,21 +57,19 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 
 ## 📋 사용 가능한 키
 
-> ⏰ 마지막 업데이트: 2026-06-21 07:07 (UTC+8)
+> ⏰ 마지막 업데이트: 2026-06-21 07:22 (UTC+8)
 
 ### 주요 모델
 
-### Claude Opus 4.7 `06-21 07:07`
+### Claude Opus 4.7 `06-21 07:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
 | `sk-isFp0XsHvPBMyLdbEBq9VPrSMLbVaakXcOT3l9fdiQE630nb` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-22 | Claude Opus flagship |
-| `sk-LM8ORRoUaE4w3af00rQ4rqFDOcVoK0OIn3mRDWpeRwfG7OoJ` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-22 | Claude Opus flagship |
-| `sk-j34iwHJAIifp5dISpiLdiBNOityqSg4KwgByiYdWlaS2hzYH` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-22 | Claude Opus flagship |
 | `sk-AlDBbMH0oUJ9BEaLZKymoSpdc3aOiQQqFNx03rBamDSNg8lu` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-22 | Claude Opus flagship |
 | `sk-w3Bz8GVjmLhzKeBOAcSGu5dOPsoKj9BlnzyfiqHtjHHRqwh0` | claude-opus-4-7 | 🆕 신규 | $20 | 5 RPM | 2026-06-22 | Claude Opus flagship |
 
-### Gemini `06-21 07:07`
+### Gemini `06-21 07:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -82,7 +80,7 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-sWlZb86ySKHL07MmhNpGFeNhyZpr8HNNrfcZanaAwplwvgEN` | gemini-2.5-flash | 🆕 신규 | $20 | 20 RPM | 2026-06-22 | Fast Gemini option for long-context general chat |
 | `sk-H83B0wEFRMfsponSJt2JMLHlv5WfglHD6hOEN7xfxU3l8nim` | gemini-2.5-flash | 🆕 신규 | $20 | 20 RPM | 2026-06-22 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `06-21 07:07`
+### DeepSeek `06-21 07:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
@@ -93,22 +91,24 @@ AI가 모든 것을 바꾸고 있지만, 대부분의 API는 신용카드와 유
 | `sk-C5AyojXErIim58qScfP55cKwi7Oj5tMs7fVt8qYYjrlIF4Kr` | deepseek-chat | 🆕 신규 | $20 | 20 RPM | 2026-06-22 | Everyday chat, coding, translation, writing |
 | `sk-iL8kkEW10zhAla2oW4VSyOxFv4uCEFPnOmjGTrAASWKE8dJz` | deepseek-chat | 🆕 신규 | $20 | 20 RPM | 2026-06-22 | Everyday chat, coding, translation, writing |
 
-### 멀티 모델 (GPT-5.5 / Claude / DeepSeek / Gemini 자동 라우팅) `06-21 07:07`
+### 멀티 모델 (GPT-5.5 / Claude / DeepSeek / Gemini 자동 라우팅) `06-21 07:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
 | `sk-lWIeLTbAppgCvcgnmftv07xZ9V0MCtVJLUt0aqsLGdS1pD7r` | smart-chat | 🆕 신규 | $20 | 10 RPM | 2026-06-22 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-nKXeRGxtAZ6z3CPi1UpOJHuReYQu7zbaQdI3qu7N69us4SwB` | smart-chat | 🆕 신규 | $20 | 10 RPM | 2026-06-22 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-NYnZXVHGgqvKXEPpzhz8p5J5UHtoBcbBygb7fV2qUq1xthDO` | smart-chat | 🆕 신규 | $20 | 10 RPM | 2026-06-22 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-UNJAwn2zmn1HfMiLC05GXgHESePyQfvY8Mb22EFS8esxqnxW` | smart-chat | 🆕 신규 | $20 | 10 RPM | 2026-06-22 | Auto-routes across currently healthy low-cost chat backends |
 
-### Kimi `06-21 07:07`
+### Kimi `06-21 07:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
-| `sk-8u9zyvU9jKiFDOp15cmaqNQZLjTOSqYfmUuSlsyLBaWK0q3u` | kimi-k2.5 | 🆕 신규 | $13 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-N6saTrDo4c9cK6co1uJnDvmcR2NiqAi5eGoK87nImwU21ZOK` | kimi-k2.5 | 🆕 신규 | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-z826iVZhIQIVvXSCuOHB1f7KFvdzKXtkW6RpCSOy12U4B8S2` | kimi-k2.5 | 🆕 신규 | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-fzkj8DdwUqjsL1JmvfHbIxTa2wRMlxlHfFl0c02kWMLFgRUJ` | kimi-k2.5 | 🆕 신규 | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-rOITPKcYoWiA333iBYnYjSWcBYnSz4iEPEqKYx67HiKpq4XG` | kimi-k2.5 | 🆕 신규 | $19 | 10 RPM | 2026-06-22 | Kimi long-context general model |
+| `sk-qwm8L58tWpPJEu0j8AMGK5SW6q38D51kX8yY8SBqoduv23RL` | kimi-k2.5 | 🆕 신규 | $16 | 10 RPM | 2026-06-22 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-21 07:07`
+### Image / Audio / Embedding `06-21 07:22`
 
 | Key | 모델 | 상태 | 예산 | 속도 | 만료 | 설명 |
 |-----|------|------|------|------|------|------|
