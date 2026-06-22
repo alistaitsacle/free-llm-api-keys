@@ -57,11 +57,11 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 ## 📋 利用可能なキー
 
-> ⏰ 最終更新: 2026-06-22 19:22 (UTC+8)
+> ⏰ 最終更新: 2026-06-22 19:37 (UTC+8)
 
 ### 主要モデル
 
-### Gemini `06-22 19:22`
+### Gemini `06-22 19:37`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -72,30 +72,31 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-sWlZb86ySKHL07MmhNpGFeNhyZpr8HNNrfcZanaAwplwvgEN` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-06-22 | Fast Gemini option for long-context general chat |
 | `sk-H83B0wEFRMfsponSJt2JMLHlv5WfglHD6hOEN7xfxU3l8nim` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-06-22 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `06-22 19:22`
+### DeepSeek `06-22 19:37`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
-| `sk-qxEDpvTyIGlQWmjRFHeRuUWmfbF1um9kWz67g8BzkqtMLTjD` | deepseek-chat | 🆕 新規 | $19 | 20 RPM | 2026-06-24 | Everyday chat, coding, translation, writing |
-| `sk-3jjz4wD3guRD9KAdap0vw11fU0f9Tgd3Cjh1Zp5b0CFVo6vx` | deepseek-chat | 🆕 新規 | $14 | 20 RPM | 2026-06-23 | Everyday chat, coding, translation, writing |
+| `sk-odLWdWsuLtVTsSCTkycFebGmCZTlDkU6KQRglHjuAI2NgOUs` | deepseek-chat | 🆕 新規 | $19 | 20 RPM | 2026-06-24 | Everyday chat, coding, translation, writing |
+| `sk-4a8drd9KSHDoz7eGhN2KzcgpfmVP6BxQMIn3HiEq9C1AXICp` | deepseek-chat | 🆕 新規 | $18 | 20 RPM | 2026-06-23 | Everyday chat, coding, translation, writing |
+| `sk-C5AyojXErIim58qScfP55cKwi7Oj5tMs7fVt8qYYjrlIF4Kr` | deepseek-chat | 🆕 新規 | $13 | 20 RPM | 2026-06-22 | Everyday chat, coding, translation, writing |
+| `sk-fN4g1WX0grhMHPv1Z3ulYpCWfhZEk3g2wLDU0q7NAwr1BwUK` | deepseek-chat | 🆕 新規 | $10 | 20 RPM | 2026-06-22 | Everyday chat, coding, translation, writing |
 
-### マルチモデル (GPT-5.5 / Claude / DeepSeek / Gemini 自動ルーティング) `06-22 19:22`
-
-| Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
-|-----|--------|------------|------|--------|----------|------|
-| `sk-fv3HdmmlhgCu6fSq2Z38VrgP3boNJMaqY7HsZ9TNXxN9NUpw` | smart-chat | 🆕 新規 | $19 | 10 RPM | 2026-06-24 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-0SBdZT6HkmHKcuJaqkvUXZYMAz7oGJyKV91J5VC45IXUJjT2` | smart-chat | 🆕 新規 | $15 | 10 RPM | 2026-06-24 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-AXl7WI8Q3P1E0gZDHVbjFDxVCLw0MNlg3jnuubMixnkrVTb4` | smart-chat | 🆕 新規 | $19 | 10 RPM | 2026-06-24 | Auto-routes across currently healthy low-cost chat backends |
-
-### Kimi `06-22 19:22`
+### マルチモデル (GPT-5.5 / Claude / DeepSeek / Gemini 自動ルーティング) `06-22 19:37`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
-| `sk-H1SaetWIMgNRceJdvEwSm78np50avnx0r7jtUAVSU3KwLfeN` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-06-24 | Kimi long-context general model |
-| `sk-vIGNZ4vkX05P38pRgyTLsaJQU2AZfliMNAGn6swQIhFuJ0w1` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-06-24 | Kimi long-context general model |
-| `sk-2MIwGZcfrraAeG7a3cuQ9ABaez2J4dftJtJSogDuDsbZYpps` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-06-24 | Kimi long-context general model |
+| `sk-tEP8gqa86TSgnPBEGeICRsQDNmHDyeyHs9Dork44ICoJfLaA` | smart-chat | 🆕 新規 | $17 | 10 RPM | 2026-06-24 | Auto-routes across currently healthy low-cost chat backends |
+| `sk-mqujA63PKbF70PZ5h1atAdRl41SmsUhmIGY10OzuxW1xowwF` | smart-chat | 🆕 新規 | $10 | 10 RPM | 2026-06-24 | Auto-routes across currently healthy low-cost chat backends |
 
-### Image / Audio / Embedding `06-22 19:22`
+### Kimi `06-22 19:37`
+
+| Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
+|-----|--------|------------|------|--------|----------|------|
+| `sk-WFnoiNhj2jcL1sDql76x9J2WSygxIc4JYI9sSnsXti9SGlDB` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-06-24 | Kimi long-context general model |
+| `sk-uhev0uaAFyk6NkcrpUxVk4AyWFzzNevH37k01IXOqLRFUasv` | kimi-k2.5 | 🆕 新規 | $16 | 10 RPM | 2026-06-24 | Kimi long-context general model |
+| `sk-6gli61BhDGNtC6UNG42AgRA4FkQEuh0ZyDWegozuNCR5lc4w` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-06-24 | Kimi long-context general model |
+
+### Image / Audio / Embedding `06-22 19:37`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
