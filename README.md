@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-28 03:07 (UTC+8)
+> ⏰ Last updated: 2026-06-28 03:22 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -86,10 +86,6 @@ GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and 
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
 
-<!-- daily-grant-keylist:start -->
-> 🎁 Want private 24h access to selected models? Join the daily grant on X: [@getkeyway](https://x.com/getkeyway). Latest post: [2026-06-17 · x-ai/grok-4.3](https://x.com/getkeyway/status/2067104940791849176). Stars are optional and never required to win.
-<!-- daily-grant-keylist:end -->
-
 ### ibm-granite/granite-4.1-8b `06-27 06:30`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
@@ -98,7 +94,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Claude Opus 4.7 `06-28 03:07`
+### Claude Opus 4.7 `06-28 03:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -111,7 +107,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `06-28 03:07`
+### Gemini `06-28 03:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -124,7 +120,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Kimi `06-28 03:07`
+### Kimi `06-28 03:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -133,7 +129,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Image / Audio / Embedding `06-28 03:07`
+### Image / Audio / Embedding `06-28 03:22`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -416,6 +412,7 @@ If this repo helped you, you may also like:
 <summary><b>Show changelog history</b></summary>
 
 ### 2026-06-28
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
 - 🆕 Added 0 keys (no new keys), cleaned 2 expired
 - 🆕 Added 1 keys (poolside/laguna-m.1:free), cleaned 3 expired
 - 🆕 Added 0 keys (no new keys), cleaned 4 expired
