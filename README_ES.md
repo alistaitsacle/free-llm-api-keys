@@ -43,11 +43,11 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 
 ## 📋 Claves Disponibles
 
-> ⏰ Última actualización: 2026-06-28 01:52 (UTC+8)
+> ⏰ Última actualización: 2026-06-28 02:08 (UTC+8)
 
 ### Modelos destacados
 
-### Claude Opus 4.7 `06-28 01:52`
+### Claude Opus 4.7 `06-28 02:08`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -58,7 +58,7 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-moc4JhwNqGrkpNNyoacstrCui8uIpuL28NYTDqVjOYGfZc0M` | claude-opus-4-7 | 🆕 Nueva | $20 | 5 RPM | 2026-06-29 | Claude Opus flagship |
 | `sk-rEin39ulP1DyN1QhEvdHKZHUqwhyjj9WiLoXv2CUtPsAkLDb` | claude-opus-4-7 | 🆕 Nueva | $20 | 5 RPM | 2026-06-29 | Claude Opus flagship |
 
-### Gemini `06-28 01:52`
+### Gemini `06-28 02:08`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -69,14 +69,14 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-CCvoFD0i5gWCDQDCUkpBvduRMLE861JM1m0XyPsbATUxf11N` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-06-29 | Fast Gemini option for long-context general chat |
 | `sk-bFc4ONH9kzeps0G7gMBk7XsZmSaITp9ipkFPSRceufMxfoMx` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-06-29 | Fast Gemini option for long-context general chat |
 
-### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini ruteo automático) `06-28 01:52`
+### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini ruteo automático) `06-28 02:08`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
 | `sk-Y4zOpORd7R6vHQgfhXDG2t7prFEIoYSVp5mMQhozrA2hW5aD` | smart-chat | 🆕 Nueva | $20 | 10 RPM | 2026-06-29 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-YqRLT2B9TaVjzhsaY95G4jTfRHh6GXmfLTyPLrLZWG0tPqyz` | smart-chat | 🆕 Nueva | $20 | 10 RPM | 2026-06-29 | Auto-routes across currently healthy low-cost chat backends |
 
-### Kimi `06-28 01:52`
+### Kimi `06-28 02:08`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -84,7 +84,7 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-pNcdRrWgSQg87QKt0GDu9jnB87lyKjmd2oTTQjjnrdsVaOq4` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-06-29 | Kimi long-context general model |
 | `sk-xg64fqt2Sv6VxmPGpJStnVl30WYxNi1jjB4IJGBJAnzck9jx` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-06-29 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-28 01:52`
+### Image / Audio / Embedding `06-28 02:08`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
