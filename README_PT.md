@@ -43,11 +43,11 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-06-29 14:07 (UTC+8)
+> ⏰ Última atualização: 2026-06-29 14:22 (UTC+8)
 
 ### Modelos em destaque
 
-### Claude Opus 4.7 `06-29 14:07`
+### Claude Opus 4.7 `06-29 14:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -58,7 +58,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-moc4JhwNqGrkpNNyoacstrCui8uIpuL28NYTDqVjOYGfZc0M` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-06-29 | Claude Opus flagship |
 | `sk-rEin39ulP1DyN1QhEvdHKZHUqwhyjj9WiLoXv2CUtPsAkLDb` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-06-29 | Claude Opus flagship |
 
-### Gemini `06-29 14:07`
+### Gemini `06-29 14:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -69,7 +69,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-CCvoFD0i5gWCDQDCUkpBvduRMLE861JM1m0XyPsbATUxf11N` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-29 | Fast Gemini option for long-context general chat |
 | `sk-bFc4ONH9kzeps0G7gMBk7XsZmSaITp9ipkFPSRceufMxfoMx` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-06-29 | Fast Gemini option for long-context general chat |
 
-### Kimi `06-29 14:07`
+### Kimi `06-29 14:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -78,7 +78,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-HXWkefR0ZvVveLEr3Gcq3DWzBjTKNCBY5jOwAUrJau2tVujH` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-07-01 | Kimi long-context general model |
 | `sk-BMGL2dkghtJa7BC4oGUxvgVMGQHMJ29IURqssDhcy5Gh4tZE` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-07-01 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-29 14:07`
+### Image / Audio / Embedding `06-29 14:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
