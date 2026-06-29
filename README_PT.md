@@ -17,7 +17,7 @@ Copie uma chave da tabela, cole no seu app e comece a construir
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-24-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-21-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Modelos-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Siga_no_X-novas_chaves-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -43,18 +43,16 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-06-29 15:37 (UTC+8)
+> ⏰ Última atualização: 2026-06-29 15:52 (UTC+8)
 
 ### Modelos em destaque
 
-### Kimi `06-29 15:37`
+### Kimi `06-29 15:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
-| `sk-BMGL2dkghtJa7BC4oGUxvgVMGQHMJ29IURqssDhcy5Gh4tZE` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
-| `sk-HXWkefR0ZvVveLEr3Gcq3DWzBjTKNCBY5jOwAUrJau2tVujH` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
-| `sk-0oQpUsbHJxpAr2cnVC8Lfozx6FdZUXzQOlKS3Qmvknehe6aI` | kimi-k2.5 | 🆕 Nova | $16 | 10 RPM | 2026-07-01 | Kimi long-context general model |
-| `sk-JTmttYjjrcYvUfa5Wy8x2QzLhrMJfdK8G9IN0chN6GGZiVzl` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-ZDcLj8uxRxLTuASbYcr1U2w7m9WVBKqAn1n7b4swC9ibrHTs` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-C9gJ1BwutT8RGmWhpwM174XoRYbCVcCjLWWUmxsC2oibrRxz` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-07-01 | Kimi long-context general model |
 
 ## 🚀 Como Usar
 
