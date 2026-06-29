@@ -18,7 +18,7 @@ Copy a key from the table below, paste it into your app, and start building.
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Available_Keys-24-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Available_Keys-15-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Follow_on_X-for_key_drops-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-06-29 10:26 (UTC+8)
+> ⏰ Last updated: 2026-06-29 10:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -85,7 +85,12 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### Claude Opus 4.7 `06-29 10:26`
+
+<!-- daily-grant-keylist:start -->
+> 🎁 Want private 24h access to selected models? Join the daily grant on X: [@getkeyway](https://x.com/getkeyway). Latest post: [2026-06-17 · x-ai/grok-4.3](https://x.com/getkeyway/status/2067104940791849176). Stars are optional and never required to win.
+<!-- daily-grant-keylist:end -->
+
+### Claude Opus 4.7 `06-29 10:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -98,7 +103,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `06-29 10:26`
+### Gemini `06-29 10:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -111,88 +116,13 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Image / Audio / Embedding `06-29 10:26`
+### Image / Audio / Embedding `06-29 10:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
 | `sk-bOdnyudEPZ3ydXVpmaVskc0KUuCje4M2ZbAWOUUgkN7Ub7dX` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-06-29 | Text embeddings |
 | `sk-yZocmkhRwQsTl0ta0Wo9GArajKimh4mTom7VSsZO4zDlUf2Y` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-06-29 | Text embeddings |
 | `sk-DamWrireVEyGGBS0Z1pVxgfj0p97FC4yUwRYwtW5A3wcjR3j` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-06-29 | Text embeddings |
-
-### google/gemini-3.1-flash-lite `06-27 22:31`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-gQzu0pb10JoQn0G1HvlHQr56Dy4dHqFt5sc5g2bIUFYYoHMe` | google/gemini-3.1-flash-lite | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
-
-### inclusionai/ring-2.6-1t `06-27 22:31`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-vdWFyUfU0WqXDKrHs1pEEaGCTjcZMiubkOrIpdUECisSKSGT` | inclusionai/ring-2.6-1t | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
-
-### openai/gpt-chat-latest `06-27 22:31`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-itlIYZX7uZOhNEOLpzsvzrNYzEOrPmeWO2tpuq6Ak6VQCJDq` | openai/gpt-chat-latest | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
-
-### x-ai/grok-4.3 `06-27 22:31`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-ezr2lmoA57Q9bFY1OPkh6cCb5RSRgG3OZzsehQJFwjbsoKP4` | x-ai/grok-4.3 | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
-
-### qwen/qwen3.6-35b-a3b `06-27 22:31`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-SyUOHe7BaDwqjbOW6OxsUUjBxujN8vXusq5Rcwodz1PwqMYP` | qwen/qwen3.6-35b-a3b | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
-
-### mistralai/mistral-medium-3-5 `06-27 14:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-POn1Jydf2Rc8gKZgrqW8efFFgKSUIQ51G8wCwCKlXnS6zRPo` | mistralai/mistral-medium-3-5 | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
-
-
-### qwen/qwen3.6-27b `06-27 14:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-vnMwWRwuaPChpcOZRZoHWC2AlJb80gRQEpEBK2AUyNyN93Da` | qwen/qwen3.6-27b | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
-
-
-### qwen/qwen3.6-flash `06-27 14:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-SPCzPRySRKbPt6tTuNL52oRjNTbibIujfWYDE6ZXKfC8rDAO` | qwen/qwen3.6-flash | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
-
-
-### inclusionai/ring-2.6-1t:free `06-27 14:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-Yc7WpE6N0RdXnwTfjF4NUqXxjTa0tH5CPaCAVQfGQo2NJ8fm` | inclusionai/ring-2.6-1t:free | 🆕 New | $20 | 10 RPM | 2026-06-28 | Live positive-balance channel |
-
----
 
 
 ## 🚀 How to Use
@@ -384,6 +314,9 @@ If this repo helped you, you may also like:
 
 <details>
 <summary><b>Show changelog history</b></summary>
+
+### 2026-06-29
+- 🆕 Added 0 keys (no new keys), cleaned 10 expired
 
 ### 2026-06-28
 - 🆕 Added 0 keys (no new keys), cleaned 1 expired
