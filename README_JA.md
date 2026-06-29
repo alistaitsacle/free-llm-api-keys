@@ -57,11 +57,11 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 ## 📋 利用可能なキー
 
-> ⏰ 最終更新: 2026-06-29 18:52 (UTC+8)
+> ⏰ 最終更新: 2026-06-29 19:07 (UTC+8)
 
 ### 主要モデル
 
-### Claude Opus 4.7 `06-29 18:52`
+### Claude Opus 4.7 `06-29 19:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -72,7 +72,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-IopgjHRXTfY3Jdwka2NJLT4Ec9dg5GdXXi0hrFXnpvbArjHN` | claude-opus-4-7 | 🆕 新規 | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 | `sk-O5KpuwNr9IVankBVuG2loeh3J6Tio6KQJbjwkEDQpyYjpxEP` | claude-opus-4-7 | 🆕 新規 | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 
-### Gemini `06-29 18:52`
+### Gemini `06-29 19:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -83,25 +83,25 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-rPpiFuOD7vEZv29Bku7appi19eaNguuHmDCUrDhvLAFdjqhZ` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 | `sk-GKE4WjvbszXH1bYTqa4HxCa43hyJSAn8lwURWZVZ4Ah7LYBt` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 
-### マルチモデル (GPT-5.5 / Claude / DeepSeek / Gemini 自動ルーティング) `06-29 18:52`
+### マルチモデル (GPT-5.5 / Claude / DeepSeek / Gemini 自動ルーティング) `06-29 19:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
-| `sk-MruHYJHrVZ7juFtZfrtST99iRLxXZegn5amS9zMgnLGmraid` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-01 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-5wOgXtulUEt4kWjppAFBSKriNYATxOfFV4N9kzOexiCvvGXl` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-01 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-pA3Bt6Hvhe8j08KHCd9qOTvBR7REGi4GdKLFphzZYMtOBoXr` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-01 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-ZMyG9v4qZ70aeR2rkmriTNDRITY0T54mW94HFqqfxQxOQPCb` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-01 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-htAPUICKeAhSL7eYfx3T8svCHdCOR4msRbCutkUwfKxEqKpq` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-01 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-Y1bqqVhXnKZLqIbCMUd9AzZ7EVCxHvSAI2RBooFxBExf6KXC` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-01 | Auto-routes across currently healthy low-cost chat backends |
 
-### Kimi `06-29 18:52`
+### Kimi `06-29 19:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
-| `sk-ZDcLj8uxRxLTuASbYcr1U2w7m9WVBKqAn1n7b4swC9ibrHTs` | kimi-k2.5 | 🆕 新規 | $16 | 10 RPM | 2026-07-01 | Kimi long-context general model |
-| `sk-C9gJ1BwutT8RGmWhpwM174XoRYbCVcCjLWWUmxsC2oibrRxz` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-BMGL2dkghtJa7BC4oGUxvgVMGQHMJ29IURqssDhcy5Gh4tZE` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-HXWkefR0ZvVveLEr3Gcq3DWzBjTKNCBY5jOwAUrJau2tVujH` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-0oQpUsbHJxpAr2cnVC8Lfozx6FdZUXzQOlKS3Qmvknehe6aI` | kimi-k2.5 | 🆕 新規 | $16 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-JTmttYjjrcYvUfa5Wy8x2QzLhrMJfdK8G9IN0chN6GGZiVzl` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-29 18:52`
+### Image / Audio / Embedding `06-29 19:07`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
