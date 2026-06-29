@@ -43,11 +43,11 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-06-29 22:37 (UTC+8)
+> ⏰ Última atualização: 2026-06-29 22:52 (UTC+8)
 
 ### Modelos em destaque
 
-### Claude Opus 4.7 `06-29 22:37`
+### Claude Opus 4.7 `06-29 22:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -58,7 +58,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-IopgjHRXTfY3Jdwka2NJLT4Ec9dg5GdXXi0hrFXnpvbArjHN` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 | `sk-O5KpuwNr9IVankBVuG2loeh3J6Tio6KQJbjwkEDQpyYjpxEP` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 
-### Gemini `06-29 22:37`
+### Gemini `06-29 22:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -69,7 +69,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-rPpiFuOD7vEZv29Bku7appi19eaNguuHmDCUrDhvLAFdjqhZ` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 | `sk-GKE4WjvbszXH1bYTqa4HxCa43hyJSAn8lwURWZVZ4Ah7LYBt` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 
-### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini roteamento automático) `06-29 22:37`
+### Multi-Modelo (GPT-5.5 / Claude / DeepSeek / Gemini roteamento automático) `06-29 22:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -80,7 +80,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-rtdAi82JT0IKqSqs8aFHMR2UdDTk6d3frbawdpxLrJMVSk80` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-07-01 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-f1NRS7j6AUufU4SSWBXWHPfHo3JeNrXWniLmTbI9BB51o5zb` | smart-chat | 🆕 Nova | $20 | 10 RPM | 2026-07-01 | Auto-routes across currently healthy low-cost chat backends |
 
-### Kimi `06-29 22:37`
+### Kimi `06-29 22:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -91,7 +91,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-AsDwzRAzQVdxpWp9DQyCwSp3eWeYI4jCHF82HxmUl0jgQmIC` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-07-01 | Kimi long-context general model |
 | `sk-Digv2BCR8SJaTOQxlOnPahvD6BSQwTrNJvNGVaHBKTvwp9V3` | kimi-k2.5 | 🆕 Nova | $20 | 10 RPM | 2026-07-01 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-29 22:37`
+### Image / Audio / Embedding `06-29 22:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
