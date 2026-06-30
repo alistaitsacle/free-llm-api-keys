@@ -43,11 +43,11 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-07-01 02:07 (UTC+8)
+> ⏰ Última atualização: 2026-07-01 02:22 (UTC+8)
 
 ### Modelos em destaque
 
-### Claude Opus 4.7 `07-01 02:07`
+### Claude Opus 4.7 `07-01 02:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -58,7 +58,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-IopgjHRXTfY3Jdwka2NJLT4Ec9dg5GdXXi0hrFXnpvbArjHN` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 | `sk-O5KpuwNr9IVankBVuG2loeh3J6Tio6KQJbjwkEDQpyYjpxEP` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 
-### Gemini `07-01 02:07`
+### Gemini `07-01 02:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -69,7 +69,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-rPpiFuOD7vEZv29Bku7appi19eaNguuHmDCUrDhvLAFdjqhZ` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 | `sk-GKE4WjvbszXH1bYTqa4HxCa43hyJSAn8lwURWZVZ4Ah7LYBt` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `07-01 02:07`
+### DeepSeek `07-01 02:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -80,7 +80,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-iMFek7W29VFk5eLiWqnsmJCqD8IsTufhcNNzrp9MLE64Blxn` | deepseek-chat | 🆕 Nova | $20 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 | `sk-5EmKz45WeEyKGYSPPTti1V6O78taqFmzxmEiPyweDWgaqDpa` | deepseek-chat | 🆕 Nova | $20 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 
-### Image / Audio / Embedding `07-01 02:07`
+### Image / Audio / Embedding `07-01 02:22`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
