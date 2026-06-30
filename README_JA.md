@@ -57,11 +57,11 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 
 ## 📋 利用可能なキー
 
-> ⏰ 最終更新: 2026-06-30 21:07 (UTC+8)
+> ⏰ 最終更新: 2026-06-30 21:22 (UTC+8)
 
 ### 主要モデル
 
-### Claude Opus 4.7 `06-30 21:07`
+### Claude Opus 4.7 `06-30 21:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -72,7 +72,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-IopgjHRXTfY3Jdwka2NJLT4Ec9dg5GdXXi0hrFXnpvbArjHN` | claude-opus-4-7 | 🆕 新規 | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 | `sk-O5KpuwNr9IVankBVuG2loeh3J6Tio6KQJbjwkEDQpyYjpxEP` | claude-opus-4-7 | 🆕 新規 | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 
-### Gemini `06-30 21:07`
+### Gemini `06-30 21:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -83,7 +83,7 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-rPpiFuOD7vEZv29Bku7appi19eaNguuHmDCUrDhvLAFdjqhZ` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 | `sk-GKE4WjvbszXH1bYTqa4HxCa43hyJSAn8lwURWZVZ4Ah7LYBt` | gemini-2.5-flash | 🆕 新規 | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `06-30 21:07`
+### DeepSeek `06-30 21:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
@@ -94,25 +94,25 @@ AIはすべてを変えていますが、ほとんどのAPIはクレジットカ
 | `sk-iMFek7W29VFk5eLiWqnsmJCqD8IsTufhcNNzrp9MLE64Blxn` | deepseek-chat | 🆕 新規 | $20 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 | `sk-5EmKz45WeEyKGYSPPTti1V6O78taqFmzxmEiPyweDWgaqDpa` | deepseek-chat | 🆕 新規 | $20 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 
-### マルチモデル (GPT-5.5 / Claude / DeepSeek / Gemini 自動ルーティング) `06-30 21:07`
+### マルチモデル (GPT-5.5 / Claude / DeepSeek / Gemini 自動ルーティング) `06-30 21:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
-| `sk-yY794eFgS5Lhjh9gfLPQj8YVoazv6GT8Qh2VAVKyOqcYg6i2` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-02 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-0qnhDAgYlbRs438ibDYTiEcQoXNq1JWwG8R0FNCEq8kiLyr1` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-02 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-0rrlrWoFfhwljJMTIJCsg9hrpUPnhw52oJqyf0Dtx9YkFmXi` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-02 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-2R0m9QphRLiNjiofz8YJ7MzjUxGo7wqCzqM1KaNODuHrYbYQ` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-02 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-2xNAO77QXtCPN4jRdroKSixNS75h3NEpdDIQyraZNrcnqllk` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-02 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-FmrbUzIGtYEHksVIhdepWR42JvMJNt5AiztpFB2caKfjwBzP` | smart-chat | 🆕 新規 | $20 | 10 RPM | 2026-07-02 | Auto-routes across currently healthy low-cost chat backends |
 
-### Kimi `06-30 21:07`
+### Kimi `06-30 21:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
-| `sk-qojg1wmxNnLq4zbMPAnlFnGy1yYPOFnqW5bbe9dXo87ojDiB` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
-| `sk-hVUWaAzlcxcRExYyVN4ZJvJHTsJtTdyM8q23B7vbcTo51WG2` | kimi-k2.5 | 🆕 新規 | $15 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-Qt1PeOwEnfGiaEFycHm1Whg7lvhFYbNJJaLD2i8TPdTqOivX` | kimi-k2.5 | 🆕 新規 | $16 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-REyvrJegzlPXwL6WQ6xooE5DYTOmfwuiNDuF3d8jPaq48pbX` | kimi-k2.5 | 🆕 新規 | $15 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-lerD4rm8fqFuhAgnPm5Ye3U5YJiXVtkbDjhhFu1EjALsCofo` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
+| `sk-Lf7ZboVkdAEwY8OkYrKbg5GRmxr9B9Sp8lyEpCPSpjegO1Sn` | kimi-k2.5 | 🆕 新規 | $19 | 10 RPM | 2026-07-01 | Kimi long-context general model |
 
-### Image / Audio / Embedding `06-30 21:07`
+### Image / Audio / Embedding `06-30 21:22`
 
 | Key | モデル | ステータス | 予算 | レート | 有効期限 | 説明 |
 |-----|--------|------------|------|--------|----------|------|
