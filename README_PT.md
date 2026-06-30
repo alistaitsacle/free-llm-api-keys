@@ -17,7 +17,7 @@ Copie uma chave da tabela, cole no seu app e comece a construir
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-50-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Chaves_Disponíveis-54-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Modelos-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Siga_no_X-novas_chaves-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -43,11 +43,11 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-07-01 05:37 (UTC+8)
+> ⏰ Última atualização: 2026-07-01 05:52 (UTC+8)
 
 ### Modelos em destaque
 
-### Claude Opus 4.7 `07-01 05:37`
+### Claude Opus 4.7 `07-01 05:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -58,7 +58,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-IopgjHRXTfY3Jdwka2NJLT4Ec9dg5GdXXi0hrFXnpvbArjHN` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 | `sk-O5KpuwNr9IVankBVuG2loeh3J6Tio6KQJbjwkEDQpyYjpxEP` | claude-opus-4-7 | 🆕 Nova | $20 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 
-### Gemini `07-01 05:37`
+### Gemini `07-01 05:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -69,7 +69,7 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-rPpiFuOD7vEZv29Bku7appi19eaNguuHmDCUrDhvLAFdjqhZ` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 | `sk-GKE4WjvbszXH1bYTqa4HxCa43hyJSAn8lwURWZVZ4Ah7LYBt` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `07-01 05:37`
+### DeepSeek `07-01 05:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -80,13 +80,17 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-iMFek7W29VFk5eLiWqnsmJCqD8IsTufhcNNzrp9MLE64Blxn` | deepseek-chat | 🆕 Nova | $20 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 | `sk-5EmKz45WeEyKGYSPPTti1V6O78taqFmzxmEiPyweDWgaqDpa` | deepseek-chat | 🆕 Nova | $20 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 
-### Kimi `07-01 05:37`
+### Kimi `07-01 05:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
-| `sk-Qma6Llhw3qXadv3vHwZ0aAGgn25j0IsP0OvAwVddjqOgeUTR` | kimi-k2.5 | 🆕 Nova | $11 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-U9LucpL5nyuKkIGjgTkPNmj5CzySbjYnpnxHpNGWBDzJErtv` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-kkLDrAUbWCglhcv8oBsnZa74XmygBaePVMZZQ1R3QBcIzIS9` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-FIlIwdISScIayuE8D4kNoVXx1VXbvzWpzpkwIXsd27hR6Tdp` | kimi-k2.5 | 🆕 Nova | $10 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-siE5rcjghvmOQVgwi9ecg6oOFhoXuk7GrxnJrdoBMH6J8DCY` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-FKMfvFvxWubvwybf7sCNcGKHsyN8ClKg8nH3orOAEhuh6oXg` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-02 | Kimi long-context general model |
 
-### Image / Audio / Embedding `07-01 05:37`
+### Image / Audio / Embedding `07-01 05:52`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
