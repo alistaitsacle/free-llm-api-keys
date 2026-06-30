@@ -70,7 +70,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-06-30 11:22 (UTC+8)
+> ⏰ 最后更新： 2026-06-30 11:37 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -237,7 +237,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Claude Opus 4.7 `06-30 11:22`
+### Claude Opus 4.7 `06-30 11:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -250,7 +250,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### Gemini `06-30 11:22`
+### Gemini `06-30 11:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -263,24 +263,18 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `06-30 11:22`
+### Kimi `06-30 11:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-Oni6Q6qiqvflwepdGYVYjks783SjYHVhayCnWW5WSFIprnEh` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-07-02 | 自动路由到当前健康的低成本聊天模型 |
+| `sk-Qt1PeOwEnfGiaEFycHm1Whg7lvhFYbNJJaLD2i8TPdTqOivX` | kimi-k2.5 | 🆕 新增 | $18 | 10 RPM | 2026-07-01 | Kimi 长上下文通用模型 |
+| `sk-REyvrJegzlPXwL6WQ6xooE5DYTOmfwuiNDuF3d8jPaq48pbX` | kimi-k2.5 | 🆕 新增 | $17 | 10 RPM | 2026-07-01 | Kimi 长上下文通用模型 |
+| `sk-lerD4rm8fqFuhAgnPm5Ye3U5YJiXVtkbDjhhFu1EjALsCofo` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-07-01 | Kimi 长上下文通用模型 |
+| `sk-Lf7ZboVkdAEwY8OkYrKbg5GRmxr9B9Sp8lyEpCPSpjegO1Sn` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-07-01 | Kimi 长上下文通用模型 |
 
 ---
 
-### Kimi `06-30 11:22`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-qojg1wmxNnLq4zbMPAnlFnGy1yYPOFnqW5bbe9dXo87ojDiB` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-07-01 | Kimi 长上下文通用模型 |
-| `sk-hVUWaAzlcxcRExYyVN4ZJvJHTsJtTdyM8q23B7vbcTo51WG2` | kimi-k2.5 | 🆕 新增 | $15 | 10 RPM | 2026-07-01 | Kimi 长上下文通用模型 |
-
----
-
-### 图像 / 语音 / 向量化 `06-30 11:22`
+### 图像 / 语音 / 向量化 `06-30 11:37`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -301,14 +295,6 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
 | `sk-EAzqq1t7RdNXhFXpM4lFcU0FAqCEP58Zsg2NHsAGDofG9Qgz` | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | 🆕 新增 | $20 | 10 RPM | 2026-07-01 | 来自有余额渠道的额外可用模型 |
-
----
-
-### openrouter/owl-alpha `06-30 10:30`
-
-| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
-|-----|------|------|------|---------|---------|------|
-| `sk-QbdLDbEjFA9ywsNsbbx0S4YdHYikWae3oQRlKmvo1Q4y6Mkp` | openrouter/owl-alpha | 🆕 新增 | $20 | 10 RPM | 2026-07-01 | 来自有余额渠道的额外可用模型 |
 
 ---
 
