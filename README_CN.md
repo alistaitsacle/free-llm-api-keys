@@ -17,7 +17,7 @@
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/可用_Key-49-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/可用_Key-52-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/支持模型-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/在_X_关注-获取新key-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -70,7 +70,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ## 📋 可用 Key 列表
 
-> ⏰ 最后更新： 2026-07-01 09:07 (UTC+8)
+> ⏰ 最后更新： 2026-07-01 09:22 (UTC+8)
 >
 > 所有 Key 均为本平台签发的 API token，兼容 **OpenAI SDK**，可搭配任何支持自定义 OpenAI 端点的工具使用。
 > 新 Key 由服务器定时任务每天多次发布，失效 Key 全天自动清理。每个 Key 预算 $20-$100，有效期 24-48 小时。
@@ -84,15 +84,18 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 覆盖 GPT-5.5、Claude Opus 4.7、Gemini、DeepSeek、smart-chat、Kimi、图像、语音和向量模型。
 发布器只展示真实 Key；主货架只展示对应模型的直接 Key，额外有余额模型会按模型名单独列出。
 
-### Claude Opus 4.7 `07-01 09:07`
+### Claude Opus 4.7 `07-01 09:22`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-qjUcD2LRUKKHcUPj3RaFhQ4VW0VVRjbjG2RndVwJAO9upskO` | claude-opus-4-7 | 🆕 新增 | $3 | 5 RPM | 2026-07-02 | Claude Opus 旗舰模型 |
+| `sk-ofq1WjvMbEEy8baGBdBQd7XFALQeZTayrZIL2qaiyQb6KCpK` | claude-opus-4-7 | 🆕 新增 | $17 | 5 RPM | 2026-07-03 | Claude Opus 旗舰模型 |
+| `sk-IopgjHRXTfY3Jdwka2NJLT4Ec9dg5GdXXi0hrFXnpvbArjHN` | claude-opus-4-7 | 🆕 新增 | $12 | 5 RPM | 2026-07-01 | Claude Opus 旗舰模型 |
+| `sk-oTYs9f0ZpAyJIlwNJIcou33nvNNLZdXxZjK42agI4rjqBw1f` | claude-opus-4-7 | 🆕 新增 | $16 | 5 RPM | 2026-07-01 | Claude Opus 旗舰模型 |
+| `sk-llnaE8NPruFB0UYYGft0x7fuP2XM8MxVLK1XgQW1vPuZIJY3` | claude-opus-4-7 | 🆕 新增 | $10 | 5 RPM | 2026-07-01 | Claude Opus 旗舰模型 |
 
 ---
 
-### Gemini `07-01 09:07`
+### Gemini `07-01 09:22`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -105,7 +108,7 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### DeepSeek `07-01 09:07`
+### DeepSeek `07-01 09:22`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
@@ -118,27 +121,27 @@ AI 正在改变一切，但大多数 API 都锁在信用卡和付费墙后面。
 
 ---
 
-### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `07-01 09:07`
+### 多模型聚合（GPT-5.5 / Claude / DeepSeek / Gemini 自动轮询） `07-01 09:22`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-PC3715ToClkDPv14por7XkTr8GSBtfZ02geMz7uoS7Kb8afT` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-07-03 | 自动路由到当前健康的低成本聊天模型 |
 | `sk-T5HgHT6LbcVkB0TDl5j3unyxKs7VCIHJmhbQs2EKKMZ9q3gm` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-07-03 | 自动路由到当前健康的低成本聊天模型 |
 | `sk-daBWBFGBctuIrVkiVLzb8Djf2knjvgDRjExlQUiG5AnBjtmG` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-07-03 | 自动路由到当前健康的低成本聊天模型 |
-| `sk-edqX4MRbzx1HX9HypvpyXMvQ0O9wqLumxiq2F9LCXSUQTTaV` | smart-chat | 🆕 新增 | $20 | 10 RPM | 2026-07-03 | 自动路由到当前健康的低成本聊天模型 |
 
 ---
 
-### Kimi `07-01 09:07`
+### Kimi `07-01 09:22`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
-| `sk-kkLDrAUbWCglhcv8oBsnZa74XmygBaePVMZZQ1R3QBcIzIS9` | kimi-k2.5 | 🆕 新增 | $17 | 10 RPM | 2026-07-02 | Kimi 长上下文通用模型 |
-| `sk-siE5rcjghvmOQVgwi9ecg6oOFhoXuk7GrxnJrdoBMH6J8DCY` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-07-02 | Kimi 长上下文通用模型 |
+| `sk-Ssf8lvVJzXF4AyVxCsmxFSH6xslEhC4STieTNM1HTmt5gbBh` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-07-03 | Kimi 长上下文通用模型 |
+| `sk-ZJK9NrumzE3srN5DlrAoHB2U82nkL6MAtVelngHS95c6xs7a` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-07-03 | Kimi 长上下文通用模型 |
+| `sk-86A8H9TN1EZSH1KFNFfHt4LPUedeMh766kMCnJqksF7Depzx` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-07-03 | Kimi 长上下文通用模型 |
+| `sk-Acfbz0LHK0ODYaMQ4P4olqkB7ZLaAUsOkEM1Hj1CEzsRXstH` | kimi-k2.5 | 🆕 新增 | $19 | 10 RPM | 2026-07-03 | Kimi 长上下文通用模型 |
 
 ---
 
-### 图像 / 语音 / 向量化 `07-01 09:07`
+### 图像 / 语音 / 向量化 `07-01 09:22`
 
 | Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |
 |-----|------|------|------|---------|---------|------|
