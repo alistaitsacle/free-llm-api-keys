@@ -43,17 +43,17 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 
 ## 📋 Chaves Disponíveis
 
-> ⏰ Última atualização: 2026-07-01 21:52 (UTC+8)
+> ⏰ Última atualização: 2026-07-01 22:07 (UTC+8)
 
 ### Modelos em destaque
 
-### Claude Opus 4.7 `07-01 21:52`
+### Claude Opus 4.7 `07-01 22:07`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
 | `sk-ofq1WjvMbEEy8baGBdBQd7XFALQeZTayrZIL2qaiyQb6KCpK` | claude-opus-4-7 | 🆕 Nova | $17 | 5 RPM | 2026-07-03 | Claude Opus flagship |
 
-### Gemini `07-01 21:52`
+### Gemini `07-01 22:07`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
@@ -64,22 +64,24 @@ Eu uso APIs de LLM intensivamente no meu trabalho. Tenho capacidade ociosa que s
 | `sk-10p8ZI2fyeuhP7WFDGf9zbe9UenLQneyF18HT6ctjlN2jFqn` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-07-03 | Fast Gemini option for long-context general chat |
 | `sk-pikPeGyScDDgPgeiwvpCmRXl978HwsW7bm0c4iSDRXmJC2Nc` | gemini-2.5-flash | 🆕 Nova | $20 | 20 RPM | 2026-07-03 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `07-01 21:52`
+### DeepSeek `07-01 22:07`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
-| `sk-ik4bVz3hwvBrkDdHwD4Aq8jsymm5d96RicF3QK2Z6Qsv97lE` | deepseek-chat | 🆕 Nova | $14 | 20 RPM | 2026-07-03 | Everyday chat, coding, translation, writing |
+| `sk-5EmKz45WeEyKGYSPPTti1V6O78taqFmzxmEiPyweDWgaqDpa` | deepseek-chat | 🆕 Nova | $12 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-iMFek7W29VFk5eLiWqnsmJCqD8IsTufhcNNzrp9MLE64Blxn` | deepseek-chat | 🆕 Nova | $13 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-PcFKDu29oNieptDtc2JSgiG0xC0xIXYroxQpzpjwnW9sp3KO` | deepseek-chat | 🆕 Nova | $14 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-3w34fTQDCxoTjl94naZ0pfJZ4TwEdjHwJ7AS0VKAkt1BzF8X` | deepseek-chat | 🆕 Nova | $15 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-UL9eWuqvlSGzAPLSJazGGMU7nxa2NZhT5Nv7hug93F66IDo3` | deepseek-chat | 🆕 Nova | $14 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 
-### Kimi `07-01 21:52`
+### Kimi `07-01 22:07`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
-| `sk-Ssf8lvVJzXF4AyVxCsmxFSH6xslEhC4STieTNM1HTmt5gbBh` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-ZJK9NrumzE3srN5DlrAoHB2U82nkL6MAtVelngHS95c6xs7a` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-86A8H9TN1EZSH1KFNFfHt4LPUedeMh766kMCnJqksF7Depzx` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-Acfbz0LHK0ODYaMQ4P4olqkB7ZLaAUsOkEM1Hj1CEzsRXstH` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-kkLDrAUbWCglhcv8oBsnZa74XmygBaePVMZZQ1R3QBcIzIS9` | kimi-k2.5 | 🆕 Nova | $15 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-siE5rcjghvmOQVgwi9ecg6oOFhoXuk7GrxnJrdoBMH6J8DCY` | kimi-k2.5 | 🆕 Nova | $19 | 10 RPM | 2026-07-02 | Kimi long-context general model |
 
-### Image / Audio / Embedding `07-01 21:52`
+### Image / Audio / Embedding `07-01 22:07`
 
 | Key | Modelo | Status | Orçamento | Taxa | Expira | Descrição |
 |-----|--------|--------|-----------|------|--------|-------------|
