@@ -17,7 +17,7 @@ Copia una clave de la tabla, pégala en tu app y empieza a construir
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Claves_Disponibles-48-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Claves_Disponibles-45-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Modelos-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Sigue_en_X-nuevas_claves-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -43,20 +43,19 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 
 ## 📋 Claves Disponibles
 
-> ⏰ Última actualización: 2026-07-01 09:52 (UTC+8)
+> ⏰ Última actualización: 2026-07-01 10:07 (UTC+8)
 
 ### Modelos destacados
 
-### Claude Opus 4.7 `07-01 09:52`
+### Claude Opus 4.7 `07-01 10:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
 | `sk-ofq1WjvMbEEy8baGBdBQd7XFALQeZTayrZIL2qaiyQb6KCpK` | claude-opus-4-7 | 🆕 Nueva | $17 | 5 RPM | 2026-07-03 | Claude Opus flagship |
 | `sk-IopgjHRXTfY3Jdwka2NJLT4Ec9dg5GdXXi0hrFXnpvbArjHN` | claude-opus-4-7 | 🆕 Nueva | $12 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 | `sk-oTYs9f0ZpAyJIlwNJIcou33nvNNLZdXxZjK42agI4rjqBw1f` | claude-opus-4-7 | 🆕 Nueva | $16 | 5 RPM | 2026-07-01 | Claude Opus flagship |
-| `sk-llnaE8NPruFB0UYYGft0x7fuP2XM8MxVLK1XgQW1vPuZIJY3` | claude-opus-4-7 | 🆕 Nueva | $10 | 5 RPM | 2026-07-01 | Claude Opus flagship |
 
-### Gemini `07-01 09:52`
+### Gemini `07-01 10:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -67,7 +66,7 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-rPpiFuOD7vEZv29Bku7appi19eaNguuHmDCUrDhvLAFdjqhZ` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 | `sk-GKE4WjvbszXH1bYTqa4HxCa43hyJSAn8lwURWZVZ4Ah7LYBt` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-07-01 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `07-01 09:52`
+### DeepSeek `07-01 10:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -78,16 +77,14 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-iMFek7W29VFk5eLiWqnsmJCqD8IsTufhcNNzrp9MLE64Blxn` | deepseek-chat | 🆕 Nueva | $20 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 | `sk-5EmKz45WeEyKGYSPPTti1V6O78taqFmzxmEiPyweDWgaqDpa` | deepseek-chat | 🆕 Nueva | $20 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 
-### Kimi `07-01 09:52`
+### Kimi `07-01 10:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
-| `sk-Ssf8lvVJzXF4AyVxCsmxFSH6xslEhC4STieTNM1HTmt5gbBh` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-ZJK9NrumzE3srN5DlrAoHB2U82nkL6MAtVelngHS95c6xs7a` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-86A8H9TN1EZSH1KFNFfHt4LPUedeMh766kMCnJqksF7Depzx` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-Acfbz0LHK0ODYaMQ4P4olqkB7ZLaAUsOkEM1Hj1CEzsRXstH` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-kkLDrAUbWCglhcv8oBsnZa74XmygBaePVMZZQ1R3QBcIzIS9` | kimi-k2.5 | 🆕 Nueva | $15 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-siE5rcjghvmOQVgwi9ecg6oOFhoXuk7GrxnJrdoBMH6J8DCY` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-07-02 | Kimi long-context general model |
 
-### Image / Audio / Embedding `07-01 09:52`
+### Image / Audio / Embedding `07-01 10:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
