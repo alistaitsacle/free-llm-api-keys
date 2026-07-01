@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-07-01 11:22 (UTC+8)
+> ⏰ Last updated: 2026-07-01 11:37 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -85,7 +85,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### Claude Opus 4.7 `07-01 11:22`
+### Claude Opus 4.7 `07-01 11:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -95,7 +95,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `07-01 11:22`
+### Gemini `07-01 11:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -108,7 +108,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### DeepSeek `07-01 11:22`
+### DeepSeek `07-01 11:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -120,26 +120,26 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `07-01 11:22`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `07-01 11:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-vQJnWKLtEAujrT98QElkYPP4q5TMPtbvH6GodZ6btBJcKdLu` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-07-03 | Auto-routes across currently healthy low-cost chat backends |
-| `sk-uqol7ix08qdhtFtAF3Uq2RL5H2aRtymjonReIuOa9xus9LVS` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-07-03 | Auto-routes across currently healthy low-cost chat backends |
 | `sk-eAUH92n2MnJ1H6D0SLMWzu1FA3xiY1cITd4jAyhrbnKW1Hjo` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-07-03 | Auto-routes across currently healthy low-cost chat backends |
 
 ---
 
-### Kimi `07-01 11:22`
+### Kimi `07-01 11:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-kkLDrAUbWCglhcv8oBsnZa74XmygBaePVMZZQ1R3QBcIzIS9` | kimi-k2.5 | 🆕 New | $15 | 10 RPM | 2026-07-02 | Kimi long-context general model |
-| `sk-siE5rcjghvmOQVgwi9ecg6oOFhoXuk7GrxnJrdoBMH6J8DCY` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-Ssf8lvVJzXF4AyVxCsmxFSH6xslEhC4STieTNM1HTmt5gbBh` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-ZJK9NrumzE3srN5DlrAoHB2U82nkL6MAtVelngHS95c6xs7a` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-86A8H9TN1EZSH1KFNFfHt4LPUedeMh766kMCnJqksF7Depzx` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-Acfbz0LHK0ODYaMQ4P4olqkB7ZLaAUsOkEM1Hj1CEzsRXstH` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
 
 ---
 
-### Image / Audio / Embedding `07-01 11:22`
+### Image / Audio / Embedding `07-01 11:37`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -571,6 +571,7 @@ If this repo helped you, you may also like:
 <summary><b>Show changelog history</b></summary>
 
 ### 2026-07-01
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 3 expired
 - 🆕 Added 2 keys (kimi-k2.5), cleaned 4 expired
 - 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
 - 🆕 Added 2 keys (kimi-k2.5), cleaned 3 expired
