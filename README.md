@@ -71,7 +71,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 
 ## 📋 Available Keys
 
-> ⏰ Last updated: 2026-07-01 22:37 (UTC+8)
+> ⏰ Last updated: 2026-07-01 22:52 (UTC+8)
 >
 > All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
 > New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
@@ -85,7 +85,7 @@ For production-grade LLM keys, contact **alistaitscale@gmail.com**.
 GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
 The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
 
-### Claude Opus 4.7 `07-01 22:37`
+### Claude Opus 4.7 `07-01 22:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -93,7 +93,7 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Gemini `07-01 22:37`
+### Gemini `07-01 22:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -106,15 +106,19 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### DeepSeek `07-01 22:37`
+### DeepSeek `07-01 22:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-ik4bVz3hwvBrkDdHwD4Aq8jsymm5d96RicF3QK2Z6Qsv97lE` | deepseek-chat | 🆕 New | $14 | 20 RPM | 2026-07-03 | Everyday chat, coding, translation, writing |
+| `sk-5EmKz45WeEyKGYSPPTti1V6O78taqFmzxmEiPyweDWgaqDpa` | deepseek-chat | 🆕 New | $12 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-iMFek7W29VFk5eLiWqnsmJCqD8IsTufhcNNzrp9MLE64Blxn` | deepseek-chat | 🆕 New | $13 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-PcFKDu29oNieptDtc2JSgiG0xC0xIXYroxQpzpjwnW9sp3KO` | deepseek-chat | 🆕 New | $14 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-3w34fTQDCxoTjl94naZ0pfJZ4TwEdjHwJ7AS0VKAkt1BzF8X` | deepseek-chat | 🆕 New | $15 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-UL9eWuqvlSGzAPLSJazGGMU7nxa2NZhT5Nv7hug93F66IDo3` | deepseek-chat | 🆕 New | $14 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
 
 ---
 
-### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `07-01 22:37`
+### Multi-Model (GPT-5.5 / Claude / DeepSeek / Gemini auto-rotate) `07-01 22:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
@@ -127,40 +131,22 @@ The publisher only shows real keys. Main shelves only show direct keys for that 
 
 ---
 
-### Kimi `07-01 22:37`
+### Kimi `07-01 22:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
-| `sk-Ssf8lvVJzXF4AyVxCsmxFSH6xslEhC4STieTNM1HTmt5gbBh` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-ZJK9NrumzE3srN5DlrAoHB2U82nkL6MAtVelngHS95c6xs7a` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-86A8H9TN1EZSH1KFNFfHt4LPUedeMh766kMCnJqksF7Depzx` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
-| `sk-Acfbz0LHK0ODYaMQ4P4olqkB7ZLaAUsOkEM1Hj1CEzsRXstH` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-kkLDrAUbWCglhcv8oBsnZa74XmygBaePVMZZQ1R3QBcIzIS9` | kimi-k2.5 | 🆕 New | $15 | 10 RPM | 2026-07-02 | Kimi long-context general model |
+| `sk-siE5rcjghvmOQVgwi9ecg6oOFhoXuk7GrxnJrdoBMH6J8DCY` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-07-02 | Kimi long-context general model |
 
 ---
 
-### Image / Audio / Embedding `07-01 22:37`
+### Image / Audio / Embedding `07-01 22:52`
 
 | Key | Model | Status | Budget | Rate Limit | Expires | Description |
 |-----|-------|--------|--------|------------|---------|-------------|
 | `sk-Fc3FK3HqytkLyf1eOnqyyp37gw02bN4ORO4duiUrmtnHyiGm` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-07-03 | Text embeddings |
 | `sk-vDQGKGmH0W9vc0vhC64RaRltlf9bwhiKqLNO268PO6nlZxJ9` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-07-03 | Text embeddings |
 | `sk-aOl8JNSLWkV4AcB2ZODLuB3ysdHeXoa1CkrBX2UNHzEzHBpW` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-07-03 | Text embeddings |
-
-### deepseek-v4-flash `07-01 22:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-w2JOkQRTxgsYO4Tfx9mydZPCHrDnxO9IwS7kL3cxzguGDa6A` | deepseek-v4-flash | 🆕 New | $20 | 10 RPM | 2026-07-02 | Live positive-balance channel |
-
----
-
-### deepseek-v4-pro `07-01 22:30`
-
-| Key | Model | Status | Budget | Rate Limit | Expires | Description |
-|-----|-------|--------|--------|------------|---------|-------------|
-| `sk-lhdiBT90A7LaiKvQfPrUlSkCANEvDp0NgFyDya0EK6vBM9aC` | deepseek-v4-pro | 🆕 New | $20 | 10 RPM | 2026-07-02 | Live positive-balance channel |
-
----
 
 ### poolside/laguna-m.1:free `07-01 22:30`
 
