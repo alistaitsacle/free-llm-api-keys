@@ -17,7 +17,7 @@ Copia una clave de la tabla, pégala en tu app y empieza a construir
 
 [![Stars](https://img.shields.io/github/stars/alistaitsacle/free-llm-api-keys?style=for-the-badge&logo=github)](https://github.com/alistaitsacle/free-llm-api-keys/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/alistaitsacle/free-llm-api-keys?style=for-the-badge)](https://github.com/alistaitsacle/free-llm-api-keys/commits)
-[![Keys](https://img.shields.io/badge/Claves_Disponibles-42-brightgreen?style=for-the-badge)]()
+[![Keys](https://img.shields.io/badge/Claves_Disponibles-41-brightgreen?style=for-the-badge)]()
 [![Models](https://img.shields.io/badge/Modelos-90+-blue?style=for-the-badge)]()
 [![Follow on X](https://img.shields.io/badge/Sigue_en_X-nuevas_claves-000000?style=for-the-badge&logo=x)](https://x.com/getkeyway)
 
@@ -43,17 +43,17 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 
 ## 📋 Claves Disponibles
 
-> ⏰ Última actualización: 2026-07-02 07:52 (UTC+8)
+> ⏰ Última actualización: 2026-07-02 08:07 (UTC+8)
 
 ### Modelos destacados
 
-### Claude Opus 4.7 `07-02 07:52`
+### Claude Opus 4.7 `07-02 08:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
 | `sk-ofq1WjvMbEEy8baGBdBQd7XFALQeZTayrZIL2qaiyQb6KCpK` | claude-opus-4-7 | 🆕 Nueva | $17 | 5 RPM | 2026-07-03 | Claude Opus flagship |
 
-### Gemini `07-02 07:52`
+### Gemini `07-02 08:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
@@ -64,23 +64,22 @@ Uso APIs de LLM intensivamente en mi trabajo. Tengo capacidad sobrante que de ot
 | `sk-10p8ZI2fyeuhP7WFDGf9zbe9UenLQneyF18HT6ctjlN2jFqn` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-07-03 | Fast Gemini option for long-context general chat |
 | `sk-pikPeGyScDDgPgeiwvpCmRXl978HwsW7bm0c4iSDRXmJC2Nc` | gemini-2.5-flash | 🆕 Nueva | $20 | 20 RPM | 2026-07-03 | Fast Gemini option for long-context general chat |
 
-### DeepSeek `07-02 07:52`
+### DeepSeek `07-02 08:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
-| `sk-5EmKz45WeEyKGYSPPTti1V6O78taqFmzxmEiPyweDWgaqDpa` | deepseek-chat | 🆕 Nueva | $11 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
-| `sk-iMFek7W29VFk5eLiWqnsmJCqD8IsTufhcNNzrp9MLE64Blxn` | deepseek-chat | 🆕 Nueva | $12 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
-| `sk-PcFKDu29oNieptDtc2JSgiG0xC0xIXYroxQpzpjwnW9sp3KO` | deepseek-chat | 🆕 Nueva | $14 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
-| `sk-3w34fTQDCxoTjl94naZ0pfJZ4TwEdjHwJ7AS0VKAkt1BzF8X` | deepseek-chat | 🆕 Nueva | $14 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
-| `sk-UL9eWuqvlSGzAPLSJazGGMU7nxa2NZhT5Nv7hug93F66IDo3` | deepseek-chat | 🆕 Nueva | $14 | 20 RPM | 2026-07-02 | Everyday chat, coding, translation, writing |
+| `sk-ik4bVz3hwvBrkDdHwD4Aq8jsymm5d96RicF3QK2Z6Qsv97lE` | deepseek-chat | 🆕 Nueva | $12 | 20 RPM | 2026-07-03 | Everyday chat, coding, translation, writing |
 
-### Kimi `07-02 07:52`
+### Kimi `07-02 08:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
-| `sk-3Am75406bEum6bt5XEbZxPxNSLeD5OVkkfjmmiBkTHiaQ8CP` | kimi-k2.5 | 🆕 Nueva | $18 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-KZwRUVNSHLNoExzeDDr6Dn5DmsomOdDpVbQPnx43E5KWNQTr` | kimi-k2.5 | 🆕 Nueva | $18 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-xUJxT57DeEPE6cukfsPPUf0at2UuJGKzciINM1IWUWLuP299` | kimi-k2.5 | 🆕 Nueva | $18 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-Ssf8lvVJzXF4AyVxCsmxFSH6xslEhC4STieTNM1HTmt5gbBh` | kimi-k2.5 | 🆕 Nueva | $17 | 10 RPM | 2026-07-03 | Kimi long-context general model |
+| `sk-86A8H9TN1EZSH1KFNFfHt4LPUedeMh766kMCnJqksF7Depzx` | kimi-k2.5 | 🆕 Nueva | $19 | 10 RPM | 2026-07-03 | Kimi long-context general model |
 
-### Image / Audio / Embedding `07-02 07:52`
+### Image / Audio / Embedding `07-02 08:07`
 
 | Key | Modelo | Estado | Presupuesto | Tasa | Expira | Descripción |
 |-----|--------|--------|-------------|------|--------|-------------|
